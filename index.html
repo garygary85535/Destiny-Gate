@@ -1,0 +1,1144 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destiny轉運站</title>
+  <style>
+    :root {
+      --bg: #f5f2ec;
+      --ink: #1d2830;
+      --muted: #697179;
+      --panel: #fffdf8;
+      --line: #ddd5c9;
+      --gate: #365f63;
+      --gate-soft: #dce9e7;
+      --wine: #8b4051;
+      --wine-soft: #f2dde3;
+      --gold: #9a7834;
+      --gold-soft: #f2e8cc;
+      --sky: #3e6f92;
+      --sky-soft: #dce9f1;
+      --shadow: 0 14px 34px rgba(69, 54, 35, .11);
+    }
+
+    [data-theme="dark"] {
+      --bg: #111617;
+      --ink: #f4f1ea;
+      --muted: #a9aaa6;
+      --panel: #1c2222;
+      --line: #343b39;
+      --gate: #8fc3bc;
+      --gate-soft: #233a38;
+      --wine: #e6a2b1;
+      --wine-soft: #40242c;
+      --gold: #dbc174;
+      --gold-soft: #3c3420;
+      --sky: #9fc4dd;
+      --sky-soft: #223341;
+      --shadow: 0 14px 34px rgba(0, 0, 0, .32);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    button, input, select { font: inherit; }
+
+    .mast {
+      min-height: 188px;
+      display: grid;
+      align-content: end;
+      gap: 14px;
+      padding: 34px 22px 18px;
+      color: #fff;
+      background:
+        linear-gradient(120deg, rgba(17, 32, 33, .88), rgba(64, 92, 91, .52)),
+        url("https://images.unsplash.com/photo-1516542076529-1ea3854896f2?auto=format&fit=crop&w=1800&q=80") center/cover;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(32px, 5.5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: 0;
+      text-shadow: 0 5px 22px rgba(0, 0, 0, .36);
+    }
+
+    .brand p {
+      margin: 6px 0 0;
+      font-size: 15px;
+      font-weight: 700;
+      opacity: .92;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, .34);
+    }
+
+    .searchbar {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) minmax(150px, 190px) 128px 142px 120px 82px 82px;
+      gap: 8px;
+      width: min(1260px, 100%);
+    }
+
+    .input, .select, .btn {
+      min-height: 42px;
+      border: 1px solid rgba(255, 255, 255, .58);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .9);
+      color: #172327;
+      padding: 9px 12px;
+      font-size: 16px;
+    }
+
+    .btn {
+      cursor: pointer;
+      font-weight: 700;
+      background: rgba(255, 255, 255, .18);
+      color: #fff;
+      backdrop-filter: blur(8px);
+    }
+
+    .btn.primary {
+      background: rgba(255, 255, 255, .92);
+      color: #172327;
+    }
+
+    .layout {
+      width: calc(100% - 28px);
+      margin: 16px 14px 44px;
+      display: grid;
+      grid-template-columns: 270px minmax(0, 1fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .filters {
+      position: sticky;
+      top: 12px;
+      padding: 14px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .filter-block {
+      display: grid;
+      gap: 8px;
+    }
+
+    .filter-title {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 30px;
+      padding: 5px 8px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .chip.active {
+      background: var(--gate-soft);
+      border-color: color-mix(in srgb, var(--gate) 48%, transparent);
+      color: var(--gate);
+      font-weight: 700;
+    }
+
+    .filter-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .content {
+      display: grid;
+      gap: 12px;
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 14px;
+    }
+
+    .summary h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .summary .meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+      padding: 13px;
+      display: grid;
+      gap: 10px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-head {
+      display: grid;
+      gap: 5px;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .ko {
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .author {
+      width: fit-content;
+      border: 0;
+      background: transparent;
+      color: var(--sky);
+      padding: 0;
+      cursor: pointer;
+      font-size: 13px;
+      text-align: left;
+    }
+
+    .badges, .item-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .badge {
+      border-radius: 8px;
+      padding: 4px 7px;
+      font-size: 12px;
+      background: var(--gate-soft);
+      color: var(--gate);
+      font-weight: 700;
+    }
+
+    .badge.price {
+      background: var(--gold-soft);
+      color: var(--gold);
+    }
+
+    .roles {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      max-height: 72px;
+      overflow: hidden;
+    }
+
+    .tag {
+      border-radius: 8px;
+      background: var(--sky-soft);
+      color: var(--sky);
+      padding: 3px 6px;
+      font-size: 11px;
+    }
+
+    .item-link, .item-disabled {
+      min-height: 32px;
+      border-radius: 8px;
+      padding: 6px 8px;
+      font-size: 12px;
+      text-decoration: none;
+      border: 1px solid var(--line);
+    }
+
+    .item-link {
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    .item-link:hover {
+      border-color: var(--gate);
+      color: var(--gate);
+    }
+
+    .item-disabled {
+      color: var(--muted);
+      background: color-mix(in srgb, var(--bg) 70%, var(--line));
+    }
+
+    .empty {
+      padding: 26px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: none;
+      place-items: center;
+      padding: 14px;
+      background: rgba(0, 0, 0, .42);
+    }
+
+    .modal.open { display: grid; }
+
+    .sheet {
+      width: min(720px, 100%);
+      max-height: 90vh;
+      overflow: auto;
+      background: var(--panel);
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      padding: 16px;
+      box-shadow: 0 22px 80px rgba(0, 0, 0, .28);
+      display: grid;
+      gap: 12px;
+    }
+
+    .sheet-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .sheet-head h2 {
+      margin: 0;
+      font-size: 20px;
+      overflow-wrap: anywhere;
+    }
+
+    .close {
+      border: 1px solid var(--line);
+      background: var(--bg);
+      color: var(--ink);
+      border-radius: 8px;
+      width: 34px;
+      height: 34px;
+      cursor: pointer;
+    }
+
+    .detail-grid {
+      display: grid;
+      gap: 7px;
+    }
+
+    .detail-row {
+      display: grid;
+      grid-template-columns: 88px 1fr;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .detail-row b {
+      color: var(--muted);
+    }
+
+    .report-form {
+      display: grid;
+      gap: 10px;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+    }
+
+    .field label {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 40px;
+      padding: 8px 10px;
+      font-size: 16px;
+    }
+
+    .field textarea {
+      min-height: 86px;
+      resize: vertical;
+    }
+
+    .captcha-row {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 8px;
+      align-items: end;
+    }
+
+    .captcha-code {
+      display: grid;
+      place-items: center;
+      min-height: 40px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--gate-soft);
+      color: var(--gate);
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .report-status {
+      min-height: 22px;
+      margin: 0;
+      color: var(--wine);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .report-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .report-list-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .link-button {
+      border: 0;
+      background: transparent;
+      color: var(--gate);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 0;
+    }
+
+    .report-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      padding: 9px;
+      font-size: 13px;
+    }
+
+    .report-card b {
+      color: var(--gate);
+    }
+
+    .report-card p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    .source-credit {
+      width: min(1260px, 100%);
+      color: rgba(255, 255, 255, .86);
+      font-size: 13px;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, .28);
+    }
+
+    .source-credit a {
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .source-credit a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 820px) {
+      .mast {
+        min-height: 220px;
+        padding: 26px 14px 14px;
+      }
+
+      .searchbar {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .searchbar .input {
+        grid-column: 1 / -1;
+      }
+
+      .searchbar .select:first-of-type {
+        grid-column: 1 / -1;
+      }
+
+      .captcha-row {
+        grid-template-columns: 1fr;
+      }
+
+      .layout {
+        width: calc(100% - 20px);
+        margin: 10px 10px 34px;
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        position: static;
+      }
+
+      .summary {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="mast">
+    <div class="brand">
+      <h1>Destiny轉運站</h1>
+      <p>Postype Index</p>
+    </div>
+    <div class="searchbar">
+      <input class="input" id="search" type="search" placeholder="搜尋篇名 / 作者 / 角色 / 標籤">
+      <select class="select" id="authorSelect" aria-label="作者篩選">
+        <option value="">全部作者</option>
+      </select>
+      <select class="select" id="purchase">
+        <option value="全部">全部</option>
+        <option value="是">收費</option>
+        <option value="否">免費</option>
+        <option value="待確認">待確認</option>
+      </select>
+      <select class="select" id="sort">
+        <option value="author">作者排序</option>
+        <option value="title">篇名排序</option>
+        <option value="price-desc">點數高到低</option>
+        <option value="items-desc">項目多到少</option>
+      </select>
+      <button class="btn primary" id="randomBtn" type="button">隨機看一篇</button>
+      <button class="btn" id="reportBtn" type="button">回報</button>
+      <button class="btn" id="theme" type="button">深色</button>
+    </div>
+    <div class="source-credit">
+      實名感謝鳳梨，標籤分類參考資料庫：
+      <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="panel filters">
+      <p class="filter-note">作者已移到上方選單。左側只保留題材和分類，畫面會乾淨一點。</p>
+      <section class="filter-block">
+        <h2 class="filter-title">整理</h2>
+        <div class="chips" id="uncategorizedChips"></div>
+      </section>
+      <section class="filter-block">
+        <h2 class="filter-title">分級</h2>
+        <div class="chips" id="ratingChips"></div>
+      </section>
+      <section class="filter-block">
+        <h2 class="filter-title">形式 / 性質</h2>
+        <div class="chips" id="formatChips"></div>
+      </section>
+      <section class="filter-block">
+        <h2 class="filter-title">文章類型</h2>
+        <div class="chips" id="typeChips"></div>
+      </section>
+      <section class="filter-block">
+        <h2 class="filter-title">結局</h2>
+        <div class="chips" id="endingChips"></div>
+      </section>
+    </aside>
+
+    <main class="content">
+      <section class="panel summary">
+        <div>
+          <h2 id="resultTitle">全部作品</h2>
+          <div class="meta" id="countText"></div>
+        </div>
+        <div class="chips" id="activeChips"></div>
+      </section>
+      <section class="grid" id="grid"></section>
+    </main>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="sheet">
+      <div class="sheet-head">
+        <h2 id="modalTitle"></h2>
+        <button class="close" id="closeBtn" type="button" aria-label="關閉">×</button>
+      </div>
+      <div class="ko" id="modalKo"></div>
+      <div class="detail-grid" id="modalDetails"></div>
+      <div class="item-list" id="modalItems"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="reportModal" aria-hidden="true">
+    <div class="sheet">
+      <div class="sheet-head">
+        <h2>回報系統</h2>
+        <button class="close" id="reportCloseBtn" type="button" aria-label="關閉">×</button>
+      </div>
+      <form class="report-form" id="reportForm">
+        <div class="field">
+          <label for="reporterId">回報人 ID</label>
+          <input id="reporterId" name="reporterId" autocomplete="nickname" placeholder="可自由填寫">
+        </div>
+        <div class="field">
+          <label for="reportType">回報分類</label>
+          <select id="reportType" name="reportType" required>
+            <option value="已刪文">已刪文</option>
+            <option value="連結錯誤">連結錯誤</option>
+            <option value="我想加入新站點">我想加入新站點</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="reportTarget">相關作品或網址</label>
+          <input id="reportTarget" name="reportTarget" placeholder="貼上卡片名稱、Postype 網址或新站點網址">
+        </div>
+        <div class="field">
+          <label for="reportNote">補充說明</label>
+          <textarea id="reportNote" name="reportNote" placeholder="想補充的內容"></textarea>
+        </div>
+        <div class="captcha-row">
+          <div>
+            <label class="field-label">驗證碼</label>
+            <div class="captcha-code" id="captchaCode"></div>
+          </div>
+          <div class="field">
+            <label for="captchaInput">輸入驗證碼才可送出</label>
+            <input id="captchaInput" name="captchaInput" inputmode="numeric" autocomplete="off" required>
+          </div>
+        </div>
+        <p class="report-status" id="reportStatus"></p>
+        <button class="btn primary" type="submit">送出回報</button>
+      </form>
+      <div>
+        <div class="report-list-head">
+          <h3 class="filter-title">最近回報</h3>
+          <button class="link-button" id="toggleReportsBtn" type="button">顯示全部</button>
+        </div>
+        <div class="report-list" id="reportList"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="destiny-data.js"></script>
+  <script>
+    const DATA = window.DESTINY_DATA || { works: [] };
+    const REPORT_KEY = "destinyReports";
+    const REPORT_ENDPOINT = "";
+    const works = (DATA.works || []).filter(work => work.purchase !== "已刪文");
+    const state = {
+      q: "",
+      purchase: "全部",
+      sort: "author",
+      author: "",
+      tags: new Set(),
+      uncategorized: false,
+      captcha: "",
+      showAllReports: false,
+      theme: localStorage.getItem("destinyTheme") || "light",
+    };
+
+    const el = {
+      search: document.querySelector("#search"),
+      authorSelect: document.querySelector("#authorSelect"),
+      purchase: document.querySelector("#purchase"),
+      sort: document.querySelector("#sort"),
+      randomBtn: document.querySelector("#randomBtn"),
+      reportBtn: document.querySelector("#reportBtn"),
+      theme: document.querySelector("#theme"),
+      uncategorizedChips: document.querySelector("#uncategorizedChips"),
+      ratingChips: document.querySelector("#ratingChips"),
+      formatChips: document.querySelector("#formatChips"),
+      typeChips: document.querySelector("#typeChips"),
+      endingChips: document.querySelector("#endingChips"),
+      activeChips: document.querySelector("#activeChips"),
+      resultTitle: document.querySelector("#resultTitle"),
+      countText: document.querySelector("#countText"),
+      grid: document.querySelector("#grid"),
+      modal: document.querySelector("#modal"),
+      modalTitle: document.querySelector("#modalTitle"),
+      modalKo: document.querySelector("#modalKo"),
+      modalDetails: document.querySelector("#modalDetails"),
+      modalItems: document.querySelector("#modalItems"),
+      closeBtn: document.querySelector("#closeBtn"),
+      reportModal: document.querySelector("#reportModal"),
+      reportCloseBtn: document.querySelector("#reportCloseBtn"),
+      reportForm: document.querySelector("#reportForm"),
+      reporterId: document.querySelector("#reporterId"),
+      reportType: document.querySelector("#reportType"),
+      reportTarget: document.querySelector("#reportTarget"),
+      reportNote: document.querySelector("#reportNote"),
+      captchaCode: document.querySelector("#captchaCode"),
+      captchaInput: document.querySelector("#captchaInput"),
+      reportStatus: document.querySelector("#reportStatus"),
+      reportList: document.querySelector("#reportList"),
+      toggleReportsBtn: document.querySelector("#toggleReportsBtn"),
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;",
+      }[char]));
+    }
+
+    function setTheme(theme) {
+      state.theme = theme;
+      document.documentElement.dataset.theme = theme;
+      el.theme.textContent = theme === "dark" ? "淺色" : "深色";
+      localStorage.setItem("destinyTheme", theme);
+    }
+
+    function tagValues(type) {
+      const counts = new Map();
+      works.forEach(work => {
+        const group = (work.tagGroups || []).find(item => item.type === type);
+        (group?.values || []).forEach(value => counts.set(value, (counts.get(value) || 0) + 1));
+      });
+      return [...counts.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hant"))
+        .slice(0, 18);
+    }
+
+    function authorValues() {
+      const counts = new Map();
+      works.forEach(work => counts.set(work.author || "未填", (counts.get(work.author || "未填") || 0) + 1));
+      return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hant"));
+    }
+
+    function chipHtml(value, count, kind) {
+      const active = state.tags.has(value);
+      return `<button class="chip ${active ? "active" : ""}" type="button" data-kind="${kind}" data-value="${escapeHtml(value)}">${escapeHtml(value)} · ${count}</button>`;
+    }
+
+    function isUncategorized(work) {
+      return !String(work.roles || "").trim() && !(work.flatTags || []).length;
+    }
+
+    function totalPointLabel(work) {
+      return `${Number(work.totalPoints) || 0}p`;
+    }
+
+    function makeCaptcha(clearStatus = true) {
+      state.captcha = String(Math.floor(1000 + Math.random() * 9000));
+      el.captchaCode.textContent = state.captcha;
+      el.captchaInput.value = "";
+      if (clearStatus) el.reportStatus.textContent = "";
+    }
+
+    function loadReports() {
+      try {
+        return JSON.parse(localStorage.getItem(REPORT_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveReports(reports) {
+      localStorage.setItem(REPORT_KEY, JSON.stringify(reports.slice(0, 80)));
+    }
+
+    function renderReports() {
+      const reports = loadReports();
+      if (!reports.length) {
+        el.reportList.innerHTML = `<div class="report-card"><p>目前沒有回報紀錄</p></div>`;
+        el.toggleReportsBtn.hidden = true;
+        return;
+      }
+      const visibleReports = state.showAllReports ? reports : reports.slice(0, 5);
+      el.toggleReportsBtn.hidden = reports.length <= 5;
+      el.toggleReportsBtn.textContent = state.showAllReports ? "收合" : `顯示全部 ${reports.length} 筆`;
+      el.reportList.innerHTML = visibleReports.map(report => `
+        <div class="report-card">
+          <b>${escapeHtml(report.type)}</b>${report.cloudStatus ? `<span> · ${escapeHtml(report.cloudStatus)}</span>` : ""}
+          <span> · ${escapeHtml(report.reporter || "匿名")} · ${escapeHtml(report.createdAt)}</span>
+          <p>${escapeHtml(report.target || "未填相關作品或網址")}</p>
+          ${report.note ? `<p>${escapeHtml(report.note)}</p>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function openReport() {
+      makeCaptcha();
+      renderReports();
+      el.reportModal.classList.add("open");
+      el.reportModal.setAttribute("aria-hidden", "false");
+      el.reporterId.focus();
+    }
+
+    function closeReport() {
+      el.reportModal.classList.remove("open");
+      el.reportModal.setAttribute("aria-hidden", "true");
+    }
+
+    async function pushReportToSheet(report) {
+      if (!REPORT_ENDPOINT) return "雲端未設定";
+      const payload = new URLSearchParams();
+      Object.entries({
+        createdAt: report.createdAt,
+        type: report.type,
+        reporter: report.reporter,
+        target: report.target,
+        note: report.note,
+        sourcePage: location.href,
+      }).forEach(([key, value]) => payload.set(key, value || ""));
+
+      await fetch(REPORT_ENDPOINT, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: payload,
+      });
+      return "已送雲端";
+    }
+
+    function renderUncategorized() {
+      const count = works.filter(isUncategorized).length;
+      el.uncategorizedChips.innerHTML =
+        `<button class="chip ${state.uncategorized ? "active" : ""}" type="button" data-kind="uncategorized" data-value="未分類">未分類 · ${count}</button>`;
+    }
+
+    function renderAuthorSelect() {
+      const selected = state.author;
+      el.authorSelect.innerHTML = `<option value="">全部作者</option>` + authorValues().map(([value, count]) =>
+        `<option value="${escapeHtml(value)}" ${selected === value ? "selected" : ""}>${escapeHtml(value)} · ${count}</option>`
+      ).join("");
+    }
+
+    function renderFilters() {
+      renderAuthorSelect();
+      renderUncategorized();
+      el.ratingChips.innerHTML = tagValues("分級").map(([value, count]) => chipHtml(`分級: ${value}`, count, "tag")).join("");
+      el.formatChips.innerHTML = tagValues("形式/性質").map(([value, count]) => chipHtml(`形式/性質: ${value}`, count, "tag")).join("");
+      el.typeChips.innerHTML = tagValues("文章類型").map(([value, count]) => chipHtml(`文章類型: ${value}`, count, "tag")).join("");
+      el.endingChips.innerHTML = tagValues("結局").map(([value, count]) => chipHtml(`結局: ${value}`, count, "tag")).join("");
+    }
+
+    function itemLabel(item) {
+      const part = item.part && item.part !== "本篇" ? item.part : "本篇";
+      const points = pointLabel(item);
+      return points ? `${part} · ${points}` : part;
+    }
+
+    function pointLabel(item) {
+      if (Number.isFinite(item.points) && item.points > 0) return `${item.points}p`;
+      return item.purchaseLabel || "";
+    }
+
+    function itemLink(item) {
+      if (!item.url) return `<span class="item-disabled">${escapeHtml(itemLabel(item))}</span>`;
+      return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(itemLabel(item))}</a>`;
+    }
+
+    function visibleItems(work) {
+      return (work.items || []).filter(item => item.purchase !== "已刪文");
+    }
+
+    function priceClass(work) {
+      if (work.purchase === "是") return "price";
+      return "";
+    }
+
+    function visibleWorks() {
+      const q = state.q.trim().toLowerCase();
+      let items = works.filter(work => {
+        if (q && !work.searchText.includes(q)) return false;
+        if (state.purchase !== "全部" && work.purchase !== state.purchase) return false;
+        if (state.author && work.author !== state.author) return false;
+        if (state.uncategorized && !isUncategorized(work)) return false;
+        for (const tag of state.tags) {
+          if (!(work.flatTags || []).includes(tag)) return false;
+        }
+        return true;
+      });
+
+      items = [...items].sort((a, b) => {
+        if (state.sort === "title") return a.zh.localeCompare(b.zh, "zh-Hant");
+        if (state.sort === "price-desc") return b.totalPoints - a.totalPoints || a.zh.localeCompare(b.zh, "zh-Hant");
+        if (state.sort === "items-desc") return b.items.length - a.items.length || a.zh.localeCompare(b.zh, "zh-Hant");
+        return a.author.localeCompare(b.author, "zh-Hant") || a.zh.localeCompare(b.zh, "zh-Hant");
+      });
+      return items;
+    }
+
+    function renderActive() {
+      const chips = [];
+      if (state.author) chips.push(["author", state.author]);
+      if (state.uncategorized) chips.push(["uncategorized", "未分類"]);
+      state.tags.forEach(tag => chips.push(["tag", tag]));
+      el.activeChips.innerHTML = chips.map(([kind, value]) =>
+        `<button class="chip active" type="button" data-kind="${kind}" data-value="${escapeHtml(value)}">${escapeHtml(value)} ×</button>`
+      ).join("");
+    }
+
+    function renderCards() {
+      const items = visibleWorks();
+      el.resultTitle.textContent = state.author || "全部作品";
+      el.countText.textContent = `${items.length} / ${works.length} 組作品`;
+      renderActive();
+
+      if (!items.length) {
+        el.grid.innerHTML = `<div class="panel empty">沒有符合的作品</div>`;
+        return;
+      }
+
+      el.grid.innerHTML = items.map(work => {
+        const links = visibleItems(work);
+        return `
+          <article class="card">
+            <div class="card-head">
+              <h3 class="title">${escapeHtml(work.zh)}</h3>
+              <div class="ko">${escapeHtml(work.ko)}</div>
+              <button class="author" type="button" data-author="${escapeHtml(work.author)}">${escapeHtml(work.author || "未填作者")}</button>
+            </div>
+            <div class="badges">
+              <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
+              <span class="badge">${links.length} 項</span>
+            </div>
+            ${work.roles ? `<p class="roles">${escapeHtml(work.roles)}</p>` : ""}
+            <div class="tags">${(work.flatTags || []).slice(0, 9).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
+            <div class="item-list">${links.slice(0, 4).map(itemLink).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${links.length} 項</button>` : ""}</div>
+            <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function openDetail(id) {
+      const work = works.find(item => item.id === id);
+      if (!work) return;
+      el.modalTitle.textContent = work.zh;
+      el.modalKo.textContent = work.ko;
+      const groups = (work.tagGroups || []).map(group => `${group.type}: ${group.values.join("、")}`).join("；");
+      el.modalDetails.innerHTML = [
+        ["作者", work.author],
+        ["總金額", totalPointLabel(work)],
+        ["作品ID", work.id],
+        ["角色", work.roles],
+        ["標籤", groups],
+      ].filter(([, value]) => value).map(([key, value]) => `
+        <div class="detail-row"><b>${escapeHtml(key)}</b><span>${escapeHtml(value)}</span></div>
+      `).join("");
+      el.modalItems.innerHTML = visibleItems(work).map(item => {
+        const points = pointLabel(item);
+        const label = `${item.part || "本篇"} · ${item.zh}${points ? ` · ${points}` : ""}`;
+        if (!item.url) return `<span class="item-disabled">${escapeHtml(label)}</span>`;
+        return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
+      }).join("");
+      el.modal.classList.add("open");
+      el.modal.setAttribute("aria-hidden", "false");
+    }
+
+    function randomWork() {
+      const items = visibleWorks().filter(work => visibleItems(work).some(item => item.url));
+      if (!items.length) {
+        el.countText.textContent = "目前篩選條件沒有可傳送的作品";
+        return;
+      }
+      const work = items[Math.floor(Math.random() * items.length)];
+      openDetail(work.id);
+    }
+
+    async function submitReport(event) {
+      event.preventDefault();
+      if (el.captchaInput.value.trim() !== state.captcha) {
+        el.reportStatus.textContent = "驗證碼不正確，請重新輸入。";
+        makeCaptcha(false);
+        return;
+      }
+
+      const report = {
+        reporter: el.reporterId.value.trim(),
+        type: el.reportType.value,
+        target: el.reportTarget.value.trim(),
+        note: el.reportNote.value.trim(),
+        createdAt: new Date().toLocaleString("zh-Hant", { hour12: false }),
+        cloudStatus: "準備送出",
+      };
+
+      const submitButton = el.reportForm.querySelector("button[type='submit']");
+      submitButton.disabled = true;
+      el.reportStatus.textContent = "正在送出回報...";
+      try {
+        report.cloudStatus = await pushReportToSheet(report);
+      } catch {
+        report.cloudStatus = "雲端寫入失敗";
+      } finally {
+        submitButton.disabled = false;
+      }
+
+      const reports = [report, ...loadReports()];
+      saveReports(reports);
+      el.reportForm.reset();
+      el.reportStatus.textContent = report.cloudStatus === "已送雲端"
+        ? "已送出回報，並寫入試算表。"
+        : "已保存本機回報；雲端尚未完成設定。";
+      makeCaptcha(false);
+      renderReports();
+    }
+
+    function clearTopFilters() {
+      state.q = "";
+      state.author = "";
+      state.purchase = "全部";
+      state.sort = "author";
+      el.search.value = "";
+      el.authorSelect.value = "";
+      el.purchase.value = "全部";
+      el.sort.value = "author";
+    }
+
+    function clearFilter(kind, value) {
+      if (kind === "author") state.author = "";
+      if (kind === "tag") state.tags.delete(value);
+      if (kind === "uncategorized") state.uncategorized = false;
+      renderFilters();
+      renderCards();
+    }
+
+    document.addEventListener("click", event => {
+      const chip = event.target.closest("[data-kind]");
+      if (chip) {
+        const kind = chip.dataset.kind;
+        const value = chip.dataset.value;
+        if (kind === "tag") {
+          clearTopFilters();
+          state.uncategorized = false;
+          if (state.tags.has(value)) {
+            state.tags.delete(value);
+          } else {
+            state.tags.clear();
+            state.tags.add(value);
+          }
+        }
+        if (kind === "uncategorized") {
+          clearTopFilters();
+          state.tags.clear();
+          state.uncategorized = !state.uncategorized;
+        }
+        renderFilters();
+        renderCards();
+      }
+
+      const author = event.target.closest("[data-author]");
+      if (author) {
+        state.author = author.dataset.author;
+        renderFilters();
+        renderCards();
+        window.scrollTo({ top: 180, behavior: "smooth" });
+      }
+
+      const detail = event.target.closest("[data-detail]");
+      if (detail) openDetail(detail.dataset.detail);
+    });
+
+    el.search.addEventListener("input", event => {
+      state.q = event.target.value;
+      renderCards();
+    });
+
+    el.authorSelect.addEventListener("change", event => {
+      state.author = event.target.value;
+      renderCards();
+    });
+
+    el.purchase.addEventListener("change", event => {
+      state.purchase = event.target.value;
+      renderCards();
+    });
+
+    el.sort.addEventListener("change", event => {
+      state.sort = event.target.value;
+      renderCards();
+    });
+
+    el.randomBtn.addEventListener("click", randomWork);
+    el.reportBtn.addEventListener("click", openReport);
+    el.reportForm.addEventListener("submit", submitReport);
+    el.toggleReportsBtn.addEventListener("click", () => {
+      state.showAllReports = !state.showAllReports;
+      renderReports();
+    });
+    el.theme.addEventListener("click", () => setTheme(state.theme === "dark" ? "light" : "dark"));
+    el.closeBtn.addEventListener("click", () => {
+      el.modal.classList.remove("open");
+      el.modal.setAttribute("aria-hidden", "true");
+    });
+    el.reportCloseBtn.addEventListener("click", closeReport);
+    el.modal.addEventListener("click", event => {
+      if (event.target === el.modal) el.closeBtn.click();
+    });
+    el.reportModal.addEventListener("click", event => {
+      if (event.target === el.reportModal) closeReport();
+    });
+    window.addEventListener("keydown", event => {
+      if (event.key === "Escape") el.closeBtn.click();
+      if (event.key === "Escape") closeReport();
+    });
+
+    setTheme(state.theme);
+    renderFilters();
+    renderCards();
+  </script>
+</body>
+</html>
