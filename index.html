@@ -485,6 +485,75 @@
       overflow-wrap: anywhere;
     }
 
+    .calc-tools {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+    }
+
+    .calc-total {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--gate-soft);
+      color: var(--gate);
+      padding: 10px 12px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      font-weight: 800;
+    }
+
+    .calc-list {
+      display: grid;
+      gap: 7px;
+      max-height: 52vh;
+      overflow: auto;
+      padding-right: 3px;
+    }
+
+    .calc-row {
+      display: grid;
+      grid-template-columns: 22px minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: start;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      padding: 9px;
+    }
+
+    .calc-row input {
+      width: 18px;
+      height: 18px;
+      margin: 2px 0 0;
+      accent-color: var(--gate);
+    }
+
+    .calc-name {
+      display: grid;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .calc-title {
+      font-size: 14px;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .calc-meta {
+      color: var(--muted);
+      font-size: 12px;
+      overflow-wrap: anywhere;
+    }
+
+    .calc-points {
+      color: var(--gold);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
     .source-credit {
       width: min(1260px, 100%);
       color: rgba(255, 255, 255, .86);
@@ -522,6 +591,18 @@
 
       .captcha-row {
         grid-template-columns: 1fr;
+      }
+
+      .calc-tools {
+        grid-template-columns: 1fr;
+      }
+
+      .calc-row {
+        grid-template-columns: 22px minmax(0, 1fr);
+      }
+
+      .calc-points {
+        grid-column: 2;
       }
 
       .layout {
@@ -569,6 +650,7 @@
         <option value="items-desc">項目多到少</option>
       </select>
       <button class="btn primary" id="randomBtn" type="button">隨機看一篇</button>
+      <button class="btn" id="calculatorBtn" type="button">計算機</button>
       <button class="btn" id="theme" type="button">深色</button>
     </div>
     <div class="source-credit">
@@ -625,9 +707,28 @@
     </div>
   </div>
 
+  <div class="modal" id="calculatorModal" aria-hidden="true">
+    <div class="sheet">
+      <div class="sheet-head">
+        <h2>點數計算機</h2>
+        <button class="close" id="calculatorCloseBtn" type="button" aria-label="關閉">×</button>
+      </div>
+      <div class="calc-tools">
+        <input class="input" id="calculatorSearch" type="search" placeholder="搜尋篇名 / 作者 / 集數">
+        <button class="chip" id="calculatorClearBtn" type="button">清空</button>
+      </div>
+      <div class="calc-total">
+        <span id="calculatorCount">已選 0 項</span>
+        <span id="calculatorTotal">0p</span>
+      </div>
+      <div class="calc-list" id="calculatorList"></div>
+    </div>
+  </div>
+
   <script src="destiny-data.js"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
+    const CALCULATOR_KEY = "destinyCalculatorSelection";
     const works = (DATA.works || []).filter(work => work.purchase !== "已刪文");
     const state = {
       q: "",
@@ -636,6 +737,8 @@
       author: "",
       tags: new Set(),
       uncategorized: false,
+      calculatorQ: "",
+      calculatorSelected: loadCalculatorSelection(),
       theme: localStorage.getItem("destinyTheme") || "light",
     };
 
@@ -645,6 +748,7 @@
       purchase: document.querySelector("#purchase"),
       sort: document.querySelector("#sort"),
       randomBtn: document.querySelector("#randomBtn"),
+      calculatorBtn: document.querySelector("#calculatorBtn"),
       theme: document.querySelector("#theme"),
       uncategorizedChips: document.querySelector("#uncategorizedChips"),
       ratingChips: document.querySelector("#ratingChips"),
@@ -661,6 +765,13 @@
       modalDetails: document.querySelector("#modalDetails"),
       modalItems: document.querySelector("#modalItems"),
       closeBtn: document.querySelector("#closeBtn"),
+      calculatorModal: document.querySelector("#calculatorModal"),
+      calculatorCloseBtn: document.querySelector("#calculatorCloseBtn"),
+      calculatorSearch: document.querySelector("#calculatorSearch"),
+      calculatorClearBtn: document.querySelector("#calculatorClearBtn"),
+      calculatorCount: document.querySelector("#calculatorCount"),
+      calculatorTotal: document.querySelector("#calculatorTotal"),
+      calculatorList: document.querySelector("#calculatorList"),
     };
 
     function escapeHtml(value) {
@@ -708,6 +819,77 @@
 
     function totalPointLabel(work) {
       return `${Number(work.totalPoints) || 0}p`;
+    }
+
+    function loadCalculatorSelection() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem(CALCULATOR_KEY) || "[]"));
+      } catch {
+        return new Set();
+      }
+    }
+
+    function calculatorItems() {
+      const rows = [];
+      works.forEach(work => {
+        (work.items || []).forEach((item, index) => {
+          if (item.purchase === "已刪文") return;
+          if (!Number.isFinite(item.points) || item.points <= 0) return;
+          rows.push({
+            id: `${work.id}::${index}`,
+            workTitle: work.zh,
+            itemTitle: item.zh || work.zh,
+            part: item.part || "本篇",
+            author: work.author || "未填作者",
+            points: item.points,
+            searchText: `${work.zh} ${work.ko} ${item.zh || ""} ${item.part || ""} ${work.author || ""}`.toLowerCase(),
+          });
+        });
+      });
+      return rows;
+    }
+
+    function saveCalculatorSelection() {
+      localStorage.setItem(CALCULATOR_KEY, JSON.stringify([...state.calculatorSelected]));
+    }
+
+    function renderCalculator() {
+      const allRows = calculatorItems();
+      const q = state.calculatorQ.trim().toLowerCase();
+      const rows = allRows.filter(item => !q || item.searchText.includes(q));
+      const selectedRows = allRows.filter(item => state.calculatorSelected.has(item.id));
+      const total = selectedRows.reduce((sum, item) => sum + item.points, 0);
+
+      el.calculatorCount.textContent = `已選 ${selectedRows.length} 項`;
+      el.calculatorTotal.textContent = `${total}p`;
+
+      if (!rows.length) {
+        el.calculatorList.innerHTML = `<div class="empty">沒有符合的付費項目</div>`;
+        return;
+      }
+
+      el.calculatorList.innerHTML = rows.map(item => `
+        <label class="calc-row">
+          <input type="checkbox" data-calc-id="${escapeHtml(item.id)}" ${state.calculatorSelected.has(item.id) ? "checked" : ""}>
+          <span class="calc-name">
+            <span class="calc-title">${escapeHtml(item.itemTitle)}</span>
+            <span class="calc-meta">${escapeHtml(item.author)} · ${escapeHtml(item.part)} · ${escapeHtml(item.workTitle)}</span>
+          </span>
+          <span class="calc-points">${escapeHtml(item.points)}p</span>
+        </label>
+      `).join("");
+    }
+
+    function openCalculator() {
+      renderCalculator();
+      el.calculatorModal.classList.add("open");
+      el.calculatorModal.setAttribute("aria-hidden", "false");
+      el.calculatorSearch.focus();
+    }
+
+    function closeCalculator() {
+      el.calculatorModal.classList.remove("open");
+      el.calculatorModal.setAttribute("aria-hidden", "true");
     }
 
     function renderUncategorized() {
@@ -910,6 +1092,17 @@
 
       const detail = event.target.closest("[data-detail]");
       if (detail) openDetail(detail.dataset.detail);
+
+      const calcInput = event.target.closest("[data-calc-id]");
+      if (calcInput) {
+        if (calcInput.checked) {
+          state.calculatorSelected.add(calcInput.dataset.calcId);
+        } else {
+          state.calculatorSelected.delete(calcInput.dataset.calcId);
+        }
+        saveCalculatorSelection();
+        renderCalculator();
+      }
     });
 
     el.search.addEventListener("input", event => {
@@ -933,6 +1126,16 @@
     });
 
     el.randomBtn.addEventListener("click", randomWork);
+    el.calculatorBtn.addEventListener("click", openCalculator);
+    el.calculatorSearch.addEventListener("input", event => {
+      state.calculatorQ = event.target.value;
+      renderCalculator();
+    });
+    el.calculatorClearBtn.addEventListener("click", () => {
+      state.calculatorSelected.clear();
+      saveCalculatorSelection();
+      renderCalculator();
+    });
     el.theme.addEventListener("click", () => setTheme(state.theme === "dark" ? "light" : "dark"));
     el.closeBtn.addEventListener("click", () => {
       el.modal.classList.remove("open");
@@ -941,8 +1144,13 @@
     el.modal.addEventListener("click", event => {
       if (event.target === el.modal) el.closeBtn.click();
     });
+    el.calculatorCloseBtn.addEventListener("click", closeCalculator);
+    el.calculatorModal.addEventListener("click", event => {
+      if (event.target === el.calculatorModal) closeCalculator();
+    });
     window.addEventListener("keydown", event => {
       if (event.key === "Escape") el.closeBtn.click();
+      if (event.key === "Escape") closeCalculator();
     });
 
     setTheme(state.theme);
