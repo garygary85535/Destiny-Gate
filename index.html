@@ -554,6 +554,27 @@
       white-space: nowrap;
     }
 
+    .calc-selected {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      padding: 9px 10px;
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .calc-selected b {
+      color: var(--ink);
+    }
+
+    .calc-selected-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
     .source-credit {
       width: min(1260px, 100%);
       color: rgba(255, 255, 255, .86);
@@ -718,8 +739,12 @@
         <button class="chip" id="calculatorClearBtn" type="button">清空</button>
       </div>
       <div class="calc-total">
-        <span id="calculatorCount">已選 0 項</span>
+        <span id="calculatorCount">已選 0 部作品</span>
         <span id="calculatorTotal">0p</span>
+      </div>
+      <div class="calc-selected" id="calculatorSelectedBox">
+        <b>已選作品</b>
+        <div class="calc-selected-list" id="calculatorSelectedList">尚未選擇</div>
       </div>
       <div class="calc-list" id="calculatorList"></div>
     </div>
@@ -771,6 +796,8 @@
       calculatorClearBtn: document.querySelector("#calculatorClearBtn"),
       calculatorCount: document.querySelector("#calculatorCount"),
       calculatorTotal: document.querySelector("#calculatorTotal"),
+      calculatorSelectedBox: document.querySelector("#calculatorSelectedBox"),
+      calculatorSelectedList: document.querySelector("#calculatorSelectedList"),
       calculatorList: document.querySelector("#calculatorList"),
     };
 
@@ -830,23 +857,17 @@
     }
 
     function calculatorItems() {
-      const rows = [];
-      works.forEach(work => {
-        (work.items || []).forEach((item, index) => {
-          if (item.purchase === "已刪文") return;
-          if (!Number.isFinite(item.points) || item.points <= 0) return;
-          rows.push({
-            id: `${work.id}::${index}`,
-            workTitle: work.zh,
-            itemTitle: item.zh || work.zh,
-            part: item.part || "本篇",
-            author: work.author || "未填作者",
-            points: item.points,
-            searchText: `${work.zh} ${work.ko} ${item.zh || ""} ${item.part || ""} ${work.author || ""}`.toLowerCase(),
-          });
-        });
-      });
-      return rows;
+      return works
+        .filter(work => Number.isFinite(work.totalPoints) && work.totalPoints > 0)
+        .map(work => ({
+          id: work.id,
+          workTitle: work.zh,
+          ko: work.ko,
+          author: work.author || "未填作者",
+          points: work.totalPoints,
+          items: visibleItems(work).length,
+          searchText: `${work.zh} ${work.ko} ${work.author || ""}`.toLowerCase(),
+        }));
     }
 
     function saveCalculatorSelection() {
@@ -860,11 +881,14 @@
       const selectedRows = allRows.filter(item => state.calculatorSelected.has(item.id));
       const total = selectedRows.reduce((sum, item) => sum + item.points, 0);
 
-      el.calculatorCount.textContent = `已選 ${selectedRows.length} 項`;
+      el.calculatorCount.textContent = `已選 ${selectedRows.length} 部作品`;
       el.calculatorTotal.textContent = `${total}p`;
+      el.calculatorSelectedList.innerHTML = selectedRows.length
+        ? selectedRows.map(item => `<span class="tag">${escapeHtml(item.workTitle)} · ${escapeHtml(item.points)}p</span>`).join("")
+        : "尚未選擇";
 
       if (!rows.length) {
-        el.calculatorList.innerHTML = `<div class="empty">沒有符合的付費項目</div>`;
+        el.calculatorList.innerHTML = `<div class="empty">沒有符合的付費作品</div>`;
         return;
       }
 
@@ -872,8 +896,8 @@
         <label class="calc-row">
           <input type="checkbox" data-calc-id="${escapeHtml(item.id)}" ${state.calculatorSelected.has(item.id) ? "checked" : ""}>
           <span class="calc-name">
-            <span class="calc-title">${escapeHtml(item.itemTitle)}</span>
-            <span class="calc-meta">${escapeHtml(item.author)} · ${escapeHtml(item.part)} · ${escapeHtml(item.workTitle)}</span>
+            <span class="calc-title">${escapeHtml(item.workTitle)}</span>
+            <span class="calc-meta">${escapeHtml(item.author)} · 全部 ${escapeHtml(item.items)} 項</span>
           </span>
           <span class="calc-points">${escapeHtml(item.points)}p</span>
         </label>
