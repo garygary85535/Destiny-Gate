@@ -991,6 +991,10 @@
       return `${Number(work.totalPoints) || 0}p`;
     }
 
+    function episodeCountLabel(count) {
+      return count === 1 ? "單集" : `${count}集`;
+    }
+
     function loadCalculatorSelection() {
       try {
         return new Set(JSON.parse(localStorage.getItem(CALCULATOR_KEY) || "[]"));
@@ -1054,9 +1058,9 @@
       el.calculatorList.innerHTML = rows.map(item => `
         <label class="calc-row">
           <input type="checkbox" data-calc-id="${escapeHtml(item.id)}" ${state.calculatorSelected.has(item.id) ? "checked" : ""}>
-          <span class="calc-name">
-            <span class="calc-title">${escapeHtml(item.workTitle)}</span>
-            <span class="calc-meta">${escapeHtml(item.author)} · 全部 ${escapeHtml(item.items)} 項</span>
+            <span class="calc-name">
+              <span class="calc-title">${escapeHtml(item.workTitle)}</span>
+            <span class="calc-meta">${escapeHtml(item.author)} · 全部 ${escapeHtml(episodeCountLabel(item.items))}</span>
           </span>
           <span class="calc-points">${escapeHtml(item.points)}p</span>
         </label>
@@ -1195,12 +1199,12 @@
             </div>
             <div class="badges">
               <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
-              <span class="badge">${links.length} 項</span>
+              <span class="badge">${escapeHtml(episodeCountLabel(links.length))}</span>
               ${(work.thumbCategories || []).length ? `<span class="badge jewel">蓋瑞推薦</span>` : ""}
             </div>
             ${work.roles ? `<p class="roles">${escapeHtml(work.roles)}</p>` : ""}
             <div class="tags">${(work.flatTags || []).slice(0, 9).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-            <div class="item-list">${links.slice(0, 4).map(itemLink).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${links.length} 項</button>` : ""}</div>
+            <div class="item-list">${links.slice(0, 4).map(itemLink).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${escapeHtml(episodeCountLabel(links.length))}</button>` : ""}</div>
             <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
           </article>
         `;
