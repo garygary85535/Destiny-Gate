@@ -152,6 +152,26 @@
       gap: 6px;
     }
 
+    .filters .chips {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .filters .chip {
+      width: 100%;
+      height: 34px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .scroll-chips {
+      max-height: 154px;
+      overflow-y: auto;
+      padding-right: 3px;
+      align-content: start;
+    }
+
     .chip {
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -237,7 +257,7 @@
       background: var(--bg);
       color: var(--muted);
       cursor: pointer;
-      font-size: 19px;
+      font-size: 18px;
       line-height: 1;
       display: grid;
       place-items: center;
@@ -708,6 +728,10 @@
         position: static;
       }
 
+      .scroll-chips {
+        max-height: 126px;
+      }
+
       .summary {
         align-items: flex-start;
         flex-direction: column;
@@ -755,7 +779,11 @@
     <aside class="panel filters">
       <section class="filter-block">
         <h2 class="filter-title">蓋瑞的珠寶盒</h2>
-        <div class="chips" id="jewelChips"></div>
+        <div class="chips scroll-chips" id="jewelChips"></div>
+      </section>
+      <section class="filter-block">
+        <h2 class="filter-title">我的標記</h2>
+        <div class="chips" id="readChips"></div>
       </section>
       <section class="filter-block">
         <h2 class="filter-title">整理</h2>
@@ -840,6 +868,7 @@
       author: "",
       tags: new Set(),
       jewel: "",
+      readOnly: false,
       uncategorized: false,
       calculatorQ: "",
       calculatorSelected: loadCalculatorSelection(),
@@ -856,6 +885,7 @@
       calculatorBtn: document.querySelector("#calculatorBtn"),
       theme: document.querySelector("#theme"),
       jewelChips: document.querySelector("#jewelChips"),
+      readChips: document.querySelector("#readChips"),
       uncategorizedChips: document.querySelector("#uncategorizedChips"),
       ratingChips: document.querySelector("#ratingChips"),
       formatChips: document.querySelector("#formatChips"),
@@ -1034,6 +1064,12 @@
         `<button class="chip ${state.uncategorized ? "active" : ""}" type="button" data-kind="uncategorized" data-value="未分類">未分類 · ${count}</button>`;
     }
 
+    function renderReadFilter() {
+      const count = works.filter(work => state.readWorks.has(work.id)).length;
+      el.readChips.innerHTML =
+        `<button class="chip ${state.readOnly ? "active" : ""}" type="button" data-kind="read" data-value="已標記">📎已標記 · ${count}</button>`;
+    }
+
     function renderAuthorSelect() {
       const selected = state.author;
       el.authorSelect.innerHTML = `<option value="">全部作者</option>` + authorValues().map(([value, count]) =>
@@ -1047,6 +1083,7 @@
       el.jewelChips.innerHTML =
         `<button class="chip ${state.jewel === "全部推薦" ? "active" : ""}" type="button" data-kind="jewel" data-value="全部推薦">全部推薦 · ${jewelCount}</button>` +
         jewelValues().map(([value, count]) => chipHtml(value, count, "jewel")).join("");
+      renderReadFilter();
       renderUncategorized();
       el.ratingChips.innerHTML = tagValues("分級").map(([value, count]) => chipHtml(`分級: ${value}`, count, "tag")).join("");
       el.formatChips.innerHTML = tagValues("形式/性質").map(([value, count]) => chipHtml(`形式/性質: ${value}`, count, "tag")).join("");
@@ -1087,6 +1124,7 @@
         if (state.author && work.author !== state.author) return false;
         if (state.jewel === "全部推薦" && !(work.thumbCategories || []).length) return false;
         if (state.jewel && state.jewel !== "全部推薦" && !(work.thumbCategories || []).includes(state.jewel)) return false;
+        if (state.readOnly && !state.readWorks.has(work.id)) return false;
         if (state.uncategorized && !isUncategorized(work)) return false;
         for (const tag of state.tags) {
           if (!(work.flatTags || []).includes(tag)) return false;
@@ -1107,6 +1145,7 @@
       const chips = [];
       if (state.author) chips.push({ kind: "author", value: state.author, label: state.author });
       if (state.jewel) chips.push({ kind: "jewel", value: state.jewel, label: `蓋瑞的珠寶盒: ${state.jewel}` });
+      if (state.readOnly) chips.push({ kind: "read", value: "已標記", label: "已標記" });
       if (state.uncategorized) chips.push({ kind: "uncategorized", value: "未分類", label: "未分類" });
       state.tags.forEach(tag => chips.push({ kind: "tag", value: tag, label: tag }));
       el.activeChips.innerHTML = chips.map(({ kind, value, label }) =>
@@ -1135,7 +1174,7 @@
                 <div class="ko">${escapeHtml(work.ko)}</div>
                 <button class="author" type="button" data-author="${escapeHtml(work.author)}">${escapeHtml(work.author || "未填作者")}</button>
               </div>
-              <button class="read-heart ${state.readWorks.has(work.id) ? "done" : ""}" type="button" data-read="${escapeHtml(work.id)}" aria-label="${escapeHtml(readHeartLabel(work))}" title="${escapeHtml(readHeartLabel(work))}">${state.readWorks.has(work.id) ? "♥" : "♡"}</button>
+              <button class="read-heart ${state.readWorks.has(work.id) ? "done" : ""}" type="button" data-read="${escapeHtml(work.id)}" aria-label="${escapeHtml(readHeartLabel(work))}" title="${escapeHtml(readHeartLabel(work))}">📎</button>
             </div>
             <div class="badges">
               <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
@@ -1202,6 +1241,7 @@
       if (kind === "author") state.author = "";
       if (kind === "tag") state.tags.delete(value);
       if (kind === "jewel") state.jewel = "";
+      if (kind === "read") state.readOnly = false;
       if (kind === "uncategorized") state.uncategorized = false;
       renderFilters();
       renderCards();
@@ -1215,6 +1255,7 @@
         if (kind === "tag") {
           clearTopFilters();
           state.jewel = "";
+          state.readOnly = false;
           state.uncategorized = false;
           if (state.tags.has(value)) {
             state.tags.delete(value);
@@ -1226,14 +1267,23 @@
         if (kind === "uncategorized") {
           clearTopFilters();
           state.jewel = "";
+          state.readOnly = false;
           state.tags.clear();
           state.uncategorized = !state.uncategorized;
         }
         if (kind === "jewel") {
           clearTopFilters();
           state.tags.clear();
+          state.readOnly = false;
           state.uncategorized = false;
           state.jewel = state.jewel === value ? "" : value;
+        }
+        if (kind === "read") {
+          clearTopFilters();
+          state.tags.clear();
+          state.jewel = "";
+          state.uncategorized = false;
+          state.readOnly = !state.readOnly;
         }
         renderFilters();
         renderCards();
@@ -1258,6 +1308,7 @@
           state.readWorks.add(read.dataset.read);
         }
         saveReadWorks();
+        renderFilters();
         renderCards();
       }
 
