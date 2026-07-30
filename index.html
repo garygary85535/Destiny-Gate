@@ -569,7 +569,6 @@
         <option value="items-desc">項目多到少</option>
       </select>
       <button class="btn primary" id="randomBtn" type="button">隨機看一篇</button>
-      <button class="btn" id="reportBtn" type="button">回報</button>
       <button class="btn" id="theme" type="button">深色</button>
     </div>
     <div class="source-credit">
@@ -626,61 +625,9 @@
     </div>
   </div>
 
-  <div class="modal" id="reportModal" aria-hidden="true">
-    <div class="sheet">
-      <div class="sheet-head">
-        <h2>回報系統</h2>
-        <button class="close" id="reportCloseBtn" type="button" aria-label="關閉">×</button>
-      </div>
-      <form class="report-form" id="reportForm">
-        <div class="field">
-          <label for="reporterId">回報人 ID</label>
-          <input id="reporterId" name="reporterId" autocomplete="nickname" placeholder="可自由填寫">
-        </div>
-        <div class="field">
-          <label for="reportType">回報分類</label>
-          <select id="reportType" name="reportType" required>
-            <option value="已刪文">已刪文</option>
-            <option value="連結錯誤">連結錯誤</option>
-            <option value="我想加入新站點">我想加入新站點</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="reportTarget">相關作品或網址</label>
-          <input id="reportTarget" name="reportTarget" placeholder="貼上卡片名稱、Postype 網址或新站點網址">
-        </div>
-        <div class="field">
-          <label for="reportNote">補充說明</label>
-          <textarea id="reportNote" name="reportNote" placeholder="想補充的內容"></textarea>
-        </div>
-        <div class="captcha-row">
-          <div>
-            <label class="field-label">驗證碼</label>
-            <div class="captcha-code" id="captchaCode"></div>
-          </div>
-          <div class="field">
-            <label for="captchaInput">輸入驗證碼才可送出</label>
-            <input id="captchaInput" name="captchaInput" inputmode="numeric" autocomplete="off" required>
-          </div>
-        </div>
-        <p class="report-status" id="reportStatus"></p>
-        <button class="btn primary" type="submit">送出回報</button>
-      </form>
-      <div>
-        <div class="report-list-head">
-          <h3 class="filter-title">最近回報</h3>
-          <button class="link-button" id="toggleReportsBtn" type="button">顯示全部</button>
-        </div>
-        <div class="report-list" id="reportList"></div>
-      </div>
-    </div>
-  </div>
-
   <script src="destiny-data.js"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
-    const REPORT_KEY = "destinyReports";
-    const REPORT_ENDPOINT = "";
     const works = (DATA.works || []).filter(work => work.purchase !== "已刪文");
     const state = {
       q: "",
@@ -689,8 +636,6 @@
       author: "",
       tags: new Set(),
       uncategorized: false,
-      captcha: "",
-      showAllReports: false,
       theme: localStorage.getItem("destinyTheme") || "light",
     };
 
@@ -700,7 +645,6 @@
       purchase: document.querySelector("#purchase"),
       sort: document.querySelector("#sort"),
       randomBtn: document.querySelector("#randomBtn"),
-      reportBtn: document.querySelector("#reportBtn"),
       theme: document.querySelector("#theme"),
       uncategorizedChips: document.querySelector("#uncategorizedChips"),
       ratingChips: document.querySelector("#ratingChips"),
@@ -717,18 +661,6 @@
       modalDetails: document.querySelector("#modalDetails"),
       modalItems: document.querySelector("#modalItems"),
       closeBtn: document.querySelector("#closeBtn"),
-      reportModal: document.querySelector("#reportModal"),
-      reportCloseBtn: document.querySelector("#reportCloseBtn"),
-      reportForm: document.querySelector("#reportForm"),
-      reporterId: document.querySelector("#reporterId"),
-      reportType: document.querySelector("#reportType"),
-      reportTarget: document.querySelector("#reportTarget"),
-      reportNote: document.querySelector("#reportNote"),
-      captchaCode: document.querySelector("#captchaCode"),
-      captchaInput: document.querySelector("#captchaInput"),
-      reportStatus: document.querySelector("#reportStatus"),
-      reportList: document.querySelector("#reportList"),
-      toggleReportsBtn: document.querySelector("#toggleReportsBtn"),
     };
 
     function escapeHtml(value) {
@@ -776,79 +708,6 @@
 
     function totalPointLabel(work) {
       return `${Number(work.totalPoints) || 0}p`;
-    }
-
-    function makeCaptcha(clearStatus = true) {
-      state.captcha = String(Math.floor(1000 + Math.random() * 9000));
-      el.captchaCode.textContent = state.captcha;
-      el.captchaInput.value = "";
-      if (clearStatus) el.reportStatus.textContent = "";
-    }
-
-    function loadReports() {
-      try {
-        return JSON.parse(localStorage.getItem(REPORT_KEY) || "[]");
-      } catch {
-        return [];
-      }
-    }
-
-    function saveReports(reports) {
-      localStorage.setItem(REPORT_KEY, JSON.stringify(reports.slice(0, 80)));
-    }
-
-    function renderReports() {
-      const reports = loadReports();
-      if (!reports.length) {
-        el.reportList.innerHTML = `<div class="report-card"><p>目前沒有回報紀錄</p></div>`;
-        el.toggleReportsBtn.hidden = true;
-        return;
-      }
-      const visibleReports = state.showAllReports ? reports : reports.slice(0, 5);
-      el.toggleReportsBtn.hidden = reports.length <= 5;
-      el.toggleReportsBtn.textContent = state.showAllReports ? "收合" : `顯示全部 ${reports.length} 筆`;
-      el.reportList.innerHTML = visibleReports.map(report => `
-        <div class="report-card">
-          <b>${escapeHtml(report.type)}</b>${report.cloudStatus ? `<span> · ${escapeHtml(report.cloudStatus)}</span>` : ""}
-          <span> · ${escapeHtml(report.reporter || "匿名")} · ${escapeHtml(report.createdAt)}</span>
-          <p>${escapeHtml(report.target || "未填相關作品或網址")}</p>
-          ${report.note ? `<p>${escapeHtml(report.note)}</p>` : ""}
-        </div>
-      `).join("");
-    }
-
-    function openReport() {
-      makeCaptcha();
-      renderReports();
-      el.reportModal.classList.add("open");
-      el.reportModal.setAttribute("aria-hidden", "false");
-      el.reporterId.focus();
-    }
-
-    function closeReport() {
-      el.reportModal.classList.remove("open");
-      el.reportModal.setAttribute("aria-hidden", "true");
-    }
-
-    async function pushReportToSheet(report) {
-      if (!REPORT_ENDPOINT) return "雲端未設定";
-      const payload = new URLSearchParams();
-      Object.entries({
-        createdAt: report.createdAt,
-        type: report.type,
-        reporter: report.reporter,
-        target: report.target,
-        note: report.note,
-        sourcePage: location.href,
-      }).forEach(([key, value]) => payload.set(key, value || ""));
-
-      await fetch(REPORT_ENDPOINT, {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: payload,
-      });
-      return "已送雲端";
     }
 
     function renderUncategorized() {
@@ -998,44 +857,6 @@
       openDetail(work.id);
     }
 
-    async function submitReport(event) {
-      event.preventDefault();
-      if (el.captchaInput.value.trim() !== state.captcha) {
-        el.reportStatus.textContent = "驗證碼不正確，請重新輸入。";
-        makeCaptcha(false);
-        return;
-      }
-
-      const report = {
-        reporter: el.reporterId.value.trim(),
-        type: el.reportType.value,
-        target: el.reportTarget.value.trim(),
-        note: el.reportNote.value.trim(),
-        createdAt: new Date().toLocaleString("zh-Hant", { hour12: false }),
-        cloudStatus: "準備送出",
-      };
-
-      const submitButton = el.reportForm.querySelector("button[type='submit']");
-      submitButton.disabled = true;
-      el.reportStatus.textContent = "正在送出回報...";
-      try {
-        report.cloudStatus = await pushReportToSheet(report);
-      } catch {
-        report.cloudStatus = "雲端寫入失敗";
-      } finally {
-        submitButton.disabled = false;
-      }
-
-      const reports = [report, ...loadReports()];
-      saveReports(reports);
-      el.reportForm.reset();
-      el.reportStatus.textContent = report.cloudStatus === "已送雲端"
-        ? "已送出回報，並寫入試算表。"
-        : "已保存本機回報；雲端尚未完成設定。";
-      makeCaptcha(false);
-      renderReports();
-    }
-
     function clearTopFilters() {
       state.q = "";
       state.author = "";
@@ -1112,27 +933,16 @@
     });
 
     el.randomBtn.addEventListener("click", randomWork);
-    el.reportBtn.addEventListener("click", openReport);
-    el.reportForm.addEventListener("submit", submitReport);
-    el.toggleReportsBtn.addEventListener("click", () => {
-      state.showAllReports = !state.showAllReports;
-      renderReports();
-    });
     el.theme.addEventListener("click", () => setTheme(state.theme === "dark" ? "light" : "dark"));
     el.closeBtn.addEventListener("click", () => {
       el.modal.classList.remove("open");
       el.modal.setAttribute("aria-hidden", "true");
     });
-    el.reportCloseBtn.addEventListener("click", closeReport);
     el.modal.addEventListener("click", event => {
       if (event.target === el.modal) el.closeBtn.click();
     });
-    el.reportModal.addEventListener("click", event => {
-      if (event.target === el.reportModal) closeReport();
-    });
     window.addEventListener("keydown", event => {
       if (event.key === "Escape") el.closeBtn.click();
-      if (event.key === "Escape") closeReport();
     });
 
     setTheme(state.theme);
