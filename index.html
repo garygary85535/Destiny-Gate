@@ -597,6 +597,33 @@
       text-decoration: underline;
     }
 
+    .top-button {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 30;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--gate);
+      color: #fff;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 900;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity .18s ease, transform .18s ease;
+    }
+
+    .top-button.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
     @media (max-width: 820px) {
       .mast {
         min-height: 220px;
@@ -625,6 +652,13 @@
 
       .calc-row {
         grid-template-columns: 22px minmax(0, 1fr);
+      }
+
+      .top-button {
+        right: 12px;
+        bottom: 12px;
+        width: 40px;
+        height: 40px;
       }
 
       .calc-points {
@@ -724,6 +758,8 @@
     </main>
   </div>
 
+  <button class="top-button" id="topButton" type="button" aria-label="回到最上面">↑</button>
+
   <div class="modal" id="modal" aria-hidden="true">
     <div class="sheet">
       <div class="sheet-head">
@@ -809,6 +845,7 @@
       calculatorSelectedBox: document.querySelector("#calculatorSelectedBox"),
       calculatorSelectedList: document.querySelector("#calculatorSelectedList"),
       calculatorList: document.querySelector("#calculatorList"),
+      topButton: document.querySelector("#topButton"),
     };
 
     function escapeHtml(value) {
@@ -856,7 +893,7 @@
         (work.thumbCategories || []).forEach(value => counts.set(value, (counts.get(value) || 0) + 1));
       });
       return [...counts.entries()].sort((a, b) => {
-        const order = ["作家全系列", "推推", "季刊"];
+        const order = ["最強推", "作家全系列", "推推", "季刊"];
         const ia = order.indexOf(a[0]);
         const ib = order.indexOf(b[0]);
         if (ia !== ib) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
@@ -1192,6 +1229,10 @@
     });
 
     el.randomBtn.addEventListener("click", randomWork);
+    el.topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    window.addEventListener("scroll", () => {
+      el.topButton.classList.toggle("show", window.scrollY > 360);
+    }, { passive: true });
     el.calculatorBtn.addEventListener("click", openCalculator);
     el.calculatorSearch.addEventListener("input", event => {
       state.calculatorQ = event.target.value;
