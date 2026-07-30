@@ -265,6 +265,11 @@
       color: var(--gold);
     }
 
+    .badge.jewel {
+      background: var(--wine-soft);
+      color: var(--wine);
+    }
+
     .roles {
       margin: 0;
       color: var(--muted);
@@ -682,6 +687,10 @@
   <div class="layout">
     <aside class="panel filters">
       <section class="filter-block">
+        <h2 class="filter-title">蓋瑞的珠寶盒</h2>
+        <div class="chips" id="jewelChips"></div>
+      </section>
+      <section class="filter-block">
         <h2 class="filter-title">整理</h2>
         <div class="chips" id="uncategorizedChips"></div>
       </section>
@@ -760,6 +769,7 @@
       sort: "author",
       author: "",
       tags: new Set(),
+      jewel: "",
       uncategorized: false,
       calculatorQ: "",
       calculatorSelected: loadCalculatorSelection(),
@@ -774,6 +784,7 @@
       randomBtn: document.querySelector("#randomBtn"),
       calculatorBtn: document.querySelector("#calculatorBtn"),
       theme: document.querySelector("#theme"),
+      jewelChips: document.querySelector("#jewelChips"),
       uncategorizedChips: document.querySelector("#uncategorizedChips"),
       ratingChips: document.querySelector("#ratingChips"),
       formatChips: document.querySelector("#formatChips"),
@@ -835,8 +846,22 @@
     }
 
     function chipHtml(value, count, kind) {
-      const active = state.tags.has(value);
+      const active = kind === "jewel" ? state.jewel === value : state.tags.has(value);
       return `<button class="chip ${active ? "active" : ""}" type="button" data-kind="${kind}" data-value="${escapeHtml(value)}">${escapeHtml(value)} · ${count}</button>`;
+    }
+
+    function jewelValues() {
+      const counts = new Map();
+      works.forEach(work => {
+        (work.thumbCategories || []).forEach(value => counts.set(value, (counts.get(value) || 0) + 1));
+      });
+      return [...counts.entries()].sort((a, b) => {
+        const order = ["作家全系列", "推推", "季刊"];
+        const ia = order.indexOf(a[0]);
+        const ib = order.indexOf(b[0]);
+        if (ia !== ib) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+        return a[0].localeCompare(b[0], "zh-Hant");
+      });
     }
 
     function isUncategorized(work) {
@@ -930,6 +955,10 @@
 
     function renderFilters() {
       renderAuthorSelect();
+      const jewelCount = works.filter(work => (work.thumbCategories || []).length).length;
+      el.jewelChips.innerHTML =
+        `<button class="chip ${state.jewel === "全部推薦" ? "active" : ""}" type="button" data-kind="jewel" data-value="全部推薦">全部推薦 · ${jewelCount}</button>` +
+        jewelValues().map(([value, count]) => chipHtml(value, count, "jewel")).join("");
       renderUncategorized();
       el.ratingChips.innerHTML = tagValues("分級").map(([value, count]) => chipHtml(`分級: ${value}`, count, "tag")).join("");
       el.formatChips.innerHTML = tagValues("形式/性質").map(([value, count]) => chipHtml(`形式/性質: ${value}`, count, "tag")).join("");
@@ -968,6 +997,8 @@
         if (q && !work.searchText.includes(q)) return false;
         if (state.purchase !== "全部" && work.purchase !== state.purchase) return false;
         if (state.author && work.author !== state.author) return false;
+        if (state.jewel === "全部推薦" && !(work.thumbCategories || []).length) return false;
+        if (state.jewel && state.jewel !== "全部推薦" && !(work.thumbCategories || []).includes(state.jewel)) return false;
         if (state.uncategorized && !isUncategorized(work)) return false;
         for (const tag of state.tags) {
           if (!(work.flatTags || []).includes(tag)) return false;
@@ -986,17 +1017,18 @@
 
     function renderActive() {
       const chips = [];
-      if (state.author) chips.push(["author", state.author]);
-      if (state.uncategorized) chips.push(["uncategorized", "未分類"]);
-      state.tags.forEach(tag => chips.push(["tag", tag]));
-      el.activeChips.innerHTML = chips.map(([kind, value]) =>
-        `<button class="chip active" type="button" data-kind="${kind}" data-value="${escapeHtml(value)}">${escapeHtml(value)} ×</button>`
+      if (state.author) chips.push({ kind: "author", value: state.author, label: state.author });
+      if (state.jewel) chips.push({ kind: "jewel", value: state.jewel, label: `蓋瑞的珠寶盒: ${state.jewel}` });
+      if (state.uncategorized) chips.push({ kind: "uncategorized", value: "未分類", label: "未分類" });
+      state.tags.forEach(tag => chips.push({ kind: "tag", value: tag, label: tag }));
+      el.activeChips.innerHTML = chips.map(({ kind, value, label }) =>
+        `<button class="chip active" type="button" data-kind="${kind}" data-value="${escapeHtml(value)}">${escapeHtml(label)} ×</button>`
       ).join("");
     }
 
     function renderCards() {
       const items = visibleWorks();
-      el.resultTitle.textContent = state.author || "全部作品";
+      el.resultTitle.textContent = state.jewel ? `蓋瑞的珠寶盒 · ${state.jewel}` : state.author || "全部作品";
       el.countText.textContent = `${items.length} / ${works.length} 組作品`;
       renderActive();
 
@@ -1017,6 +1049,7 @@
             <div class="badges">
               <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
               <span class="badge">${links.length} 項</span>
+              ${(work.thumbCategories || []).length ? `<span class="badge jewel">蓋瑞推薦</span>` : ""}
             </div>
             ${work.roles ? `<p class="roles">${escapeHtml(work.roles)}</p>` : ""}
             <div class="tags">${(work.flatTags || []).slice(0, 9).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
@@ -1036,6 +1069,7 @@
       el.modalDetails.innerHTML = [
         ["作者", work.author],
         ["總金額", totalPointLabel(work)],
+        ["珠寶盒", (work.thumbCategories || []).join("、")],
         ["作品ID", work.id],
         ["角色", work.roles],
         ["標籤", groups],
@@ -1076,6 +1110,7 @@
     function clearFilter(kind, value) {
       if (kind === "author") state.author = "";
       if (kind === "tag") state.tags.delete(value);
+      if (kind === "jewel") state.jewel = "";
       if (kind === "uncategorized") state.uncategorized = false;
       renderFilters();
       renderCards();
@@ -1088,6 +1123,7 @@
         const value = chip.dataset.value;
         if (kind === "tag") {
           clearTopFilters();
+          state.jewel = "";
           state.uncategorized = false;
           if (state.tags.has(value)) {
             state.tags.delete(value);
@@ -1098,8 +1134,15 @@
         }
         if (kind === "uncategorized") {
           clearTopFilters();
+          state.jewel = "";
           state.tags.clear();
           state.uncategorized = !state.uncategorized;
+        }
+        if (kind === "jewel") {
+          clearTopFilters();
+          state.tags.clear();
+          state.uncategorized = false;
+          state.jewel = state.jewel === value ? "" : value;
         }
         renderFilters();
         renderCards();
