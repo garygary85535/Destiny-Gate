@@ -218,7 +218,40 @@
 
     .card-head {
       display: grid;
+      grid-template-columns: minmax(0, 1fr) 34px;
+      gap: 5px 8px;
+      align-items: start;
+    }
+
+    .card-title-wrap {
+      min-width: 0;
+      display: grid;
       gap: 5px;
+    }
+
+    .read-heart {
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 19px;
+      line-height: 1;
+      display: grid;
+      place-items: center;
+    }
+
+    .read-heart.done {
+      background: var(--wine-soft);
+      border-color: color-mix(in srgb, var(--wine) 42%, transparent);
+      color: var(--wine);
+    }
+
+    .read-heart:hover {
+      border-color: var(--wine);
+      color: var(--wine);
     }
 
     .title {
@@ -798,6 +831,7 @@
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const CALCULATOR_KEY = "destinyCalculatorSelection";
+    const READ_KEY = "destinyReadWorks";
     const works = (DATA.works || []).filter(work => work.purchase !== "已刪文");
     const state = {
       q: "",
@@ -809,6 +843,7 @@
       uncategorized: false,
       calculatorQ: "",
       calculatorSelected: loadCalculatorSelection(),
+      readWorks: loadReadWorks(),
       theme: localStorage.getItem("destinyTheme") || "light",
     };
 
@@ -915,6 +950,22 @@
       } catch {
         return new Set();
       }
+    }
+
+    function loadReadWorks() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]"));
+      } catch {
+        return new Set();
+      }
+    }
+
+    function saveReadWorks() {
+      localStorage.setItem(READ_KEY, JSON.stringify([...state.readWorks]));
+    }
+
+    function readHeartLabel(work) {
+      return state.readWorks.has(work.id) ? `取消已看完：${work.zh}` : `標記已看完：${work.zh}`;
     }
 
     function calculatorItems() {
@@ -1079,9 +1130,12 @@
         return `
           <article class="card">
             <div class="card-head">
-              <h3 class="title">${escapeHtml(work.zh)}</h3>
-              <div class="ko">${escapeHtml(work.ko)}</div>
-              <button class="author" type="button" data-author="${escapeHtml(work.author)}">${escapeHtml(work.author || "未填作者")}</button>
+              <div class="card-title-wrap">
+                <h3 class="title">${escapeHtml(work.zh)}</h3>
+                <div class="ko">${escapeHtml(work.ko)}</div>
+                <button class="author" type="button" data-author="${escapeHtml(work.author)}">${escapeHtml(work.author || "未填作者")}</button>
+              </div>
+              <button class="read-heart ${state.readWorks.has(work.id) ? "done" : ""}" type="button" data-read="${escapeHtml(work.id)}" aria-label="${escapeHtml(readHeartLabel(work))}" title="${escapeHtml(readHeartLabel(work))}">${state.readWorks.has(work.id) ? "♥" : "♡"}</button>
             </div>
             <div class="badges">
               <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
@@ -1195,6 +1249,17 @@
 
       const detail = event.target.closest("[data-detail]");
       if (detail) openDetail(detail.dataset.detail);
+
+      const read = event.target.closest("[data-read]");
+      if (read) {
+        if (state.readWorks.has(read.dataset.read)) {
+          state.readWorks.delete(read.dataset.read);
+        } else {
+          state.readWorks.add(read.dataset.read);
+        }
+        saveReadWorks();
+        renderCards();
+      }
 
       const calcInput = event.target.closest("[data-calc-id]");
       if (calcInput) {
