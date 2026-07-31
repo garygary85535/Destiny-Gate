@@ -1,6 +1,6 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 621,
+  "rows": 637,
   "works": [
     {
       "id": "P0141",
@@ -1183,6 +1183,111 @@ window.DESTINY_DATA = {
       "purchaseLabel": "1000p"
     },
     {
+      "id": "P0393",
+      "author": "noname",
+      "ko": "저스트 웬즈데이",
+      "zh": "Just Wednesday",
+      "roles": "安：自由業者 / 員：上班族",
+      "purchase": "是",
+      "maxPoints": 1500,
+      "totalPoints": 4500,
+      "items": [
+        {
+          "part": "上",
+          "ko": "저스트 웬즈데이",
+          "zh": "Just Wednesday",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "1500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "中",
+          "ko": "저스트 웬즈데이",
+          "zh": "Just Wednesday",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/16198975",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "1500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "下",
+          "ko": "저스트 웬즈데이",
+          "zh": "Just Wednesday",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/16245030",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "1500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "分級",
+          "values": [
+            "CP潔癖勿入",
+            "💰付費內容",
+            "🚗轎車",
+            "玩具"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "中篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "分級: CP潔癖勿入",
+        "分級: 💰付費內容",
+        "分級: 🚗轎車",
+        "分級: 玩具",
+        "文章狀態: 完結",
+        "文章篇幅: 中篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [
+        "作家全系列"
+      ],
+      "searchText": "p0393 noname 저스트 웬즈데이 just wednesday 安：自由業者 / 員：上班族 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 分級: 玩具 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he just wednesday 저스트 웬즈데이 上 just wednesday 저스트 웬즈데이 中 just wednesday 저스트 웬즈데이 下",
+      "purchaseLabel": "4500p"
+    },
+    {
       "id": "P0093",
       "author": "noname",
       "ko": "러브 앤 피스",
@@ -1468,6 +1573,85 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0397",
+      "author": "noname",
+      "ko": "노럽노웻",
+      "zh": "no love no wet",
+      "roles": "待人工補充",
+      "purchase": "是",
+      "maxPoints": 2000,
+      "totalPoints": 2000,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "노럽노웻",
+          "zh": "no love no wet",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
+          "purchase": "是",
+          "points": 2000,
+          "purchaseLabel": "2000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "分級",
+          "values": [
+            "CP潔癖勿入",
+            "💰付費內容",
+            "🚗轎車"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "中篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "分級: CP潔癖勿入",
+        "分級: 💰付費內容",
+        "分級: 🚗轎車",
+        "文章狀態: 完結",
+        "文章篇幅: 中篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [
+        "作家全系列"
+      ],
+      "searchText": "p0397 noname 노럽노웻 no love no wet 待人工補充 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he no love no wet 노럽노웻 本篇",
+      "purchaseLabel": "2000p"
+    },
+    {
       "id": "P0089",
       "author": "noname",
       "ko": "구원따윈 필요 없어",
@@ -1703,6 +1887,108 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0069 noname 헤이트 데스트니（續） 仇恨命運（續） 安：公司繼承人 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 仇恨命運（續） 헤이트 데스트니（續） 本篇",
       "purchaseLabel": "500p"
+    },
+    {
+      "id": "P0396",
+      "author": "noname",
+      "ko": "이글루",
+      "zh": "冰屋",
+      "roles": "待人工補充",
+      "purchase": "是",
+      "maxPoints": 1500,
+      "totalPoints": 6000,
+      "items": [
+        {
+          "part": "01",
+          "ko": "이글루",
+          "zh": "冰屋",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "02",
+          "ko": "이글루",
+          "zh": "冰屋",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13942022",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "03",
+          "ko": "이글루",
+          "zh": "冰屋",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13956004",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "1500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "04",
+          "ko": "이글루",
+          "zh": "冰屋",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13980165",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "1500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "05",
+          "ko": "이글루",
+          "zh": "冰屋",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13980227",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "分級",
+          "values": [
+            "💰付費內容"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "分級: 💰付費內容",
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "作家全系列"
+      ],
+      "searchText": "p0396 noname 이글루 冰屋 待人工補充 作家全系列 cp配對: 安/員 分級: 💰付費內容 文章狀態: 完結 冰屋 이글루 01 冰屋 이글루 02 冰屋 이글루 03 冰屋 이글루 04 冰屋 이글루 05",
+      "purchaseLabel": "6000p"
     },
     {
       "id": "P0088",
@@ -2189,6 +2475,60 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0091 noname 아웃사이더 아웃사이더 局外人 局外人 安：學生 / 員：學生 作家全系列 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 局外人 局外人 아웃사이더 아웃사이더 本篇",
       "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0395",
+      "author": "noname",
+      "ko": "너의 등을 깨물고 싶어",
+      "zh": "想咬你的背",
+      "roles": "待人工補充",
+      "purchase": "是",
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "너의 등을 깨물고 싶어",
+          "zh": "想咬你的背",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13656566?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "分級",
+          "values": [
+            "💰付費內容"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "分級: 💰付費內容",
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "作家全系列"
+      ],
+      "searchText": "p0395 noname 너의 등을 깨물고 싶어 想咬你的背 待人工補充 作家全系列 cp配對: 安/員 分級: 💰付費內容 文章狀態: 完結 想咬你的背 너의 등을 깨물고 싶어 本篇",
+      "purchaseLabel": "1000p"
     },
     {
       "id": "P0079",
@@ -3171,6 +3511,72 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0081 noname 청연군 이야기 清淵君的故事 安：殿下 / 員：大嬪 作家全系列 分級: cp潔癖勿入 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 清淵君的故事 청연군 이야기 本篇",
       "purchaseLabel": "1000p"
+    },
+    {
+      "id": "P0394",
+      "author": "noname",
+      "ko": "개는 노래하지 않는다",
+      "zh": "狗是不會唱歌的",
+      "roles": "待人工補充",
+      "purchase": "是",
+      "maxPoints": 2000,
+      "totalPoints": 4000,
+      "items": [
+        {
+          "part": "上",
+          "ko": "개는 노래하지 않는다",
+          "zh": "狗是不會唱歌的",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/21390322?show-original=true",
+          "purchase": "是",
+          "points": 2000,
+          "purchaseLabel": "2000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "下",
+          "ko": "개는 노래하지 않는다",
+          "zh": "狗是不會唱歌的",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/21390325",
+          "purchase": "是",
+          "points": 2000,
+          "purchaseLabel": "2000p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "分級",
+          "values": [
+            "💰付費內容"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "分級: 💰付費內容",
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "作家全系列"
+      ],
+      "searchText": "p0394 noname 개는 노래하지 않는다 狗是不會唱歌的 待人工補充 作家全系列 cp配對: 安/員 分級: 💰付費內容 文章狀態: 完結 狗是不會唱歌的 개는 노래하지 않는다 上 狗是不會唱歌的 개는 노래하지 않는다 下",
+      "purchaseLabel": "4000p"
     },
     {
       "id": "P0085",
@@ -8751,6 +9157,91 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0392",
+      "author": "댜",
+      "ko": "언젠가 우리 그렇게 살자",
+      "zh": "總有一天，我們就那樣生活吧",
+      "roles": "安：高中生 / 員：高中生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "언젠가 우리 그렇게 살자",
+          "zh": "總有一天，我們就那樣生活吧",
+          "url": "https://www.postype.com/@ynseasonrps/post/13450322",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "分級",
+          "values": [
+            "⚠️題材警告"
+          ]
+        },
+        {
+          "type": "情感梗",
+          "values": [
+            "偽骨科"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "類型世界觀",
+          "values": [
+            "超能力"
+          ]
+        },
+        {
+          "type": "계간윶녕",
+          "values": [
+            "𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 Authum"
+          ]
+        }
+      ],
+      "flatTags": [
+        "分級: ⚠️題材警告",
+        "情感梗: 偽骨科",
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "類型世界觀: 超能力",
+        "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 Authum"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0392 댜 언젠가 우리 그렇게 살자 總有一天，我們就那樣生活吧 安：高中生 / 員：高中生  分級: ⚠️題材警告 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 超能力 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 總有一天，我們就那樣生活吧 언젠가 우리 그렇게 살자 本篇",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0311",
       "author": "도교（音譯：道僑）",
       "ko": "와이키키 썸머 스캔들",
@@ -10312,6 +10803,53 @@ window.DESTINY_DATA = {
       "purchaseLabel": "500p"
     },
     {
+      "id": "P0398",
+      "author": "박시봉（朴時奉）",
+      "ko": "엑설런트 프렌치",
+      "zh": "卓越法式",
+      "roles": "待人工補充",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "1",
+          "ko": "엑설런트 프렌치",
+          "zh": "卓越法式",
+          "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17233015",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "2",
+          "ko": "엑설런트 프렌치",
+          "zh": "卓越法式",
+          "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17242274",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "3",
+          "ko": "엑설런트 프렌치",
+          "zh": "卓越法式",
+          "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17274516",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0398 박시봉（朴時奉） 엑설런트 프렌치 卓越法式 待人工補充   卓越法式 엑설런트 프렌치 1 卓越法式 엑설런트 프렌치 2 卓越法式 엑설런트 프렌치 3",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0122",
       "author": "박시봉（朴時奉）",
       "ko": "채록(採錄)",
@@ -10383,7 +10921,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0345",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "비즈니스 레쥬언드 퍼포몬쓰",
       "zh": "Business Legend Performance",
       "roles": "",
@@ -10409,12 +10947,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0345 박프로 비즈니스 레쥬언드 퍼포몬쓰 business legend performance  作家全系列  business legend performance 비즈니스 레쥬언드 퍼포몬쓰 本篇",
+      "searchText": "p0345 박프로（朴專家） 비즈니스 레쥬언드 퍼포몬쓰 business legend performance  作家全系列  business legend performance 비즈니스 레쥬언드 퍼포몬쓰 本篇",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0389",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "Lavender Haze 上",
       "zh": "Lavender Haze 上",
       "roles": "安：高中生 / 員：高中生",
@@ -10569,12 +11107,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0389 박프로 lavender haze 上 lavender haze 上 安：高中生 / 員：高中生 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 lavender haze 上 lavender haze 上 上 lavender haze 中 1/2 lavender haze 中 (1/2) 中1 lavender haze 中 2/2 lavender haze 中 (2/2) 中2 lavender haze 下 1/2 lavender haze 下 (1/2) 下1 lavender haze 下 2/2 lavender haze 下 (2/2) 下2 lavender haze 外傳 1/2 lavender haze 외전 (1/2) 外傳1 lavender haze 外傳 2/2 lavender haze 외전 (2/2) 外傳2",
+      "searchText": "p0389 박프로（朴專家） lavender haze 上 lavender haze 上 安：高中生 / 員：高中生 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 lavender haze 上 lavender haze 上 上 lavender haze 中 1/2 lavender haze 中 (1/2) 中1 lavender haze 中 2/2 lavender haze 中 (2/2) 中2 lavender haze 下 1/2 lavender haze 下 (1/2) 下1 lavender haze 下 2/2 lavender haze 下 (2/2) 下2 lavender haze 外傳 1/2 lavender haze 외전 (1/2) 外傳1 lavender haze 外傳 2/2 lavender haze 외전 (2/2) 外傳2",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0359",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "Pit-a-Pat (1/6)",
       "zh": "Pit-a-Pat",
       "roles": "安：經營系前輩/樂團主唱 / 員：經營系後輩/樂團鍵盤手",
@@ -10704,12 +11242,12 @@ window.DESTINY_DATA = {
         "作家全系列",
         "最強推"
       ],
-      "searchText": "p0359 박프로 pit-a-pat (1/6) pit-a-pat 安：經營系前輩/樂團主唱 / 員：經營系後輩/樂團鍵盤手 作家全系列 最強推 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 pit-a-pat 1/6 pit-a-pat (1/6) 01 pit-a-pat 2/6 pit-a-pat (2/6) 02 pit-a-pat 3/6 pit-a-pat (3/6) 03 pit-a-pat 4/6 pit-a-pat (4/6) 04 pit-a-pat 5/6 pit-a-pat (5/6) 05 pit-a-pat 6/6 pit-a-pat (6/6) 06",
+      "searchText": "p0359 박프로（朴專家） pit-a-pat (1/6) pit-a-pat 安：經營系前輩/樂團主唱 / 員：經營系後輩/樂團鍵盤手 作家全系列 最強推 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 pit-a-pat 1/6 pit-a-pat (1/6) 01 pit-a-pat 2/6 pit-a-pat (2/6) 02 pit-a-pat 3/6 pit-a-pat (3/6) 03 pit-a-pat 4/6 pit-a-pat (4/6) 04 pit-a-pat 5/6 pit-a-pat (5/6) 05 pit-a-pat 6/6 pit-a-pat (6/6) 06",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0358",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "Off My Chest 上",
       "zh": "off my chest 上",
       "roles": "安：上班族 / 員：上班族",
@@ -10804,12 +11342,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0358 박프로 off my chest 上 off my chest 上 安：上班族 / 員：上班族 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my chest 上 off my chest 上 上 off my chest 下 off my chest 下 下",
+      "searchText": "p0358 박프로（朴專家） off my chest 上 off my chest 上 安：上班族 / 員：上班族 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my chest 上 off my chest 上 上 off my chest 下 off my chest 下 下",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0357",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "Off My Face 上 (Off My Chest 번외)",
       "zh": "off my face 上 (off my chest 番外)",
       "roles": "安：上班族 / 員：上班族",
@@ -10904,12 +11442,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0357 박프로 off my face 上 (off my chest 번외) off my face 上 (off my chest 番外) 安：上班族 / 員：上班族 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my face 上 (off my chest 番外) off my face 上 (off my chest 번외) 番外上 off my face 下 (off my chest 番外) off my face 下 (off my chest 번외) 番外下",
+      "searchText": "p0357 박프로（朴專家） off my face 上 (off my chest 번외) off my face 上 (off my chest 番外) 安：上班族 / 員：上班族 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my face 上 (off my chest 番外) off my face 上 (off my chest 번외) 番外上 off my face 下 (off my chest 番外) off my face 下 (off my chest 번외) 番外下",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0361",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "너 말고 니 언니 (1/4)",
       "zh": "不是你 是你姐姐",
       "roles": "安：大學生(滑冰選手) / 員：高中生",
@@ -11020,12 +11558,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0361 박프로 너 말고 니 언니 (1/4) 不是你 是你姐姐 安：大學生(滑冰選手) / 員：高中生 作家全系列 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 雙生 不是你 是你姐姐 1/4 너 말고 니 언니 (1/4) 01 不是你 是你姐姐 2/4 너 말고 니 언니 (2/4) 02 不是你 是你姐姐 3/4 너 말고 니 언니 (3/4) 03 不是你 是你姐姐 4/4 너 말고 니 언니 (4/4) 04 不是你 是你姐姐 spicy ver. 너 말고 니 언니 (spicy ver.) spicy",
+      "searchText": "p0361 박프로（朴專家） 너 말고 니 언니 (1/4) 不是你 是你姐姐 安：大學生(滑冰選手) / 員：高中生 作家全系列 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 雙生 不是你 是你姐姐 1/4 너 말고 니 언니 (1/4) 01 不是你 是你姐姐 2/4 너 말고 니 언니 (2/4) 02 不是你 是你姐姐 3/4 너 말고 니 언니 (3/4) 03 不是你 是你姐姐 4/4 너 말고 니 언니 (4/4) 04 不是你 是你姐姐 spicy ver. 너 말고 니 언니 (spicy ver.) spicy",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0360",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "비즈니스 레쥬언드 퍼포몬쓰",
       "zh": "商業級傳奇演出",
       "roles": "安：大學生/YTR / 員：大學生/YTR",
@@ -11088,12 +11626,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0360 박프로 비즈니스 레쥬언드 퍼포몬쓰 商業級傳奇演出 安：大學生/ytr / 員：大學生/ytr 作家全系列 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 商業級傳奇演出 비즈니스 레쥬언드 퍼포몬쓰 本篇",
+      "searchText": "p0360 박프로（朴專家） 비즈니스 레쥬언드 퍼포몬쓰 商業級傳奇演出 安：大學生/ytr / 員：大學生/ytr 作家全系列 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 商業級傳奇演出 비즈니스 레쥬언드 퍼포몬쓰 本篇",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0390",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "여자 자석 (1/8)",
       "zh": "女人磁鐵",
       "roles": "安：代理 / 員：組長",
@@ -11214,12 +11752,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0390 박프로 여자 자석 (1/8) 女人磁鐵 安：代理 / 員：組長 作家全系列 文章狀態: 未完 文章類型: 都市現實 背景設定: 辦公室 女人磁鐵 1/8 여자 자석 (1/8) 01 女人磁鐵 2/8 여자 자석 (2/8) 02 女人磁鐵 3/8 여자 자석 (3/8) 03 女人磁鐵 4/8 여자 자석 (4/8) 04 女人磁鐵 5/8 여자 자석 (5/8) 05 女人磁鐵 6/8 여자 자석 (6/8) 06 女人磁鐵 7/8 여자 자석 (7/8) 07",
+      "searchText": "p0390 박프로（朴專家） 여자 자석 (1/8) 女人磁鐵 安：代理 / 員：組長 作家全系列 文章狀態: 未完 文章類型: 都市現實 背景設定: 辦公室 女人磁鐵 1/8 여자 자석 (1/8) 01 女人磁鐵 2/8 여자 자석 (2/8) 02 女人磁鐵 3/8 여자 자석 (3/8) 03 女人磁鐵 4/8 여자 자석 (4/8) 04 女人磁鐵 5/8 여자 자석 (5/8) 05 女人磁鐵 6/8 여자 자석 (6/8) 06 女人磁鐵 7/8 여자 자석 (7/8) 07",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0384",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "개강에 생일",
       "zh": "學期初的生日",
       "roles": "安：學生教育軍事團 / 員：大學生",
@@ -11291,12 +11829,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0384 박프로 개강에 생일 學期初的生日 安：學生教育軍事團 / 員：大學生 作家全系列 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 學期初的生日 개강에 생일 本篇",
+      "searchText": "p0384 박프로（朴專家） 개강에 생일 學期初的生日 安：學生教育軍事團 / 員：大學生 作家全系列 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 學期初的生日 개강에 생일 本篇",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0386",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "완벽한 세기의 커플",
       "zh": "完美的世紀情侶",
       "roles": "安：學生/飾品設計師 / 員：公主/皇后",
@@ -11373,12 +11911,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0386 박프로 완벽한 세기의 커플 完美的世紀情侶 安：學生/飾品設計師 / 員：公主/皇后 作家全系列 情感梗: 先婚後愛 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 完美的世紀情侶 완벽한 세기의 커플 本篇",
+      "searchText": "p0386 박프로（朴專家） 완벽한 세기의 커플 完美的世紀情侶 安：學生/飾品設計師 / 員：公主/皇后 作家全系列 情感梗: 先婚後愛 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 完美的世紀情侶 완벽한 세기의 커플 本篇",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0362",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "빙글빙글",
       "zh": "繞圈圈",
       "roles": "安：大學生 / 員：大學生",
@@ -11450,12 +11988,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0362 박프로 빙글빙글 繞圈圈 安：大學生 / 員：大學生 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 繞圈圈 빙글빙글 本篇",
+      "searchText": "p0362 박프로（朴專家） 빙글빙글 繞圈圈 安：大學生 / 員：大學生 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 繞圈圈 빙글빙글 本篇",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0368",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "육아의 맛tv (1/5)",
       "zh": "育兒TV S1",
       "roles": "安：演員 / 員：大學生",
@@ -11580,12 +12118,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0368 박프로 육아의 맛tv (1/5) 育兒tv s1 安：演員 / 員：大學生 作家全系列 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s1 1/5 육아의 맛tv (1/5) 01 育兒tv s1 2/5 육아의 맛tv (2/5) 02 育兒tv s1 3/5 육아의 맛tv (3/5) 03 育兒tv s1 4/5 육아의 맛tv (4/5) 04 育兒tv s1 5/5 육아의 맛tv (5/5) 05",
+      "searchText": "p0368 박프로（朴專家） 육아의 맛tv (1/5) 育兒tv s1 安：演員 / 員：大學生 作家全系列 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s1 1/5 육아의 맛tv (1/5) 01 育兒tv s1 2/5 육아의 맛tv (2/5) 02 育兒tv s1 3/5 육아의 맛tv (3/5) 03 育兒tv s1 4/5 육아의 맛tv (4/5) 04 育兒tv s1 5/5 육아의 맛tv (5/5) 05",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0363",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "육아의 맛tv 2 (1/5)",
       "zh": "育兒TV S2",
       "roles": "安：演員 / 員：大學生",
@@ -11710,12 +12248,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0363 박프로 육아의 맛tv 2 (1/5) 育兒tv s2 安：演員 / 員：大學生 作家全系列 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s2 1/5 육아의 맛tv 2 (1/5) 01 育兒tv s2 2/5 육아의 맛tv 2 (2/5) 02 育兒tv s2 3/5 육아의 맛tv 2 (3/5) 03 育兒tv s2 4/5 육아의 맛tv 2 (4/5) 04 育兒tv s2 5/5 육아의 맛tv 2 (5/5) 05",
+      "searchText": "p0363 박프로（朴專家） 육아의 맛tv 2 (1/5) 育兒tv s2 安：演員 / 員：大學生 作家全系列 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s2 1/5 육아의 맛tv 2 (1/5) 01 育兒tv s2 2/5 육아의 맛tv 2 (2/5) 02 育兒tv s2 3/5 육아의 맛tv 2 (3/5) 03 育兒tv s2 4/5 육아의 맛tv 2 (4/5) 04 育兒tv s2 5/5 육아의 맛tv 2 (5/5) 05",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0387",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "아주 사적인 사업파트너 (1/6)",
       "zh": "非常私密合夥人",
       "roles": "安：咖啡廳甜點師 / 員：咖啡廳老闆/編輯",
@@ -11847,12 +12385,12 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0387 박프로 아주 사적인 사업파트너 (1/6) 非常私密合夥人 安：咖啡廳甜點師 / 員：咖啡廳老闆/編輯 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 非常私密合夥人 1/6 아주 사적인 사업파트너 (1/6) 1 非常私密合夥人 2/6 아주 사적인 사업파트너 (2/6) 2 非常私密合夥人 3/6 아주 사적인 사업파트너 (3/6) 3 非常私密合夥人 4/6 아주 사적인 사업파트너 (4/6) 4 非常私密合夥人 5/6 아주 사적인 사업파트너 (5/6) 5 非常私密合夥人 6/6 아주 사적인 사업파트너 (6/6) 6",
+      "searchText": "p0387 박프로（朴專家） 아주 사적인 사업파트너 (1/6) 非常私密合夥人 安：咖啡廳甜點師 / 員：咖啡廳老闆/編輯 作家全系列 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 非常私密合夥人 1/6 아주 사적인 사업파트너 (1/6) 1 非常私密合夥人 2/6 아주 사적인 사업파트너 (2/6) 2 非常私密合夥人 3/6 아주 사적인 사업파트너 (3/6) 3 非常私密合夥人 4/6 아주 사적인 사업파트너 (4/6) 4 非常私密合夥人 5/6 아주 사적인 사업파트너 (5/6) 5 非常私密合夥人 6/6 아주 사적인 사업파트너 (6/6) 6",
       "purchaseLabel": "0p"
     },
     {
       "id": "P0388",
-      "author": "박프로",
+      "author": "박프로（朴專家）",
       "ko": "서울의 잠 못 이루는 밤 上",
       "zh": "首爾不眠夜 上",
       "roles": "安：演員/歌手/電臺DJ / 員：深夜音樂節目主編導",
@@ -11958,7 +12496,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0388 박프로 서울의 잠 못 이루는 밤 上 首爾不眠夜 上 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 作家全系列 cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 首爾不眠夜 上 서울의 잠 못 이루는 밤 上 上 首爾不眠夜 中 서울의 잠 못 이루는 밤 中 中 首爾不眠夜 下 서울의 잠 못 이루는 밤 下 下 首爾不眠夜 外傳 서울의 잠 못 이루는 밤 외전 外傳",
+      "searchText": "p0388 박프로（朴專家） 서울의 잠 못 이루는 밤 上 首爾不眠夜 上 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 作家全系列 cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 首爾不眠夜 上 서울의 잠 못 이루는 밤 上 上 首爾不眠夜 中 서울의 잠 못 이루는 밤 中 中 首爾不眠夜 下 서울의 잠 못 이루는 밤 下 下 首爾不眠夜 外傳 서울의 잠 못 이루는 밤 외전 外傳",
       "purchaseLabel": "0p"
     },
     {
