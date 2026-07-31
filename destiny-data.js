@@ -4011,43 +4011,6 @@ window.DESTINY_DATA = {
       "purchaseLabel": "500p"
     },
     {
-      "id": "P0180",
-      "author": "匿名",
-      "ko": "신데렐라 프롬프트 - 스핀 오프",
-      "zh": "灰姑娘觸發器－spin off",
-      "roles": "",
-      "purchase": "是",
-      "maxPoints": 500,
-      "totalPoints": 500,
-      "items": [
-        {
-          "part": "Spin off",
-          "ko": "신데렐라 프롬프트 - 스핀 오프",
-          "zh": "灰姑娘觸發器－spin off",
-          "url": "https://www.postype.com/@golae0831/post/16315480",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "外傳",
-          "ko": "신데렐라 프롬프트 - 외전",
-          "zh": "灰姑娘觸發器－外傳",
-          "url": "https://www.postype.com/@golae0831/post/16314096",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "500p",
-          "thumbCategories": []
-        }
-      ],
-      "tagGroups": [],
-      "flatTags": [],
-      "thumbCategories": [],
-      "searchText": "p0180 匿名 신데렐라 프롬프트 - 스핀 오프 灰姑娘觸發器－spin off    灰姑娘觸發器－spin off 신데렐라 프롬프트 - 스핀 오프 spin off 灰姑娘觸發器－外傳 신데렐라 프롬프트 - 외전 外傳",
-      "purchaseLabel": "500p"
-    },
-    {
       "id": "P0181",
       "author": "司馬",
       "ko": "짝사랑을 밥 먹듯이",
@@ -4878,20 +4841,32 @@ window.DESTINY_DATA = {
       "id": "P0227",
       "author": "고래（鯨魚）",
       "ko": "신데렐라 프롬프트 - 외전",
-      "zh": "灰姑娘觸發器－外傳&spin-off",
+      "zh": "灰姑娘觸發器",
       "roles": "安：工程師 / 員：家政保母",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
       "items": [
         {
-          "part": "本篇",
+          "part": "外傳",
           "ko": "신데렐라 프롬프트 - 외전",
-          "zh": "灰姑娘觸發器－外傳&spin-off",
+          "zh": "灰姑娘觸發器－外傳",
           "url": "https://www.postype.com/@golae0831/post/16314096",
           "purchase": "是",
           "points": 500,
           "purchaseLabel": "500p",
+          "thumbCategories": [
+            "作家全系列"
+          ]
+        },
+        {
+          "part": "Spin off",
+          "ko": "신데렐라 프롬프트 - 스핀 오프",
+          "zh": "灰姑娘觸發器－spin off",
+          "url": "https://www.postype.com/@golae0831/post/16315480",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
           "thumbCategories": [
             "作家全系列"
           ]
@@ -4959,7 +4934,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "作家全系列"
       ],
-      "searchText": "p0227 고래（鯨魚） 신데렐라 프롬프트 - 외전 灰姑娘觸發器－外傳&spin-off 安：工程師 / 員：家政保母 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 雙重人格 灰姑娘觸發器－外傳&spin-off 신데렐라 프롬프트 - 외전 本篇",
+      "searchText": "p0227 고래（鯨魚） 신데렐라 프롬프트 - 외전 灰姑娘觸發器 安：工程師 / 員：家政保母 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 雙重人格 灰姑娘觸發器－外傳 신데렐라 프롬프트 - 외전 外傳 灰姑娘觸發器－spin off 신데렐라 프롬프트 - 스핀 오프 spin off",
       "purchaseLabel": "500p"
     },
     {
