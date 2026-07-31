@@ -1019,7 +1019,7 @@ window.DESTINY_DATA = {
           "part": "本篇",
           "ko": "트윈 시스터 트러블",
           "zh": "Twin Sister Trouble",
-          "url": "https://www.postype.com/@ynseasonrps/post/14009367",
+          "url": "https://www.postype.com/@ynseasonrps/post/15859388",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
