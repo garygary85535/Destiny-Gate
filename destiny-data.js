@@ -4923,16 +4923,16 @@ window.DESTINY_DATA = {
       "roles": "安：工程師 / 員：家政保母",
       "purchase": "是",
       "maxPoints": 500,
-      "totalPoints": 1000,
+      "totalPoints": 500,
       "items": [
         {
           "part": "1",
           "ko": "신데렐라 프롬프트",
           "zh": "灰姑娘觸發器1",
           "url": "https://www.postype.com/zh-hant/@golae0831/post/15477835",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "500p",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
           "thumbCategories": [
             "作家全系列"
           ]
@@ -5109,7 +5109,7 @@ window.DESTINY_DATA = {
         "作家全系列"
       ],
       "searchText": "p0227 고래（鯨魚） 신데렐라 프롬프트 灰姑娘觸發器 安：工程師 / 員：家政保母 作家全系列 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 雙重人格 灰姑娘觸發器1 신데렐라 프롬프트 1 灰姑娘觸發器2 신데렐라 프롬프트 2 灰姑娘觸發器3 신데렐라 프롬프트 3 灰姑娘觸發器4 신데렐라 프롬프트 4 灰姑娘觸發器5 신데렐라 프롬프트 5 灰姑娘觸發器6 신데렐라 프롬프트 6 灰姑娘觸發器7 신데렐라 프롬프트 7 灰姑娘觸發器8 신데렐라 프롬프트 8 灰姑娘觸發器－外傳 신데렐라 프롬프트 - 외전 外傳 灰姑娘觸發器 (spin-off) 신데렐라 프롬프트 - 스핀 오프 匿名投稿番外",
-      "purchaseLabel": "1000p"
+      "purchaseLabel": "500p"
     },
     {
       "id": "P0170",
