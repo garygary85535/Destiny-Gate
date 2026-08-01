@@ -1,6 +1,6 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 690,
+  "rows": 696,
   "works": [
     {
       "id": "P0141",
@@ -7940,7 +7940,7 @@ window.DESTINY_DATA = {
       "id": "P0116",
       "author": "달걀（雞蛋）",
       "ko": "분리불안",
-      "zh": "分離焦慮（含外傳）",
+      "zh": "分離焦慮",
       "roles": "安：工程師\n員：上班族",
       "purchase": "是",
       "maxPoints": 500,
@@ -7949,7 +7949,7 @@ window.DESTINY_DATA = {
         {
           "part": "單集",
           "ko": "분리불안",
-          "zh": "分離焦慮（含外傳）",
+          "zh": "分離焦慮",
           "url": "https://www.postype.com/@eeggdanzii/post/18008102",
           "purchase": "否",
           "points": 0,
@@ -8022,7 +8022,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0116 달걀（雞蛋） 분리불안 分離焦慮（含外傳） 安：工程師\n員：上班族 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 分離焦慮（含外傳） 분리불안 單集 分離焦慮（含外傳） 분리불안 외전 外傳",
+      "searchText": "p0116 달걀（雞蛋） 분리불안 分離焦慮 安：工程師\n員：上班族 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 分離焦慮 분리불안 單集 分離焦慮（含外傳） 분리불안 외전 外傳",
       "purchaseLabel": "500p"
     },
     {
@@ -8158,7 +8158,7 @@ window.DESTINY_DATA = {
       "id": "P0104",
       "author": "달걀（雞蛋）",
       "ko": "악마의 식탁",
-      "zh": "惡魔的餐桌（精校版）",
+      "zh": "惡魔的餐桌",
       "roles": "安：學生 / 員：學生",
       "purchase": "已刪文",
       "maxPoints": 0,
@@ -8167,7 +8167,7 @@ window.DESTINY_DATA = {
         {
           "part": "單集",
           "ko": "악마의 식탁",
-          "zh": "惡魔的餐桌（精校版）",
+          "zh": "惡魔的餐桌",
           "url": "",
           "purchase": "已刪文",
           "points": 0,
@@ -8232,7 +8232,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0104 달걀（雞蛋） 악마의 식탁 惡魔的餐桌（精校版） 安：學生 / 員：學生 寶藏作家 分級: 尺度大、謹慎閱讀 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 涉及宗教 惡魔的餐桌（精校版） 악마의 식탁 單集",
+      "searchText": "p0104 달걀（雞蛋） 악마의 식탁 惡魔的餐桌 安：學生 / 員：學生 寶藏作家 分級: 尺度大、謹慎閱讀 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 涉及宗教 惡魔的餐桌 악마의 식탁 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -10764,6 +10764,164 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0426",
+      "author": "로크（LOCK）",
+      "ko": "연애는 낭만",
+      "zh": "戀愛是浪漫（結婚是現實 外傳）",
+      "roles": "安：英語教師\n員：律師",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "1",
+          "ko": "연애는 낭만",
+          "zh": "戀愛是浪漫（結婚是現實 外傳）",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/13026976",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "2",
+          "ko": "연애는 낭만",
+          "zh": "戀愛是浪漫（結婚是現實 外傳）",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/13159344",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "3",
+          "ko": "연애는 낭만",
+          "zh": "戀愛是浪漫（結婚是現實 外傳）",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/13175239",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "4",
+          "ko": "연애는 낭만",
+          "zh": "戀愛是浪漫（結婚是現實 外傳）",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/13308923",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結+番外"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "長篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "文章狀態: 完結+番外",
+        "文章篇幅: 長篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0426 로크（lock） 연애는 낭만 戀愛是浪漫（結婚是現實 外傳） 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 1 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 2 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 3 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 4",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0427",
+      "author": "로크（LOCK）",
+      "ko": "어쩌면 결혼도 낭만",
+      "zh": "或許結婚也是浪漫（結婚是現實 婚後生活外傳）",
+      "roles": "安：英語教師\n員：律師",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "어쩌면 결혼도 낭만",
+          "zh": "或許結婚也是浪漫（結婚是現實 婚後生活外傳）",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/13437429",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結+番外"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "長篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "文章狀態: 完結+番外",
+        "文章篇幅: 長篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0427 로크（lock） 어쩌면 결혼도 낭만 或許結婚也是浪漫（結婚是現實 婚後生活外傳） 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 或許結婚也是浪漫（結婚是現實 婚後生活外傳） 어쩌면 결혼도 낭만 單集",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0312",
       "author": "로크（LOCK）",
       "ko": "아포칼립스 프리즘",
@@ -10855,6 +11013,70 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0312 로크（lock） 아포칼립스 프리즘 末日稜鏡 安：大學生 / 員：高中生  情感梗: 偽骨科 情感梗: 重組家庭 文章狀態: 完結 文章篇幅: 短篇 文章類型: 科幻懸疑 結局: be 背景設定: 末日 題材梗: 殘疾 類型世界觀: 殭屍/喪屍 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 末日稜鏡 아포칼립스 프리즘 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0425",
+      "author": "로크（LOCK）",
+      "ko": "결혼은 현실",
+      "zh": "結婚是現實",
+      "roles": "安：英語教師\n員：律師",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "결혼은 현실",
+          "zh": "結婚是現實",
+          "url": "https://www.postype.com/zh-hant/@srt-rps/post/12911020",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "CP配對",
+          "values": [
+            "安/員"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結+番外"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "長篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "CP配對: 安/員",
+        "文章狀態: 完結+番外",
+        "文章篇幅: 長篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0425 로크（lock） 결혼은 현실 結婚是現實 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 結婚是現實 결혼은 현실 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -26246,7 +26468,7 @@ window.DESTINY_DATA = {
         },
         {
           "part": "02",
-          "ko": "죽기 전에 한 번은 보고 싶어",
+          "ko": "플레인（Plain）",
           "zh": "在死之前,至少想見一次",
           "url": "https://www.postype.com/@monochrome-film/post/19775107",
           "purchase": "否",
@@ -26315,7 +26537,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0277 플레인（plain） 죽기 전에 한 번은 보고 싶어 在死之前,至少想見一次 安：上班族 / 員：團體偶像  分級: cp潔癖勿入 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 01 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 02 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 03 死之前想每天見面（死之前至少想見一次 - 外傳） 죽기 전에 한 번은 보고 싶어 死 死（4）",
+      "searchText": "p0277 플레인（plain） 죽기 전에 한 번은 보고 싶어 在死之前,至少想見一次 安：上班族 / 員：團體偶像  分級: cp潔癖勿入 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 01 在死之前,至少想見一次 플레인（plain） 02 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 03 死之前想每天見面（死之前至少想見一次 - 外傳） 죽기 전에 한 번은 보고 싶어 死 死（4）",
       "purchaseLabel": "0p"
     },
     {
