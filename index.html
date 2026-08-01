@@ -895,7 +895,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=20260801-paid-detail-reset"></script>
+  <script src="destiny-data.js?v=20260801-postype-only-final"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const CALCULATOR_KEY = "destinyCalculatorSelection";
@@ -1151,23 +1151,6 @@
       return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(itemLabel(item))}</a>`;
     }
 
-    function annyeongzLink(entry, fallback = "Annyeongz平行宇宙") {
-      if (!entry?.url) return "";
-      const label = entry.title ? `平行宇宙：${entry.title}` : fallback;
-      return `<a class="item-link universe-link" href="${escapeHtml(entry.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
-    }
-
-    function workAnnyeongzLinks(work) {
-      const links = Array.isArray(work.annyeongzLinks) ? work.annyeongzLinks : [];
-      const seen = new Set();
-      return links.filter(entry => {
-        const key = entry.url || entry.id || entry.title;
-        if (!key || seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      });
-    }
-
     function visibleItems(work) {
       return (work.items || []).filter(item => item.purchase !== "已刪文");
     }
@@ -1261,19 +1244,17 @@
         ["作者", work.author],
         ["總金額", totalPointLabel(work)],
         ["珠寶盒", (work.thumbCategories || []).join("、")],
-        ["Annyeongz平行宇宙", workAnnyeongzLinks(work).map(item => item.title || item.id || item.url).join("、")],
         ["角色", work.roles],
         ["標籤", groups],
       ].filter(([, value]) => value).map(([key, value]) => `
         <div class="detail-row"><b>${escapeHtml(key)}</b><span>${escapeHtml(value)}</span></div>
       `).join("");
-      const universeLinks = workAnnyeongzLinks(work).map(item => annyeongzLink(item)).join("");
       el.modalItems.innerHTML = visibleItems(work).map(item => {
         const points = pointLabel(item);
         const label = `${item.part || "本篇"} · ${item.zh}${points ? ` · ${points}` : ""}`;
         if (!item.url) return `<span class="item-disabled">${escapeHtml(label)}</span>`;
         return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
-      }).join("") + universeLinks;
+      }).join("");
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");
     }
