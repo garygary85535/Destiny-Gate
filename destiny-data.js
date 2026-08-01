@@ -1,13 +1,13 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 664,
+  "rows": 690,
   "works": [
     {
       "id": "P0141",
       "author": "Cho",
       "ko": "RESET",
       "zh": "RESET（本+外）",
-      "roles": "安：逃跑小狗 / 員：富豪千金",
+      "roles": "安：逃跑小狗\n員：富豪千金",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -89,7 +89,7 @@ window.DESTINY_DATA = {
         "題材梗: 強制愛"
       ],
       "thumbCategories": [],
-      "searchText": "p0141 cho reset reset（本+外） 安：逃跑小狗 / 員：富豪千金  分級: 尺度大、謹慎閱讀 分級: 💰付費內容 形式/性質: ooc 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 強制愛 reset（本+外） reset 單集 reset（本+外） reset 外 外傳",
+      "searchText": "p0141 cho reset reset（本+外） 安：逃跑小狗\n員：富豪千金  分級: 尺度大、謹慎閱讀 分級: 💰付費內容 形式/性質: ooc 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 強制愛 reset（本+外） reset 單集 reset（本+外） reset 外 外傳",
       "purchaseLabel": "500p"
     },
     {
@@ -97,7 +97,7 @@ window.DESTINY_DATA = {
       "author": "Cho",
       "ko": "친구들이 커퀴인게 죄",
       "zh": "朋友們的戀愛腦罪",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -160,7 +160,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0121 cho 친구들이 커퀴인게 죄 朋友們的戀愛腦罪 安：學生 / 員：學生  形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 朋友們的戀愛腦罪 친구들이 커퀴인게 죄 單集",
+      "searchText": "p0121 cho 친구들이 커퀴인게 죄 朋友們的戀愛腦罪 安：學生\n員：學生  形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 朋友們的戀愛腦罪 친구들이 커퀴인게 죄 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -168,7 +168,7 @@ window.DESTINY_DATA = {
       "author": "Cho",
       "ko": "생일 축하합니다",
       "zh": "生日快樂",
-      "roles": "安：警察 / 員：上班族",
+      "roles": "安：警察\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -217,7 +217,7 @@ window.DESTINY_DATA = {
         "結局: BE"
       ],
       "thumbCategories": [],
-      "searchText": "p0169 cho 생일 축하합니다 生日快樂 安：警察 / 員：上班族  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be 生日快樂 생일 축하합니다 單集",
+      "searchText": "p0169 cho 생일 축하합니다 生日快樂 安：警察\n員：上班族  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be 生日快樂 생일 축하합니다 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -225,7 +225,7 @@ window.DESTINY_DATA = {
       "author": "Cho",
       "ko": "현재진행형 버릇",
       "zh": "進行中的習慣",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "已刪文",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -299,7 +299,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0135 cho 현재진행형 버릇 進行中的習慣 安：高中生 / 員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 進行中的習慣 현재진행형 버릇 單集",
+      "searchText": "p0135 cho 현재진행형 버릇 進行中的習慣 安：高中生\n員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 進行中的習慣 현재진행형 버릇 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -307,7 +307,7 @@ window.DESTINY_DATA = {
       "author": "Cho",
       "ko": "알파 함락 작전",
       "zh": "阿爾法攻略作戰",
-      "roles": "安：學姊 / 員：學妹",
+      "roles": "安：學姊\n員：學妹",
       "purchase": "已刪文",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -386,7 +386,7 @@ window.DESTINY_DATA = {
         "類型世界觀: ABO"
       ],
       "thumbCategories": [],
-      "searchText": "p0156 cho 알파 함락 작전 阿爾法攻略作戰 安：學姊 / 員：學妹  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: abo 阿爾法攻略作戰 알파 함락 작전 單集",
+      "searchText": "p0156 cho 알파 함락 작전 阿爾法攻略作戰 安：學姊\n員：學妹  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: abo 阿爾法攻略作戰 알파 함락 작전 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -758,7 +758,7 @@ window.DESTINY_DATA = {
       "author": "Whiskey",
       "ko": "드로즈",
       "zh": "平口內褲",
-      "roles": "安：同系學姊 / 員：同系學妹",
+      "roles": "安：同系學姊\n員：同系學妹",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -832,7 +832,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0142 whiskey 드로즈 平口內褲 安：同系學姊 / 員：同系學妹  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: abo 類型世界觀: futa 平口內褲 드로즈 單集",
+      "searchText": "p0142 whiskey 드로즈 平口內褲 安：同系學姊\n員：同系學妹  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: abo 類型世界觀: futa 平口內褲 드로즈 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -840,7 +840,7 @@ window.DESTINY_DATA = {
       "author": "code",
       "ko": "언더더씨",
       "zh": "Under the sea",
-      "roles": "安：軍人 / 員：高中生",
+      "roles": "安：軍人\n員：高中生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -903,7 +903,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 殭屍/喪屍"
       ],
       "thumbCategories": [],
-      "searchText": "p0125 code 언더더씨 under the sea 安：軍人 / 員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 類型世界觀: 殭屍/喪屍 under the sea 언더더씨 單集",
+      "searchText": "p0125 code 언더더씨 under the sea 安：軍人\n員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 類型世界觀: 殭屍/喪屍 under the sea 언더더씨 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1292,7 +1292,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "러브 앤 피스",
       "zh": "Love & Peace",
-      "roles": "安：大學生 / 員：酒店紅牌",
+      "roles": "安：大學生\n員：酒店紅牌",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -1345,7 +1345,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0093 noname 러브 앤 피스 love & peace 安：大學生 / 員：酒店紅牌 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he love & peace 러브 앤 피스 單集",
+      "searchText": "p0093 noname 러브 앤 피스 love & peace 安：大學生\n員：酒店紅牌 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he love & peace 러브 앤 피스 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1735,7 +1735,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "구원따윈 필요 없어",
       "zh": "不需要救贖",
-      "roles": "安：學生/木工 / 員：學生",
+      "roles": "安：學生/木工\n員：學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -1806,7 +1806,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0089 noname 구원따윈 필요 없어 不需要救贖 安：學生/木工 / 員：學生 寶藏作家 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 涉及宗教 不需要救贖 구원따윈 필요 없어 單集",
+      "searchText": "p0089 noname 구원따윈 필요 없어 不需要救贖 安：學生/木工\n員：學生 寶藏作家 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 涉及宗教 不需要救贖 구원따윈 필요 없어 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -2074,7 +2074,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "그래도 사랑해",
       "zh": "即使如此還是愛妳",
-      "roles": "安：小說家 / 員：上班族",
+      "roles": "安：小說家\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -2127,7 +2127,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0088 noname 그래도 사랑해 即使如此還是愛妳 安：小說家 / 員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 即使如此還是愛妳 그래도 사랑해 單集",
+      "searchText": "p0088 noname 그래도 사랑해 即使如此還是愛妳 安：小說家\n員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 即使如此還是愛妳 그래도 사랑해 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2326,7 +2326,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "대빈장씨 이야기",
       "zh": "大嬪張氏的故事",
-      "roles": "安：殿下 / 員：大嬪",
+      "roles": "安：殿下\n員：大嬪",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -2397,7 +2397,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0082 noname 대빈장씨 이야기 大嬪張氏的故事 安：殿下 / 員：大嬪 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 大嬪張氏的故事 대빈장씨 이야기 單集",
+      "searchText": "p0082 noname 대빈장씨 이야기 大嬪張氏的故事 安：殿下\n員：大嬪 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 大嬪張氏的故事 대빈장씨 이야기 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -2466,7 +2466,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "호우시절1920",
       "zh": "好雨時節1920",
-      "roles": "安：裁縫店繼承人 / 員：高中生",
+      "roles": "安：裁縫店繼承人\n員：高中生",
       "purchase": "是",
       "maxPoints": 3000,
       "totalPoints": 3000,
@@ -2546,7 +2546,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0087 noname 호우시절1920 好雨時節1920 安：裁縫店繼承人 / 員：高中生 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: be 背景設定: 年代文 好雨時節1920 호우시절1920 單集",
+      "searchText": "p0087 noname 호우시절1920 好雨時節1920 安：裁縫店繼承人\n員：高中生 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: be 背景設定: 年代文 好雨時節1920 호우시절1920 單集",
       "purchaseLabel": "3000p"
     },
     {
@@ -2554,7 +2554,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "아웃사이더 아웃사이더",
       "zh": "局外人 局外人",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -2614,7 +2614,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0091 noname 아웃사이더 아웃사이더 局外人 局外人 安：學生 / 員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 局外人 局外人 아웃사이더 아웃사이더 單集",
+      "searchText": "p0091 noname 아웃사이더 아웃사이더 局外人 局外人 安：學生\n員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 局外人 局外人 아웃사이더 아웃사이더 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2676,7 +2676,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "연인과 인연 1",
       "zh": "戀人與緣分",
-      "roles": "安：上班族 / 員：自由業者",
+      "roles": "安：上班族\n員：自由業者",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 5500,
@@ -2866,7 +2866,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0079 noname 연인과 인연 1 戀人與緣分 安：上班族 / 員：自由業者 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 戀人與緣分 연인과 인연 1 1 戀人與緣分 연인과 인연 2 2 戀人與緣分 연인과 인연 3 3 戀人與緣分 연인과 인연 4 4 戀人與緣分 연인과 인연 5 5 戀人與緣分 연인과 인연 6 6 戀人與緣分 연인과 인연 7 7 戀人與緣分 연인과 인연 8 8 戀人與緣分 연인과 인연 9 9 戀人與緣分 연인과 인연 10 10",
+      "searchText": "p0079 noname 연인과 인연 1 戀人與緣分 安：上班族\n員：自由業者 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 戀人與緣分 연인과 인연 1 1 戀人與緣分 연인과 인연 2 2 戀人與緣分 연인과 인연 3 3 戀人與緣分 연인과 인연 4 4 戀人與緣分 연인과 인연 5 5 戀人與緣分 연인과 인연 6 6 戀人與緣分 연인과 인연 7 7 戀人與緣分 연인과 인연 8 8 戀人與緣分 연인과 인연 9 9 戀人與緣分 연인과 인연 10 10",
       "purchaseLabel": "5500p"
     },
     {
@@ -3061,7 +3061,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "계화나무 꽃 그늘 아래 上",
       "zh": "桂花樹花蔭下",
-      "roles": "安：女扮男裝狀元郎/大學生 / 員：騙婚假新娘/大學生",
+      "roles": "安：女扮男裝狀元郎/大學生\n員：騙婚假新娘/大學生",
       "purchase": "是",
       "maxPoints": 1500,
       "totalPoints": 2500,
@@ -3158,7 +3158,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0090 noname 계화나무 꽃 그늘 아래 上 桂花樹花蔭下 安：女扮男裝狀元郎/大學生 / 員：騙婚假新娘/大學生 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 先婚後愛 文章狀態: 完結 文章篇幅: 長篇 文章類型: 東方幻想 結局: oe 背景設定: 東方架空 題材梗: 輪迴 題材梗: 女扮男 桂花樹花蔭下 계화나무 꽃 그늘 아래 上 上 桂花樹花蔭下 계화나무 꽃 그늘 아래 下 下",
+      "searchText": "p0090 noname 계화나무 꽃 그늘 아래 上 桂花樹花蔭下 安：女扮男裝狀元郎/大學生\n員：騙婚假新娘/大學生 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 先婚後愛 文章狀態: 完結 文章篇幅: 長篇 文章類型: 東方幻想 結局: oe 背景設定: 東方架空 題材梗: 輪迴 題材梗: 女扮男 桂花樹花蔭下 계화나무 꽃 그늘 아래 上 上 桂花樹花蔭下 계화나무 꽃 그늘 아래 下 下",
       "purchaseLabel": "2500p"
     },
     {
@@ -3166,7 +3166,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "장르만 여의도",
       "zh": "汝矣島風雲",
-      "roles": "安：國會議員 / 員：主播",
+      "roles": "安：國會議員\n員：主播",
       "purchase": "是",
       "maxPoints": 800,
       "totalPoints": 9600,
@@ -3474,7 +3474,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0084 noname 장르만 여의도 汝矣島風雲 安：國會議員 / 員：主播 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 連載中 文章篇幅: 超長篇 文章類型: 都市現實 汝矣島風雲 장르만 여의도 01 汝矣島風雲 장르만 여의도 2 02 汝矣島風雲 장르만 여의도 3 03 汝矣島風雲 장르만 여의도 4 04 汝矣島風雲 장르만 여의도 5 05 汝矣島風雲 장르만 여의도 6 06 汝矣島風雲 장르만 여의도 s 06s 汝矣島風雲 장르만 여의도 7 07 汝矣島風雲 장르만 여의도 8 08 汝矣島風雲 장르만 여의도 9 09 汝矣島風雲 장르만 여의도 10 10 汝矣島風雲 장르만 여의도 11 11 汝矣島風雲 장르만 여의도 12 12 汝矣島風雲 장르만 여의도 13 13 汝矣島風雲 장르만 여의도 14 14 汝矣島風雲 장르만 여의도 15 15 汝矣島風雲 장르만 여의도 16 16 汝矣島風雲 장르만 여의도 17 17 汝矣島風雲 장르만 여의도 18 18 汝矣島風雲 장르만 여의도 19 19 汝矣島風雲 장르만 여의도 20 20",
+      "searchText": "p0084 noname 장르만 여의도 汝矣島風雲 安：國會議員\n員：主播 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 連載中 文章篇幅: 超長篇 文章類型: 都市現實 汝矣島風雲 장르만 여의도 01 汝矣島風雲 장르만 여의도 2 02 汝矣島風雲 장르만 여의도 3 03 汝矣島風雲 장르만 여의도 4 04 汝矣島風雲 장르만 여의도 5 05 汝矣島風雲 장르만 여의도 6 06 汝矣島風雲 장르만 여의도 s 06s 汝矣島風雲 장르만 여의도 7 07 汝矣島風雲 장르만 여의도 8 08 汝矣島風雲 장르만 여의도 9 09 汝矣島風雲 장르만 여의도 10 10 汝矣島風雲 장르만 여의도 11 11 汝矣島風雲 장르만 여의도 12 12 汝矣島風雲 장르만 여의도 13 13 汝矣島風雲 장르만 여의도 14 14 汝矣島風雲 장르만 여의도 15 15 汝矣島風雲 장르만 여의도 16 16 汝矣島風雲 장르만 여의도 17 17 汝矣島風雲 장르만 여의도 18 18 汝矣島風雲 장르만 여의도 19 19 汝矣島風雲 장르만 여의도 20 20",
       "purchaseLabel": "9600p"
     },
     {
@@ -3559,7 +3559,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "청연군 이야기",
       "zh": "清淵君的故事",
-      "roles": "安：殿下 / 員：大嬪",
+      "roles": "安：殿下\n員：大嬪",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -3628,7 +3628,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0081 noname 청연군 이야기 清淵君的故事 安：殿下 / 員：大嬪 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 清淵君的故事 청연군 이야기 單集",
+      "searchText": "p0081 noname 청연군 이야기 清淵君的故事 安：殿下\n員：大嬪 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 清淵君的故事 청연군 이야기 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -3702,7 +3702,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "종말의 시간",
       "zh": "終末之時",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -3755,7 +3755,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0085 noname 종말의 시간 終末之時 安：學生 / 員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: be 終末之時 종말의 시간 單集",
+      "searchText": "p0085 noname 종말의 시간 終末之時 安：學生\n員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: be 終末之時 종말의 시간 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -3763,7 +3763,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "박하사탕",
       "zh": "薄荷糖",
-      "roles": "安：助教 / 員：助教",
+      "roles": "安：助教\n員：助教",
       "purchase": "是",
       "maxPoints": 700,
       "totalPoints": 700,
@@ -3809,7 +3809,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0080 noname 박하사탕 薄荷糖 安：助教 / 員：助教 寶藏作家 分級: 💰付費內容 文章狀態: 未完 文章類型: 都市現實 薄荷糖 박하사탕 單集",
+      "searchText": "p0080 noname 박하사탕 薄荷糖 安：助教\n員：助教 寶藏作家 分級: 💰付費內容 文章狀態: 未完 文章類型: 都市現實 薄荷糖 박하사탕 單集",
       "purchaseLabel": "700p"
     },
     {
@@ -3926,7 +3926,7 @@ window.DESTINY_DATA = {
       "author": "noname",
       "ko": "키링, 들러리 앤 릴펌",
       "zh": "鑰匙圈、伴娘與 Lil Pump",
-      "roles": "安：DJ / 員：上班族",
+      "roles": "安：DJ\n員：上班族",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 2000,
@@ -3988,7 +3988,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0092 noname 키링, 들러리 앤 릴펌 鑰匙圈、伴娘與 lil pump 安：dj / 員：上班族 寶藏作家 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 鑰匙圈、伴娘與 lil pump 키링, 들러리 앤 릴펌 單集",
+      "searchText": "p0092 noname 키링, 들러리 앤 릴펌 鑰匙圈、伴娘與 lil pump 安：dj\n員：上班族 寶藏作家 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 鑰匙圈、伴娘與 lil pump 키링, 들러리 앤 릴펌 單集",
       "purchaseLabel": "2000p"
     },
     {
@@ -4080,7 +4080,7 @@ window.DESTINY_DATA = {
       "author": "ㅍ.,ㅍ",
       "ko": "딸기우유 에바노트",
       "zh": "草莓牛奶overnote",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -4153,7 +4153,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0151 ㅍ.,ㅍ 딸기우유 에바노트 草莓牛奶overnote 安：學生 / 員：學生 蓋瑞推薦 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 極短篇 文章類型: 都市現實 結局: he 草莓牛奶overnote 딸기우유 에바노트 單集",
+      "searchText": "p0151 ㅍ.,ㅍ 딸기우유 에바노트 草莓牛奶overnote 安：學生\n員：學生 蓋瑞推薦 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 極短篇 文章類型: 都市現實 結局: he 草莓牛奶overnote 딸기우유 에바노트 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -4161,7 +4161,7 @@ window.DESTINY_DATA = {
       "author": "개（狗）",
       "ko": "핫앤콜드",
       "zh": "Hot and cold",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -4217,7 +4217,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0147 개（狗） 핫앤콜드 hot and cold 安：大學生 / 員：大學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 hot and cold 핫앤콜드 單集",
+      "searchText": "p0147 개（狗） 핫앤콜드 hot and cold 安：大學生\n員：大學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 hot and cold 핫앤콜드 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -5059,7 +5059,7 @@ window.DESTINY_DATA = {
       "author": "굼（夢）",
       "ko": "HATE ME",
       "zh": "HATE ME",
-      "roles": "安：藝人 / 員：藝人",
+      "roles": "安：藝人\n員：藝人",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -5115,7 +5115,7 @@ window.DESTINY_DATA = {
         "背景設定: 現實向"
       ],
       "thumbCategories": [],
-      "searchText": "p0170 굼（夢） hate me hate me 安：藝人 / 員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 hate me hate me 單集",
+      "searchText": "p0170 굼（夢） hate me hate me 安：藝人\n員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 hate me hate me 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -5123,7 +5123,7 @@ window.DESTINY_DATA = {
       "author": "굼（夢）（夢）",
       "ko": "버스 타는 고딩",
       "zh": "搭公車的高中生",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -5179,7 +5179,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0123 굼（夢）（夢） 버스 타는 고딩 搭公車的高中生 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 搭公車的高中生 버스 타는 고딩 單集",
+      "searchText": "p0123 굼（夢）（夢） 버스 타는 고딩 搭公車的高中生 安：高中生\n員：高中生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 搭公車的高中生 버스 타는 고딩 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -5306,7 +5306,7 @@ window.DESTINY_DATA = {
       "author": "금강（金剛）",
       "ko": "영원 만들기",
       "zh": "創造永恆",
-      "roles": "安：雕塑系學生 / 員：哲學系學生",
+      "roles": "安：雕塑系學生\n員：哲學系學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -5369,7 +5369,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 靈異"
       ],
       "thumbCategories": [],
-      "searchText": "p0160 금강（金剛） 영원 만들기 創造永恆 安：雕塑系學生 / 員：哲學系學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: 靈異 創造永恆 영원 만들기 單集",
+      "searchText": "p0160 금강（金剛） 영원 만들기 創造永恆 安：雕塑系學生\n員：哲學系學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: 靈異 創造永恆 영원 만들기 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -5576,6 +5576,225 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0418",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "인간관계론",
+      "zh": "人際關係理論",
+      "roles": "安：復學生\n員：大學生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "인간관계론",
+          "zh": "人際關係理論",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/18605522?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "中篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結",
+        "文章篇幅: 中篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0418 꿀구마（蜜地瓜） 인간관계론 人際關係理論 安：復學生\n員：大學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 人際關係理論 인간관계론 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0412",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "너는 내 킬러문항",
+      "zh": "你是我的最大難題",
+      "roles": "安：高中生\n員：高中生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "너는 내 킬러문항",
+          "zh": "你是我的最大難題",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/16337233?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0412 꿀구마（蜜地瓜） 너는 내 킬러문항 你是我的最大難題 安：高中生\n員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 你是我的最大難題 너는 내 킬러문항 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0411",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "오만과 편견",
+      "zh": "傲慢與偏見",
+      "roles": "安：雕塑系學姊\n員：雕塑系學妹",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "오만과 편견",
+          "zh": "傲慢與偏見",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/16173987?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "中篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結",
+        "文章篇幅: 中篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0411 꿀구마（蜜地瓜） 오만과 편견 傲慢與偏見 安：雕塑系學姊\n員：雕塑系學妹  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 傲慢與偏見 오만과 편견 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0424",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "나무아미타불",
+      "zh": "南無阿彌陀佛（無神論存在主義 外傳）",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "나무아미타불",
+          "zh": "南無阿彌陀佛（無神論存在主義 外傳）",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/21999454?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0424 꿀구마（蜜地瓜） 나무아미타불 南無阿彌陀佛（無神論存在主義 外傳）    南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 單集",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0302",
       "author": "꿀구마（蜜地瓜）",
       "ko": "미워도 다시 한번",
@@ -5654,6 +5873,33 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0423",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "원형의 영원",
+      "zh": "圓形的永遠",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "원형의 영원",
+          "zh": "圓形的永遠",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19063401?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0423 꿀구마（蜜地瓜） 원형의 영원 圓形的永遠    圓形的永遠 원형의 영원 單集",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0308",
       "author": "꿀구마（蜜地瓜）",
       "ko": "꿈은 이루어진다",
@@ -5711,20 +5957,351 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
-      "id": "P0300",
+      "id": "P0414",
       "author": "꿀구마（蜜地瓜）",
-      "ko": "사랑이 뭐길래",
-      "zh": "愛是什麼",
-      "roles": "安：樂團吉他手 / 員：舞蹈系學生",
+      "ko": "어른아이",
+      "zh": "孩子氣的大人",
+      "roles": "安：高中生\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
       "items": [
         {
           "part": "單集",
+          "ko": "어른아이",
+          "zh": "孩子氣的大人",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/17032943",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "情感梗",
+          "values": [
+            "年齡差",
+            "逆年齡"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "情感梗: 年齡差",
+        "情感梗: 逆年齡",
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0414 꿀구마（蜜地瓜） 어른아이 孩子氣的大人 安：高中生\n員：上班族  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 孩子氣的大人 어른아이 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0413",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "층간소음 주의",
+      "zh": "小心樓層噪音",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "층간소음 주의",
+          "zh": "小心樓層噪音",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/16481783",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0413 꿀구마（蜜地瓜） 층간소음 주의 小心樓層噪音    小心樓層噪音 층간소음 주의 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0408",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "건축학개론",
+      "zh": "建築學概論",
+      "roles": "安：建築系系代表\n員：建築系學生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "건축학개론",
+          "zh": "建築學概論",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/15567571?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0408 꿀구마（蜜地瓜） 건축학개론 建築學概論 安：建築系系代表\n員：建築系學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 建築學概論 건축학개론 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0417",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "필요충분조건",
+      "zh": "必要充分條件",
+      "roles": "安：大學生\n員：偶像",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "필요충분조건",
+          "zh": "必要充分條件",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/17897671?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0417 꿀구마（蜜地瓜） 필요충분조건 必要充分條件 安：大學生\n員：偶像  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 必要充分條件 필요충분조건 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0416",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "목적지에 도착했습니다",
+      "zh": "您已抵達目的地",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "목적지에 도착했습니다",
+          "zh": "您已抵達目的地",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/17667972?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0416 꿀구마（蜜地瓜） 목적지에 도착했습니다 您已抵達目的地    您已抵達目的地 목적지에 도착했습니다 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0300",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "사랑이 뭐길래",
+      "zh": "愛是什麼",
+      "roles": "安：樂團吉他手 / 員：舞蹈系學生",
+      "purchase": "是",
+      "maxPoints": 200,
+      "totalPoints": 200,
+      "items": [
+        {
+          "part": "1",
           "ko": "사랑이 뭐길래",
           "zh": "愛是什麼",
           "url": "https://www.postype.com/@seol-cheong/post/19590181",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "2",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19590641",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "3",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19623864",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "4",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19629858",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "5",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19630825",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "6",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19631545",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "7",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19633288",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "8",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19686063",
+          "purchase": "是",
+          "points": 200,
+          "purchaseLabel": "200p",
+          "thumbCategories": []
+        },
+        {
+          "part": "9",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19853178",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "10",
+          "ko": "사랑이 뭐길래",
+          "zh": "愛是什麼",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/20896631",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
@@ -5780,8 +6357,8 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0300 꿀구마（蜜地瓜） 사랑이 뭐길래 愛是什麼 安：樂團吉他手 / 員：舞蹈系學生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 愛是什麼 사랑이 뭐길래 單集",
-      "purchaseLabel": "0p"
+      "searchText": "p0300 꿀구마（蜜地瓜） 사랑이 뭐길래 愛是什麼 安：樂團吉他手 / 員：舞蹈系學生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 愛是什麼 사랑이 뭐길래 1 愛是什麼 사랑이 뭐길래 2 愛是什麼 사랑이 뭐길래 3 愛是什麼 사랑이 뭐길래 4 愛是什麼 사랑이 뭐길래 5 愛是什麼 사랑이 뭐길래 6 愛是什麼 사랑이 뭐길래 7 愛是什麼 사랑이 뭐길래 8 愛是什麼 사랑이 뭐길래 9 愛是什麼 사랑이 뭐길래 10",
+      "purchaseLabel": "200p"
     },
     {
       "id": "P0304",
@@ -5857,6 +6434,33 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0422",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "가장 보통의 연애",
+      "zh": "最平凡的戀愛",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "가장 보통의 연애",
+          "zh": "最平凡的戀愛",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19171688?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0422 꿀구마（蜜地瓜） 가장 보통의 연애 最平凡的戀愛    最平凡的戀愛 가장 보통의 연애 單集",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0309",
       "author": "꿀구마（蜜地瓜）",
       "ko": "차르봄바 러브",
@@ -5911,6 +6515,158 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0309 꿀구마（蜜地瓜） 차르봄바 러브 沙皇炸彈之戀 安：代理 / 員：新進職員  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 沙皇炸彈之戀 차르봄바 러브 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0410",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "헤로인",
+      "zh": "海洛因",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "헤로인",
+          "zh": "海洛因",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/15685668?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0410 꿀구마（蜜地瓜） 헤로인 海洛因    海洛因 헤로인 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0409",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "투핫걸",
+      "zh": "火辣雙姝",
+      "roles": "安：大學生\n員：大學生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "투핫걸",
+          "zh": "火辣雙姝",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/15644544?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "情感梗",
+          "values": [
+            "破鏡重圓"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "短篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "情感梗: 破鏡重圓",
+        "文章狀態: 完結",
+        "文章篇幅: 短篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0409 꿀구마（蜜地瓜） 투핫걸 火辣雙姝 安：大學生\n員：大學生  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 火辣雙姝 투핫걸 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0421",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "무신론적 실존주의",
+      "zh": "無神論存在主義",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "무신론적 실존주의",
+          "zh": "無神論存在主義",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/18438682?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0421 꿀구마（蜜地瓜） 무신론적 실존주의 無神論存在主義    無神論存在主義 무신론적 실존주의 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0415",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "와퍼러버",
+      "zh": "華堡 Lover",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "와퍼러버",
+          "zh": "華堡 Lover",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/17117685?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0415 꿀구마（蜜地瓜） 와퍼러버 華堡 lover    華堡 lover 와퍼러버 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -5975,6 +6731,77 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0305 꿀구마（蜜地瓜） 비온뒤 맑음 雨後轉晴 安：醫生 / 員：醫生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 雨後轉晴 비온뒤 맑음 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0419",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "비정상 현상 보고서",
+      "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
+      "roles": "安：大學生/高中生\n員：復讀生/高中生",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "비정상 현상 보고서",
+          "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/18759165?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "命定站賀文合集",
+          "values": [
+            "2025831901Annyeongz生日慶祝活動"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
+          "type": "文章篇幅",
+          "values": [
+            "中篇"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "結局",
+          "values": [
+            "HE"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "校園"
+          ]
+        }
+      ],
+      "flatTags": [
+        "命定站賀文合集: 2025831901Annyeongz生日慶祝活動",
+        "文章狀態: 完結",
+        "文章篇幅: 中篇",
+        "文章類型: 都市現實",
+        "結局: HE",
+        "背景設定: 校園"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0419 꿀구마（蜜地瓜） 비정상 현상 보고서 非正常現象報告書（非正常現象觀察報告書 外傳） 安：大學生/高中生\n員：復讀生/高中生  命定站賀文合集: 2025831901annyeongz生日慶祝活動 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 非正常現象報告書（非正常現象觀察報告書 外傳） 비정상 현상 보고서 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -6046,11 +6873,38 @@ window.DESTINY_DATA = {
       "purchaseLabel": "0p"
     },
     {
+      "id": "P0420",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "고래노래",
+      "zh": "鯨魚之歌",
+      "roles": "",
+      "purchase": "否",
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "고래노래",
+          "zh": "鯨魚之歌",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/18930393",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0420 꿀구마（蜜地瓜） 고래노래 鯨魚之歌    鯨魚之歌 고래노래 單集",
+      "purchaseLabel": "0p"
+    },
+    {
       "id": "P0149",
       "author": "나무（大樹）",
       "ko": "우정이 사랑도 먹여주나",
       "zh": "友誼能滋養愛情嗎",
-      "roles": "安：演員 / 員：藝人",
+      "roles": "安：演員\n員：藝人",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -6113,7 +6967,7 @@ window.DESTINY_DATA = {
         "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 Summer"
       ],
       "thumbCategories": [],
-      "searchText": "p0149 나무（大樹） 우정이 사랑도 먹여주나 友誼能滋養愛情嗎 安：演員 / 員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 友誼能滋養愛情嗎 우정이 사랑도 먹여주나 單集",
+      "searchText": "p0149 나무（大樹） 우정이 사랑도 먹여주나 友誼能滋養愛情嗎 安：演員\n員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 友誼能滋養愛情嗎 우정이 사랑도 먹여주나 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -6121,7 +6975,7 @@ window.DESTINY_DATA = {
       "author": "나무（大樹）",
       "ko": "크리스마스에는 솔직해지세요",
       "zh": "聖誕節，請誠實面對自己",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -6184,7 +7038,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0146 나무（大樹） 크리스마스에는 솔직해지세요 聖誕節，請誠實面對自己 安：學生 / 員：學生  cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 聖誕節，請誠實面對自己 크리스마스에는 솔직해지세요 單集",
+      "searchText": "p0146 나무（大樹） 크리스마스에는 솔직해지세요 聖誕節，請誠實面對自己 安：學生\n員：學生  cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 聖誕節，請誠實面對自己 크리스마스에는 솔직해지세요 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -6575,7 +7429,7 @@ window.DESTINY_DATA = {
       "author": "녕마（賽馬）",
       "ko": "Her Orbit",
       "zh": "Her Orbit",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "是",
       "maxPoints": 100,
       "totalPoints": 100,
@@ -6638,7 +7492,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0136 녕마（賽馬） her orbit her orbit 安：高中生 / 員：高中生  分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he her orbit her orbit 單集",
+      "searchText": "p0136 녕마（賽馬） her orbit her orbit 安：高中生\n員：高中生  分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he her orbit her orbit 單集",
       "purchaseLabel": "100p"
     },
     {
@@ -6646,7 +7500,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "선배 말고 언니",
       "zh": "不是前輩，叫姐姐",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -6713,7 +7567,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0101 달걀（雞蛋） 선배 말고 언니 不是前輩，叫姐姐 安：大學生 / 員：大學生 寶藏作家 cp配對: 安/員 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 不是前輩，叫姐姐 선배 말고 언니 單集",
+      "searchText": "p0101 달걀（雞蛋） 선배 말고 언니 不是前輩，叫姐姐 安：大學生\n員：大學生 寶藏作家 cp配對: 安/員 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 不是前輩，叫姐姐 선배 말고 언니 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -6721,7 +7575,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "소유욕",
       "zh": "佔有慾",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -6792,7 +7646,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0095 달걀（雞蛋） 소유욕 佔有慾 安：大學生 / 員：大學生 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 佔有慾 소유욕 單集",
+      "searchText": "p0095 달걀（雞蛋） 소유욕 佔有慾 安：大學生\n員：大學生 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 佔有慾 소유욕 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -6800,7 +7654,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "여배우 매니저로 살아남기 1",
       "zh": "作為女演員的經紀人生存下來",
-      "roles": "安：經紀人 / 員：大勢演員",
+      "roles": "安：經紀人\n員：大勢演員",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -6939,7 +7793,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0096 달걀（雞蛋） 여배우 매니저로 살아남기 1 作為女演員的經紀人生存下來 安：經紀人 / 員：大勢演員 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 未完 文章類型: 都市現實 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 1 01 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 2 02 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 3 03 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 4 04 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 5 05 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 6 06 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 7 07 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 8 08",
+      "searchText": "p0096 달걀（雞蛋） 여배우 매니저로 살아남기 1 作為女演員的經紀人生存下來 安：經紀人\n員：大勢演員 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 未完 文章類型: 都市現實 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 1 01 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 2 02 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 3 03 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 4 04 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 5 05 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 6 06 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 7 07 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 8 08",
       "purchaseLabel": "500p"
     },
     {
@@ -6947,7 +7801,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "미개봉 신제품 판매합니다",
       "zh": "全新未拆販售中",
-      "roles": "安：代理 / 員：代理",
+      "roles": "安：代理\n員：代理",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -7018,7 +7872,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0108 달걀（雞蛋） 미개봉 신제품 판매합니다 全新未拆販售中 安：代理 / 員：代理 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 分級: 玩具 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 全新未拆販售中 미개봉 신제품 판매합니다 單集",
+      "searchText": "p0108 달걀（雞蛋） 미개봉 신제품 판매합니다 全新未拆販售中 安：代理\n員：代理 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 分級: 玩具 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 全新未拆販售中 미개봉 신제품 판매합니다 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -7026,7 +7880,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "교회 로맨스 클리셰",
       "zh": "典型教會浪漫故事",
-      "roles": "安：高中生(聖歌隊) / 員：高中生(聖歌隊伴奏)",
+      "roles": "安：高中生(聖歌隊)\n員：高中生(聖歌隊伴奏)",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -7079,7 +7933,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0115 달걀（雞蛋） 교회 로맨스 클리셰 典型教會浪漫故事 安：高中生(聖歌隊) / 員：高中生(聖歌隊伴奏) 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 典型教會浪漫故事 교회 로맨스 클리셰 單集",
+      "searchText": "p0115 달걀（雞蛋） 교회 로맨스 클리셰 典型教會浪漫故事 安：高中生(聖歌隊)\n員：高中生(聖歌隊伴奏) 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 典型教會浪漫故事 교회 로맨스 클리셰 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -7087,7 +7941,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "분리불안",
       "zh": "分離焦慮（含外傳）",
-      "roles": "安：工程師 / 員：上班族",
+      "roles": "安：工程師\n員：上班族",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -7168,7 +8022,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0116 달걀（雞蛋） 분리불안 分離焦慮（含外傳） 安：工程師 / 員：上班族 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 分離焦慮（含外傳） 분리불안 單集 分離焦慮（含外傳） 분리불안 외전 外傳",
+      "searchText": "p0116 달걀（雞蛋） 분리불안 分離焦慮（含外傳） 安：工程師\n員：上班族 寶藏作家 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 分離焦慮（含外傳） 분리불안 單集 分離焦慮（含外傳） 분리불안 외전 外傳",
       "purchaseLabel": "500p"
     },
     {
@@ -7176,7 +8030,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "여름 감기",
       "zh": "夏日風寒",
-      "roles": "安：學姊 / 員：學妹",
+      "roles": "安：學姊\n員：學妹",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -7236,7 +8090,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0117 달걀（雞蛋） 여름 감기 夏日風寒 安：學姊 / 員：學妹 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 夏日風寒 여름 감기 單集",
+      "searchText": "p0117 달걀（雞蛋） 여름 감기 夏日風寒 安：學姊\n員：學妹 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 夏日風寒 여름 감기 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -7244,7 +8098,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "대전 서구 문화센터",
       "zh": "大田西區文化中心",
-      "roles": "安：咖啡廳老闆 / 員：皮拉提斯老師",
+      "roles": "安：咖啡廳老闆\n員：皮拉提斯老師",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -7297,7 +8151,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0114 달걀（雞蛋） 대전 서구 문화센터 大田西區文化中心 安：咖啡廳老闆 / 員：皮拉提斯老師 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 大田西區文化中心 대전 서구 문화센터 單集",
+      "searchText": "p0114 달걀（雞蛋） 대전 서구 문화센터 大田西區文化中心 安：咖啡廳老闆\n員：皮拉提斯老師 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 大田西區文化中心 대전 서구 문화센터 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -7386,7 +8240,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "포르노 같이 볼 사람 구해요",
       "zh": "想找人一起看色情片",
-      "roles": "安：銀行行員 / 員：醫院藥師",
+      "roles": "安：銀行行員\n員：醫院藥師",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -7455,7 +8309,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0098 달걀（雞蛋） 포르노 같이 볼 사람 구해요 想找人一起看色情片 安：銀行行員 / 員：醫院藥師 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 想找人一起看色情片 포르노 같이 볼 사람 구해요 單集",
+      "searchText": "p0098 달걀（雞蛋） 포르노 같이 볼 사람 구해요 想找人一起看色情片 安：銀行行員\n員：醫院藥師 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 想找人一起看色情片 포르노 같이 볼 사람 구해요 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -7494,7 +8348,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "엔딩 크레딧 1",
       "zh": "片尾字幕",
-      "roles": "安：警察 / 員：演員",
+      "roles": "安：警察\n員：演員",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -7650,7 +8504,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0094 달걀（雞蛋） 엔딩 크레딧 1 片尾字幕 安：警察 / 員：演員 寶藏作家 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 片尾字幕 엔딩 크레딧 1 01 片尾字幕 엔딩 크레딧 2 02 片尾字幕 엔딩 크레딧 3 03 片尾字幕 엔딩 크레딧 4 04 片尾字幕 엔딩 크레딧 5 05 片尾字幕 엔딩 크레딧 6 06 片尾字幕 엔딩 크레딧 7 07 片尾字幕 엔딩 크레딧 8 08 片尾字幕 엔딩 크레딧 9 (完) 09",
+      "searchText": "p0094 달걀（雞蛋） 엔딩 크레딧 1 片尾字幕 安：警察\n員：演員 寶藏作家 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 片尾字幕 엔딩 크레딧 1 01 片尾字幕 엔딩 크레딧 2 02 片尾字幕 엔딩 크레딧 3 03 片尾字幕 엔딩 크레딧 4 04 片尾字幕 엔딩 크레딧 5 05 片尾字幕 엔딩 크레딧 6 06 片尾字幕 엔딩 크레딧 7 07 片尾字幕 엔딩 크레딧 8 08 片尾字幕 엔딩 크레딧 9 (完) 09",
       "purchaseLabel": "0p"
     },
     {
@@ -7658,7 +8512,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "헤테로 실격",
       "zh": "異性戀失格",
-      "roles": "安：數學博士/青梅 / 員：社會人士/青梅",
+      "roles": "安：數學博士/青梅\n員：社會人士/青梅",
       "purchase": "是",
       "maxPoints": 700,
       "totalPoints": 2100,
@@ -7768,7 +8622,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0105 달걀（雞蛋） 헤테로 실격 異性戀失格 安：數學博士/青梅 / 員：社會人士/青梅 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 情感梗: 青梅 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 異性戀失格 헤테로 실격 上 異性戀失格 헤테로 실격 中 異性戀失格 헤테로 실격 下",
+      "searchText": "p0105 달걀（雞蛋） 헤테로 실격 異性戀失格 安：數學博士/青梅\n員：社會人士/青梅 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 情感梗: 青梅 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 異性戀失格 헤테로 실격 上 異性戀失格 헤테로 실격 中 異性戀失格 헤테로 실격 下",
       "purchaseLabel": "2100p"
     },
     {
@@ -7776,7 +8630,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "시크릿 와이프 上 : 오피스 와이프 외전",
       "zh": "秘密妻子（辦公室妻子外傳）",
-      "roles": "安：開發組組長 / 員：CS組組長",
+      "roles": "安：開發組組長\n員：CS組組長",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -7878,7 +8732,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0118 달걀（雞蛋） 시크릿 와이프 上 : 오피스 와이프 외전 秘密妻子（辦公室妻子外傳） 安：開發組組長 / 員：cs組組長 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 秘密妻子（辦公室妻子外傳） 시크릿 와이프 上 : 오피스 와이프 외전 上 秘密妻子（辦公室妻子外傳） 시크릿 와이프 中 : 오피스 와이프 외전 中 秘密妻子（辦公室妻子外傳） 시크릿 와이프 下 : 오피스 와이프 외전 下",
+      "searchText": "p0118 달걀（雞蛋） 시크릿 와이프 上 : 오피스 와이프 외전 秘密妻子（辦公室妻子外傳） 安：開發組組長\n員：cs組組長 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 秘密妻子（辦公室妻子外傳） 시크릿 와이프 上 : 오피스 와이프 외전 上 秘密妻子（辦公室妻子外傳） 시크릿 와이프 中 : 오피스 와이프 외전 中 秘密妻子（辦公室妻子外傳） 시크릿 와이프 下 : 오피스 와이프 외전 下",
       "purchaseLabel": "1500p"
     },
     {
@@ -7886,7 +8740,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "슈뢰딩거의 그날 밤",
       "zh": "薛丁格的那天晚上",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -7974,7 +8828,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0102 달걀（雞蛋） 슈뢰딩거의 그날 밤 薛丁格的那天晚上 安：大學生 / 員：大學生 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 薛丁格的那天晚上 슈뢰딩거의 그날 밤 上 薛丁格的那天晚上 슈뢰딩거의 그날 밤 下",
+      "searchText": "p0102 달걀（雞蛋） 슈뢰딩거의 그날 밤 薛丁格的那天晚上 安：大學生\n員：大學生 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 薛丁格的那天晚上 슈뢰딩거의 그날 밤 上 薛丁格的那天晚上 슈뢰딩거의 그날 밤 下",
       "purchaseLabel": "500p"
     },
     {
@@ -7982,7 +8836,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "납작 복숭아",
       "zh": "蟠桃",
-      "roles": "安：明星PD / 員：熱門偶像",
+      "roles": "安：明星PD\n員：熱門偶像",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -8042,7 +8896,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0111 달걀（雞蛋） 납작 복숭아 蟠桃 安：明星pd / 員：熱門偶像 寶藏作家 情感梗: 年齡差 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 蟠桃 납작 복숭아 單集",
+      "searchText": "p0111 달걀（雞蛋） 납작 복숭아 蟠桃 安：明星pd\n員：熱門偶像 寶藏作家 情感梗: 年齡差 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 蟠桃 납작 복숭아 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -8050,7 +8904,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "가방을 들어주세요",
       "zh": "請幫我拿一下包包",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -8122,7 +8976,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0100 달걀（雞蛋） 가방을 들어주세요 請幫我拿一下包包 安：高中生 / 員：高中生 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 請幫我拿一下包包 가방을 들어주세요 上 請幫我拿一下包包 가방을 들어주세요 下",
+      "searchText": "p0100 달걀（雞蛋） 가방을 들어주세요 請幫我拿一下包包 安：高中生\n員：高中生 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 請幫我拿一下包包 가방을 들어주세요 上 請幫我拿一下包包 가방을 들어주세요 下",
       "purchaseLabel": "0p"
     },
     {
@@ -8130,7 +8984,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "오피스 와이프",
       "zh": "辦公室妻子",
-      "roles": "安：開發組組長 / 員：CS組組長",
+      "roles": "安：開發組組長\n員：CS組組長",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -8232,7 +9086,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0106 달걀（雞蛋） 오피스 와이프 辦公室妻子 安：開發組組長 / 員：cs組組長 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 辦公室妻子 오피스 와이프 上 辦公室妻子 오피스 와이프 中 辦公室妻子 오피스 와이프 下",
+      "searchText": "p0106 달걀（雞蛋） 오피스 와이프 辦公室妻子 安：開發組組長\n員：cs組組長 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 辦公室妻子 오피스 와이프 上 辦公室妻子 오피스 와이프 中 辦公室妻子 오피스 와이프 下",
       "purchaseLabel": "1500p"
     },
     {
@@ -8240,7 +9094,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "명절에만 보는 사이",
       "zh": "逢年過節才見面的關係",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -8312,7 +9166,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0107 달걀（雞蛋） 명절에만 보는 사이 逢年過節才見面的關係 安：學生 / 員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 逢年過節才見面的關係 명절에만 보는 사이 上 逢年過節才見面的關係 명절에만 보는 사이 下",
+      "searchText": "p0107 달걀（雞蛋） 명절에만 보는 사이 逢年過節才見面的關係 安：學生\n員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 逢年過節才見面的關係 명절에만 보는 사이 上 逢年過節才見面的關係 명절에만 보는 사이 下",
       "purchaseLabel": "0p"
     },
     {
@@ -8320,7 +9174,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "도덕 선생님",
       "zh": "道德老師",
-      "roles": "安：高中復讀生 / 員：高中道德老師",
+      "roles": "安：高中復讀生\n員：高中道德老師",
       "purchase": "是",
       "maxPoints": 700,
       "totalPoints": 2900,
@@ -8448,7 +9302,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0099 달걀（雞蛋） 도덕 선생님 道德老師 安：高中復讀生 / 員：高中道德老師 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 道德老師 도덕 선생님 上 道德老師 도덕 선생님 中 道德老師 도덕 선생님 下 非道德關係：道德老師前傳 비 도덕적 관계: 도덕 선생님 프리퀄 前傳 聖誕節願望：道德老師外傳 크리스마스 소원은 : 도덕 선생님 외전 外傳",
+      "searchText": "p0099 달걀（雞蛋） 도덕 선생님 道德老師 安：高中復讀生\n員：高中道德老師 寶藏作家 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 道德老師 도덕 선생님 上 道德老師 도덕 선생님 中 道德老師 도덕 선생님 下 非道德關係：道德老師前傳 비 도덕적 관계: 도덕 선생님 프리퀄 前傳 聖誕節願望：道德老師外傳 크리스마스 소원은 : 도덕 선생님 외전 外傳",
       "purchaseLabel": "2900p"
     },
     {
@@ -8456,7 +9310,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "주차 빌런",
       "zh": "違規停車惡棍",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -8509,7 +9363,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0113 달걀（雞蛋） 주차 빌런 違規停車惡棍 安：上班族 / 員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 違規停車惡棍 주차 빌런 單集",
+      "searchText": "p0113 달걀（雞蛋） 주차 빌런 違規停車惡棍 安：上班族\n員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 違規停車惡棍 주차 빌런 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -8517,7 +9371,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "그 아이",
       "zh": "那個孩子",
-      "roles": "安：牛郎 / 員：律師",
+      "roles": "安：牛郎\n員：律師",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -8600,7 +9454,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0097 달걀（雞蛋） 그 아이 那個孩子 安：牛郎 / 員：律師 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 那個孩子 그 아이 單集",
+      "searchText": "p0097 달걀（雞蛋） 그 아이 那個孩子 安：牛郎\n員：律師 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 那個孩子 그 아이 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -8685,7 +9539,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "래퍼 와 래퍼여친",
       "zh": "饒舌歌手與饒舌歌手女友",
-      "roles": "安：饒舌歌手 / 員：上班族",
+      "roles": "安：饒舌歌手\n員：上班族",
       "purchase": "是",
       "maxPoints": 300,
       "totalPoints": 300,
@@ -8763,7 +9617,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0103 달걀（雞蛋） 래퍼 와 래퍼여친 饒舌歌手與饒舌歌手女友 安：饒舌歌手 / 員：上班族 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 饒舌歌手與饒舌歌手女友 래퍼 와 래퍼여친 單集",
+      "searchText": "p0103 달걀（雞蛋） 래퍼 와 래퍼여친 饒舌歌手與饒舌歌手女友 安：饒舌歌手\n員：上班族 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 饒舌歌手與饒舌歌手女友 래퍼 와 래퍼여친 單集",
       "purchaseLabel": "300p"
     },
     {
@@ -8771,7 +9625,7 @@ window.DESTINY_DATA = {
       "author": "달걀（雞蛋）",
       "ko": "여수 밤바다",
       "zh": "麗水的夜海",
-      "roles": "安：大學生 / 員：心理學教授",
+      "roles": "安：大學生\n員：心理學教授",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -8840,7 +9694,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0110 달걀（雞蛋） 여수 밤바다 麗水的夜海 安：大學生 / 員：心理學教授 寶藏作家 分級: cp潔癖勿入 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 麗水的夜海 여수 밤바다 單集",
+      "searchText": "p0110 달걀（雞蛋） 여수 밤바다 麗水的夜海 安：大學生\n員：心理學教授 寶藏作家 分級: cp潔癖勿入 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 麗水的夜海 여수 밤바다 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -9782,7 +10636,7 @@ window.DESTINY_DATA = {
       "author": "로크（LOCK）",
       "ko": "클로버의 바람",
       "zh": "三葉幸運草的願望",
-      "roles": "安：哨兵 / 員：嚮導",
+      "roles": "安：哨兵\n員：嚮導",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -9838,7 +10692,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 哨嚮"
       ],
       "thumbCategories": [],
-      "searchText": "p0150 로크（lock） 클로버의 바람 三葉幸運草的願望 安：哨兵 / 員：嚮導  文章狀態: 完結 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 哨嚮 三葉幸運草的願望 클로버의 바람 單集",
+      "searchText": "p0150 로크（lock） 클로버의 바람 三葉幸運草的願望 安：哨兵\n員：嚮導  文章狀態: 完結 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 哨嚮 三葉幸運草的願望 클로버의 바람 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -9846,7 +10700,7 @@ window.DESTINY_DATA = {
       "author": "로크（LOCK）",
       "ko": "데리러 가는 길",
       "zh": "去接你的路上",
-      "roles": "安：飛行員(少校) / 員：博士",
+      "roles": "安：飛行員(少校)\n員：博士",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -9906,7 +10760,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0120 로크（lock） 데리러 가는 길 去接你的路上 安：飛行員(少校) / 員：博士 蓋瑞推薦 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 太空 去接你的路上 데리러 가는 길 單集",
+      "searchText": "p0120 로크（lock） 데리러 가는 길 去接你的路上 安：飛行員(少校)\n員：博士 蓋瑞推薦 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 太空 去接你的路上 데리러 가는 길 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -10228,7 +11082,7 @@ window.DESTINY_DATA = {
       "author": "무（蕪）",
       "ko": "주기도문",
       "zh": "主禱文",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "已刪文",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -10295,7 +11149,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0139 무（蕪） 주기도문 主禱文 安：高中生 / 員：高中生  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 主禱文 주기도문 單集",
+      "searchText": "p0139 무（蕪） 주기도문 主禱文 安：高中生\n員：高中生  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 主禱文 주기도문 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -10330,7 +11184,7 @@ window.DESTINY_DATA = {
       "author": "뭉자",
       "ko": "에또 스타핏!",
       "zh": "欸抖 stop it!",
-      "roles": "安：大學生 / 員：御宅族",
+      "roles": "安：大學生\n員：御宅族",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -10393,7 +11247,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0177 뭉자 에또 스타핏! 欸抖 stop it! 安：大學生 / 員：御宅族  cp配對: 安/員 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 欸抖 stop it! 에또 스타핏! 單集",
+      "searchText": "p0177 뭉자 에또 스타핏! 欸抖 stop it! 安：大學生\n員：御宅族  cp配對: 安/員 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 欸抖 stop it! 에또 스타핏! 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -10401,7 +11255,7 @@ window.DESTINY_DATA = {
       "author": "뭉자",
       "ko": "등가 교환의 법칙",
       "zh": "等價交換定律",
-      "roles": "安：理工系學生 / 員：經營系學生",
+      "roles": "安：理工系學生\n員：經營系學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -10457,7 +11311,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0168 뭉자 등가 교환의 법칙 等價交換定律 安：理工系學生 / 員：經營系學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 等價交換定律 등가 교환의 법칙 單集",
+      "searchText": "p0168 뭉자 등가 교환의 법칙 等價交換定律 安：理工系學生\n員：經營系學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 等價交換定律 등가 교환의 법칙 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -10518,7 +11372,7 @@ window.DESTINY_DATA = {
       "author": "민무",
       "ko": "만춘",
       "zh": "晚春",
-      "roles": "安：陛下 / 員：中殿",
+      "roles": "安：陛下\n員：中殿",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 3500,
@@ -10613,7 +11467,7 @@ window.DESTINY_DATA = {
         "背景設定: 東方架空"
       ],
       "thumbCategories": [],
-      "searchText": "p0172 민무 만춘 晚春 安：陛下 / 員：中殿  情感梗: 先婚後愛 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 背景設定: 東方架空 晚春 만춘 上 晚春 만춘 下 + 外傳一 晚春 만춘 番外二 晚春 만춘 番外三",
+      "searchText": "p0172 민무 만춘 晚春 安：陛下\n員：中殿  情感梗: 先婚後愛 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 背景設定: 東方架空 晚春 만춘 上 晚春 만춘 下 + 外傳一 晚春 만춘 番外二 晚春 만춘 番外三",
       "purchaseLabel": "3500p"
     },
     {
@@ -10621,7 +11475,7 @@ window.DESTINY_DATA = {
       "author": "민무（閔無）",
       "ko": "오만과 편견",
       "zh": "傲慢與偏見",
-      "roles": "安：補習班助教/大學休學 / 員：重考生",
+      "roles": "安：補習班助教/大學休學\n員：重考生",
       "purchase": "是",
       "maxPoints": 100,
       "totalPoints": 100,
@@ -10670,7 +11524,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0164 민무（閔無） 오만과 편견 傲慢與偏見 安：補習班助教/大學休學 / 員：重考生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 傲慢與偏見 오만과 편견 單集",
+      "searchText": "p0164 민무（閔無） 오만과 편견 傲慢與偏見 安：補習班助教/大學休學\n員：重考生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 傲慢與偏見 오만과 편견 單集",
       "purchaseLabel": "100p"
     },
     {
@@ -10749,7 +11603,7 @@ window.DESTINY_DATA = {
       "author": "민무（閔無）",
       "ko": "뻔한 첫사랑",
       "zh": "顯而易見的初戀",
-      "roles": "安：高中生 / 員：高中生",
+      "roles": "安：高中生\n員：高中生",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 2000,
@@ -10822,7 +11676,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0162 민무（閔無） 뻔한 첫사랑 顯而易見的初戀 安：高中生 / 員：高中生  情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 顯而易見的初戀 뻔한 첫사랑 單集 顯而易見的初戀 뻔한 첫사랑 外傳",
+      "searchText": "p0162 민무（閔無） 뻔한 첫사랑 顯而易見的初戀 安：高中生\n員：高中生  情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 顯而易見的初戀 뻔한 첫사랑 單集 顯而易見的初戀 뻔한 첫사랑 外傳",
       "purchaseLabel": "2000p"
     },
     {
@@ -10830,7 +11684,7 @@ window.DESTINY_DATA = {
       "author": "민무（閔無）",
       "ko": "어둠의 틈, 공백의 끝 上",
       "zh": "黑暗的縫隙,空白的盡頭",
-      "roles": "安：律師 / 員：律師",
+      "roles": "安：律師\n員：律師",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -10905,7 +11759,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0154 민무（閔無） 어둠의 틈, 공백의 끝 上 黑暗的縫隙,空白的盡頭 安：律師 / 員：律師  分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 妻妻 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝 上 上 黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝 下 下",
+      "searchText": "p0154 민무（閔無） 어둠의 틈, 공백의 끝 上 黑暗的縫隙,空白的盡頭 安：律師\n員：律師  分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 妻妻 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝 上 上 黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝 下 下",
       "purchaseLabel": "500p"
     },
     {
@@ -10960,7 +11814,7 @@ window.DESTINY_DATA = {
       "author": "박시봉（朴時奉）",
       "ko": "채록(採錄)",
       "zh": "採錄",
-      "roles": "安：祠堂長 / 員：祠堂舞者",
+      "roles": "安：祠堂長\n員：祠堂舞者",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -11020,7 +11874,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0122 박시봉（朴時奉） 채록(採錄) 採錄 安：祠堂長 / 員：祠堂舞者 蓋瑞推薦 形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: oe 採錄 채록(採錄) 單集",
+      "searchText": "p0122 박시봉（朴時奉） 채록(採錄) 採錄 安：祠堂長\n員：祠堂舞者 蓋瑞推薦 形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: oe 採錄 채록(採錄) 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -12864,7 +13718,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "After like",
       "zh": "After like",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -12936,7 +13790,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0285 별빛（星光） after like after like 安：大學生 / 員：大學生  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: futa after like after like 單集",
+      "searchText": "p0285 별빛（星光） after like after like 安：大學生\n員：大學生  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: futa after like after like 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -12944,7 +13798,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "Crush on you",
       "zh": "Crush on you",
-      "roles": "安：演員 / 員：偶像",
+      "roles": "安：演員\n員：偶像",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -13016,7 +13870,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0286 별빛（星光） crush on you crush on you 安：演員 / 員：偶像  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: futa crush on you crush on you 單集",
+      "searchText": "p0286 별빛（星光） crush on you crush on you 安：演員\n員：偶像  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: futa crush on you crush on you 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -13024,7 +13878,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "너와 나 사이에1",
       "zh": "你和我之間",
-      "roles": "安：精神健康科醫師 / 員：出版社員工",
+      "roles": "安：精神健康科醫師\n員：出版社員工",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 3000,
@@ -13125,7 +13979,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0283 별빛（星光） 너와 나 사이에1 你和我之間 安：精神健康科醫師 / 員：出版社員工  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: futa 你和我之間 너와 나 사이에1 1 你和我之間 너와 나 사이에 2 2 你和我之間 너와 나 사이에 3(完) 3",
+      "searchText": "p0283 별빛（星光） 너와 나 사이에1 你和我之間 安：精神健康科醫師\n員：出版社員工  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: futa 你和我之間 너와 나 사이에1 1 你和我之間 너와 나 사이에 2 2 你和我之間 너와 나 사이에 3(完) 3",
       "purchaseLabel": "3000p"
     },
     {
@@ -13133,7 +13987,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "센티넬-가이드",
       "zh": "哨兵指南",
-      "roles": "安：叛亂軍哨兵 / 員：政府軍嚮導",
+      "roles": "安：叛亂軍哨兵\n員：政府軍嚮導",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -13207,7 +14061,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 哨嚮"
       ],
       "thumbCategories": [],
-      "searchText": "p0284 별빛（星光） 센티넬-가이드 哨兵指南 安：叛亂軍哨兵 / 員：政府軍嚮導  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: futa 類型世界觀: 哨嚮 哨兵指南 센티넬-가이드 單集",
+      "searchText": "p0284 별빛（星光） 센티넬-가이드 哨兵指南 安：叛亂軍哨兵\n員：政府軍嚮導  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: futa 類型世界觀: 哨嚮 哨兵指南 센티넬-가이드 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -13215,7 +14069,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "달빛",
       "zh": "月光",
-      "roles": "安：地球社畜(狼人) / 員：想成為偶像的月兔",
+      "roles": "安：地球社畜(狼人)\n員：想成為偶像的月兔",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -13309,7 +14163,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 獸轉/獸人"
       ],
       "thumbCategories": [],
-      "searchText": "p0282 별빛（星光） 달빛 月光 安：地球社畜(狼人) / 員：想成為偶像的月兔  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: futa 類型世界觀: 獸轉/獸人 月光 달빛 1 月光 달빛 2 月光 달빛 3",
+      "searchText": "p0282 별빛（星光） 달빛 月光 安：地球社畜(狼人)\n員：想成為偶像的月兔  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: futa 類型世界觀: 獸轉/獸人 月光 달빛 1 月光 달빛 2 月光 달빛 3",
       "purchaseLabel": "1500p"
     },
     {
@@ -13317,7 +14171,7 @@ window.DESTINY_DATA = {
       "author": "별빛（星光）",
       "ko": "단편썰",
       "zh": "短篇小說集1",
-      "roles": "安：倒閉中小業之女 / 員：大企業家族棄女",
+      "roles": "安：倒閉中小業之女\n員：大企業家族棄女",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 3000,
@@ -13411,7 +14265,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0288 별빛（星光） 단편썰 短篇小說集1 安：倒閉中小業之女 / 員：大企業家族棄女  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 類型世界觀: abo 類型世界觀: futa 短篇小說集1 단편썰 1 短篇小說集2 단편썰2 2 短篇小說集3 단편썰 3 聯姻故事",
+      "searchText": "p0288 별빛（星光） 단편썰 短篇小說集1 安：倒閉中小業之女\n員：大企業家族棄女  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 類型世界觀: abo 類型世界觀: futa 短篇小說集1 단편썰 1 短篇小說集2 단편썰2 2 短篇小說集3 단편썰 3 聯姻故事",
       "purchaseLabel": "3000p"
     },
     {
@@ -13681,7 +14535,7 @@ window.DESTINY_DATA = {
       "author": "블루마운틴（藍山）",
       "ko": "두 여자",
       "zh": "兩個女人",
-      "roles": "安：主廚/偵探 / 員：上班族",
+      "roles": "安：主廚/偵探\n員：上班族",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -13775,7 +14629,7 @@ window.DESTINY_DATA = {
         "文章類型: 都市現實"
       ],
       "thumbCategories": [],
-      "searchText": "p0133 블루마운틴（藍山） 두 여자 兩個女人 安：主廚/偵探 / 員：上班族  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 外遇/出軌 文章狀態: 未完 文章類型: 都市現實 兩個女人 두 여자 01 兩個女人 두 여자 02 兩個女人 두 여자 03 兩個女人 두 여자 04",
+      "searchText": "p0133 블루마운틴（藍山） 두 여자 兩個女人 安：主廚/偵探\n員：上班族  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 外遇/出軌 文章狀態: 未完 文章類型: 都市現實 兩個女人 두 여자 01 兩個女人 두 여자 02 兩個女人 두 여자 03 兩個女人 두 여자 04",
       "purchaseLabel": "1000p"
     },
     {
@@ -13861,7 +14715,7 @@ window.DESTINY_DATA = {
       "author": "삼사（三司）",
       "ko": "ARE YOU THERE, EUGENE?",
       "zh": "ARE YOU THERE，EUGENE？",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -13924,7 +14778,7 @@ window.DESTINY_DATA = {
         "背景設定: 辦公室"
       ],
       "thumbCategories": [],
-      "searchText": "p0134 삼사（三司） are you there, eugene? are you there，eugene？ 安：上班族 / 員：上班族  分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 are you there，eugene？ are you there, eugene? 單集",
+      "searchText": "p0134 삼사（三司） are you there, eugene? are you there，eugene？ 安：上班族\n員：上班族  分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 are you there，eugene？ are you there, eugene? 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -13932,7 +14786,7 @@ window.DESTINY_DATA = {
       "author": "삼사（三司）",
       "ko": "OH! VICKY! YOU BLOW MY MIND! 上",
       "zh": "OH! VICKY! YOU BLOW MY MIND!（上）",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "是",
       "maxPoints": 1500,
       "totalPoints": 1500,
@@ -13999,7 +14853,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0127 삼사（三司） oh! vicky! you blow my mind! 上 oh! vicky! you blow my mind!（上） 安：上班族 / 員：上班族 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 oh! vicky! you blow my mind!（上） oh! vicky! you blow my mind! 上 上",
+      "searchText": "p0127 삼사（三司） oh! vicky! you blow my mind! 上 oh! vicky! you blow my mind!（上） 安：上班族\n員：上班族 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 oh! vicky! you blow my mind!（上） oh! vicky! you blow my mind! 上 上",
       "purchaseLabel": "1500p"
     },
     {
@@ -14007,7 +14861,7 @@ window.DESTINY_DATA = {
       "author": "삼사（三司）",
       "ko": "OH! VICKY! YOU BLOW MY MIND! 下",
       "zh": "OH! VICKY! YOU BLOW MY MIND!（下）",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "是",
       "maxPoints": 1500,
       "totalPoints": 1500,
@@ -14074,7 +14928,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0128 삼사（三司） oh! vicky! you blow my mind! 下 oh! vicky! you blow my mind!（下） 安：上班族 / 員：上班族 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 oh! vicky! you blow my mind!（下） oh! vicky! you blow my mind! 下 下",
+      "searchText": "p0128 삼사（三司） oh! vicky! you blow my mind! 下 oh! vicky! you blow my mind!（下） 安：上班族\n員：上班族 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 oh! vicky! you blow my mind!（下） oh! vicky! you blow my mind! 下 下",
       "purchaseLabel": "1500p"
     },
     {
@@ -14082,7 +14936,7 @@ window.DESTINY_DATA = {
       "author": "선",
       "ko": "스타 뱅",
       "zh": "Star Bang",
-      "roles": "安：演員 / 員：營銷組長",
+      "roles": "安：演員\n員：營銷組長",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -14131,7 +14985,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0187 선 스타 뱅 star bang 安：演員 / 員：營銷組長  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he star bang 스타 뱅 單集",
+      "searchText": "p0187 선 스타 뱅 star bang 安：演員\n員：營銷組長  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he star bang 스타 뱅 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -14139,7 +14993,7 @@ window.DESTINY_DATA = {
       "author": "선샤인（Sunshine）",
       "ko": "연애의 온도",
       "zh": "戀愛的溫度",
-      "roles": "安：藝人 / 員：藝人",
+      "roles": "安：藝人\n員：藝人",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1000,
@@ -14212,7 +15066,7 @@ window.DESTINY_DATA = {
         "背景設定: 現實向"
       ],
       "thumbCategories": [],
-      "searchText": "p0163 선샤인（sunshine） 연애의 온도 戀愛的溫度 安：藝人 / 員：藝人  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 戀愛的溫度 연애의 온도 單集 戀愛的溫度 연애의 온도 番外",
+      "searchText": "p0163 선샤인（sunshine） 연애의 온도 戀愛的溫度 安：藝人\n員：藝人  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 戀愛的溫度 연애의 온도 單集 戀愛的溫度 연애의 온도 番外",
       "purchaseLabel": "1000p"
     },
     {
@@ -14456,7 +15310,7 @@ window.DESTINY_DATA = {
       "author": "소한s",
       "ko": "동서남북",
       "zh": "東南西北",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -14512,7 +15366,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0171 소한s 동서남북 東南西北 安：上班族 / 員：上班族  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 東南西北 동서남북 單集",
+      "searchText": "p0171 소한s 동서남북 東南西北 安：上班族\n員：上班族  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 東南西北 동서남북 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -14520,7 +15374,7 @@ window.DESTINY_DATA = {
       "author": "소한（小寒）",
       "ko": "Say You Love Me",
       "zh": "Say You Love Me",
-      "roles": "安：代理 / 員：室長",
+      "roles": "安：代理\n員：室長",
       "purchase": "已刪文",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -14596,7 +15450,7 @@ window.DESTINY_DATA = {
         "背景設定: 辦公室"
       ],
       "thumbCategories": [],
-      "searchText": "p0132 소한（小寒） say you love me say you love me 安：代理 / 員：室長  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 say you love me say you love me 單集",
+      "searchText": "p0132 소한（小寒） say you love me say you love me 安：代理\n員：室長  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 say you love me say you love me 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -14604,7 +15458,7 @@ window.DESTINY_DATA = {
       "author": "쓸말（司馬）",
       "ko": "짝사랑을 밥 먹듯이",
       "zh": "暗戀像吃飯一樣簡單",
-      "roles": "安：契約員工/學姊 / 員：部門主管/學妹",
+      "roles": "安：契約員工/學姊\n員：部門主管/學妹",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -14803,7 +15657,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0181 쓸말（司馬） 짝사랑을 밥 먹듯이 暗戀像吃飯一樣簡單 安：契約員工/學姊 / 員：部門主管/學妹 蓋瑞推薦 情感梗: 推拉 文章狀態: 完結 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 01 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 02 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 03 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 04 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 05 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 06 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 07 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 08 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 09 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 10 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 11 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 12",
+      "searchText": "p0181 쓸말（司馬） 짝사랑을 밥 먹듯이 暗戀像吃飯一樣簡單 安：契約員工/學姊\n員：部門主管/學妹 蓋瑞推薦 情感梗: 推拉 文章狀態: 完結 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 01 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 02 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 03 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 04 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 05 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 06 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 07 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 08 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 09 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 10 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 11 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 12",
       "purchaseLabel": "0p"
     },
     {
@@ -15045,7 +15899,7 @@ window.DESTINY_DATA = {
       "author": "알페스유목민",
       "ko": "늑대의 유혹",
       "zh": "狼的誘惑",
-      "roles": "安：小狼 / 員：大學生",
+      "roles": "安：小狼\n員：大學生",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -15117,7 +15971,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 獸轉/獸人"
       ],
       "thumbCategories": [],
-      "searchText": "p0178 알페스유목민 늑대의 유혹 狼的誘惑 安：小狼 / 員：大學生  分級: 💰付費內容 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 獸轉/獸人 狼的誘惑 늑대의 유혹 單集",
+      "searchText": "p0178 알페스유목민 늑대의 유혹 狼的誘惑 安：小狼\n員：大學生  分級: 💰付費內容 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 獸轉/獸人 狼的誘惑 늑대의 유혹 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -16414,7 +17268,7 @@ window.DESTINY_DATA = {
       "author": "이닛",
       "ko": "브로큰",
       "zh": "Broken",
-      "roles": "安：人妻 / 員：待業",
+      "roles": "安：人妻\n員：待業",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -16486,7 +17340,7 @@ window.DESTINY_DATA = {
         "結局: OE"
       ],
       "thumbCategories": [],
-      "searchText": "p0185 이닛 브로큰 broken 安：人妻 / 員：待業  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe broken 브로큰 單集",
+      "searchText": "p0185 이닛 브로큰 broken 安：人妻\n員：待業  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe broken 브로큰 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -16631,7 +17485,7 @@ window.DESTINY_DATA = {
       "author": "이단（一單）",
       "ko": "런투유",
       "zh": "Run to you",
-      "roles": "安：疫苗研究對象 / 員：流行病調查官",
+      "roles": "安：疫苗研究對象\n員：流行病調查官",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -16687,7 +17541,7 @@ window.DESTINY_DATA = {
         "背景設定: 末日"
       ],
       "thumbCategories": [],
-      "searchText": "p0167 이단（一單） 런투유 run to you 安：疫苗研究對象 / 員：流行病調查官  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 run to you 런투유 單集",
+      "searchText": "p0167 이단（一單） 런투유 run to you 安：疫苗研究對象\n員：流行病調查官  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 run to you 런투유 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -16749,7 +17603,7 @@ window.DESTINY_DATA = {
       "author": "이단（一單）",
       "ko": "청춘 과도기",
       "zh": "青春過渡期",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -16812,7 +17666,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0166 이단（一單） 청춘 과도기 青春過渡期 安：大學生 / 員：大學生  命定站賀文合集: 20250216annyeongz九稔同行-歲歲相栖 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 青春過渡期 청춘 과도기 單集",
+      "searchText": "p0166 이단（一單） 청춘 과도기 青春過渡期 安：大學生\n員：大學生  命定站賀文合集: 20250216annyeongz九稔同行-歲歲相栖 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 青春過渡期 청춘 과도기 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -17184,7 +18038,7 @@ window.DESTINY_DATA = {
       "author": "이유（理由）",
       "ko": "신데렐라와 동거를",
       "zh": "與辛德瑞拉定居",
-      "roles": "安：公爵 / 員：兔子(?)",
+      "roles": "安：公爵\n員：兔子(?)",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -17240,7 +18094,7 @@ window.DESTINY_DATA = {
         "背景設定: 王國/王室"
       ],
       "thumbCategories": [],
-      "searchText": "p0158 이유（理由） 신데렐라와 동거를 與辛德瑞拉定居 安：公爵 / 員：兔子(?)  文章狀態: 完結 文章篇幅: 短篇 文章類型: 西方奇幻 結局: he 背景設定: 王國/王室 與辛德瑞拉定居 신데렐라와 동거를 單集",
+      "searchText": "p0158 이유（理由） 신데렐라와 동거를 與辛德瑞拉定居 安：公爵\n員：兔子(?)  文章狀態: 完結 文章篇幅: 短篇 文章類型: 西方奇幻 結局: he 背景設定: 王國/王室 與辛德瑞拉定居 신데렐라와 동거를 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -18301,7 +19155,7 @@ window.DESTINY_DATA = {
       "author": "임네닉 X: JOEJOENJOE",
       "ko": "차조심 개조심 토끼조심",
       "zh": "小心車 小心狗 小心兔子",
-      "roles": "安：學生 / 員：學生",
+      "roles": "安：學生\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -18432,7 +19286,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0165 임네닉 x: joejoenjoe 차조심 개조심 토끼조심 小心車 小心狗 小心兔子 安：學生 / 員：學生 蓋瑞推薦 cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 追妻火葬場 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 01 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 02 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 03 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 04 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 05 完",
+      "searchText": "p0165 임네닉 x: joejoenjoe 차조심 개조심 토끼조심 小心車 小心狗 小心兔子 安：學生\n員：學生 蓋瑞推薦 cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 追妻火葬場 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 01 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 02 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 03 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 04 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 05 完",
       "purchaseLabel": "0p"
     },
     {
@@ -18504,7 +19358,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "Cool and Hot",
       "zh": "Cool and Hot",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -18569,7 +19423,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0291 정한（淨漢） cool and hot cool and hot 安：上班族 / 員：上班族  分級: cp潔癖勿入 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he cool and hot cool and hot 單集",
+      "searchText": "p0291 정한（淨漢） cool and hot cool and hot 安：上班族\n員：上班族  分級: cp潔癖勿入 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he cool and hot cool and hot 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -18577,7 +19431,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "Happy Together",
       "zh": "Happy Together",
-      "roles": "安：自由業 / 員：翻譯員",
+      "roles": "安：自由業\n員：翻譯員",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -18665,7 +19519,7 @@ window.DESTINY_DATA = {
         "題材梗: 背德"
       ],
       "thumbCategories": [],
-      "searchText": "p0293 정한（淨漢） happy together happy together 安：自由業 / 員：翻譯員  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 形式/性質: ooc 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 happy together happy together 單集",
+      "searchText": "p0293 정한（淨漢） happy together happy together 安：自由業\n員：翻譯員  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 形式/性質: ooc 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 happy together happy together 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -18673,7 +19527,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "Hot and Cool",
       "zh": "Hot and Cool",
-      "roles": "安：代理 / 員：組長",
+      "roles": "安：代理\n員：組長",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -18751,7 +19605,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0299 정한（淨漢） hot and cool hot and cool 安：代理 / 員：組長  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🏎️賽車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he hot and cool hot and cool 單集",
+      "searchText": "p0299 정한（淨漢） hot and cool hot and cool 安：代理\n員：組長  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🏎️賽車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he hot and cool hot and cool 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -18759,7 +19613,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "SAFE XXX",
       "zh": "SAFE XXX",
-      "roles": "安：藥師 / 員：俱樂部老闆",
+      "roles": "安：藥師\n員：俱樂部老闆",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 2000,
@@ -18840,7 +19694,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0290 정한（淨漢） safe xxx safe xxx 安：藥師 / 員：俱樂部老闆  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he safe xxx safe xxx 01 triple xxx: after safe xxx triple xxx: after safe xxx 02",
+      "searchText": "p0290 정한（淨漢） safe xxx safe xxx 安：藥師\n員：俱樂部老闆  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he safe xxx safe xxx 01 triple xxx: after safe xxx triple xxx: after safe xxx 02",
       "purchaseLabel": "2000p"
     },
     {
@@ -19001,7 +19855,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "당신의 조각들 A",
       "zh": "你的碎片 A",
-      "roles": "安：留學生 / 員：高中生",
+      "roles": "安：留學生\n員：高中生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -19093,7 +19947,7 @@ window.DESTINY_DATA = {
         "結局: OE"
       ],
       "thumbCategories": [],
-      "searchText": "p0292 정한（淨漢） 당신의 조각들 a 你的碎片 a 安：留學生 / 員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 形式/性質: ooc 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 你的碎片 a 당신의 조각들 a a 你的碎片 b 당신의 조각들 b b 你的碎片 c 당신의 조각들 c c",
+      "searchText": "p0292 정한（淨漢） 당신의 조각들 a 你的碎片 a 安：留學生\n員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 形式/性質: ooc 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 你的碎片 a 당신의 조각들 a a 你的碎片 b 당신의 조각들 b b 你的碎片 c 당신의 조각들 c c",
       "purchaseLabel": "0p"
     },
     {
@@ -19101,7 +19955,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "안가네 양평해장국",
       "zh": "安家的楊平解酒湯",
-      "roles": "安：解酒湯店老闆 / 員：學生",
+      "roles": "安：解酒湯店老闆\n員：學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -19159,7 +20013,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0296 정한（淨漢） 안가네 양평해장국 安家的楊平解酒湯 安：解酒湯店老闆 / 員：學生  情感梗: 年齡差 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 安家的楊平解酒湯 안가네 양평해장국 單集",
+      "searchText": "p0296 정한（淨漢） 안가네 양평해장국 安家的楊平解酒湯 安：解酒湯店老闆\n員：學生  情感梗: 年齡差 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 安家的楊平解酒湯 안가네 양평해장국 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -19167,7 +20021,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "우리들은 자란다",
       "zh": "我們正在成長",
-      "roles": "安：雕塑科學生 / 員：舞蹈科學生",
+      "roles": "安：雕塑科學生\n員：舞蹈科學生",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -19239,7 +20093,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0295 정한（淨漢） 우리들은 자란다 我們正在成長 安：雕塑科學生 / 員：舞蹈科學生  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 我們正在成長 우리들은 자란다 單集",
+      "searchText": "p0295 정한（淨漢） 우리들은 자란다 我們正在成長 安：雕塑科學生\n員：舞蹈科學生  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 我們正在成長 우리들은 자란다 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -19320,7 +20174,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "근본 없는 것",
       "zh": "無根之人",
-      "roles": "安：妾室之女 / 員：正室之女",
+      "roles": "安：妾室之女\n員：正室之女",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -19399,7 +20253,7 @@ window.DESTINY_DATA = {
         "題材梗: 殘疾"
       ],
       "thumbCategories": [],
-      "searchText": "p0297 정한（淨漢） 근본 없는 것 無根之人 安：妾室之女 / 員：正室之女  分級: 💰付費內容 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: oe 背景設定: 東方架空 題材梗: 背德 題材梗: 殘疾 無根之人 근본 없는 것 單集",
+      "searchText": "p0297 정한（淨漢） 근본 없는 것 無根之人 安：妾室之女\n員：正室之女  分級: 💰付費內容 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: oe 背景設定: 東方架空 題材梗: 背德 題材梗: 殘疾 無根之人 근본 없는 것 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -19407,7 +20261,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "열대야",
       "zh": "熱帶夜",
-      "roles": "安：高中生 / 員：代理孕母",
+      "roles": "安：高中生\n員：代理孕母",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -19492,7 +20346,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0298 정한（淨漢） 열대야 熱帶夜 安：高中生 / 員：代理孕母  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: abo 類型世界觀: futa 熱帶夜 열대야 單集",
+      "searchText": "p0298 정한（淨漢） 열대야 熱帶夜 安：高中生\n員：代理孕母  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: abo 類型世界觀: futa 熱帶夜 열대야 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -19578,7 +20432,7 @@ window.DESTINY_DATA = {
       "author": "정한（淨漢）",
       "ko": "논호림 論虎林",
       "zh": "論虎林",
-      "roles": "安：獵戶之女 / 員：山君之女",
+      "roles": "安：獵戶之女\n員：山君之女",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -19655,7 +20509,7 @@ window.DESTINY_DATA = {
         "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer"
       ],
       "thumbCategories": [],
-      "searchText": "p0294 정한（淨漢） 논호림 論虎林 論虎林 安：獵戶之女 / 員：山君之女  cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 論虎林 논호림 論虎林 單集",
+      "searchText": "p0294 정한（淨漢） 논호림 論虎林 論虎林 安：獵戶之女\n員：山君之女  cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 論虎林 논호림 論虎林 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -19663,7 +20517,7 @@ window.DESTINY_DATA = {
       "author": "지학（知鶴）",
       "ko": "MEDIA TYPE",
       "zh": "MEDIA TYPE",
-      "roles": "安：高中生/大學生 / 員：高中生/演員",
+      "roles": "安：高中生/大學生\n員：高中生/演員",
       "purchase": "已刪文",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -19726,7 +20580,7 @@ window.DESTINY_DATA = {
         "背景設定: 校園"
       ],
       "thumbCategories": [],
-      "searchText": "p0119 지학（知鶴） media type media type 安：高中生/大學生 / 員：高中生/演員  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 media type media type 單集",
+      "searchText": "p0119 지학（知鶴） media type media type 安：高中生/大學生\n員：高中生/演員  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 media type media type 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -19882,7 +20736,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "901:Not Found",
       "zh": "901:Not Found",
-      "roles": "安：仿生人 / 員：博士",
+      "roles": "安：仿生人\n員：博士",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -19938,7 +20792,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 仿生人"
       ],
       "thumbCategories": [],
-      "searchText": "p0264 진심（真心） 901:not found 901:not found 安：仿生人 / 員：博士  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: oe 類型世界觀: 仿生人 901:not found 901:not found 單集",
+      "searchText": "p0264 진심（真心） 901:not found 901:not found 安：仿生人\n員：博士  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: oe 類型世界觀: 仿生人 901:not found 901:not found 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -20115,7 +20969,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "Midnight in Florence",
       "zh": "Midnight in Florence",
-      "roles": "安：導遊 / 員：上班族",
+      "roles": "安：導遊\n員：上班族",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -20181,7 +21035,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0262 진심（真心） midnight in florence midnight in florence 安：導遊 / 員：上班族  情感梗: 破鏡重圓 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he midnight in florence midnight in florence 上 midnight in florence midnight in florence 下",
+      "searchText": "p0262 진심（真心） midnight in florence midnight in florence 安：導遊\n員：上班族  情感梗: 破鏡重圓 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he midnight in florence midnight in florence 上 midnight in florence midnight in florence 下",
       "purchaseLabel": "0p"
     },
     {
@@ -20275,7 +21129,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "너에게로 기울다",
       "zh": "傾心於妳",
-      "roles": "安：高中生/跆拳道選手/國家代表 / 員：高中生/跆拳道選手/心理諮商師",
+      "roles": "安：高中生/跆拳道選手/國家代表\n員：高中生/跆拳道選手/心理諮商師",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 3000,
@@ -20350,7 +21204,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0270 진심（真心） 너에게로 기울다 傾心於妳 安：高中生/跆拳道選手/國家代表 / 員：高中生/跆拳道選手/心理諮商師  分級: 💰付費內容 分級: 🏎️賽車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 傾心於妳 너에게로 기울다 上 傾心於妳 너에게로 기울다 下",
+      "searchText": "p0270 진심（真心） 너에게로 기울다 傾心於妳 安：高中生/跆拳道選手/國家代表\n員：高中生/跆拳道選手/心理諮商師  分級: 💰付費內容 分級: 🏎️賽車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 傾心於妳 너에게로 기울다 上 傾心於妳 너에게로 기울다 下",
       "purchaseLabel": "3000p"
     },
     {
@@ -20358,7 +21212,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "커피가 예쁘고 알바생이 맛있어요",
       "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
-      "roles": "安：百貨公司社長 / 員：咖啡廳兼職",
+      "roles": "安：百貨公司社長\n員：咖啡廳兼職",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -20645,7 +21499,7 @@ window.DESTINY_DATA = {
         "題材梗: 育兒"
       ],
       "thumbCategories": [],
-      "searchText": "p0254 진심（真心） 커피가 예쁘고 알바생이 맛있어요 咖啡夫妻s1-咖啡很迷人，店員也很美味 安：百貨公司社長 / 員：咖啡廳兼職  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 妻妻 文章狀態: 完結+番外 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 題材梗: 育兒 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 01 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 02 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 03 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 04 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 05 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 06 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 07 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 08 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 09 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 10 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 11 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 12 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 13 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 14 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 15 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 16 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 17 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 17 clean ver 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 18 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 19 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 20 完",
+      "searchText": "p0254 진심（真心） 커피가 예쁘고 알바생이 맛있어요 咖啡夫妻s1-咖啡很迷人，店員也很美味 安：百貨公司社長\n員：咖啡廳兼職  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 妻妻 文章狀態: 完結+番外 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 題材梗: 育兒 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 01 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 02 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 03 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 04 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 05 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 06 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 07 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 08 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 09 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 10 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 11 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 12 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 13 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 14 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 15 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 16 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 17 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 17 clean ver 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 18 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 19 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 20 完",
       "purchaseLabel": "1500p"
     },
     {
@@ -21214,7 +22068,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "밀회",
       "zh": "密會",
-      "roles": "安：代理 / 員：組長",
+      "roles": "安：代理\n員：組長",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 3000,
@@ -21308,7 +22162,7 @@ window.DESTINY_DATA = {
         "背景設定: 辦公室"
       ],
       "thumbCategories": [],
-      "searchText": "p0261 진심（真心） 밀회 密會 安：代理 / 員：組長  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 密會 밀회 上 密會 밀회 下 密會 밀회 美國，那之後的故事",
+      "searchText": "p0261 진심（真心） 밀회 密會 安：代理\n員：組長  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 密會 밀회 上 密會 밀회 下 密會 밀회 美國，那之後的故事",
       "purchaseLabel": "3000p"
     },
     {
@@ -21316,7 +22170,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "내 남편의 여자",
       "zh": "我丈夫的女人",
-      "roles": "安：代表妻子 / 員：代表祕書",
+      "roles": "安：代表妻子\n員：代表祕書",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -21394,7 +22248,7 @@ window.DESTINY_DATA = {
         "結局: OE"
       ],
       "thumbCategories": [],
-      "searchText": "p0259 진심（真心） 내 남편의 여자 我丈夫的女人 安：代表妻子 / 員：代表祕書  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 我丈夫的女人 내 남편의 여자 單集",
+      "searchText": "p0259 진심（真心） 내 남편의 여자 我丈夫的女人 安：代表妻子\n員：代表祕書  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 我丈夫的女人 내 남편의 여자 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -21402,7 +22256,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "회장딸이 왜 이럴까",
       "zh": "會長女兒為何會這樣",
-      "roles": "安：新進職員 / 員：會長女兒",
+      "roles": "安：新進職員\n員：會長女兒",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -21496,7 +22350,7 @@ window.DESTINY_DATA = {
         "文章類型: 都市現實"
       ],
       "thumbCategories": [],
-      "searchText": "p0266 진심（真心） 회장딸이 왜 이럴까 會長女兒為何會這樣 安：新進職員 / 員：會長女兒  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 未完 文章類型: 都市現實 會長女兒為何會這樣 회장딸이 왜 이럴까 01 會長女兒為何會這樣 회장딸이 왜 이럴까 02 會長女兒為何會這樣 회장딸이 왜 이럴까 03 會長女兒為何會這樣 회장딸이 왜 이럴까 04 會長女兒為何會這樣 회장딸이 왜 이럴까 05 會長女兒為何會這樣 회장딸이 왜 이럴까 06",
+      "searchText": "p0266 진심（真心） 회장딸이 왜 이럴까 會長女兒為何會這樣 安：新進職員\n員：會長女兒  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 未完 文章類型: 都市現實 會長女兒為何會這樣 회장딸이 왜 이럴까 01 會長女兒為何會這樣 회장딸이 왜 이럴까 02 會長女兒為何會這樣 회장딸이 왜 이럴까 03 會長女兒為何會這樣 회장딸이 왜 이럴까 04 會長女兒為何會這樣 회장딸이 왜 이럴까 05 會長女兒為何會這樣 회장딸이 왜 이럴까 06",
       "purchaseLabel": "0p"
     },
     {
@@ -21596,7 +22450,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "돌아갈 수 없는 길",
       "zh": "無法回頭的路",
-      "roles": "安：學姊/老師 / 員：學妹/老師",
+      "roles": "安：學姊/老師\n員：學妹/老師",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 2000,
@@ -21663,7 +22517,7 @@ window.DESTINY_DATA = {
         "題材梗: 恐怖情人"
       ],
       "thumbCategories": [],
-      "searchText": "p0260 진심（真心） 돌아갈 수 없는 길 無法回頭的路 安：學姊/老師 / 員：學妹/老師  分級: 尺度大、謹慎閱讀 分級: 🏎️賽車 分級: 玩具 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 題材梗: 恐怖情人 無法回頭的路 돌아갈 수 없는 길 單集",
+      "searchText": "p0260 진심（真心） 돌아갈 수 없는 길 無法回頭的路 安：學姊/老師\n員：學妹/老師  分級: 尺度大、謹慎閱讀 分級: 🏎️賽車 分級: 玩具 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 題材梗: 恐怖情人 無法回頭的路 돌아갈 수 없는 길 單集",
       "purchaseLabel": "2000p"
     },
     {
@@ -21671,7 +22525,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "개와 늑대의 시간",
       "zh": "犬與狼的時間",
-      "roles": "安：刑警 / 員：社長",
+      "roles": "安：刑警\n員：社長",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -21746,7 +22600,7 @@ window.DESTINY_DATA = {
         "結局: OE"
       ],
       "thumbCategories": [],
-      "searchText": "p0263 진심（真心） 개와 늑대의 시간 犬與狼的時間 安：刑警 / 員：社長  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 犬與狼的時間 개와 늑대의 시간 上 犬與狼的時間 개와 늑대의 시간 下",
+      "searchText": "p0263 진심（真心） 개와 늑대의 시간 犬與狼的時間 安：刑警\n員：社長  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 犬與狼的時間 개와 늑대의 시간 上 犬與狼的時間 개와 늑대의 시간 下",
       "purchaseLabel": "1000p"
     },
     {
@@ -21754,7 +22608,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "결",
       "zh": "結",
-      "roles": "安：新進員工 / 員：次長",
+      "roles": "安：新進員工\n員：次長",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 4000,
@@ -21871,7 +22725,7 @@ window.DESTINY_DATA = {
         "類型世界觀: ABO"
       ],
       "thumbCategories": [],
-      "searchText": "p0267 진심（真心） 결 結 安：新進員工 / 員：次長  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 妻妻 情感梗: 年齡差 情感梗: 逆年齡 情感梗: 外遇/出軌 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: abo 結 결 上 結 결 中 結 결 下 結 결 外傳",
+      "searchText": "p0267 진심（真心） 결 結 安：新進員工\n員：次長  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 妻妻 情感梗: 年齡差 情感梗: 逆年齡 情感梗: 外遇/出軌 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: abo 結 결 上 結 결 中 結 결 下 結 결 外傳",
       "purchaseLabel": "4000p"
     },
     {
@@ -21972,7 +22826,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "그 날의 빛, 지금의 너",
       "zh": "那一天的光，如今的妳",
-      "roles": "安：代表/高中同學 / 員：未明/高中同學",
+      "roles": "安：代表/高中同學\n員：未明/高中同學",
       "purchase": "是",
       "maxPoints": 2000,
       "totalPoints": 3000,
@@ -22051,7 +22905,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0269 진심（真心） 그 날의 빛, 지금의 너 那一天的光，如今的妳 安：代表/高中同學 / 員：未明/高中同學  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: sm 分級: 玩具 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 那一天的光，如今的妳 그 날의 빛, 지금의 너 上 那一天的光，如今的妳 그 날의 빛, 지금의 너 下",
+      "searchText": "p0269 진심（真心） 그 날의 빛, 지금의 너 那一天的光，如今的妳 安：代表/高中同學\n員：未明/高中同學  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: sm 分級: 玩具 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 那一天的光，如今的妳 그 날의 빛, 지금의 너 上 那一天的光，如今的妳 그 날의 빛, 지금의 너 下",
       "purchaseLabel": "3000p"
     },
     {
@@ -22059,7 +22913,7 @@ window.DESTINY_DATA = {
       "author": "진심（真心）",
       "ko": "틈",
       "zh": "間隙",
-      "roles": "安：安企業繼承人 / 員：國務總理么女",
+      "roles": "安：安企業繼承人\n員：國務總理么女",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 3000,
@@ -22173,7 +23027,7 @@ window.DESTINY_DATA = {
         "類型世界觀: ABO"
       ],
       "thumbCategories": [],
-      "searchText": "p0265 진심（真心） 틈 間隙 安：安企業繼承人 / 員：國務總理么女  cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 先婚後愛 情感梗: 妻妻 情感梗: 年齡差 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 類型世界觀: abo 間隙 틈 上 間隙 틈 中 間隙 틈 下",
+      "searchText": "p0265 진심（真心） 틈 間隙 安：安企業繼承人\n員：國務總理么女  cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 先婚後愛 情感梗: 妻妻 情感梗: 年齡差 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 類型世界觀: abo 間隙 틈 上 間隙 틈 中 間隙 틈 下",
       "purchaseLabel": "3000p"
     },
     {
@@ -22993,7 +23847,7 @@ window.DESTINY_DATA = {
       "author": "참치（鮪魚）",
       "ko": "태산군전",
       "zh": "太山君傳",
-      "roles": "安：山君 / 員：兔子",
+      "roles": "安：山君\n員：兔子",
       "purchase": "是",
       "maxPoints": 700,
       "totalPoints": 700,
@@ -23081,7 +23935,7 @@ window.DESTINY_DATA = {
         "類型世界觀: Futa"
       ],
       "thumbCategories": [],
-      "searchText": "p0161 참치（鮪魚） 태산군전 太山君傳 安：山君 / 員：兔子  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 題材梗: 養成系 類型世界觀: futa 太山君傳 태산군전 單集",
+      "searchText": "p0161 참치（鮪魚） 태산군전 太山君傳 安：山君\n員：兔子  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 題材梗: 養成系 類型世界觀: futa 太山君傳 태산군전 單集",
       "purchaseLabel": "700p"
     },
     {
@@ -23303,7 +24157,7 @@ window.DESTINY_DATA = {
       "author": "철복（鐵鍑）",
       "ko": "포스틱 아포카토 로맨스",
       "zh": "後啟示錄式浪漫",
-      "roles": "安：青梅 / 員：青梅",
+      "roles": "安：青梅\n員：青梅",
       "purchase": "是",
       "maxPoints": 1000,
       "totalPoints": 1000,
@@ -23380,7 +24234,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 殭屍/喪屍"
       ],
       "thumbCategories": [],
-      "searchText": "p0157 철복（鐵鍑） 포스틱 아포카토 로맨스 後啟示錄式浪漫 安：青梅 / 員：青梅  分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 末日 類型世界觀: 殭屍/喪屍 後啟示錄式浪漫 포스틱 아포카토 로맨스 單集",
+      "searchText": "p0157 철복（鐵鍑） 포스틱 아포카토 로맨스 後啟示錄式浪漫 安：青梅\n員：青梅  分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 末日 類型世界觀: 殭屍/喪屍 後啟示錄式浪漫 포스틱 아포카토 로맨스 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -23459,7 +24313,7 @@ window.DESTINY_DATA = {
       "author": "초코쇼크",
       "ko": "토끼가 멍멍",
       "zh": "獸人系列1-兔子在汪汪叫",
-      "roles": "安：獸人(黃金獵犬) / 員：獸人(兔子)",
+      "roles": "安：獸人(黃金獵犬)\n員：獸人(兔子)",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -23501,7 +24355,7 @@ window.DESTINY_DATA = {
         "類型世界觀: 獸轉/獸人"
       ],
       "thumbCategories": [],
-      "searchText": "p0174 초코쇼크 토끼가 멍멍 獸人系列1-兔子在汪汪叫 安：獸人(黃金獵犬) / 員：獸人(兔子)  文章狀態: 未完 文章類型: 奇幻玄幻 類型世界觀: 獸轉/獸人 獸人系列1-兔子在汪汪叫 토끼가 멍멍 單集",
+      "searchText": "p0174 초코쇼크 토끼가 멍멍 獸人系列1-兔子在汪汪叫 安：獸人(黃金獵犬)\n員：獸人(兔子)  文章狀態: 未完 文章類型: 奇幻玄幻 類型世界觀: 獸轉/獸人 獸人系列1-兔子在汪汪叫 토끼가 멍멍 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -23623,7 +24477,7 @@ window.DESTINY_DATA = {
       "author": "칠척",
       "ko": "Give or take",
       "zh": "Give or take",
-      "roles": "安：喝酒關係的社區姐姐 / 員：喝酒關係的社區妹妹",
+      "roles": "安：喝酒關係的社區姐姐\n員：喝酒關係的社區妹妹",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -23694,7 +24548,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0182 칠척 give or take give or take 安：喝酒關係的社區姐姐 / 員：喝酒關係的社區妹妹 蓋瑞推薦 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he give or take give or take 單集",
+      "searchText": "p0182 칠척 give or take give or take 安：喝酒關係的社區姐姐\n員：喝酒關係的社區妹妹 蓋瑞推薦 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he give or take give or take 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -24302,7 +25156,7 @@ window.DESTINY_DATA = {
       "author": "테이",
       "ko": "체리 브랜디",
       "zh": "櫻桃白蘭地",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "否",
       "maxPoints": 0,
       "totalPoints": 0,
@@ -24358,7 +25212,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0183 테이 체리 브랜디 櫻桃白蘭地 安：大學生 / 員：大學生  分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 櫻桃白蘭地 체리 브랜디 單集",
+      "searchText": "p0183 테이 체리 브랜디 櫻桃白蘭地 安：大學生\n員：大學生  分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 櫻桃白蘭地 체리 브랜디 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -24366,7 +25220,7 @@ window.DESTINY_DATA = {
       "author": "톨（Tall）",
       "ko": "WHATEVER ! 1/3",
       "zh": "WHATEVER !",
-      "roles": "安：大學生 / 員：大學生",
+      "roles": "安：大學生\n員：大學生",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -24457,7 +25311,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0143 톨（tall） whatever ! 1/3 whatever ! 安：大學生 / 員：大學生 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 whatever ! whatever ! 1/3 1/3 whatever ! whatever ! 2/3 2/3 whatever ! whatever ! 3/3 3/3",
+      "searchText": "p0143 톨（tall） whatever ! 1/3 whatever ! 安：大學生\n員：大學生 蓋瑞推薦 分級: 💰付費內容 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 whatever ! whatever ! 1/3 1/3 whatever ! whatever ! 2/3 2/3 whatever ! whatever ! 3/3 3/3",
       "purchaseLabel": "1500p"
     },
     {
@@ -24465,7 +25319,7 @@ window.DESTINY_DATA = {
       "author": "톨（Tall）",
       "ko": "교점 그리고 종점",
       "zh": "交點與終點",
-      "roles": "安：上班族 / 員：上班族",
+      "roles": "安：上班族\n員：上班族",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -24521,7 +25375,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0129 톨（tall） 교점 그리고 종점 交點與終點 安：上班族 / 員：上班族  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 交點與終點 교점 그리고 종점 單集",
+      "searchText": "p0129 톨（tall） 교점 그리고 종점 交點與終點 安：上班族\n員：上班族  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 交點與終點 교점 그리고 종점 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -24529,7 +25383,7 @@ window.DESTINY_DATA = {
       "author": "톨（Tall）",
       "ko": "샘플링 바이어스",
       "zh": "抽樣偏差",
-      "roles": "安：選貨店老闆 / 員：公司職員",
+      "roles": "安：選貨店老闆\n員：公司職員",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -24596,7 +25450,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0152 톨（tall） 샘플링 바이어스 抽樣偏差 安：選貨店老闆 / 員：公司職員  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 抽樣偏差 샘플링 바이어스 單集",
+      "searchText": "p0152 톨（tall） 샘플링 바이어스 抽樣偏差 安：選貨店老闆\n員：公司職員  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 抽樣偏差 샘플링 바이어스 單集",
       "purchaseLabel": "500p"
     },
     {
@@ -24604,7 +25458,7 @@ window.DESTINY_DATA = {
       "author": "톨（Tall）",
       "ko": "늦여름 서핑 上",
       "zh": "晚夏衝浪",
-      "roles": "安：研究生 / 員：咖啡店老闆",
+      "roles": "安：研究生\n員：咖啡店老闆",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 1500,
@@ -24682,7 +25536,7 @@ window.DESTINY_DATA = {
         "結局: HE"
       ],
       "thumbCategories": [],
-      "searchText": "p0130 톨（tall） 늦여름 서핑 上 晚夏衝浪 安：研究生 / 員：咖啡店老闆  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 晚夏衝浪 늦여름 서핑 上 上 晚夏衝浪 늦여름 서핑 中 中 晚夏衝浪 늦여름 서핑 下 下",
+      "searchText": "p0130 톨（tall） 늦여름 서핑 上 晚夏衝浪 安：研究生\n員：咖啡店老闆  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 晚夏衝浪 늦여름 서핑 上 上 晚夏衝浪 늦여름 서핑 中 中 晚夏衝浪 늦여름 서핑 下 下",
       "purchaseLabel": "1500p"
     },
     {
@@ -24690,7 +25544,7 @@ window.DESTINY_DATA = {
       "author": "톨（Tall）",
       "ko": "그 겨울에 대한 회고록",
       "zh": "那個冬天回憶錄",
-      "roles": "安：自由業 / 員：上班族",
+      "roles": "安：自由業\n員：上班族",
       "purchase": "是",
       "maxPoints": 500,
       "totalPoints": 500,
@@ -24762,7 +25616,7 @@ window.DESTINY_DATA = {
         "背景設定: 末日"
       ],
       "thumbCategories": [],
-      "searchText": "p0155 톨（tall） 그 겨울에 대한 회고록 那個冬天回憶錄 安：自由業 / 員：上班族  分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 那個冬天回憶錄 그 겨울에 대한 회고록 單集",
+      "searchText": "p0155 톨（tall） 그 겨울에 대한 회고록 那個冬天回憶錄 安：自由業\n員：上班族  分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 那個冬天回憶錄 그 겨울에 대한 회고록 單集",
       "purchaseLabel": "500p"
     },
     {
