@@ -1566,7 +1566,9 @@
     function visibleWorks() {
       const q = state.q.trim().toLowerCase();
       let items = works.filter(work => {
+        const mixedOK = !isMixedCp(work) || state.tags.has("雜食系 (其他CP)");
         if (q && !languageSearchText(work.searchText).includes(toSimplified(q).toLowerCase()) && !languageSearchText(work.searchText).includes(q)) return false;
+        if (!mixedOK) return false;
         if (state.purchase !== "全部" && work.purchase !== state.purchase) return false;
         if (state.author && work.author !== state.author) return false;
         if (state.jewel === "全部推薦" && !(work.thumbCategories || []).length) return false;
