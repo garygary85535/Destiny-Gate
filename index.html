@@ -827,7 +827,7 @@
     <div class="source-credit">
       實名感謝鳳梨，標籤分類參考資料庫：
       <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
-      <div class="site-updated">最新更新時間：2026-08-01 22:56</div>
+      <div class="site-updated">最新更新時間：2026-08-05 17:33</div>
     </div>
   </header>
 
@@ -911,7 +911,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=20260801-postype-only-final"></script>
+  <script src="destiny-data.js?v=20260805-1733"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const CALCULATOR_KEY = "destinyCalculatorSelection";
@@ -1440,6 +1440,10 @@
       return (work.thumbCategories || []).some(category => String(category).includes("雜食"));
     }
 
+    function hasMixedCpFilter() {
+      return String(state.jewel || "").includes("雜食") || [...state.tags].some(tag => String(tag).includes("雜食"));
+    }
+
     function calculatorItems() {
       return works
         .filter(work => Number.isFinite(work.totalPoints) && work.totalPoints > 0)
@@ -1566,7 +1570,7 @@
     function visibleWorks() {
       const q = state.q.trim().toLowerCase();
       let items = works.filter(work => {
-        const mixedOK = !isMixedCp(work) || state.tags.has("雜食系 (其他CP)");
+        const mixedOK = !isMixedCp(work) || hasMixedCpFilter();
         if (q && !languageSearchText(work.searchText).includes(toSimplified(q).toLowerCase()) && !languageSearchText(work.searchText).includes(q)) return false;
         if (!mixedOK) return false;
         if (state.purchase !== "全部" && work.purchase !== state.purchase) return false;
