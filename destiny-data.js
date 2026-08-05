@@ -1,13 +1,149 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 721,
+  "rows": 724,
   "works": [
+    {
+      "id": "P0280",
+      "author": "플레인（Plain）",
+      "ko": "페이지를 찾을 수 없습니다",
+      "zh": "找不到頁面",
+      "roles": "安：代理 / 員：代理",
+      "purchase": "否",
+      "sourceRow": 726,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "1",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/@monochrome-film/post/22545325",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "2",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/@monochrome-film/post/22545325",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "3",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/@monochrome-film/post/22545325",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "4",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/@monochrome-film/post/22545325",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "5",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/22773333",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "6",
+          "ko": "페이지를 찾을 수 없습니다",
+          "zh": "找不到頁面",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/22837275",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "分級",
+          "values": [
+            "CP潔癖勿入"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        },
+        {
+          "type": "文章類型",
+          "values": [
+            "都市現實"
+          ]
+        },
+        {
+          "type": "背景設定",
+          "values": [
+            "辦公室"
+          ]
+        }
+      ],
+      "flatTags": [
+        "分級: CP潔癖勿入",
+        "文章狀態: 連載中",
+        "文章類型: 都市現實",
+        "背景設定: 辦公室"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0280 플레인（plain） 페이지를 찾을 수 없습니다 找不到頁面 安：代理 / 員：代理  分級: cp潔癖勿入 文章狀態: 連載中 文章類型: 都市現實 背景設定: 辦公室 找不到頁面 페이지를 찾을 수 없습니다 1 找不到頁面 페이지를 찾을 수 없습니다 2 找不到頁面 페이지를 찾을 수 없습니다 3 找不到頁面 페이지를 찾을 수 없습니다 4 找不到頁面 페이지를 찾을 수 없습니다 5 找不到頁面 페이지를 찾을 수 없습니다 6",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0438",
+      "author": "윶페스합작（@U_pjisnps91）",
+      "ko": "늑대와 파란",
+      "zh": "狼與藍",
+      "roles": "",
+      "purchase": "否",
+      "sourceRow": 724,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "늑대와 파란",
+          "zh": "狼與藍",
+          "url": "https://www.postype.com/zh-hant/@u91jinps/post/7993427?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0438 윶페스합작（@u_pjisnps91） 늑대와 파란 狼與藍    狼與藍 늑대와 파란 單集",
+      "purchaseLabel": "0p"
+    },
     {
       "id": "P0437",
       "author": "Void",
       "ko": "What's After X",
       "zh": "What's After X",
-      "roles": "",
+      "roles": "🐱🐹",
       "purchase": "是",
       "sourceRow": 723,
       "maxPoints": 300,
@@ -31,7 +167,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0437 void what's after x what's after x  雜食系 (其他cp)  what's after x what's after x 單集",
+      "searchText": "p0437 void what's after x what's after x 🐱🐹 雜食系 (其他cp)  what's after x what's after x 單集",
       "purchaseLabel": "300p"
     },
     {
@@ -83,7 +219,7 @@ window.DESTINY_DATA = {
       "author": "Void",
       "ko": "One Night",
       "zh": "One Night",
-      "roles": "",
+      "roles": "🐱🐹",
       "purchase": "是",
       "sourceRow": 720,
       "maxPoints": 200,
@@ -119,7 +255,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0435 void one night one night  雜食系 (其他cp)  one night one night 本傳 that night（one night外傳） that night（one night 외전） 外傳",
+      "searchText": "p0435 void one night one night 🐱🐹 雜食系 (其他cp)  one night one night 本傳 that night（one night外傳） that night（one night 외전） 外傳",
       "purchaseLabel": "200p"
     },
     {
@@ -27624,94 +27760,6 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0281 플레인（plain） 형사취수 轉房婚 安：安家次子 / 員：張氏之女 蓋瑞推薦 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 妻妻 文章狀態: 完結+後記 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 題材梗: 女扮男 轉房婚 형사취수 單集",
       "purchaseLabel": "1000p"
-    },
-    {
-      "id": "P0280",
-      "author": "플레인（Plain）",
-      "ko": "페이지를 찾을 수 없습니다",
-      "zh": "找不到頁面",
-      "roles": "安：代理 / 員：代理",
-      "purchase": "否",
-      "sourceRow": 19,
-      "maxPoints": 0,
-      "totalPoints": 0,
-      "items": [
-        {
-          "part": "1",
-          "ko": "페이지를 찾을 수 없습니다",
-          "zh": "找不到頁面",
-          "url": "https://www.postype.com/@monochrome-film/post/22545325",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "2",
-          "ko": "페이지를 찾을 수 없습니다",
-          "zh": "找不到頁面",
-          "url": "https://www.postype.com/@monochrome-film/post/22545325",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "3",
-          "ko": "페이지를 찾을 수 없습니다",
-          "zh": "找不到頁面",
-          "url": "https://www.postype.com/@monochrome-film/post/22545325",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "4",
-          "ko": "페이지를 찾을 수 없습니다",
-          "zh": "找不到頁面",
-          "url": "https://www.postype.com/@monochrome-film/post/22545325",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "分級",
-          "values": [
-            "CP潔癖勿入"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "連載中"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "背景設定",
-          "values": [
-            "辦公室"
-          ]
-        }
-      ],
-      "flatTags": [
-        "分級: CP潔癖勿入",
-        "文章狀態: 連載中",
-        "文章類型: 都市現實",
-        "背景設定: 辦公室"
-      ],
-      "thumbCategories": [],
-      "searchText": "p0280 플레인（plain） 페이지를 찾을 수 없습니다 找不到頁面 安：代理 / 員：代理  分級: cp潔癖勿入 文章狀態: 連載中 文章類型: 都市現實 背景設定: 辦公室 找不到頁面 페이지를 찾을 수 없습니다 1 找不到頁面 페이지를 찾을 수 없습니다 2 找不到頁面 페이지를 찾을 수 없습니다 3 找不到頁面 페이지를 찾을 수 없습니다 4",
-      "purchaseLabel": "0p"
     },
     {
       "id": "P0279",
