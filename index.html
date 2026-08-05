@@ -1436,9 +1436,14 @@
       return state.readWorks.has(work.id) ? `取消已看完：${work.zh}` : `標記已看完：${work.zh}`;
     }
 
+    function isMixedCp(work) {
+      return (work.thumbCategories || []).some(category => String(category).includes("雜食"));
+    }
+
     function calculatorItems() {
       return works
         .filter(work => Number.isFinite(work.totalPoints) && work.totalPoints > 0)
+        .filter(work => !isMixedCp(work))
         .map(work => ({
           id: work.id,
           workTitle: work.zh,
@@ -1662,7 +1667,7 @@
     }
 
     function randomWork() {
-      const items = visibleWorks().filter(work => visibleItems(work).some(item => item.url));
+      const items = visibleWorks().filter(work => !isMixedCp(work) && visibleItems(work).some(item => item.url));
       if (!items.length) {
         el.countText.textContent = "目前篩選條件沒有可傳送的作品";
         return;
