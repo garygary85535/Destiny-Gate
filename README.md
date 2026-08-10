@@ -16,6 +16,24 @@
 
 This folder is intended to become an independent GitHub Pages project, separate from `Annyeongz`, so visitors cannot trim the URL back into the private translation site.
 
+## Comment Board API
+
+Comments are collected in the `書目` spreadsheet tab `Destiny Gate 留言板`.
+
+1. Create a Google Apps Script project and paste `/Users/ellenrock/Documents/書目管理/destiny_gate_comment_api.gs`.
+2. Run `setupDestinyGateCommentSheet` once if the comment tab needs to be rebuilt.
+3. Set the script property `DESTINY_COMMENT_ADMIN_PASSWORD` to the administrator delete password.
+   - Keep this value in Apps Script project properties only.
+   - Do not paste the password into `index.html` or `destiny-data.js`.
+4. Deploy as a Web App:
+   - Execute as: Me
+   - Who has access: Anyone
+5. Copy the Web App URL into `COMMENT_ENDPOINT` in `index.html`.
+
+Until `COMMENT_ENDPOINT` is filled, the comment board UI is visible but cannot write to the spreadsheet.
+
+Do not place the Apps Script file inside this public site folder or publish it to GitHub Pages.
+
 ## Report API
 
 Reports are collected in the `書目` spreadsheet tab `Destiny Gate 回報`.
