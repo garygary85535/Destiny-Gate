@@ -871,7 +871,7 @@
     <div class="source-credit">
       實名感謝鳳梨，標籤分類參考資料庫：
       <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
-      <div class="site-updated">最新更新時間：2026-08-10 21:58</div>
+      <div class="site-updated">最新更新時間：2026-08-10 22:56</div>
     </div>
   </header>
 
@@ -998,7 +998,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=20260810-2158"></script>
+  <script src="destiny-data.js?v=20260810-2256"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const COMMENT_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6nWmOnuqe_HU9ACEUPcAV_v58W0P-Ltgzz1p-IRlOObb5uoQQZ1pffCu9nZnMxB5Hvg/exec";
@@ -1829,6 +1829,7 @@
     function renderCommentWorkOptions() {
       const q = languageSearchText(el.commentSearch.value.trim().toLowerCase());
       const rows = works
+        .filter(work => !isMixedCp(work))
         .filter(work => !q || languageSearchText(`${work.id} ${work.zh} ${work.ko} ${work.author}`).includes(q))
         .slice(0, 80);
       const selected = state.commentQuoteId;

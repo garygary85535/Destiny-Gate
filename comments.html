@@ -300,7 +300,7 @@
     </section>
   </main>
 
-  <script src="destiny-data.js?v=20260810-2158"></script>
+  <script src="destiny-data.js?v=20260810-2256"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const COMMENT_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6nWmOnuqe_HU9ACEUPcAV_v58W0P-Ltgzz1p-IRlOObb5uoQQZ1pffCu9nZnMxB5Hvg/exec";
@@ -383,6 +383,7 @@
     function renderWorkOptions() {
       const q = searchText(el.search.value);
       const rows = works
+        .filter(work => !(work.thumbCategories || []).some(category => String(category).includes("雜食")))
         .filter(work => !q || searchText(`${work.id} ${work.zh} ${work.ko} ${work.author}`).includes(q))
         .slice(0, 120);
       el.work.innerHTML = `<option value="">不引用作品</option>` + rows.map(work =>

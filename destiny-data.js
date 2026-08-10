@@ -24,10 +24,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
       "thumbCategories": [],
-      "searchText": "p0444 in 스물하나, 스물 二十一，二十 安：大學生（渣）\n員：大學生   二十一，二十 스물하나, 스물 上",
+      "searchText": "p0444 in 스물하나, 스물 二十一，二十 安：大學生（渣）\n員：大學生  文章狀態: 連載中 二十一，二十 스물하나, 스물 上",
       "purchaseLabel": "500p"
     },
     {
@@ -92,10 +101,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0443 in 숙소에서 在宿舍 現實向   在宿舍 숙소에서 1 feat. 廁所 在宿舍 숙소에서 2 feat. 沙發 在宿舍 숙소에서 3 feat. 停車場 在宿舍 숙소에서 4 feat. 餐桌 在宿舍 숙소에서 5 feat. 家",
+      "searchText": "p0443 in 숙소에서 在宿舍 現實向  文章狀態: 完結 在宿舍 숙소에서 1 feat. 廁所 在宿舍 숙소에서 2 feat. 沙發 在宿舍 숙소에서 3 feat. 停車場 在宿舍 숙소에서 4 feat. 餐桌 在宿舍 숙소에서 5 feat. 家",
       "purchaseLabel": "2500p"
     },
     {
@@ -122,12 +140,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0442 페슝깅（peshoong） 룸 room 🐱🐹 雜食系 (其他cp)  room 룸 單集",
+      "searchText": "p0442 페슝깅（peshoong） 룸 room 🐱🐹 雜食系 (其他cp) 文章狀態: 完結 room 룸 單集",
       "purchaseLabel": "1200p"
     },
     {
@@ -256,12 +283,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0441 벽라춘（碧螺春） 래빗홀 兔子洞 現實向, izone時期 蓋瑞推薦  兔子洞 래빗홀 單集",
+      "searchText": "p0441 벽라춘（碧螺春） 래빗홀 兔子洞 現實向, izone時期 蓋瑞推薦 文章狀態: 完結 兔子洞 래빗홀 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -288,12 +324,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0440 벽라춘（碧螺春） 넌 뭐가 문젠데 你到底有什麼毛病  蓋瑞推薦  你到底有什麼毛病 넌 뭐가 문젠데 單集",
+      "searchText": "p0440 벽라춘（碧螺春） 넌 뭐가 문젠데 你到底有什麼毛病  蓋瑞推薦 文章狀態: 完結 你到底有什麼毛病 넌 뭐가 문젠데 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -320,12 +365,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0439 벽라춘（碧螺春） 헤녀는 왜 그럴까 直女為什麼要這樣  蓋瑞推薦  直女為什麼要這樣 헤녀는 왜 그럴까 單集",
+      "searchText": "p0439 벽라춘（碧螺春） 헤녀는 왜 그럴까 直女為什麼要這樣  蓋瑞推薦 文章狀態: 完結 直女為什麼要這樣 헤녀는 왜 그럴까 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -437,12 +491,21 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0437 void what's after x what's after x 🐱🐹 雜食系 (其他cp)  what's after x what's after x 單集 精準愛情實驗 정확한 사랑의 실험 單集",
+      "searchText": "p0437 void what's after x what's after x 🐱🐹 雜食系 (其他cp) 文章狀態: 完結 what's after x what's after x 單集 精準愛情實驗 정확한 사랑의 실험 單集",
       "purchaseLabel": "300p"
     },
     {
@@ -493,6 +556,12 @@ window.DESTINY_DATA = {
       ],
       "tagGroups": [
         {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
           "type": "結局",
           "values": [
             "HE"
@@ -500,12 +569,13 @@ window.DESTINY_DATA = {
         }
       ],
       "flatTags": [
+        "文章狀態: 完結",
         "結局: HE"
       ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0436 void relationship relationship 🐱保鑣，🐹夫人 雜食系 (其他cp) 結局: he relationship relationship you're mine relationship relationship am i 逸脫 일탈(逸脫) 單集",
+      "searchText": "p0436 void relationship relationship 🐱保鑣，🐹夫人 雜食系 (其他cp) 文章狀態: 完結 結局: he relationship relationship you're mine relationship relationship am i 逸脫 일탈(逸脫) 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -556,6 +626,12 @@ window.DESTINY_DATA = {
       ],
       "tagGroups": [
         {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        },
+        {
           "type": "結局",
           "values": [
             "HE"
@@ -563,12 +639,13 @@ window.DESTINY_DATA = {
         }
       ],
       "flatTags": [
+        "文章狀態: 完結",
         "結局: HE"
       ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0435 void one night one night 🐱🐹 雜食系 (其他cp) 結局: he one night one night 本傳 that night（one night外傳） that night（one night 외전） 外傳 有毒馬鈴薯 독있감(독있는 감자라는 뜻) 單集",
+      "searchText": "p0435 void one night one night 🐱🐹 雜食系 (其他cp) 文章狀態: 完結 結局: he one night one night 本傳 that night（one night外傳） that night（one night 외전） 外傳 有毒馬鈴薯 독있감(독있는 감자라는 뜻) 單集",
       "purchaseLabel": "1200p"
     },
     {
@@ -679,12 +756,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0434 void 옆집 아이 隔壁小孩 🐱年上，🐹年下 雜食系 (其他cp)  隔壁小孩 옆집 아이 1 隔壁小孩 옆집 아이 2 隔壁小孩 옆집 아이 3 隔壁小孩 옆집 아이 4 隔壁小孩-epilogue 옆집 아이-epilogue 結語 兩人 두 사람 上 兩人 두 사람 中 兩人 두 사람 下",
+      "searchText": "p0434 void 옆집 아이 隔壁小孩 🐱年上，🐹年下 雜食系 (其他cp) 文章狀態: 完結 隔壁小孩 옆집 아이 1 隔壁小孩 옆집 아이 2 隔壁小孩 옆집 아이 3 隔壁小孩 옆집 아이 4 隔壁小孩-epilogue 옆집 아이-epilogue 結語 兩人 두 사람 上 兩人 두 사람 中 兩人 두 사람 下",
       "purchaseLabel": "1200p"
     },
     {
@@ -747,12 +833,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
       "thumbCategories": [
         "雜食系 (其他CP)"
       ],
-      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp)  once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4",
+      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp) 文章狀態: 連載中 once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4",
       "purchaseLabel": "0p"
     },
     {
@@ -849,7 +944,8 @@ window.DESTINY_DATA = {
         {
           "type": "文章狀態",
           "values": [
-            "連載中"
+            "連載中",
+            "完結"
           ]
         },
         {
@@ -869,12 +965,13 @@ window.DESTINY_DATA = {
         "分級: CP潔癖勿入",
         "文章狀態: 連載中",
         "文章類型: 都市現實",
-        "背景設定: 辦公室"
+        "背景設定: 辦公室",
+        "文章狀態: 完結"
       ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0280 플레인（plain） 페이지를 찾을 수 없습니다 找不到頁面 安：代理 / 員：代理 蓋瑞推薦 分級: cp潔癖勿入 文章狀態: 連載中 文章類型: 都市現實 背景設定: 辦公室 找不到頁面 페이지를 찾을 수 없습니다 1 找不到頁面 페이지를 찾을 수 없습니다 2 找不到頁面 페이지를 찾을 수 없습니다 3 找不到頁面 페이지를 찾을 수 없습니다 4 找不到頁面 페이지를 찾을 수 없습니다 5 找不到頁面 페이지를 찾을 수 없습니다 6",
+      "searchText": "p0280 플레인（plain） 페이지를 찾을 수 없습니다 找不到頁面 安：代理 / 員：代理 蓋瑞推薦 分級: cp潔癖勿入 文章狀態: 連載中 文章類型: 都市現實 背景設定: 辦公室 文章狀態: 完結 找不到頁面 페이지를 찾을 수 없습니다 1 找不到頁面 페이지를 찾을 수 없습니다 2 找不到頁面 페이지를 찾을 수 없습니다 3 找不到頁面 페이지를 찾을 수 없습니다 4 找不到頁面 페이지를 찾을 수 없습니다 5 找不到頁面 페이지를 찾을 수 없습니다 6",
       "purchaseLabel": "0p"
     },
     {
@@ -899,10 +996,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0432 noname 오! 마이 oh! my 真實設定   oh! my 오! 마이 單集",
+      "searchText": "p0432 noname 오! 마이 oh! my 真實設定  文章狀態: 完結 oh! my 오! 마이 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -927,10 +1033,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0431 윶페스합작（@u_pjisnps91） 유심론 (有心論) 有心論    有心論 유심론 (有心論) 單集",
+      "searchText": "p0431 윶페스합작（@u_pjisnps91） 유심론 (有心論) 有心論   文章狀態: 完結 有心論 유심론 (有心論) 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -961,13 +1076,20 @@ window.DESTINY_DATA = {
           "values": [
             "CP潔癖勿入"
           ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
         }
       ],
       "flatTags": [
-        "分級: CP潔癖勿入"
+        "分級: CP潔癖勿入",
+        "文章狀態: 完結"
       ],
       "thumbCategories": [],
-      "searchText": "p0430 윶페스합작（@u_pjisnps91） 우리 좀 어떻게 해봐 我們之間再想想辦法吧   分級: cp潔癖勿入 我們之間再想想辦法吧 우리 좀 어떻게 해봐 單集",
+      "searchText": "p0430 윶페스합작（@u_pjisnps91） 우리 좀 어떻게 해봐 我們之間再想想辦法吧   分級: cp潔癖勿入 文章狀態: 完結 我們之間再想想辦法吧 우리 좀 어떻게 해봐 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -992,10 +1114,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0429 noname 고전문학의 이해 古典文學賞析    古典文學賞析 고전문학의 이해 單集",
+      "searchText": "p0429 noname 고전문학의 이해 古典文學賞析   文章狀態: 完結 古典文學賞析 고전문학의 이해 單集",
       "purchaseLabel": "200p"
     },
     {
@@ -1106,12 +1237,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0428 와이 안영원 아니고 장영원 不是安永遠，是張永遠  蓋瑞推薦  不是安永遠，是張永遠 안영원 아니고 장영원 1 不是安永遠，是張永遠 안영원 아니고 장영원 2 不是安永遠，是張永遠 안영원 아니고 장영원 3 不是安永遠，是張永遠 안영원 아니고 장영원 4 不是安永遠，是張永遠 안영원 아니고 장영원 5 不是安永遠，是張永遠 안영원 아니고 장영원 6 不是安永遠，是張永遠 안영원 아니고 장영원 7 不是安永遠，是張永遠 안영원 아니고 장영원 外傳",
+      "searchText": "p0428 와이 안영원 아니고 장영원 不是安永遠，是張永遠  蓋瑞推薦 文章狀態: 完結 不是安永遠，是張永遠 안영원 아니고 장영원 1 不是安永遠，是張永遠 안영원 아니고 장영원 2 不是安永遠，是張永遠 안영원 아니고 장영원 3 不是安永遠，是張永遠 안영원 아니고 장영원 4 不是安永遠，是張永遠 안영원 아니고 장영원 5 不是安永遠，是張永遠 안영원 아니고 장영원 6 不是安永遠，是張永遠 안영원 아니고 장영원 7 不是安永遠，是張永遠 안영원 아니고 장영원 外傳",
       "purchaseLabel": "0p"
     },
     {
@@ -1361,10 +1501,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0424 꿀구마（蜜地瓜） 나무아미타불 南無阿彌陀佛（無神論存在主義 外傳）    南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 單集",
+      "searchText": "p0424 꿀구마（蜜地瓜） 나무아미타불 南無阿彌陀佛（無神論存在主義 外傳）   文章狀態: 完結 南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1389,10 +1538,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0423 꿀구마（蜜地瓜） 원형의 영원 圓形的永遠    圓形的永遠 원형의 영원 單集",
+      "searchText": "p0423 꿀구마（蜜地瓜） 원형의 영원 圓形的永遠   文章狀態: 完結 圓形的永遠 원형의 영원 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1417,10 +1575,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0422 꿀구마（蜜地瓜） 가장 보통의 연애 最平凡的戀愛    最平凡的戀愛 가장 보통의 연애 單集",
+      "searchText": "p0422 꿀구마（蜜地瓜） 가장 보통의 연애 最平凡的戀愛   文章狀態: 完結 最平凡的戀愛 가장 보통의 연애 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1552,7 +1719,8 @@ window.DESTINY_DATA = {
         {
           "type": "文章狀態",
           "values": [
-            "完結"
+            "完結",
+            "連載中"
           ]
         },
         {
@@ -1581,10 +1749,11 @@ window.DESTINY_DATA = {
         "文章狀態: 完結",
         "文章篇幅: 長篇",
         "文章類型: 都市現實",
-        "結局: HE"
+        "結局: HE",
+        "文章狀態: 連載中"
       ],
       "thumbCategories": [],
-      "searchText": "p0300 꿀구마（蜜地瓜） 사랑이 뭐길래 愛是什麼 安：樂團吉他手 / 員：舞蹈系學生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 愛是什麼 사랑이 뭐길래 1 愛是什麼 사랑이 뭐길래 2 愛是什麼 사랑이 뭐길래 3 愛是什麼 사랑이 뭐길래 4 愛是什麼 사랑이 뭐길래 5 愛是什麼 사랑이 뭐길래 6 愛是什麼 사랑이 뭐길래 7 愛是什麼 사랑이 뭐길래 8 愛是什麼 사랑이 뭐길래 9 愛是什麼 사랑이 뭐길래 10",
+      "searchText": "p0300 꿀구마（蜜地瓜） 사랑이 뭐길래 愛是什麼 安：樂團吉他手 / 員：舞蹈系學生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 連載中 愛是什麼 사랑이 뭐길래 1 愛是什麼 사랑이 뭐길래 2 愛是什麼 사랑이 뭐길래 3 愛是什麼 사랑이 뭐길래 4 愛是什麼 사랑이 뭐길래 5 愛是什麼 사랑이 뭐길래 6 愛是什麼 사랑이 뭐길래 7 愛是什麼 사랑이 뭐길래 8 愛是什麼 사랑이 뭐길래 9 愛是什麼 사랑이 뭐길래 10",
       "purchaseLabel": "200p"
     },
     {
@@ -1609,10 +1778,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0421 꿀구마（蜜地瓜） 무신론적 실존주의 無神論存在主義    無神論存在主義 무신론적 실존주의 單集",
+      "searchText": "p0421 꿀구마（蜜地瓜） 무신론적 실존주의 無神論存在主義   文章狀態: 完結 無神論存在主義 무신론적 실존주의 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1637,10 +1815,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0420 꿀구마（蜜地瓜） 고래노래 鯨魚之歌    鯨魚之歌 고래노래 單集",
+      "searchText": "p0420 꿀구마（蜜地瓜） 고래노래 鯨魚之歌   文章狀態: 完結 鯨魚之歌 고래노래 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1860,10 +2047,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0416 꿀구마（蜜地瓜） 목적지에 도착했습니다 您已抵達目的地    您已抵達目的地 목적지에 도착했습니다 單集",
+      "searchText": "p0416 꿀구마（蜜地瓜） 목적지에 도착했습니다 您已抵達目的地   文章狀態: 完結 您已抵達目的地 목적지에 도착했습니다 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1888,10 +2084,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0415 꿀구마（蜜地瓜） 와퍼러버 華堡 lover    華堡 lover 와퍼러버 單集",
+      "searchText": "p0415 꿀구마（蜜地瓜） 와퍼러버 華堡 lover   文章狀態: 完結 華堡 lover 와퍼러버 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -1983,10 +2188,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0413 꿀구마（蜜地瓜） 층간소음 주의 小心樓層噪音    小心樓層噪音 층간소음 주의 單集",
+      "searchText": "p0413 꿀구마（蜜地瓜） 층간소음 주의 小心樓層噪音   文章狀態: 完結 小心樓層噪音 층간소음 주의 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2141,10 +2355,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0410 꿀구마（蜜地瓜） 헤로인 海洛因    海洛因 헤로인 單集",
+      "searchText": "p0410 꿀구마（蜜地瓜） 헤로인 海洛因   文章狀態: 完結 海洛因 헤로인 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2413,12 +2636,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0406 noname 어쩌다 스파이 誤打誤撞當上間諜  寶藏作家  誤打誤撞當上間諜 어쩌다 스파이 單集",
+      "searchText": "p0406 noname 어쩌다 스파이 誤打誤撞當上間諜  寶藏作家 文章狀態: 完結 誤打誤撞當上間諜 어쩌다 스파이 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2445,12 +2677,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0405 noname 몽중인 夢中人  寶藏作家  夢中人 몽중인 單集 (收費為純打賞)",
+      "searchText": "p0405 noname 몽중인 夢中人  寶藏作家 文章狀態: 完結 夢中人 몽중인 單集 (收費為純打賞)",
       "purchaseLabel": "1000p"
     },
     {
@@ -2477,12 +2718,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0404 noname 롬바드로 가자 去倫巴底吧  寶藏作家  去倫巴底吧 롬바드로 가자 單集",
+      "searchText": "p0404 noname 롬바드로 가자 去倫巴底吧  寶藏作家 文章狀態: 完結 去倫巴底吧 롬바드로 가자 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2537,12 +2787,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0402 박프로（朴專家） 사건의 전말 事件始末  寶藏作家  事件始末 사건의 전말 單集",
+      "searchText": "p0402 박프로（朴專家） 사건의 전말 事件始末  寶藏作家 文章狀態: 完結 事件始末 사건의 전말 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -2828,10 +3087,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0398 박시봉（朴時奉） 엑설런트 프렌치 卓越法式 待人工補充   卓越法式 엑설런트 프렌치 1 卓越法式 엑설런트 프렌치 2 卓越法式 엑설런트 프렌치 3",
+      "searchText": "p0398 박시봉（朴時奉） 엑설런트 프렌치 卓越法式 待人工補充  文章狀態: 完結 卓越法式 엑설런트 프렌치 1 卓越法式 엑설런트 프렌치 2 卓越法式 엑설런트 프렌치 3",
       "purchaseLabel": "0p"
     },
     {
@@ -10883,10 +11151,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0212 초코쇼크（巧克shock） 냄새나는 토끼 獸人系列3-有味道的兔子    獸人系列3-有味道的兔子 냄새나는 토끼 1 獸人系列3-有味道的兔子 냄새나는 토끼 2 獸人系列3-有味道的兔子 냄새나는 토끼 3",
+      "searchText": "p0212 초코쇼크（巧克shock） 냄새나는 토끼 獸人系列3-有味道的兔子   文章狀態: 完結 獸人系列3-有味道的兔子 냄새나는 토끼 1 獸人系列3-有味道的兔子 냄새나는 토끼 2 獸人系列3-有味道的兔子 냄새나는 토끼 3",
       "purchaseLabel": "0p"
     },
     {
@@ -10951,10 +11228,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0211 초코쇼크（巧克shock） 냄새맡는 토끼 獸人系列2-聞味道的兔子    獸人系列2-聞味道的兔子 냄새맡는 토끼 1 獸人系列2-聞味道的兔子 냄새맡는 토끼 2 獸人系列2-聞味道的兔子 냄새맡는 토끼 3 獸人系列2-聞味道的兔子 냄새맡는 토끼 4 獸人系列2-聞味道的兔子 냄새맡는 토끼 5",
+      "searchText": "p0211 초코쇼크（巧克shock） 냄새맡는 토끼 獸人系列2-聞味道的兔子   文章狀態: 完結 獸人系列2-聞味道的兔子 냄새맡는 토끼 1 獸人系列2-聞味道的兔子 냄새맡는 토끼 2 獸人系列2-聞味道的兔子 냄새맡는 토끼 3 獸人系列2-聞味道的兔子 냄새맡는 토끼 4 獸人系列2-聞味道的兔子 냄새맡는 토끼 5",
       "purchaseLabel": "0p"
     },
     {
@@ -11109,10 +11395,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0208 익룡（翼龍） 충전이 완료되었습니다 充電完成    充電完成 충전이 완료되었습니다 單集",
+      "searchText": "p0208 익룡（翼龍） 충전이 완료되었습니다 充電完成   文章狀態: 完結 充電完成 충전이 완료되었습니다 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -12538,10 +12833,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
       "thumbCategories": [],
-      "searchText": "p0191 긁적글적 인생이 뭐길래 人生算什麼（原文已刪）    人生算什麼（原文已刪） 인생이 뭐길래 單集",
+      "searchText": "p0191 긁적글적 인생이 뭐길래 人生算什麼（原文已刪）   文章狀態: 連載中 人生算什麼（原文已刪） 인생이 뭐길래 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -17579,10 +17883,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0126 무（蕪） 생일에 개강 生日那天開學（朴專家的『學期初的生日』前傳）    生日那天開學（朴專家的『學期初的生日』前傳） 생일에 개강 單集",
+      "searchText": "p0126 무（蕪） 생일에 개강 生日那天開學（朴專家的『學期初的生日』前傳）   文章狀態: 完結 生日那天開學（朴專家的『學期初的生日』前傳） 생일에 개강 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -17681,12 +17994,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0124 블루마운틴（藍山） for_everyoung10 liked your for_everyoung10 liked your  蓋瑞推薦  for_everyoung10 liked your for_everyoung10 liked your 單集",
+      "searchText": "p0124 블루마운틴（藍山） for_everyoung10 liked your for_everyoung10 liked your  蓋瑞推薦 文章狀態: 完結 for_everyoung10 liked your for_everyoung10 liked your 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -18741,12 +19063,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0109 달걀（雞蛋） 8년째 연애 중 외전 戀愛八年-含番外  寶藏作家  戀愛八年-含番外 8년째 연애 중 외전 外傳",
+      "searchText": "p0109 달걀（雞蛋） 8년째 연애 중 외전 戀愛八年-含番外  寶藏作家 文章狀態: 完結 戀愛八年-含番外 8년째 연애 중 외전 外傳",
       "purchaseLabel": "700p"
     },
     {
@@ -20826,12 +21157,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0086 noname 포에버 유진 forever yujin  寶藏作家  forever yujin 포에버 유진 單集",
+      "searchText": "p0086 noname 포에버 유진 forever yujin  寶藏作家 文章狀態: 完結 forever yujin 포에버 유진 單集",
       "purchaseLabel": "1000p"
     },
     {
@@ -21237,12 +21577,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0083 noname more than world more than world  寶藏作家  more than world more than world 單集",
+      "searchText": "p0083 noname more than world more than world  寶藏作家 文章狀態: 完結 more than world more than world 單集",
       "purchaseLabel": "0p"
     },
     {
@@ -21681,12 +22030,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0078 noname 토키도키유키 時雪  寶藏作家  時雪 토키도키유키 單集",
+      "searchText": "p0078 noname 토키도키유키 時雪  寶藏作家 文章狀態: 完結 時雪 토키도키유키 單集",
       "purchaseLabel": "200p"
     },
     {
@@ -21725,12 +22083,21 @@ window.DESTINY_DATA = {
           ]
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [
         "寶藏作家"
       ],
-      "searchText": "p0077 noname 마리아 maria  寶藏作家  maria 마리아 單集 maria－頭紗 마리아 - 베일 頭紗",
+      "searchText": "p0077 noname 마리아 maria  寶藏作家 文章狀態: 完結 maria 마리아 單集 maria－頭紗 마리아 - 베일 頭紗",
       "purchaseLabel": "200p"
     },
     {
@@ -24597,10 +24964,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0258 진심（真心） 딸의 사춘기는 처음이라서 咖啡夫妻s3-第一次面對女兒的青春期    咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 01 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 02 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 03 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 04 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 05 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 06 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 07 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 08 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 09 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 10 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 11 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 12 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 13 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 14 咖啡夫妻s3-第一次面對女兒的青春期 外傳 딸의 사춘기는 처음이라서 阿姨好委屈（珍容篇） 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 15 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 16 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 17 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 18 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 19 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 20 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 21 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 22 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 23 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 24 完 咖啡夫妻s33-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 크리스마스 동화 聖誕節童話",
+      "searchText": "p0258 진심（真心） 딸의 사춘기는 처음이라서 咖啡夫妻s3-第一次面對女兒的青春期   文章狀態: 完結 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 01 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 02 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 03 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 04 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 05 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 06 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 07 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 08 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 09 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 10 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 11 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 12 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 13 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 14 咖啡夫妻s3-第一次面對女兒的青春期 外傳 딸의 사춘기는 처음이라서 阿姨好委屈（珍容篇） 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 15 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 16 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 17 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 18 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 19 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 20 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 21 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 22 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 23 咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 24 完 咖啡夫妻s33-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 크리스마스 동화 聖誕節童話",
       "purchaseLabel": "3000p"
     },
     {
@@ -24805,10 +25181,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0255 진심（真心） 딸내미들이 귀엽고 와이프가 섹시해요 咖啡夫妻s2-我的女兒很漂亮 妻子很性感    咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 01 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 02 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 03 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 04 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 05 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 06 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 07 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 08 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 09 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 10 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 11 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 12 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 13 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 14 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 15 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 16 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 17 完 咖啡夫妻s2番外-馬爾地夫篇 커피가 예쁘고 알바생이 맛있어요 s2番外-馬爾地夫篇 單集 咖啡夫妻s2番外-為誰而辦的聖誕活動 커피가 예쁘고 알바생이 맛있어요 s2番外-為誰而辦的聖誕活動 單集",
+      "searchText": "p0255 진심（真心） 딸내미들이 귀엽고 와이프가 섹시해요 咖啡夫妻s2-我的女兒很漂亮 妻子很性感   文章狀態: 完結 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 01 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 02 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 03 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 04 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 05 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 06 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 07 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 08 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 09 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 10 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 11 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 12 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 13 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 14 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 15 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 16 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 17 完 咖啡夫妻s2番外-馬爾地夫篇 커피가 예쁘고 알바생이 맛있어요 s2番外-馬爾地夫篇 單集 咖啡夫妻s2番外-為誰而辦的聖誕活動 커피가 예쁘고 알바생이 맛있어요 s2番外-為誰而辦的聖誕活動 單集",
       "purchaseLabel": "5000p"
     },
     {
@@ -27823,10 +28208,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
       "thumbCategories": [],
-      "searchText": "p0222 고래（鯨魚） 너 말고 니 동생 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）    不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 너 말고 니 동생 單集",
+      "searchText": "p0222 고래（鯨魚） 너 말고 니 동생 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）   文章狀態: 完結 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 너 말고 니 동생 單集",
       "purchaseLabel": "0p"
     },
     {
