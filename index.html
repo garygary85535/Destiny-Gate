@@ -395,6 +395,32 @@
       white-space: nowrap;
     }
 
+    .card-actions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .card-actions .chip {
+      width: 100%;
+      height: 34px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 700;
+    }
+
+    .chip.comment-chip {
+      background: #5f9f58;
+      border-color: #5f9f58;
+      color: #fff;
+    }
+
+    .chip.comment-chip:hover {
+      background: #4f894b;
+      border-color: #4f894b;
+    }
+
     .item-link:hover {
       border-color: var(--gate);
       color: var(--gate);
@@ -619,6 +645,57 @@
     .comment-message {
       white-space: pre-wrap;
       overflow-wrap: anywhere;
+    }
+
+    .pinned-card {
+      border: 1px solid color-mix(in srgb, var(--gate) 42%, var(--line));
+      border-radius: 8px;
+      background: var(--gate-soft);
+      padding: 10px;
+      display: grid;
+      gap: 7px;
+    }
+
+    .pinned-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: start;
+    }
+
+    .pinned-head b {
+      color: var(--gate);
+    }
+
+    .pinned-message {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+
+    .admin-reply {
+      border-left: 4px solid var(--gate);
+      background: var(--gate-soft);
+      border-radius: 8px;
+      padding: 8px 9px;
+      display: grid;
+      gap: 4px;
+    }
+
+    .admin-reply b {
+      color: var(--gate);
+      font-size: 12px;
+    }
+
+    .admin-reply div {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-size: 13px;
+    }
+
+    .comment-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
     .calc-tools {
@@ -1019,6 +1096,7 @@
       calculatorSelected: loadCalculatorSelection(),
       readWorks: loadReadWorks(),
       comments: [],
+      pinned: null,
       commentsShowAll: false,
       commentChallenge: null,
       commentQuoteId: "",
@@ -1670,8 +1748,26 @@
       return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(itemLabel(item))}</a>`;
     }
 
+    function itemSortValue(item) {
+      const match = String(item.part || "").match(/\d+(?:\.\d+)?/);
+      return match ? Number(match[0]) : null;
+    }
+
+    function itemSortLabel(item) {
+      return `${item.part || ""} ${item.zh || ""} ${item.ko || ""}`;
+    }
+
     function visibleItems(work) {
-      return (work.items || []).filter(item => item.purchase !== "已刪文");
+      return (work.items || [])
+        .filter(item => item.purchase !== "已刪文")
+        .sort((a, b) => {
+          const aNumber = itemSortValue(a);
+          const bNumber = itemSortValue(b);
+          if (aNumber !== null && bNumber !== null) return aNumber - bNumber || itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant");
+          if (aNumber !== null) return -1;
+          if (bNumber !== null) return 1;
+          return itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant");
+        });
     }
 
     function priceClass(work) {
@@ -1751,8 +1847,10 @@
             ${work.roles ? `<p class="roles">${escapeHtml(work.roles)}</p>` : ""}
             <div class="tags">${(work.flatTags || []).slice(0, 9).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
             <div class="item-list">${links.slice(0, 4).map(itemLink).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${escapeHtml(episodeCountLabel(links.length))}</button>` : ""}</div>
-            <button class="chip" type="button" data-comment-work="${escapeHtml(work.id)}">去留言</button>
-            <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
+            <div class="card-actions">
+              <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
+              <button class="chip comment-chip" type="button" data-comment-work="${escapeHtml(work.id)}">去留言</button>
+            </div>
           </article>
         `;
       }).join("");
@@ -1842,7 +1940,23 @@
     function renderComments() {
       const comments = state.commentsShowAll ? state.comments : state.comments.slice(0, 5);
       el.commentShowAllBtn.textContent = state.commentsShowAll ? "收合" : "顯示全部";
-      el.commentList.innerHTML = comments.length ? comments.map(comment => `
+      const pinnedHtml = state.pinned ? `
+        <article class="pinned-card">
+          <div class="pinned-head">
+            <b>置頂留言</b>
+            <span class="comment-meta">${escapeHtml(formatCommentTime(state.pinned.updatedAt))}</span>
+          </div>
+          <div class="pinned-message">${escapeHtml(state.pinned.message)}</div>
+          <button class="link-button" type="button" data-edit-pinned>管理員編輯</button>
+        </article>
+      ` : `
+        <article class="pinned-card">
+          <div class="pinned-head"><b>置頂留言</b></div>
+          <div class="pinned-message">尚未設定置頂留言。</div>
+          <button class="link-button" type="button" data-edit-pinned>管理員編輯</button>
+        </article>
+      `;
+      const commentsHtml = comments.length ? comments.map(comment => `
         <article class="comment-card">
           <div class="comment-head">
             <b>${escapeHtml(comment.nickname || "匿名")}</b>
@@ -1850,9 +1964,19 @@
           </div>
           ${comment.workTitle ? `<div class="comment-quote">引用：${escapeHtml(comment.workTitle)}</div>` : ""}
           <div class="comment-message">${escapeHtml(comment.message)}</div>
-          <button class="link-button" type="button" data-delete-comment="${escapeHtml(comment.id)}">刪除</button>
+          ${comment.adminReply ? `
+            <div class="admin-reply">
+              <b>站方回覆 ${comment.repliedAt ? ` · ${escapeHtml(formatCommentTime(comment.repliedAt))}` : ""}</b>
+              <div>${escapeHtml(comment.adminReply)}</div>
+            </div>
+          ` : ""}
+          <div class="comment-actions">
+            <button class="link-button" type="button" data-reply-comment="${escapeHtml(comment.id)}">回覆</button>
+            <button class="link-button" type="button" data-delete-comment="${escapeHtml(comment.id)}">刪除</button>
+          </div>
         </article>
       `).join("") : `<div class="empty">還沒有留言</div>`;
+      el.commentList.innerHTML = pinnedHtml + commentsHtml;
       applyLanguage(el.commentModal);
     }
 
@@ -1871,6 +1995,7 @@
       }
       const payload = await commentApi({ action: "list", limit: 80 });
       if (!payload.ok) throw new Error(payload.error || "留言讀取失敗。");
+      state.pinned = payload.pinned || null;
       state.comments = payload.comments || [];
       renderComments();
     }
@@ -1937,6 +2062,47 @@
         const payload = await commentApi({ action: "delete", id, adminPassword, reason: "管理員刪除" });
         if (!payload.ok) throw new Error(payload.error || "刪除失敗。");
         el.commentStatus.textContent = "留言已刪除。";
+        await loadComments();
+      } catch (error) {
+        el.commentStatus.textContent = error.message;
+      }
+    }
+
+    async function replyComment(id) {
+      const current = state.comments.find(comment => comment.id === id);
+      const reply = window.prompt("請輸入站方回覆", current ? current.adminReply || "" : "");
+      if (reply === null) return;
+      if (!reply.trim()) {
+        el.commentStatus.textContent = "請輸入回覆內容。";
+        return;
+      }
+      const adminPassword = window.prompt("請輸入管理員密碼送出回覆");
+      if (adminPassword === null) return;
+      el.commentStatus.textContent = "回覆送出中...";
+      try {
+        const payload = await commentApi({ action: "reply", id, reply: reply.trim(), adminPassword });
+        if (!payload.ok) throw new Error(payload.error || "回覆失敗。");
+        el.commentStatus.textContent = "已送出站方回覆。";
+        await loadComments();
+      } catch (error) {
+        el.commentStatus.textContent = error.message;
+      }
+    }
+
+    async function editPinnedComment() {
+      const message = window.prompt("請輸入置頂留言", state.pinned ? state.pinned.message || "" : "");
+      if (message === null) return;
+      if (!message.trim()) {
+        el.commentStatus.textContent = "請輸入置頂留言內容。";
+        return;
+      }
+      const adminPassword = window.prompt("請輸入管理員密碼更新置頂留言");
+      if (adminPassword === null) return;
+      el.commentStatus.textContent = "置頂留言更新中...";
+      try {
+        const payload = await commentApi({ action: "pinned", message: message.trim(), adminPassword });
+        if (!payload.ok) throw new Error(payload.error || "置頂留言更新失敗。");
+        el.commentStatus.textContent = "置頂留言已更新。";
         await loadComments();
       } catch (error) {
         el.commentStatus.textContent = error.message;
@@ -2029,6 +2195,12 @@
 
       const commentWork = event.target.closest("[data-comment-work]");
       if (commentWork) openCommentBoard(commentWork.dataset.commentWork);
+
+      const pinnedButton = event.target.closest("[data-edit-pinned]");
+      if (pinnedButton) editPinnedComment();
+
+      const replyCommentButton = event.target.closest("[data-reply-comment]");
+      if (replyCommentButton) replyComment(replyCommentButton.dataset.replyComment);
 
       const deleteCommentButton = event.target.closest("[data-delete-comment]");
       if (deleteCommentButton) deleteComment(deleteCommentButton.dataset.deleteComment);
