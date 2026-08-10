@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destiny留言板</title>
+  <style>
+    :root {
+      --bg: #f5f2ec;
+      --ink: #1d2830;
+      --muted: #697179;
+      --panel: #fffdf8;
+      --line: #ddd5c9;
+      --gate: #365f63;
+      --gate-soft: #dce9e7;
+      --wine: #8b4051;
+      --shadow: 0 14px 34px rgba(69, 54, 35, .11);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
+      line-height: 1.55;
+    }
+
+    button, input, select, textarea { font: inherit; }
+
+    .mast {
+      padding: 28px 18px 20px;
+      color: #fff;
+      background:
+        linear-gradient(120deg, rgba(17, 32, 33, .9), rgba(64, 92, 91, .62)),
+        url("https://images.unsplash.com/photo-1516542076529-1ea3854896f2?auto=format&fit=crop&w=1800&q=80") center/cover;
+    }
+
+    .mast-inner {
+      width: min(1040px, 100%);
+      margin: 0 auto;
+      display: grid;
+      gap: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 6vw, 54px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn, .chip {
+      min-height: 40px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      padding: 8px 12px;
+      font-weight: 800;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-grid;
+      place-items: center;
+    }
+
+    .mast .btn {
+      border-color: rgba(255, 255, 255, .6);
+      background: rgba(255, 255, 255, .18);
+      color: #fff;
+    }
+
+    .btn.primary {
+      background: var(--gate);
+      border-color: var(--gate);
+      color: #fff;
+    }
+
+    .layout {
+      width: min(1040px, calc(100% - 24px));
+      margin: 16px auto 42px;
+      display: grid;
+      grid-template-columns: 360px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 14px;
+    }
+
+    .form {
+      display: grid;
+      gap: 10px;
+      position: sticky;
+      top: 12px;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+    }
+
+    .field label {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      min-height: 42px;
+      padding: 9px 10px;
+      font-size: 16px;
+    }
+
+    textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    .captcha-row {
+      display: grid;
+      grid-template-columns: 128px 1fr;
+      gap: 8px;
+      align-items: end;
+    }
+
+    .captcha-code {
+      display: grid;
+      place-items: center;
+      min-height: 42px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--gate-soft);
+      color: var(--gate);
+      font-weight: 900;
+    }
+
+    .status {
+      min-height: 22px;
+      color: var(--wine);
+      font-size: 13px;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .list-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .list-head h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .comments {
+      display: grid;
+      gap: 10px;
+    }
+
+    .comment-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .comment-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: start;
+    }
+
+    .comment-head b {
+      color: var(--gate);
+      font-size: 16px;
+    }
+
+    .comment-meta {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .comment-quote {
+      color: var(--wine);
+      font-weight: 900;
+    }
+
+    .comment-message {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-size: 15px;
+    }
+
+    .link-button {
+      border: 0;
+      background: transparent;
+      color: var(--gate);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 0;
+      justify-self: start;
+    }
+
+    .empty {
+      color: var(--muted);
+      padding: 16px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .6);
+    }
+
+    @media (max-width: 760px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .form {
+        position: static;
+      }
+
+      .comment-head {
+        display: grid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="mast">
+    <div class="mast-inner">
+      <h1>Destiny留言板</h1>
+      <div class="top-actions">
+        <a class="btn" href="index.html">回轉運站</a>
+        <button class="btn" id="refreshBtn" type="button">刷新留言</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel form">
+      <form id="commentForm">
+        <div class="field">
+          <label for="commentSearch">引用作品</label>
+          <input id="commentSearch" type="search" placeholder="搜尋篇名 / 作者">
+        </div>
+        <div class="field">
+          <select id="commentWork"></select>
+        </div>
+        <div class="field">
+          <label for="commentNickname">暱稱</label>
+          <input id="commentNickname" maxlength="24" placeholder="可以自由填寫ID" required>
+        </div>
+        <div class="field">
+          <label for="commentMessage">留言</label>
+          <textarea id="commentMessage" maxlength="500" placeholder="想聊什麼？" required></textarea>
+        </div>
+        <div class="captcha-row">
+          <div class="captcha-code" id="commentCaptcha">讀取中</div>
+          <div class="field">
+            <label for="commentCaptchaInput">驗證碼</label>
+            <input id="commentCaptchaInput" inputmode="numeric" placeholder="輸入答案" required>
+          </div>
+        </div>
+        <button class="btn primary" type="submit">送出留言</button>
+        <p class="status" id="commentStatus"></p>
+      </form>
+    </section>
+
+    <section class="panel">
+      <div class="list-head">
+        <h2>全部留言</h2>
+        <span id="commentCount" class="comment-meta"></span>
+      </div>
+      <div class="comments" id="commentList"></div>
+    </section>
+  </main>
+
+  <script src="destiny-data.js?v=20260810-2158"></script>
+  <script>
+    const DATA = window.DESTINY_DATA || { works: [] };
+    const COMMENT_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6nWmOnuqe_HU9ACEUPcAV_v58W0P-Ltgzz1p-IRlOObb5uoQQZ1pffCu9nZnMxB5Hvg/exec";
+    const works = (DATA.works || []).filter(work => work.purchase !== "已刪文");
+    const params = new URLSearchParams(window.location.search);
+    const state = {
+      comments: [],
+      challenge: null,
+      quoteId: params.get("work") || "",
+    };
+
+    const el = {
+      form: document.querySelector("#commentForm"),
+      search: document.querySelector("#commentSearch"),
+      work: document.querySelector("#commentWork"),
+      nickname: document.querySelector("#commentNickname"),
+      message: document.querySelector("#commentMessage"),
+      captcha: document.querySelector("#commentCaptcha"),
+      captchaInput: document.querySelector("#commentCaptchaInput"),
+      status: document.querySelector("#commentStatus"),
+      list: document.querySelector("#commentList"),
+      count: document.querySelector("#commentCount"),
+      refresh: document.querySelector("#refreshBtn"),
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;",
+      }[char]));
+    }
+
+    function searchText(value) {
+      return String(value || "").trim().toLowerCase();
+    }
+
+    function commentApi(params) {
+      const fetchUrl = new URL(COMMENT_ENDPOINT);
+      Object.entries(params).forEach(([key, value]) => fetchUrl.searchParams.set(key, value ?? ""));
+      return fetch(fetchUrl.toString(), { method: "GET", mode: "cors", cache: "no-store" })
+        .then(response => {
+          if (!response.ok) throw new Error(`留言板連線失敗 (${response.status})`);
+          return response.json();
+        })
+        .catch(() => commentApiJsonp(params));
+    }
+
+    function commentApiJsonp(params) {
+      const callback = `destinyCommentPageCallback_${Date.now()}_${Math.floor(Math.random() * 10000)}`;
+      const url = new URL(COMMENT_ENDPOINT);
+      Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value ?? ""));
+      url.searchParams.set("callback", callback);
+      return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        const timer = window.setTimeout(() => {
+          cleanup();
+          reject(new Error("留言板連線逾時。"));
+        }, 12000);
+        function cleanup() {
+          window.clearTimeout(timer);
+          delete window[callback];
+          script.remove();
+        }
+        window[callback] = payload => {
+          cleanup();
+          resolve(payload);
+        };
+        script.onerror = () => {
+          cleanup();
+          reject(new Error("留言板連線失敗。"));
+        };
+        script.src = url.toString();
+        document.body.appendChild(script);
+      });
+    }
+
+    function renderWorkOptions() {
+      const q = searchText(el.search.value);
+      const rows = works
+        .filter(work => !q || searchText(`${work.id} ${work.zh} ${work.ko} ${work.author}`).includes(q))
+        .slice(0, 120);
+      el.work.innerHTML = `<option value="">不引用作品</option>` + rows.map(work =>
+        `<option value="${escapeHtml(work.id)}" ${state.quoteId === work.id ? "selected" : ""}>${escapeHtml(work.zh)} · ${escapeHtml(work.author || "未填作者")}</option>`
+      ).join("");
+      if (state.quoteId && [...el.work.options].some(option => option.value === state.quoteId)) el.work.value = state.quoteId;
+    }
+
+    function renderComments() {
+      el.count.textContent = `${state.comments.length} 則`;
+      el.list.innerHTML = state.comments.length ? state.comments.map(comment => `
+        <article class="comment-card">
+          <div class="comment-head">
+            <b>${escapeHtml(comment.nickname || "匿名")}</b>
+            <span class="comment-meta">${escapeHtml(formatTime(comment.createdAt))}</span>
+          </div>
+          ${comment.workTitle ? `<div class="comment-quote">引用：${escapeHtml(comment.workTitle)}</div>` : ""}
+          <div class="comment-message">${escapeHtml(comment.message)}</div>
+          <button class="link-button" type="button" data-delete-comment="${escapeHtml(comment.id)}">刪除</button>
+        </article>
+      `).join("") : `<div class="empty">還沒有留言</div>`;
+    }
+
+    function formatTime(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "";
+      return date.toLocaleString("zh-TW", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      });
+    }
+
+    async function loadComments() {
+      const payload = await commentApi({ action: "list", limit: 200 });
+      if (!payload.ok) throw new Error(payload.error || "留言讀取失敗。");
+      state.comments = payload.comments || [];
+      renderComments();
+    }
+
+    async function refreshChallenge() {
+      const payload = await commentApi({ action: "challenge" });
+      if (!payload.ok) throw new Error(payload.error || "驗證碼讀取失敗。");
+      state.challenge = payload;
+      el.captcha.textContent = payload.question;
+      el.captchaInput.value = "";
+    }
+
+    async function submitComment(event) {
+      event.preventDefault();
+      if (!state.challenge) {
+        el.status.textContent = "請先取得驗證碼。";
+        return;
+      }
+      const workId = el.work.value;
+      const work = works.find(item => item.id === workId);
+      el.status.textContent = "送出中...";
+      try {
+        const payload = await commentApi({
+          action: "comment",
+          token: state.challenge.token,
+          question: state.challenge.question,
+          captcha: el.captchaInput.value.trim(),
+          nickname: el.nickname.value.trim(),
+          message: el.message.value.trim(),
+          workId,
+          workTitle: work ? work.zh : "",
+          ua: navigator.userAgent,
+        });
+        if (!payload.ok) throw new Error(payload.error || "留言送出失敗。");
+        el.message.value = "";
+        el.status.textContent = "已送出留言。";
+        await Promise.all([loadComments(), refreshChallenge()]);
+      } catch (error) {
+        el.status.textContent = error.message;
+        try { await refreshChallenge(); } catch (_) {}
+      }
+    }
+
+    async function deleteComment(id) {
+      const adminPassword = window.prompt("請輸入管理員密碼刪除留言");
+      if (adminPassword === null) return;
+      el.status.textContent = "刪除中...";
+      try {
+        const payload = await commentApi({ action: "delete", id, adminPassword, reason: "管理員刪除" });
+        if (!payload.ok) throw new Error(payload.error || "刪除失敗。");
+        el.status.textContent = "留言已刪除。";
+        await loadComments();
+      } catch (error) {
+        el.status.textContent = error.message;
+      }
+    }
+
+    el.search.addEventListener("input", () => {
+      state.quoteId = "";
+      renderWorkOptions();
+    });
+    el.work.addEventListener("change", event => {
+      state.quoteId = event.target.value;
+    });
+    el.form.addEventListener("submit", submitComment);
+    el.refresh.addEventListener("click", () => {
+      el.status.textContent = "刷新中...";
+      Promise.all([loadComments(), refreshChallenge()])
+        .then(() => { el.status.textContent = ""; })
+        .catch(error => { el.status.textContent = error.message; });
+    });
+    document.addEventListener("click", event => {
+      const button = event.target.closest("[data-delete-comment]");
+      if (button) deleteComment(button.dataset.deleteComment);
+    });
+
+    const preset = works.find(work => work.id === state.quoteId);
+    if (preset) el.search.value = preset.zh;
+    renderWorkOptions();
+    Promise.all([loadComments(), refreshChallenge()])
+      .catch(error => { el.status.textContent = error.message; });
+  </script>
+</body>
+</html>

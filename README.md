@@ -5,6 +5,7 @@
 ## Files
 
 - `index.html`: searchable portal UI
+- `comments.html`: standalone comment board UI
 - `destiny-data.js`: generated data
 
 ## Refresh Data

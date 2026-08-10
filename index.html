@@ -1787,6 +1787,17 @@
 
     function commentApi(params) {
       if (!COMMENT_ENDPOINT) return Promise.reject(new Error("留言板 API 尚未設定。"));
+      const fetchUrl = new URL(COMMENT_ENDPOINT);
+      Object.entries(params).forEach(([key, value]) => fetchUrl.searchParams.set(key, value ?? ""));
+      return fetch(fetchUrl.toString(), { method: "GET", mode: "cors", cache: "no-store" })
+        .then(response => {
+          if (!response.ok) throw new Error(`留言板連線失敗 (${response.status})`);
+          return response.json();
+        })
+        .catch(() => commentApiJsonp(params));
+    }
+
+    function commentApiJsonp(params) {
       const callback = `destinyCommentCallback_${Date.now()}_${Math.floor(Math.random() * 10000)}`;
       const url = new URL(COMMENT_ENDPOINT);
       Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value ?? ""));
@@ -1877,19 +1888,8 @@
     }
 
     async function openCommentBoard(workId = "") {
-      state.commentQuoteId = workId;
-      const work = works.find(item => item.id === workId);
-      el.commentSearch.value = work ? work.zh : "";
-      renderCommentWorkOptions();
-      el.commentModal.classList.add("open");
-      el.commentModal.setAttribute("aria-hidden", "false");
-      el.commentStatus.textContent = "";
-      try {
-        await Promise.all([loadComments(), refreshCommentChallenge()]);
-      } catch (error) {
-        el.commentStatus.textContent = error.message;
-      }
-      el.commentNickname.focus();
+      const query = workId ? `?work=${encodeURIComponent(workId)}` : "";
+      window.location.href = `comments.html${query}`;
     }
 
     function closeCommentBoard() {
