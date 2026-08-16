@@ -1,7 +1,234 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 744,
+  "rows": 750,
   "works": [
+    {
+      "id": "P0449",
+      "author": "Void",
+      "ko": "Possession",
+      "zh": "Possession",
+      "roles": "🐱高中生\n🐹黑道大小姐",
+      "purchase": "是",
+      "sourceRow": 752,
+      "maxPoints": 300,
+      "totalPoints": 300,
+      "items": [
+        {
+          "part": "本傳",
+          "ko": "Possession",
+          "zh": "Possession",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22940286",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "外傳",
+          "ko": "Possession+",
+          "zh": "Possession+",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22952018",
+          "purchase": "是",
+          "points": 300,
+          "purchaseLabel": "300p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0449 void possession possession 🐱高中生\n🐹黑道大小姐 雜食系 (其他cp) 文章狀態: 完結 possession possession 本傳 possession+ possession+ 外傳",
+      "purchaseLabel": "300p"
+    },
+    {
+      "id": "P0448",
+      "author": "noname",
+      "ko": "모순",
+      "zh": "矛盾",
+      "roles": "",
+      "purchase": "是",
+      "sourceRow": 750,
+      "maxPoints": 4000,
+      "totalPoints": 4000,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "모순",
+          "zh": "矛盾",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/22948349",
+          "purchase": "是",
+          "points": 4000,
+          "purchaseLabel": "4000p",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0448 noname 모순 矛盾   文章狀態: 完結 矛盾 모순 單集",
+      "purchaseLabel": "4000p"
+    },
+    {
+      "id": "P0447",
+      "author": "벽라춘（碧螺春）",
+      "ko": "보건실에서",
+      "zh": "在保健室",
+      "roles": "🐶體育老師\n🐿️保健室醫生",
+      "purchase": "是",
+      "sourceRow": 749,
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "보건실에서",
+          "zh": "在保健室",
+          "url": "https://www.postype.com/zh-hant/@qpqpqp1/post/12340387?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "配對",
+          "values": [
+            "安秋"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "配對: 安秋",
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0447 벽라춘（碧螺春） 보건실에서 在保健室 🐶體育老師\n🐿️保健室醫生 雜食系 (其他cp) 配對: 安秋 文章狀態: 完結 在保健室 보건실에서 單集",
+      "purchaseLabel": "1000p"
+    },
+    {
+      "id": "P0446",
+      "author": "벽라춘（碧螺春）",
+      "ko": "김레이의 원죄",
+      "zh": "金怜的原罪",
+      "roles": "🐱：地球人\n🐹：外星人",
+      "purchase": "否",
+      "sourceRow": 748,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "김레이의 원죄",
+          "zh": "金怜的原罪",
+          "url": "https://www.postype.com/zh-hant/@qpqpqp1/post/11470122",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0446 벽라춘（碧螺春） 김레이의 원죄 金怜的原罪 🐱：地球人\n🐹：外星人 雜食系 (其他cp) 文章狀態: 完結 金怜的原罪 김레이의 원죄 單集",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0445",
+      "author": "벽라춘（碧螺春）",
+      "ko": "합사",
+      "zh": "合租",
+      "roles": "現實向",
+      "purchase": "是",
+      "sourceRow": 747,
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "單集",
+          "ko": "합사",
+          "zh": "合租",
+          "url": "https://www.postype.com/zh-hant/@qpqpqp1/post/11467018?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "配對",
+          "values": [
+            "安秋"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "配對: 安秋",
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0445 벽라춘（碧螺春） 합사 合租 現實向 雜食系 (其他cp) 配對: 安秋 文章狀態: 完結 合租 합사 單集",
+      "purchaseLabel": "1000p"
+    },
     {
       "id": "P0444",
       "author": "IN",
@@ -2757,10 +2984,19 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         }
       ],
-      "tagGroups": [],
-      "flatTags": [],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
       "thumbCategories": [],
-      "searchText": "p0403 유부비언（已婚人士） requiem 安魂曲    安魂曲 requiem 1",
+      "searchText": "p0403 유부비언（已婚人士） requiem 安魂曲   文章狀態: 連載中 安魂曲 requiem 1",
       "purchaseLabel": "500p"
     },
     {
