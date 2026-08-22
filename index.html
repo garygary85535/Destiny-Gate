@@ -948,7 +948,7 @@
     <div class="source-credit">
       實名感謝鳳梨，標籤分類參考資料庫：
       <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
-      <div class="site-updated">最新更新時間：2026-08-16 23:27</div>
+      <div class="site-updated">最新更新時間：2026-08-22 18:45</div>
     </div>
   </header>
 
@@ -1075,7 +1075,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=20260816-2327"></script>
+  <script src="destiny-data.js?v=20260822-1845"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const COMMENT_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6nWmOnuqe_HU9ACEUPcAV_v58W0P-Ltgzz1p-IRlOObb5uoQQZ1pffCu9nZnMxB5Hvg/exec";
@@ -1732,10 +1732,13 @@
       applyLanguage();
     }
 
-    function itemLabel(item) {
+    function itemLabel(item, work = null) {
       const part = item.part && item.part !== "本篇" ? item.part : "本篇";
       const points = pointLabel(item);
-      return points ? `${part} · ${points}` : part;
+      const titles = work ? new Set(visibleItems(work).map(entry => entry.zh).filter(Boolean)) : new Set();
+      const shouldShowTitle = item.zh && work && (item.zh !== work.zh || titles.size > 1);
+      const title = shouldShowTitle ? ` · ${item.zh}` : "";
+      return points ? `${part}${title} · ${points}` : `${part}${title}`;
     }
 
     function pointLabel(item) {
@@ -1743,9 +1746,9 @@
       return item.purchaseLabel || "";
     }
 
-    function itemLink(item) {
-      if (!item.url) return `<span class="item-disabled">${escapeHtml(itemLabel(item))}</span>`;
-      return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(itemLabel(item))}</a>`;
+    function itemLink(item, work = null) {
+      if (!item.url) return `<span class="item-disabled">${escapeHtml(itemLabel(item, work))}</span>`;
+      return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(itemLabel(item, work))}</a>`;
     }
 
     function itemSortValue(item) {
@@ -1846,7 +1849,7 @@
             </div>
             ${work.roles ? `<p class="roles">${escapeHtml(work.roles)}</p>` : ""}
             <div class="tags">${(work.flatTags || []).slice(0, 9).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-            <div class="item-list">${links.slice(0, 4).map(itemLink).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${escapeHtml(episodeCountLabel(links.length))}</button>` : ""}</div>
+            <div class="item-list">${links.slice(0, 4).map(item => itemLink(item, work)).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${escapeHtml(episodeCountLabel(links.length))}</button>` : ""}</div>
             <div class="card-actions">
               <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
               <button class="chip comment-chip" type="button" data-comment-work="${escapeHtml(work.id)}">去留言</button>

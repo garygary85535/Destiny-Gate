@@ -1,7 +1,236 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 750,
+  "rows": 763,
   "works": [
+    {
+      "id": "P0453",
+      "author": "쩡우（鄭宇）",
+      "ko": "배달왔습니다",
+      "zh": "外送到了喔",
+      "roles": "安：演員\n員：偶像",
+      "purchase": "否",
+      "sourceRow": 765,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "1",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/21831284",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "2",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/21943966",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "3",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/22010939",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "4",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/22077905",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "5",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/22104230",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "5.5",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/22209899",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "6",
+          "ko": "배달왔습니다",
+          "zh": "外送到了喔",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/22134293?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0453 쩡우（鄭宇） 배달왔습니다 外送到了喔 安：演員\n員：偶像  文章狀態: 完結 外送到了喔 배달왔습니다 1 外送到了喔 배달왔습니다 2 外送到了喔 배달왔습니다 3 外送到了喔 배달왔습니다 4 外送到了喔 배달왔습니다 5 外送到了喔 배달왔습니다 5.5 外送到了喔 배달왔습니다 6",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0452",
+      "author": "이닛",
+      "ko": "사소한 문제들",
+      "zh": "瑣碎的問題",
+      "roles": "",
+      "purchase": "否",
+      "sourceRow": 758,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "單篇",
+          "ko": "사소한 문제들",
+          "zh": "瑣碎的問題",
+          "url": "https://www.postype.com/@iam-innit/post/22971035",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [],
+      "flatTags": [],
+      "thumbCategories": [],
+      "searchText": "p0452 이닛 사소한 문제들 瑣碎的問題    瑣碎的問題 사소한 문제들 單篇",
+      "purchaseLabel": "0p"
+    },
+    {
+      "id": "P0451",
+      "author": "쩡우（鄭宇）",
+      "ko": "보건쌤",
+      "zh": "保健老師",
+      "roles": "安：高中保健室老師\n員：高中生",
+      "purchase": "是",
+      "sourceRow": 757,
+      "maxPoints": 500,
+      "totalPoints": 500,
+      "items": [
+        {
+          "part": "本傳",
+          "ko": "보건쌤",
+          "zh": "保健老師",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/15500569",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "番外篇-酒品",
+          "ko": "보건쌤",
+          "zh": "保健老師",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/16146171",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "衍生篇-XX之日",
+          "ko": "보건쌤",
+          "zh": "保健老師",
+          "url": "https://www.postype.com/zh-hant/@901x831/post/16442687",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "500p",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0451 쩡우（鄭宇） 보건쌤 保健老師 安：高中保健室老師\n員：高中生  文章狀態: 完結 保健老師 보건쌤 本傳 保健老師 보건쌤 番外篇-酒品 保健老師 보건쌤 衍生篇-xx之日",
+      "purchaseLabel": "500p"
+    },
+    {
+      "id": "P0450",
+      "author": "참치（鮪魚）",
+      "ko": "헤테로 컴플렉스",
+      "zh": "異性戀情結",
+      "roles": "",
+      "purchase": "是",
+      "sourceRow": 754,
+      "maxPoints": 500,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "上",
+          "ko": "헤테로 컴플렉스",
+          "zh": "異性戀情結",
+          "url": "https://www.postype.com/zh-hant/@not-ace/post/20864900?show-original=true",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "500p",
+          "thumbCategories": []
+        },
+        {
+          "part": "下",
+          "ko": "헤테로 컴플렉스",
+          "zh": "異性戀情結",
+          "url": "https://www.postype.com/zh-hant/@not-ace/post/21302350",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "500p",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0450 참치（鮪魚） 헤테로 컴플렉스 異性戀情結   文章狀態: 完結 異性戀情結 헤테로 컴플렉스 上 異性戀情結 헤테로 컴플렉스 下",
+      "purchaseLabel": "1000p"
+    },
     {
       "id": "P0449",
       "author": "Void",
@@ -12881,7 +13110,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0193",
-      "author": "쩡우",
+      "author": "쩡우（鄭宇）",
       "ko": "키스 못하는 양아치x 키스 못하던 모범생 그 뒷 이야기",
       "zh": "不會接吻的小混混 x 不會接吻的模範生──其後的故事",
       "roles": "安：重考生/高中混混 / 員：大學生/高中班長",
@@ -12963,7 +13192,7 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "searchText": "p0193 쩡우 키스 못하는 양아치x 키스 못하던 모범생 그 뒷 이야기 不會接吻的小混混 x 不會接吻的模範生──其後的故事 安：重考生/高中混混 / 員：大學生/高中班長 蓋瑞推薦 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 形式/性質: 續寫 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 不會接吻的小混混 x 不會接吻的模範生──其後的故事 키스 못하는 양아치x 키스 못하던 모범생 그 뒷 이야기 單集",
+      "searchText": "p0193 쩡우（鄭宇） 키스 못하는 양아치x 키스 못하던 모범생 그 뒷 이야기 不會接吻的小混混 x 不會接吻的模範生──其後的故事 安：重考生/高中混混 / 員：大學生/高中班長 蓋瑞推薦 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 形式/性質: 續寫 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 不會接吻的小混混 x 不會接吻的模範生──其後的故事 키스 못하는 양아치x 키스 못하던 모범생 그 뒷 이야기 單集",
       "purchaseLabel": "300p"
     },
     {
