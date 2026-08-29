@@ -1,7 +1,161 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 766,
+  "rows": 768,
   "works": [
+    {
+      "id": "P0454",
+      "author": "Void",
+      "ko": "소원 (Make a Wish)",
+      "zh": "夙願",
+      "roles": "🐱名門繼承人\n🐹體弱外國妻子",
+      "purchase": "是",
+      "sourceRow": 770,
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "소원 (Make a Wish)",
+          "zh": "夙願",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23059595?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0454 void 소원 (make a wish) 夙願 🐱名門繼承人\n🐹體弱外國妻子 雜食系 (其他cp) 文章狀態: 完結 夙願 소원 (make a wish) 本篇",
+      "purchaseLabel": "1000p"
+    },
+    {
+      "id": "P0433",
+      "author": "Void",
+      "ko": "Once Upon a Time",
+      "zh": "Once Upon a Time",
+      "roles": "🐱公爵，🐹公主",
+      "purchase": "否",
+      "sourceRow": 769,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "1",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "2",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22650896",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "3",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22660961",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "4",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22670647",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "5",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22699992",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "6",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22802995",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "7",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22833332",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp) 文章狀態: 連載中 once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4 once upon a time once upon a time 5 once upon a time once upon a time 6 once upon a time once upon a time 7",
+      "purchaseLabel": "0p"
+    },
     {
       "id": "P0084",
       "author": "noname",
@@ -330,107 +484,6 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0084 noname 장르만 여의도 汝矣島風雲 安：國會議員\n員：主播 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 連載中 文章篇幅: 超長篇 文章類型: 都市現實 汝矣島風雲 장르만 여의도 01 汝矣島風雲 장르만 여의도 2 02 汝矣島風雲 장르만 여의도 3 03 汝矣島風雲 장르만 여의도 4 04 汝矣島風雲 장르만 여의도 5 05 汝矣島風雲 장르만 여의도 6 06 汝矣島風雲 장르만 여의도 s 06s 汝矣島風雲 장르만 여의도 7 07 汝矣島風雲 장르만 여의도 8 08 汝矣島風雲 장르만 여의도 9 09 汝矣島風雲 장르만 여의도 10 10 汝矣島風雲 장르만 여의도 11 11 汝矣島風雲 장르만 여의도 12 12 汝矣島風雲 장르만 여의도 13 13 汝矣島風雲 장르만 여의도 14 14 汝矣島風雲 장르만 여의도 15 15 汝矣島風雲 장르만 여의도 16 16 汝矣島風雲 장르만 여의도 17 17 汝矣島風雲 장르만 여의도 18 18 汝矣島風雲 장르만 여의도 19 19 汝矣島風雲 장르만 여의도 20 20 汝矣島風雲 장르만 여의도 21",
       "purchaseLabel": "9700p"
-    },
-    {
-      "id": "P0433",
-      "author": "Void",
-      "ko": "Once Upon a Time",
-      "zh": "Once Upon a Time",
-      "roles": "🐱公爵，🐹公主",
-      "purchase": "否",
-      "sourceRow": 767,
-      "maxPoints": 0,
-      "totalPoints": 0,
-      "items": [
-        {
-          "part": "1",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "2",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22650896",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "3",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22660961",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "4",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22670647",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "5",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22699992",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "6",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22802995",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "文章狀態",
-          "values": [
-            "連載中"
-          ]
-        }
-      ],
-      "flatTags": [
-        "文章狀態: 連載中"
-      ],
-      "thumbCategories": [
-        "雜食系 (其他CP)"
-      ],
-      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp) 文章狀態: 連載中 once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4 once upon a time once upon a time 5 once upon a time once upon a time 6",
-      "purchaseLabel": "0p"
     },
     {
       "id": "P0453",
