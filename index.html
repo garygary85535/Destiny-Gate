@@ -396,9 +396,7 @@
     }
 
     .card-actions {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 6px;
+      display: block;
     }
 
     .card-actions .chip {
@@ -408,17 +406,6 @@
       text-overflow: ellipsis;
       white-space: nowrap;
       font-weight: 700;
-    }
-
-    .chip.comment-chip {
-      background: #5f9f58;
-      border-color: #5f9f58;
-      color: #fff;
-    }
-
-    .chip.comment-chip:hover {
-      background: #4f894b;
-      border-color: #4f894b;
     }
 
     .item-link:hover {
@@ -602,100 +589,6 @@
       margin: 4px 0 0;
       color: var(--muted);
       overflow-wrap: anywhere;
-    }
-
-    .comment-tools {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 8px;
-      align-items: end;
-    }
-
-    .comment-card {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--bg);
-      padding: 10px;
-      display: grid;
-      gap: 6px;
-      font-size: 13px;
-    }
-
-    .comment-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 8px;
-      align-items: center;
-    }
-
-    .comment-head b {
-      color: var(--gate);
-    }
-
-    .comment-meta {
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .comment-quote {
-      color: var(--wine);
-      font-weight: 800;
-    }
-
-    .comment-message {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-    }
-
-    .pinned-card {
-      border: 1px solid color-mix(in srgb, var(--gate) 42%, var(--line));
-      border-radius: 8px;
-      background: var(--gate-soft);
-      padding: 10px;
-      display: grid;
-      gap: 7px;
-    }
-
-    .pinned-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      align-items: start;
-    }
-
-    .pinned-head b {
-      color: var(--gate);
-    }
-
-    .pinned-message {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-    }
-
-    .admin-reply {
-      border-left: 4px solid var(--gate);
-      background: var(--gate-soft);
-      border-radius: 8px;
-      padding: 8px 9px;
-      display: grid;
-      gap: 4px;
-    }
-
-    .admin-reply b {
-      color: var(--gate);
-      font-size: 12px;
-    }
-
-    .admin-reply div {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      font-size: 13px;
-    }
-
-    .comment-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
     }
 
     .calc-tools {
@@ -941,7 +834,6 @@
       </select>
       <button class="btn primary" id="randomBtn" type="button">隨機看一篇</button>
       <button class="btn primary" id="calculatorBtn" type="button">計算機</button>
-      <button class="btn" id="commentBoardBtn" type="button">留言板</button>
       <button class="btn" id="languageBtn" type="button">简体</button>
       <button class="btn" id="theme" type="button">深色</button>
     </div>
@@ -1032,53 +924,9 @@
     </div>
   </div>
 
-  <div class="modal" id="commentModal" aria-hidden="true">
-    <div class="sheet">
-      <div class="sheet-head">
-        <h2>留言板</h2>
-        <button class="close" id="commentCloseBtn" type="button" aria-label="關閉">×</button>
-      </div>
-      <form class="report-form" id="commentForm">
-        <div class="comment-tools">
-          <div class="field">
-            <label for="commentSearch">引用作品</label>
-            <input id="commentSearch" type="search" placeholder="搜尋篇名 / 作者">
-          </div>
-          <button class="chip" id="commentRefreshBtn" type="button">刷新</button>
-        </div>
-        <div class="field">
-          <select id="commentWork"></select>
-        </div>
-        <div class="field">
-          <label for="commentNickname">暱稱</label>
-          <input id="commentNickname" maxlength="24" placeholder="可以自由填寫ID" required>
-        </div>
-        <div class="field">
-          <label for="commentMessage">留言</label>
-          <textarea id="commentMessage" maxlength="500" placeholder="想聊什麼？" required></textarea>
-        </div>
-        <div class="captcha-row">
-          <div class="captcha-code" id="commentCaptcha">讀取中</div>
-          <div class="field">
-            <label for="commentCaptchaInput">驗證碼</label>
-            <input id="commentCaptchaInput" inputmode="numeric" placeholder="輸入答案" required>
-          </div>
-        </div>
-        <button class="btn primary" type="submit">送出留言</button>
-        <p class="report-status" id="commentStatus"></p>
-      </form>
-      <div class="report-list-head">
-        <b>最近留言</b>
-        <button class="link-button" id="commentShowAllBtn" type="button">顯示全部</button>
-      </div>
-      <div class="report-list" id="commentList"></div>
-    </div>
-  </div>
-
   <script src="destiny-data.js?v=20260829-2303"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
-    const COMMENT_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6nWmOnuqe_HU9ACEUPcAV_v58W0P-Ltgzz1p-IRlOObb5uoQQZ1pffCu9nZnMxB5Hvg/exec";
     const CALCULATOR_KEY = "destinyCalculatorSelection";
     const READ_KEY = "destinyReadWorks";
     const LANGUAGE_KEY = "destinyLanguage";
@@ -1095,11 +943,6 @@
       calculatorQ: "",
       calculatorSelected: loadCalculatorSelection(),
       readWorks: loadReadWorks(),
-      comments: [],
-      pinned: null,
-      commentsShowAll: false,
-      commentChallenge: null,
-      commentQuoteId: "",
       theme: localStorage.getItem("destinyTheme") || "light",
       language: localStorage.getItem(LANGUAGE_KEY) || "zh-Hant",
     };
@@ -1111,7 +954,6 @@
       sort: document.querySelector("#sort"),
       randomBtn: document.querySelector("#randomBtn"),
       calculatorBtn: document.querySelector("#calculatorBtn"),
-      commentBoardBtn: document.querySelector("#commentBoardBtn"),
       languageBtn: document.querySelector("#languageBtn"),
       theme: document.querySelector("#theme"),
       jewelChips: document.querySelector("#jewelChips"),
@@ -1140,19 +982,6 @@
       calculatorSelectedBox: document.querySelector("#calculatorSelectedBox"),
       calculatorSelectedList: document.querySelector("#calculatorSelectedList"),
       calculatorList: document.querySelector("#calculatorList"),
-      commentModal: document.querySelector("#commentModal"),
-      commentCloseBtn: document.querySelector("#commentCloseBtn"),
-      commentForm: document.querySelector("#commentForm"),
-      commentSearch: document.querySelector("#commentSearch"),
-      commentWork: document.querySelector("#commentWork"),
-      commentNickname: document.querySelector("#commentNickname"),
-      commentMessage: document.querySelector("#commentMessage"),
-      commentCaptcha: document.querySelector("#commentCaptcha"),
-      commentCaptchaInput: document.querySelector("#commentCaptchaInput"),
-      commentStatus: document.querySelector("#commentStatus"),
-      commentList: document.querySelector("#commentList"),
-      commentRefreshBtn: document.querySelector("#commentRefreshBtn"),
-      commentShowAllBtn: document.querySelector("#commentShowAllBtn"),
       topButton: document.querySelector("#topButton"),
     };
 
@@ -1184,10 +1013,6 @@
       ["項目多到少", "项目多到少"],
       ["隨機看一篇", "随机看一篇"],
       ["計算機", "计算机"],
-      ["留言板", "留言板"],
-      ["引用作品", "引用作品"],
-      ["送出留言", "送出留言"],
-      ["最近留言", "最近留言"],
       ["顯示全部", "显示全部"],
       ["收合", "收合"],
       ["搜尋篇名", "搜索篇名"],
@@ -1852,7 +1677,6 @@
             <div class="item-list">${links.slice(0, 4).map(item => itemLink(item, work)).join("")}${links.length > 4 ? `<button class="item-link" type="button" data-detail="${escapeHtml(work.id)}">全部 ${escapeHtml(episodeCountLabel(links.length))}</button>` : ""}</div>
             <div class="card-actions">
               <button class="chip" type="button" data-detail="${escapeHtml(work.id)}">詳細</button>
-              <button class="chip comment-chip" type="button" data-comment-work="${escapeHtml(work.id)}">去留言</button>
             </div>
           </article>
         `;
@@ -1880,236 +1704,10 @@
         const label = `${item.part || "本篇"} · ${item.zh}${points ? ` · ${points}` : ""}`;
         if (!item.url) return `<span class="item-disabled">${escapeHtml(label)}</span>`;
         return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
-      }).join("") + `<button class="chip" type="button" data-comment-work="${escapeHtml(work.id)}">去留言</button>`;
+      }).join("");
       el.modal.classList.add("open");
       el.modal.setAttribute("aria-hidden", "false");
       applyLanguage(el.modal);
-    }
-
-    function commentApi(params) {
-      if (!COMMENT_ENDPOINT) return Promise.reject(new Error("留言板 API 尚未設定。"));
-      const fetchUrl = new URL(COMMENT_ENDPOINT);
-      Object.entries(params).forEach(([key, value]) => fetchUrl.searchParams.set(key, value ?? ""));
-      return fetch(fetchUrl.toString(), { method: "GET", mode: "cors", cache: "no-store" })
-        .then(response => {
-          if (!response.ok) throw new Error(`留言板連線失敗 (${response.status})`);
-          return response.json();
-        })
-        .catch(() => commentApiJsonp(params));
-    }
-
-    function commentApiJsonp(params) {
-      const callback = `destinyCommentCallback_${Date.now()}_${Math.floor(Math.random() * 10000)}`;
-      const url = new URL(COMMENT_ENDPOINT);
-      Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value ?? ""));
-      url.searchParams.set("callback", callback);
-      return new Promise((resolve, reject) => {
-        const script = document.createElement("script");
-        const timer = window.setTimeout(() => {
-          cleanup();
-          reject(new Error("留言板連線逾時。"));
-        }, 12000);
-        function cleanup() {
-          window.clearTimeout(timer);
-          delete window[callback];
-          script.remove();
-        }
-        window[callback] = payload => {
-          cleanup();
-          resolve(payload);
-        };
-        script.onerror = () => {
-          cleanup();
-          reject(new Error("留言板連線失敗。"));
-        };
-        script.src = url.toString();
-        document.body.appendChild(script);
-      });
-    }
-
-    function renderCommentWorkOptions() {
-      const q = languageSearchText(el.commentSearch.value.trim().toLowerCase());
-      const rows = works
-        .filter(work => !isMixedCp(work))
-        .filter(work => !q || languageSearchText(`${work.id} ${work.zh} ${work.ko} ${work.author}`).includes(q))
-        .slice(0, 80);
-      const selected = state.commentQuoteId;
-      el.commentWork.innerHTML = `<option value="">不引用作品</option>` + rows.map(work =>
-        `<option value="${escapeHtml(work.id)}" ${selected === work.id ? "selected" : ""}>${escapeHtml(work.zh)} · ${escapeHtml(work.author || "未填作者")}</option>`
-      ).join("");
-      if (selected && [...el.commentWork.options].some(option => option.value === selected)) el.commentWork.value = selected;
-    }
-
-    function renderComments() {
-      const comments = state.commentsShowAll ? state.comments : state.comments.slice(0, 5);
-      el.commentShowAllBtn.textContent = state.commentsShowAll ? "收合" : "顯示全部";
-      const pinnedHtml = state.pinned ? `
-        <article class="pinned-card">
-          <div class="pinned-head">
-            <b>置頂留言</b>
-            <span class="comment-meta">${escapeHtml(formatCommentTime(state.pinned.updatedAt))}</span>
-          </div>
-          <div class="pinned-message">${escapeHtml(state.pinned.message)}</div>
-          <button class="link-button" type="button" data-edit-pinned>管理員編輯</button>
-        </article>
-      ` : `
-        <article class="pinned-card">
-          <div class="pinned-head"><b>置頂留言</b></div>
-          <div class="pinned-message">尚未設定置頂留言。</div>
-          <button class="link-button" type="button" data-edit-pinned>管理員編輯</button>
-        </article>
-      `;
-      const commentsHtml = comments.length ? comments.map(comment => `
-        <article class="comment-card">
-          <div class="comment-head">
-            <b>${escapeHtml(comment.nickname || "匿名")}</b>
-            <span class="comment-meta">${escapeHtml(formatCommentTime(comment.createdAt))}</span>
-          </div>
-          ${comment.workTitle ? `<div class="comment-quote">引用：${escapeHtml(comment.workTitle)}</div>` : ""}
-          <div class="comment-message">${escapeHtml(comment.message)}</div>
-          ${comment.adminReply ? `
-            <div class="admin-reply">
-              <b>站方回覆 ${comment.repliedAt ? ` · ${escapeHtml(formatCommentTime(comment.repliedAt))}` : ""}</b>
-              <div>${escapeHtml(comment.adminReply)}</div>
-            </div>
-          ` : ""}
-          <div class="comment-actions">
-            <button class="link-button" type="button" data-reply-comment="${escapeHtml(comment.id)}">回覆</button>
-            <button class="link-button" type="button" data-delete-comment="${escapeHtml(comment.id)}">刪除</button>
-          </div>
-        </article>
-      `).join("") : `<div class="empty">還沒有留言</div>`;
-      el.commentList.innerHTML = pinnedHtml + commentsHtml;
-      applyLanguage(el.commentModal);
-    }
-
-    function formatCommentTime(value) {
-      const date = new Date(value);
-      if (Number.isNaN(date.getTime())) return "";
-      return date.toLocaleString("zh-TW", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
-    }
-
-    async function loadComments() {
-      if (!COMMENT_ENDPOINT) {
-        el.commentStatus.textContent = "留言板 API 尚未設定，部署 Apps Script 後貼上網址即可啟用。";
-        state.comments = [];
-        renderComments();
-        return;
-      }
-      const payload = await commentApi({ action: "list", limit: 80 });
-      if (!payload.ok) throw new Error(payload.error || "留言讀取失敗。");
-      state.pinned = payload.pinned || null;
-      state.comments = payload.comments || [];
-      renderComments();
-    }
-
-    async function refreshCommentChallenge() {
-      if (!COMMENT_ENDPOINT) {
-        el.commentCaptcha.textContent = "未啟用";
-        state.commentChallenge = null;
-        return;
-      }
-      const payload = await commentApi({ action: "challenge" });
-      if (!payload.ok) throw new Error(payload.error || "驗證碼讀取失敗。");
-      state.commentChallenge = payload;
-      el.commentCaptcha.textContent = payload.question;
-      el.commentCaptchaInput.value = "";
-    }
-
-    async function openCommentBoard(workId = "") {
-      const query = workId ? `?work=${encodeURIComponent(workId)}` : "";
-      window.location.href = `comments.html${query}`;
-    }
-
-    function closeCommentBoard() {
-      el.commentModal.classList.remove("open");
-      el.commentModal.setAttribute("aria-hidden", "true");
-    }
-
-    async function submitComment(event) {
-      event.preventDefault();
-      if (!state.commentChallenge) {
-        el.commentStatus.textContent = "請先取得驗證碼。";
-        return;
-      }
-      const workId = el.commentWork.value;
-      const work = works.find(item => item.id === workId);
-      el.commentStatus.textContent = "送出中...";
-      try {
-        const payload = await commentApi({
-          action: "comment",
-          token: state.commentChallenge.token,
-          question: state.commentChallenge.question,
-          captcha: el.commentCaptchaInput.value.trim(),
-          nickname: el.commentNickname.value.trim(),
-          message: el.commentMessage.value.trim(),
-          workId,
-          workTitle: work ? work.zh : "",
-          ua: navigator.userAgent,
-        });
-        if (!payload.ok) throw new Error(payload.error || "留言送出失敗。");
-        el.commentMessage.value = "";
-        el.commentStatus.textContent = "已送出留言。";
-        await Promise.all([loadComments(), refreshCommentChallenge()]);
-      } catch (error) {
-        el.commentStatus.textContent = error.message;
-        try { await refreshCommentChallenge(); } catch (_) {}
-      }
-    }
-
-    async function deleteComment(id) {
-      const adminPassword = window.prompt("請輸入管理員密碼刪除留言");
-      if (adminPassword === null) return;
-      el.commentStatus.textContent = "刪除中...";
-      try {
-        const payload = await commentApi({ action: "delete", id, adminPassword, reason: "管理員刪除" });
-        if (!payload.ok) throw new Error(payload.error || "刪除失敗。");
-        el.commentStatus.textContent = "留言已刪除。";
-        await loadComments();
-      } catch (error) {
-        el.commentStatus.textContent = error.message;
-      }
-    }
-
-    async function replyComment(id) {
-      const current = state.comments.find(comment => comment.id === id);
-      const reply = window.prompt("請輸入站方回覆", current ? current.adminReply || "" : "");
-      if (reply === null) return;
-      if (!reply.trim()) {
-        el.commentStatus.textContent = "請輸入回覆內容。";
-        return;
-      }
-      const adminPassword = window.prompt("請輸入管理員密碼送出回覆");
-      if (adminPassword === null) return;
-      el.commentStatus.textContent = "回覆送出中...";
-      try {
-        const payload = await commentApi({ action: "reply", id, reply: reply.trim(), adminPassword });
-        if (!payload.ok) throw new Error(payload.error || "回覆失敗。");
-        el.commentStatus.textContent = "已送出站方回覆。";
-        await loadComments();
-      } catch (error) {
-        el.commentStatus.textContent = error.message;
-      }
-    }
-
-    async function editPinnedComment() {
-      const message = window.prompt("請輸入置頂留言", state.pinned ? state.pinned.message || "" : "");
-      if (message === null) return;
-      if (!message.trim()) {
-        el.commentStatus.textContent = "請輸入置頂留言內容。";
-        return;
-      }
-      const adminPassword = window.prompt("請輸入管理員密碼更新置頂留言");
-      if (adminPassword === null) return;
-      el.commentStatus.textContent = "置頂留言更新中...";
-      try {
-        const payload = await commentApi({ action: "pinned", message: message.trim(), adminPassword });
-        if (!payload.ok) throw new Error(payload.error || "置頂留言更新失敗。");
-        el.commentStatus.textContent = "置頂留言已更新。";
-        await loadComments();
-      } catch (error) {
-        el.commentStatus.textContent = error.message;
-      }
     }
 
     function randomWork() {
@@ -2196,18 +1794,6 @@
       const detail = event.target.closest("[data-detail]");
       if (detail) openDetail(detail.dataset.detail);
 
-      const commentWork = event.target.closest("[data-comment-work]");
-      if (commentWork) openCommentBoard(commentWork.dataset.commentWork);
-
-      const pinnedButton = event.target.closest("[data-edit-pinned]");
-      if (pinnedButton) editPinnedComment();
-
-      const replyCommentButton = event.target.closest("[data-reply-comment]");
-      if (replyCommentButton) replyComment(replyCommentButton.dataset.replyComment);
-
-      const deleteCommentButton = event.target.closest("[data-delete-comment]");
-      if (deleteCommentButton) deleteComment(deleteCommentButton.dataset.deleteComment);
-
       const read = event.target.closest("[data-read]");
       if (read) {
         if (state.readWorks.has(read.dataset.read)) {
@@ -2253,7 +1839,6 @@
     });
 
     el.randomBtn.addEventListener("click", randomWork);
-    el.commentBoardBtn.addEventListener("click", () => openCommentBoard());
     el.topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
     window.addEventListener("scroll", () => {
       el.topButton.classList.toggle("show", window.scrollY > 360);
@@ -2281,27 +1866,9 @@
     el.calculatorModal.addEventListener("click", event => {
       if (event.target === el.calculatorModal) closeCalculator();
     });
-    el.commentCloseBtn.addEventListener("click", closeCommentBoard);
-    el.commentModal.addEventListener("click", event => {
-      if (event.target === el.commentModal) closeCommentBoard();
-    });
-    el.commentForm.addEventListener("submit", submitComment);
-    el.commentSearch.addEventListener("input", renderCommentWorkOptions);
-    el.commentWork.addEventListener("change", event => {
-      state.commentQuoteId = event.target.value;
-    });
-    el.commentRefreshBtn.addEventListener("click", () => {
-      loadComments().catch(error => { el.commentStatus.textContent = error.message; });
-      refreshCommentChallenge().catch(error => { el.commentStatus.textContent = error.message; });
-    });
-    el.commentShowAllBtn.addEventListener("click", () => {
-      state.commentsShowAll = !state.commentsShowAll;
-      renderComments();
-    });
     window.addEventListener("keydown", event => {
       if (event.key === "Escape") el.closeBtn.click();
       if (event.key === "Escape") closeCalculator();
-      if (event.key === "Escape") closeCommentBoard();
     });
 
     setTheme(state.theme);
