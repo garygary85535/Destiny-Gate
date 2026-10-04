@@ -1,7 +1,342 @@
 window.DESTINY_DATA = {
   "generatedFrom": "付費明細",
-  "rows": 769,
+  "rows": 779,
   "works": [
+    {
+      "id": "P0458",
+      "author": "꿀구마（蜜地瓜）",
+      "ko": "비선형 관계",
+      "zh": "非線性關係",
+      "roles": "安：補習班老師\n員：高中生",
+      "purchase": "否",
+      "sourceRow": 781,
+      "maxPoints": 0,
+      "totalPoints": 0,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "비선형 관계",
+          "zh": "非線性關係",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/22335926?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0458 꿀구마（蜜地瓜） 비선형 관계 非線性關係 安：補習班老師\n員：高中生  文章狀態: 完結 非線性關係 비선형 관계 本篇",
+      "purchaseLabel": ""
+    },
+    {
+      "id": "P0457",
+      "author": "오일오",
+      "ko": "키스의 악마",
+      "zh": "接吻惡魔",
+      "roles": "安：青梅竹馬\n員：青梅竹馬",
+      "purchase": "是",
+      "sourceRow": 780,
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "上",
+          "ko": "키스의 악마",
+          "zh": "接吻惡魔",
+          "url": "https://www.postype.com/zh-hant/@oh1oh-home/post/21986599?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "中",
+          "ko": "키스의 악마",
+          "zh": "接吻惡魔",
+          "url": "https://www.postype.com/zh-hant/@oh1oh-home/post/22033888",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0457 오일오 키스의 악마 接吻惡魔 安：青梅竹馬\n員：青梅竹馬  文章狀態: 連載中 接吻惡魔 키스의 악마 上 接吻惡魔 키스의 악마 中",
+      "purchaseLabel": "1000p"
+    },
+    {
+      "id": "P0456",
+      "author": "호박",
+      "ko": "체대 선배 안유진",
+      "zh": "體大前輩 安兪真",
+      "roles": "安：大學生\n員：大學生",
+      "purchase": "是",
+      "sourceRow": 778,
+      "maxPoints": 1000,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "체대 선배 안유진",
+          "zh": "體大前輩 安兪真",
+          "url": "https://www.postype.com/zh-hant/@gdowkjdf/post/23264024",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "1000p",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [],
+      "searchText": "p0456 호박 체대 선배 안유진 體大前輩 安兪真 安：大學生\n員：大學生  文章狀態: 完結 體大前輩 安兪真 체대 선배 안유진 本篇",
+      "purchaseLabel": "1000p"
+    },
+    {
+      "id": "P0455",
+      "author": "noname",
+      "ko": "소실점을 향해",
+      "zh": "朝向消失點",
+      "roles": "",
+      "purchase": "是",
+      "sourceRow": 777,
+      "maxPoints": 500,
+      "totalPoints": 500,
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "소실점을 향해",
+          "zh": "朝向消失點",
+          "url": "https://www.postype.com/zh-hant/@fifth230/post/23215219?show-original=true",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "500p",
+          "thumbCategories": [
+            "寶藏作家"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 完結"
+      ],
+      "thumbCategories": [
+        "寶藏作家"
+      ],
+      "searchText": "p0455 noname 소실점을 향해 朝向消失點  寶藏作家 文章狀態: 完結 朝向消失點 소실점을 향해 本篇",
+      "purchaseLabel": "500p"
+    },
+    {
+      "id": "P0433",
+      "author": "Void",
+      "ko": "Once Upon a Time",
+      "zh": "Once Upon a Time",
+      "roles": "🐱公爵，🐹公主",
+      "purchase": "是",
+      "sourceRow": 776,
+      "maxPoints": 700,
+      "totalPoints": 1000,
+      "items": [
+        {
+          "part": "1",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "2",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22650896",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "3",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22660961",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "4",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22670647",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "5",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22699992",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "6",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22802995",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "7",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22833332",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "8",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22872724",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "9",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22963553",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "A Wolf by Night",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23139378",
+          "purchase": "是",
+          "points": 700,
+          "purchaseLabel": "700p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "A Lover by Morning",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22915556",
+          "purchase": "是",
+          "points": 300,
+          "purchaseLabel": "300p",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "10",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23181862",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp) 文章狀態: 連載中 once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4 once upon a time once upon a time 5 once upon a time once upon a time 6 once upon a time once upon a time 7 once upon a time once upon a time 8 once upon a time once upon a time 9 once upon a time once upon a time a wolf by night once upon a time once upon a time a lover by morning once upon a time once upon a time 10",
+      "purchaseLabel": "1000p"
+    },
     {
       "id": "P0280",
       "author": "플레인（Plain）",
@@ -134,7 +469,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0280 플레인（plain） 페이지를 찾을 수 없습니다 找不到頁面 安：代理 / 員：代理 蓋瑞推薦 分級: cp潔癖勿入 文章狀態: 連載中 文章類型: 都市現實 背景設定: 辦公室 文章狀態: 完結 找不到頁面 페이지를 찾을 수 없습니다 1 找不到頁面 페이지를 찾을 수 없습니다 2 找不到頁面 페이지를 찾을 수 없습니다 3 找不到頁面 페이지를 찾을 수 없습니다 4 找不到頁面 페이지를 찾을 수 없습니다 5 找不到頁面 페이지를 찾을 수 없습니다 6 找不到頁面 페이지를 찾을 수 없습니다 已找到頁面（外傳）",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0454",
@@ -176,119 +511,6 @@ window.DESTINY_DATA = {
       ],
       "searchText": "p0454 void 소원 (make a wish) 夙願 🐱名門繼承人\n🐹體弱外國妻子 雜食系 (其他cp) 文章狀態: 完結 夙願 소원 (make a wish) 本篇",
       "purchaseLabel": "1000p"
-    },
-    {
-      "id": "P0433",
-      "author": "Void",
-      "ko": "Once Upon a Time",
-      "zh": "Once Upon a Time",
-      "roles": "🐱公爵，🐹公主",
-      "purchase": "否",
-      "sourceRow": 769,
-      "maxPoints": 0,
-      "totalPoints": 0,
-      "items": [
-        {
-          "part": "1",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22613871",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "2",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22650896",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "3",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22660961",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "4",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22670647",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "5",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22699992",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "6",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22802995",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "7",
-          "ko": "Once Upon a Time",
-          "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22833332",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "文章狀態",
-          "values": [
-            "連載中"
-          ]
-        }
-      ],
-      "flatTags": [
-        "文章狀態: 連載中"
-      ],
-      "thumbCategories": [
-        "雜食系 (其他CP)"
-      ],
-      "searchText": "p0433 void once upon a time once upon a time 🐱公爵，🐹公主 雜食系 (其他cp) 文章狀態: 連載中 once upon a time once upon a time 1 once upon a time once upon a time 2 once upon a time once upon a time 3 once upon a time once upon a time 4 once upon a time once upon a time 5 once upon a time once upon a time 6 once upon a time once upon a time 7",
-      "purchaseLabel": "0p"
     },
     {
       "id": "P0084",
@@ -714,7 +936,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0453 쩡우（鄭宇） 배달왔습니다 外送到了喔 安：演員\n員：偶像  文章狀態: 完結 外送到了喔 배달왔습니다 1 外送到了喔 배달왔습니다 2 外送到了喔 배달왔습니다 3 外送到了喔 배달왔습니다 4 外送到了喔 배달왔습니다 5 外送到了喔 배달왔습니다 5.5 外送到了喔 배달왔습니다 6",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0452",
@@ -742,7 +964,7 @@ window.DESTINY_DATA = {
       "flatTags": [],
       "thumbCategories": [],
       "searchText": "p0452 이닛 사소한 문제들 瑣碎的問題    瑣碎的問題 사소한 문제들 單篇",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0451",
@@ -1025,7 +1247,7 @@ window.DESTINY_DATA = {
         "雜食系 (其他CP)"
       ],
       "searchText": "p0446 벽라춘（碧螺春） 김레이의 원죄 金怜的原罪 🐱：地球人\n🐹：外星人 雜食系 (其他cp) 文章狀態: 完結 金怜的原罪 김레이의 원죄 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0445",
@@ -1881,7 +2103,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0432 noname 오! 마이 oh! my 真實設定  文章狀態: 完結 oh! my 오! 마이 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0431",
@@ -1918,7 +2140,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0431 윶페스합작（@u_pjisnps91） 유심론 (有心論) 有心論   文章狀態: 完結 有心論 유심론 (有心論) 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0430",
@@ -1962,7 +2184,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0430 윶페스합작（@u_pjisnps91） 우리 좀 어떻게 해봐 我們之間再想想辦法吧   分級: cp潔癖勿入 文章狀態: 完結 我們之間再想想辦法吧 우리 좀 어떻게 해봐 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0429",
@@ -2124,7 +2346,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0428 와이 안영원 아니고 장영원 不是安永遠，是張永遠  蓋瑞推薦 文章狀態: 完結 不是安永遠，是張永遠 안영원 아니고 장영원 1 不是安永遠，是張永遠 안영원 아니고 장영원 2 不是安永遠，是張永遠 안영원 아니고 장영원 3 不是安永遠，是張永遠 안영원 아니고 장영원 4 不是安永遠，是張永遠 안영원 아니고 장영원 5 不是安永遠，是張永遠 안영원 아니고 장영원 6 不是安永遠，是張永遠 안영원 아니고 장영원 7 不是安永遠，是張永遠 안영원 아니고 장영원 外傳",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0427",
@@ -2189,7 +2411,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0427 로크（lock） 어쩌면 결혼도 낭만 或許結婚也是浪漫（結婚是現實 婚後生活外傳） 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 或許結婚也是浪漫（結婚是現實 婚後生活外傳） 어쩌면 결혼도 낭만 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0426",
@@ -2284,7 +2506,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0426 로크（lock） 연애는 낭만 戀愛是浪漫（結婚是現實 外傳） 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 1 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 2 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 3 戀愛是浪漫（結婚是現實 外傳） 연애는 낭만 4",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0425",
@@ -2349,7 +2571,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0425 로크（lock） 결혼은 현실 結婚是現實 安：英語教師\n員：律師  cp配對: 安/員 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 結婚是現實 결혼은 현실 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0424",
@@ -2386,7 +2608,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0424 꿀구마（蜜地瓜） 나무아미타불 南無阿彌陀佛（無神論存在主義 外傳）   文章狀態: 完結 南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0423",
@@ -2423,7 +2645,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0423 꿀구마（蜜地瓜） 원형의 영원 圓形的永遠   文章狀態: 完結 圓形的永遠 원형의 영원 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0422",
@@ -2460,7 +2682,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0422 꿀구마（蜜地瓜） 가장 보통의 연애 最平凡的戀愛   文章狀態: 完結 最平凡的戀愛 가장 보통의 연애 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0300",
@@ -2663,7 +2885,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0421 꿀구마（蜜地瓜） 무신론적 실존주의 無神論存在主義   文章狀態: 完結 無神論存在主義 무신론적 실존주의 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0420",
@@ -2700,7 +2922,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0420 꿀구마（蜜地瓜） 고래노래 鯨魚之歌   文章狀態: 完結 鯨魚之歌 고래노래 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0419",
@@ -2772,7 +2994,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0419 꿀구마（蜜地瓜） 비정상 현상 보고서 非正常現象報告書（非正常現象觀察報告書 外傳） 安：大學生/高中生\n員：復讀生/高中生  命定站賀文合集: 2025831901annyeongz生日慶祝活動 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 非正常現象報告書（非正常現象觀察報告書 外傳） 비정상 현상 보고서 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0418",
@@ -2837,7 +3059,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0418 꿀구마（蜜地瓜） 인간관계론 人際關係理論 安：復學生\n員：大學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 人際關係理論 인간관계론 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0417",
@@ -2895,7 +3117,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0417 꿀구마（蜜地瓜） 필요충분조건 必要充分條件 安：大學生\n員：偶像  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 必要充分條件 필요충분조건 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0416",
@@ -2932,7 +3154,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0416 꿀구마（蜜地瓜） 목적지에 도착했습니다 您已抵達目的地   文章狀態: 完結 您已抵達目的地 목적지에 도착했습니다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0415",
@@ -2969,7 +3191,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0415 꿀구마（蜜地瓜） 와퍼러버 華堡 lover   文章狀態: 完結 華堡 lover 와퍼러버 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0414",
@@ -3036,7 +3258,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0414 꿀구마（蜜地瓜） 어른아이 孩子氣的大人 安：高中生\n員：上班族  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 孩子氣的大人 어른아이 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0413",
@@ -3073,7 +3295,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0413 꿀구마（蜜地瓜） 층간소음 주의 小心樓層噪音   文章狀態: 完結 小心樓層噪音 층간소음 주의 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0412",
@@ -3138,7 +3360,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0412 꿀구마（蜜地瓜） 너는 내 킬러문항 你是我的最大難題 安：高中生\n員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 你是我的最大難題 너는 내 킬러문항 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0411",
@@ -3203,7 +3425,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0411 꿀구마（蜜地瓜） 오만과 편견 傲慢與偏見 安：雕塑系學姊\n員：雕塑系學妹  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 傲慢與偏見 오만과 편견 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0410",
@@ -3240,7 +3462,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0410 꿀구마（蜜地瓜） 헤로인 海洛因   文章狀態: 完結 海洛因 헤로인 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0409",
@@ -3312,7 +3534,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0409 꿀구마（蜜地瓜） 투핫걸 火辣雙姝 安：大學生\n員：大學生  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 火辣雙姝 투핫걸 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0408",
@@ -3377,7 +3599,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0408 꿀구마（蜜地瓜） 건축학개론 建築學概論 安：建築系系代表\n員：建築系學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 建築學概論 건축학개론 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0407",
@@ -3482,7 +3704,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0407 박프로（朴專家） 처음부터 너와 나 最初的你和我 安：家道中落房客 / 員：房東千金小姐 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚲腳踏車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 背景設定: 年代文 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 最初的你和我 처음부터 너와 나 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0406",
@@ -3523,7 +3745,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0406 noname 어쩌다 스파이 誤打誤撞當上間諜  寶藏作家 文章狀態: 完結 誤打誤撞當上間諜 어쩌다 스파이 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0405",
@@ -3605,7 +3827,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0404 noname 롬바드로 가자 去倫巴底吧  寶藏作家 文章狀態: 完結 去倫巴底吧 롬바드로 가자 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0403",
@@ -3683,7 +3905,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0402 박프로（朴專家） 사건의 전말 事件始末  寶藏作家 文章狀態: 完結 事件始末 사건의 전말 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0401",
@@ -3759,7 +3981,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0401 박프로（朴專家） 씨버러버 西博戀人 安：上班族 / 員：上班族 寶藏作家 分級: 🚗轎車 情感梗: 網戀 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 西博戀人 씨버러버 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0400",
@@ -3844,7 +4066,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0400 박프로（朴專家） 내가 바라는 나 我所期盼的我 安：醫生 / 員：吸血鬼 寶藏作家 cp配對: 安/員 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 重生 題材梗: 輪迴 類型世界觀: 吸血鬼 我所期盼的我 내가 바라는 나 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0399",
@@ -3981,7 +4203,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0398 박시봉（朴時奉） 엑설런트 프렌치 卓越法式 待人工補充  文章狀態: 完結 卓越法式 엑설런트 프렌치 1 卓越法式 엑설런트 프렌치 2 卓越法式 엑설런트 프렌치 3",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0397",
@@ -4478,7 +4700,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0392 댜 언젠가 우리 그렇게 살자 總有一天，我們就那樣生活吧 安：高中生 / 員：高中生  分級: ⚠️題材警告 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 超能力 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 總有一天，我們就那樣生活吧 언젠가 우리 그렇게 살자 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0391",
@@ -4547,7 +4769,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0391 플레인（plain） 죽기 전에 매일 보고 싶어 死之前想每天見面 (死之前至少想見一次 - 外傳) 安：上班族 / 員：團體偶像 蓋瑞推薦 分級: cp潔癖勿入 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 死之前想每天見面 (死之前至少想見一次 - 外傳) 죽기 전에 매일 보고 싶어 外傳",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0390",
@@ -4674,7 +4896,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0390 박프로（朴專家） 여자 자석 (1/8) 女人磁鐵 安：代理 / 員：組長 寶藏作家 文章狀態: 未完 文章類型: 都市現實 背景設定: 辦公室 女人磁鐵 1/8 여자 자석 (1/8) 01 女人磁鐵 2/8 여자 자석 (2/8) 02 女人磁鐵 3/8 여자 자석 (3/8) 03 女人磁鐵 4/8 여자 자석 (4/8) 04 女人磁鐵 5/8 여자 자석 (5/8) 05 女人磁鐵 6/8 여자 자석 (6/8) 06 女人磁鐵 7/8 여자 자석 (7/8) 07",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0389",
@@ -4835,7 +5057,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0389 박프로（朴專家） lavender haze 上 lavender haze 上 安：高中生 / 員：高中生 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 lavender haze 上 lavender haze 上 上 lavender haze 中 1/2 lavender haze 中 (1/2) 中1 lavender haze 中 2/2 lavender haze 中 (2/2) 中2 lavender haze 下 1/2 lavender haze 下 (1/2) 下1 lavender haze 下 2/2 lavender haze 下 (2/2) 下2 lavender haze 外傳 1/2 lavender haze 외전 (1/2) 外傳1 lavender haze 外傳 2/2 lavender haze 외전 (2/2) 外傳2",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0388",
@@ -4947,7 +5169,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0388 박프로（朴專家） 서울의 잠 못 이루는 밤 上 首爾不眠夜 上 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 寶藏作家 cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 首爾不眠夜 上 서울의 잠 못 이루는 밤 上 上 首爾不眠夜 中 서울의 잠 못 이루는 밤 中 中 首爾不眠夜 下 서울의 잠 못 이루는 밤 下 下 首爾不眠夜 外傳 서울의 잠 못 이루는 밤 외전 外傳",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0387",
@@ -5085,7 +5307,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0387 박프로（朴專家） 아주 사적인 사업파트너 (1/6) 非常私密合夥人 安：咖啡廳甜點師 / 員：咖啡廳老闆/編輯 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 非常私密合夥人 1/6 아주 사적인 사업파트너 (1/6) 1 非常私密合夥人 2/6 아주 사적인 사업파트너 (2/6) 2 非常私密合夥人 3/6 아주 사적인 사업파트너 (3/6) 3 非常私密合夥人 4/6 아주 사적인 사업파트너 (4/6) 4 非常私密合夥人 5/6 아주 사적인 사업파트너 (5/6) 5 非常私密合夥人 6/6 아주 사적인 사업파트너 (6/6) 6",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0386",
@@ -5168,7 +5390,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0386 박프로（朴專家） 완벽한 세기의 커플 完美的世紀情侶 安：學生/飾品設計師 / 員：公主/皇后 寶藏作家 情感梗: 先婚後愛 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 完美的世紀情侶 완벽한 세기의 커플 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0385",
@@ -5240,7 +5462,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0385 이라（伊羅） 첫눈 初雪 安：社會人 / 員：高中生/大學生  cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 初雪 첫눈 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0384",
@@ -5318,7 +5540,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0384 박프로（朴專家） 개강에 생일 學期初的生日 安：學生教育軍事團 / 員：大學生 寶藏作家 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 學期初的生日 개강에 생일 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0383",
@@ -5376,7 +5598,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0383 유부비언（已婚人士） 지평선을 넘어서 超越地平線 安：大學生 / 員：大學生/設計師  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be 超越地平線 지평선을 넘어서 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0382",
@@ -5448,7 +5670,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0382 에이미（amy） what is love what is love 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: be 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer what is love what is love 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0381",
@@ -5633,7 +5855,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0380 우유（牛奶） 여름의 끝에 夏天的盡頭 安：學生 / 員：藝人  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 背景設定: 末日 類型世界觀: 殭屍/喪屍 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 夏天的盡頭 여름의 끝에 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0379",
@@ -5705,7 +5927,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0379 익명2（匿名2） 우리의 사랑은 여름이었지 我們的愛是夏天啊 安：學生/社會人士 / 員：學生/上班族  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 我們的愛是夏天啊 우리의 사랑은 여름이었지 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0378",
@@ -5845,7 +6067,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0377 판도（音譯：辯道） 그런 거 不是那種意思 安：學生 / 員：學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 不是那種意思 그런 거 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0376",
@@ -5917,7 +6139,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0376 키퍼（keeper） 미지근한 조각케잌 微溫的切片蛋糕 安：大學生 / 員：高中生  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 微溫的切片蛋糕 미지근한 조각케잌 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0375",
@@ -5982,7 +6204,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0375 익명1（匿名1） 토끼는 의외로 빨리 달린다 兔子其實跑的很快 安：間諜 / 員：練習生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 兔子其實跑的很快 토끼는 의외로 빨리 달린다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0374",
@@ -6054,7 +6276,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0374 롸댕（roi_daeng） 여름의 정의 夏天的定義 安：青梅 / 員：青梅  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 夏天的定義 여름의 정의 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0373",
@@ -6126,7 +6348,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0373 엔터（enter） 계절의 이해 理解季節 安：上班族 / 員：大學生  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 理解季節 계절의 이해 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0372",
@@ -6191,7 +6413,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0372 잘조（音譯：喬巧） 숯불구이맛후랑크 炭烤香腸口味的法蘭克 安：求職人 / 員：打工人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 summer 炭烤香腸口味的法蘭克 숯불구이맛후랑크 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0371",
@@ -6272,7 +6494,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0371 도교（音譯：道僑） 순애와 순애 純愛與殉愛 安：大學生 / 員：大學生  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 背景設定: 年代文 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 純愛與殉愛 순애와 순애 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0370",
@@ -6355,7 +6577,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0370 익명1（匿名1） 매일 밤 네가 싫은 이유를 생각해 每天晚上我都在想我為什麼討厭你 安：大學生 / 員：大學生  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 每天晚上我都在想我為什麼討厭你 매일 밤 네가 싫은 이유를 생각해 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0369",
@@ -6424,7 +6646,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0369 noname 어차피 마지막은 너 反正最後都是你 安：無業遊民 / 員：ceo 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 反正最後都是你 어차피 마지막은 너 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0368",
@@ -6555,7 +6777,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0368 박프로（朴專家） 육아의 맛tv (1/5) 育兒tv s1 安：演員 / 員：大學生 寶藏作家 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s1 1/5 육아의 맛tv (1/5) 01 育兒tv s1 2/5 육아의 맛tv (2/5) 02 育兒tv s1 3/5 육아의 맛tv (3/5) 03 育兒tv s1 4/5 육아의 맛tv (4/5) 04 育兒tv s1 5/5 육아의 맛tv (5/5) 05",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0367",
@@ -6627,7 +6849,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0367 녕냥늉 3년네버다이 3年never die 安：大學生 / 員：留學生  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 3年never die 3년네버다이 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0366",
@@ -6699,7 +6921,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0366 민무（閔無） 우리가 어떻게 我們要怎麼辦 安：待業中 / 員：上班族  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 我們要怎麼辦 우리가 어떻게 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0365",
@@ -7354,7 +7576,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0363 박프로（朴專家） 육아의 맛tv 2 (1/5) 育兒tv s2 安：演員 / 員：大學生 寶藏作家 cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 育兒 育兒tv s2 1/5 육아의 맛tv 2 (1/5) 01 育兒tv s2 2/5 육아의 맛tv 2 (2/5) 02 育兒tv s2 3/5 육아의 맛tv 2 (3/5) 03 育兒tv s2 4/5 육아의 맛tv 2 (4/5) 04 育兒tv s2 5/5 육아의 맛tv 2 (5/5) 05",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0362",
@@ -7432,7 +7654,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0362 박프로（朴專家） 빙글빙글 繞圈圈 安：大學生 / 員：大學生 寶藏作家 cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 繞圈圈 빙글빙글 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0361",
@@ -7549,7 +7771,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0361 박프로（朴專家） 너 말고 니 언니 (1/4) 不是你 是你姐姐 安：大學生(滑冰選手) / 員：高中生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 雙生 不是你 是你姐姐 1/4 너 말고 니 언니 (1/4) 01 不是你 是你姐姐 2/4 너 말고 니 언니 (2/4) 02 不是你 是你姐姐 3/4 너 말고 니 언니 (3/4) 03 不是你 是你姐姐 4/4 너 말고 니 언니 (4/4) 04 不是你 是你姐姐 spicy ver. 너 말고 니 언니 (spicy ver.) spicy",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0360",
@@ -7618,7 +7840,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0360 박프로（朴專家） 비즈니스 레쥬언드 퍼포몬쓰 商業級傳奇演出 安：大學生/ytr / 員：大學生/ytr 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 商業級傳奇演出 비즈니스 레쥬언드 퍼포몬쓰 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0359",
@@ -7747,7 +7969,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0359 박프로（朴專家） pit-a-pat (1/6) pit-a-pat 安：經營系前輩/樂團主唱 / 員：經營系後輩/樂團鍵盤手 寶藏作家 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 pit-a-pat 1/6 pit-a-pat (1/6) 01 pit-a-pat 2/6 pit-a-pat (2/6) 02 pit-a-pat 3/6 pit-a-pat (3/6) 03 pit-a-pat 4/6 pit-a-pat (4/6) 04 pit-a-pat 5/6 pit-a-pat (5/6) 05 pit-a-pat 6/6 pit-a-pat (6/6) 06",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0358",
@@ -7848,7 +8070,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0358 박프로（朴專家） off my chest 上 off my chest 上 安：上班族 / 員：上班族 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my chest 上 off my chest 上 上 off my chest 下 off my chest 下 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0357",
@@ -7949,7 +8171,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0357 박프로（朴專家） off my face 上 (off my chest 번외) off my face 上 (off my chest 番外) 安：上班族 / 員：上班族 寶藏作家 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he off my face 上 (off my chest 番外) off my face 上 (off my chest 번외) 番外上 off my face 下 (off my chest 番外) off my face 下 (off my chest 번외) 番外下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0356",
@@ -8021,7 +8243,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0356 익명2（匿名2） 사랑은 타이밍! 愛情就是時機！ 安：藝人 / 員：藝人  文章狀態: 完結 文章篇幅: 極短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 愛情就是時機！ 사랑은 타이밍! 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0355",
@@ -8093,7 +8315,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0355 테이 펀치 드렁크 멜로 punch drunk melo 安：大學生/吉他社成員 / 員：大學生/吉他社成員  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum punch drunk melo 펀치 드렁크 멜로 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0354",
@@ -8165,7 +8387,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0354 소온 첫사랑 징크스 初戀魔咒 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 authum 初戀魔咒 첫사랑 징크스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0353",
@@ -8230,7 +8452,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0353 해류 한여름 밤의 소동 仲夏夜之騷動 安：學生 / 員：學生  文章狀態: 完結 文章篇幅: 極短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 仲夏夜之騷動 한여름 밤의 소동 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0352",
@@ -8313,7 +8535,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0352 정한（淨漢） 당신의 사계 你的四季 安：美術生/畫家 / 員：舞蹈系學生/舞蹈系教授  分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 你的四季 당신의 사계 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0351",
@@ -8394,7 +8616,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0351 소온 미성숙 未成熟 安：組長 / 員：上班族  分級: cp潔癖勿入 情感梗: 青梅 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 未成熟 미성숙 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0350",
@@ -8473,7 +8695,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0350 불미 일기예보 天氣預報 安：學生 / 員：學生  分級: cp潔癖勿入 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 天氣預報 일기예보 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0349",
@@ -8538,7 +8760,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0349 라니 밤을 너와 與你共度夜晚 安：大學生 / 員：大學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 spring 與你共度夜晚 밤을 너와 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0348",
@@ -8610,7 +8832,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0348 키퍼（keeper） 과일향 나는 비누 散發水果香的肥皂 安：婢女 / 員：千金  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 年代文 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 散發水果香的肥皂 과일향 나는 비누 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0347",
@@ -8682,7 +8904,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0347 익명 원 모어 타임 one more time 安：無名樂團主唱 / 員：家喻戶曉藝人  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer one more time 원 모어 타임 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0346",
@@ -8754,7 +8976,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0346 와이 뱃마을 차차차 船村恰恰恰 安：退役軍人 / 員：人魚  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: 人魚 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 船村恰恰恰 뱃마을 차차차 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0344",
@@ -8833,7 +9055,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0344 도교（音譯：道僑） 순애와 순애 : 巡愛 純愛與殉愛：巡愛 安：大學生 / 員：大學生  形式/性質: 續寫 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 年代文 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 純愛與殉愛：巡愛 순애와 순애 : 巡愛 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0343",
@@ -8923,7 +9145,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0343 ocb 떡꼬치 辣醬年糕串 安：家教老師/上班族 / 員：大學生/美妝吃播主  分級: cp潔癖勿入 分級: ⚠️題材警告 情感梗: 年齡差 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 辣醬年糕串 떡꼬치 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0342",
@@ -8995,7 +9217,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0342 코드 그 사람, 그 사랑 那個人，那份愛 安：室長/殺手 / 員：高中生  情感梗: 年齡差 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: be 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 那個人，那份愛 그 사람, 그 사랑 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0341",
@@ -9067,7 +9289,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0341 코드 디어 마이 빌런 dear my villain 安：能力者隊長 / 員：能力者隊員/隊長  文章狀態: 完結 文章篇幅: 短篇 文章類型: 科幻懸疑 結局: be 類型世界觀: 超能力 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter dear my villain 디어 마이 빌런 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0340",
@@ -9139,7 +9361,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0340 초초 일주일 안에 안공작을 꼬시는 방법 一週內把安公爵追到手的方法 安：公爵 / 員：子爵么女  文章狀態: 完結 文章篇幅: 短篇 文章類型: 西方奇幻 結局: he 背景設定: 王國/王室 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 一週內把安公爵追到手的方法 일주일 안에 안공작을 꼬시는 방법 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0339",
@@ -9225,7 +9447,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0339 쩡우（鄭宇） 메리 크리스마스 merry christmas 安：聖誕老人  cp配對: 安/員 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter merry christmas 메리 크리스마스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0338",
@@ -9297,7 +9519,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0338 진심（真心） cherry blossom cherry blossom 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter cherry blossom cherry blossom 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0337",
@@ -9369,7 +9591,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0337 지학（知鶴） 우상과 허상 偶像與虛像 安：高中生/廚師 / 員：高中生/大學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 偶像與虛像 우상과 허상 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0336",
@@ -9441,7 +9663,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0336 정한（淨漢） 라면 말고, 넷플릭스 不要泡麵，要 netflix 安：退役狙擊手 / 員：留級高中生  情感梗: 年齡差 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 不要泡麵，要 netflix 라면 말고, 넷플릭스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0335",
@@ -9520,7 +9742,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0335 정한（淨漢） 다방, 낙경 茶房，樂境 安：政外系學生 / 員：法文才女  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 年代文 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 茶房，樂境 다방, 낙경 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0334",
@@ -9601,7 +9823,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0334 익명2（匿名2） player 玩家 安：數學系學生 / 員：英語系學生兼助教  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 題材梗: 穿越 題材梗: 奇幻插曲 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 玩家 player 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0333",
@@ -9652,7 +9874,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0333 익명1（匿名1） 10.901.831.034 10.901.831.034 員：上班族  文章狀態: 完結 結局: oe 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 10.901.831.034 10.901.831.034 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0332",
@@ -9744,7 +9966,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0332 익명1（匿名1） helleborus helleborus 安：大學生 / 員：上班族  分級: cp潔癖勿入 情感梗: 青梅 情感梗: 年齡差 情感梗: 逆年齡 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 題材梗: 夢境 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter helleborus helleborus 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0331",
@@ -9830,7 +10052,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0331 윤비 을의 사정 乙方的苦衷 安：資工系學姊 / 員：國文系新生  分級: cp潔癖勿入 情感梗: 推拉 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 乙方的苦衷 을의 사정 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0330",
@@ -9895,7 +10117,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0330 유갱 shine with me shine with me 安：北韓特殊部隊隊長 / 員：脫北者/藝人  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter shine with me shine with me 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0329",
@@ -9960,7 +10182,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0329 와이 로맨스가 체질 戀愛體質 安：青年會長 / 員：演員  文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 戀愛體質 로맨스가 체질 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0328",
@@ -10046,7 +10268,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0328 아딜로 y u love kitty y u love kitty 安：y/b級嚮導 / 員：kitty/d級哨兵  分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 短篇 文章類型: 奇幻玄幻 結局: oe 題材梗: 殘疾 類型世界觀: 哨嚮 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter y u love kitty y u love kitty 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0327",
@@ -10125,7 +10347,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0327 빠보리따 잭팟의 상금은 사랑 頭獎的獎金是愛 安：賭客 / 員：荷官  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 題材梗: 失憶 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 頭獎的獎金是愛 잭팟의 상금은 사랑 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0326",
@@ -10197,7 +10419,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0326 무민 산타에게 致聖誕老人 安：聖誕老人 / 員：兔子獸人  文章狀態: 完結 文章篇幅: 極短篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 獸轉/獸人 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 致聖誕老人 산타에게 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0325",
@@ -10269,7 +10491,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0325 도교（音譯：道僑） 사랑은 마장동에서 愛在馬場洞 安：大學生/吸血鬼 / 員：大學新生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 吸血鬼 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 愛在馬場洞 사랑은 마장동에서 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0324",
@@ -10362,7 +10584,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0324 귀인 달에 사는 그리움(愛) 住在月亮上的思念 安：后羿/射箭國手 / 員：姮娥/復健科醫師  cp配對: 安/員 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 輪迴 類型世界觀: 神明 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 住在月亮上的思念 달에 사는 그리움(愛) 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0323",
@@ -10459,7 +10681,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0323 고래（鯨魚） kissing kissing 安：能力者 / 員：本部長/集團繼承人  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 🏎️賽車 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: 超能力 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter kissing kissing 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0322",
@@ -10540,7 +10762,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0322 ocb 본투비 짝사랑 天生單戀 安：麵包店養女 / 員：上班族  分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 推拉 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 天生單戀 본투비 짝사랑 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0321",
@@ -10612,7 +10834,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0321 ocb 환장 연애 혹은 안장 연애 抓狂戀愛或安張戀愛 安：藝人 / 員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter 抓狂戀愛或安張戀愛 환장 연애 혹은 안장 연애 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0320",
@@ -10691,7 +10913,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0320 noname 재수 없는 여자 討人厭的女人 安：菜鳥記者 / 員：冷臉上司  分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 討人厭的女人 재수 없는 여자 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0319",
@@ -10763,7 +10985,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0319 kiddii 트윈 시스터 트러블 twin sister trouble 安：安家雙胞胎妹妹/學生 / 員：張家妹妹/學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 題材梗: 雙生 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 winter twin sister trouble 트윈 시스터 트러블 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0318",
@@ -10842,7 +11064,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0318 후뿌 off limits off limits 安：退役軍人 / 員：舞女  分級: cp潔癖勿入 文章狀態: 未完 文章篇幅: 短篇 文章類型: 東方幻想 背景設定: 年代文 題材梗: 女扮男 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter off limits off limits 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0317",
@@ -10930,7 +11152,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0317 익명2（匿名2） 재활용품은 반드시 분리수거를 합시다 資源回收物請務必分類回收 安：仿生人 / 員：逃出鳥籠的金絲雀  分級: cp潔癖勿入 分級: ⚠️題材警告 文章狀態: 完結 文章篇幅: 短篇 文章類型: 科幻懸疑 結局: oe 背景設定: 未來 題材梗: 強制 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 資源回收物請務必分類回收 재활용품은 반드시 분리수거를 합시다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0316",
@@ -11013,7 +11235,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0316 아딜로 하나 둘 셋 (그리고 사랑을 시작하자) 一、二、三（然後，開始戀愛吧） 安：攝影師 / 員：音樂劇演員 蓋瑞推薦 分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 時間迴圈 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 一、二、三（然後，開始戀愛吧） 하나 둘 셋 (그리고 사랑을 시작하자) 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0315",
@@ -11099,7 +11321,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0315 소온 220225 220225 安：multi指揮官 / 員：zero 隊哨兵指揮官  cp配對: 安/員 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 哨嚮 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 220225 220225 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0314",
@@ -11185,7 +11407,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0314 브랭 버터 베이커리 奶油烘焙坊 安：依每篇故事設定 / 員：依每篇故事設定  形式/性質: 漫畫/插圖 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 校園 類型世界觀: 殭屍/喪屍 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 奶油烘焙坊 버터 베이커리 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0313",
@@ -11264,7 +11486,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0313 롸댕（roi_daeng） 이별후애 別後愛 安：大學生 / 員：大學生  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 別後愛 이별후애 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0312",
@@ -11359,7 +11581,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0312 로크（lock） 아포칼립스 프리즘 末日稜鏡 安：大學生 / 員：高中生  情感梗: 偽骨科 情感梗: 重組家庭 文章狀態: 完結 文章篇幅: 短篇 文章類型: 科幻懸疑 結局: be 背景設定: 末日 題材梗: 殘疾 類型世界觀: 殭屍/喪屍 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 末日稜鏡 아포칼립스 프리즘 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0311",
@@ -11438,7 +11660,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0311 도교（音譯：道僑） 와이키키 썸머 스캔들 waikiki 夏日醜聞   cp配對: 安/員 分級: 🚲腳踏車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter waikiki 夏日醜聞 와이키키 썸머 스캔들 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0310",
@@ -11523,7 +11745,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0310 noname 그대 다시 내게 願你再次來到我身邊 安：上班族 / 員：博物館職員 寶藏作家 分級: ⚠️題材警告 情感梗: 破鏡重圓 情感梗: 妻妻 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2022 winter 願你再次來到我身邊 그대 다시 내게 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0219",
@@ -11581,7 +11803,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0219 파란모자（藍瘋帽） black fantasy black fantasy 安：軍火商公司打手 / 員：落魄千金小姐  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be black fantasy black fantasy 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0218",
@@ -11667,7 +11889,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0218 파란모자（藍瘋帽） 로열 노블 皇家貴族 安：阿庛烏姆大帝國皇太子 / 員：亞特蒙德西王國獨生女  cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 西方奇幻 結局: he 背景設定: 宮廷/皇室 類型世界觀: abo 皇家貴族 로열 노블 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0217",
@@ -11725,7 +11947,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0217 파란모자（藍瘋帽） 만루홈런 滿貫全壘打 安：大田狼族選手 / 員：首爾泰坦選手  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 滿貫全壘打 만루홈런 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0216",
@@ -11804,7 +12026,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0216 파란모자（藍瘋帽） 하이엔드 퀄리티 high-end quality 安：山白集團繼承人 / 員：太康集團的次女  cp配對: 安/員 情感梗: 青梅 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: abo high-end quality 하이엔드 퀄리티 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0215",
@@ -11862,7 +12084,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0215 득춘 청산별곡 青山別曲 安：青年小農 / 員：練習生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 青山別曲 청산별곡 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0214",
@@ -11920,7 +12142,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0214 개（狗） 라스트콜 last call 安：跑腿代辦 / 員：大學生/樂團吉他手  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he last call 라스트콜 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0213",
@@ -11988,7 +12210,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0213 알장 사랑합니다, 고갱님 愛您唷，顧客大人 安：vip奧客 / 員：客服專員  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 愛您唷，顧客大人 사랑합니다, 고갱님 上 愛您唷，顧客大人 사랑합니다, 고갱님 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0212",
@@ -12045,7 +12267,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0212 초코쇼크（巧克shock） 냄새나는 토끼 獸人系列3-有味道的兔子   文章狀態: 完結 獸人系列3-有味道的兔子 냄새나는 토끼 1 獸人系列3-有味道的兔子 냄새나는 토끼 2 獸人系列3-有味道的兔子 냄새나는 토끼 3",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0211",
@@ -12122,7 +12344,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0211 초코쇼크（巧克shock） 냄새맡는 토끼 獸人系列2-聞味道的兔子   文章狀態: 完結 獸人系列2-聞味道的兔子 냄새맡는 토끼 1 獸人系列2-聞味道的兔子 냄새맡는 토끼 2 獸人系列2-聞味道的兔子 냄새맡는 토끼 3 獸人系列2-聞味道的兔子 냄새맡는 토끼 4 獸人系列2-聞味道的兔子 냄새맡는 토끼 5",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0210",
@@ -12194,7 +12416,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0210 댕그라미（圈圈） 뜯고 뜯기는 연애 啃與被啃的戀愛 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 末日 類型世界觀: 殭屍/喪屍 啃與被啃的戀愛 뜯고 뜯기는 연애 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0209",
@@ -12252,7 +12474,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0209 익룡（翼龍） 엑시트 플라토닉 退出柏拉圖   文章狀態: 完結 文章篇幅: 極短篇 文章類型: 都市現實 結局: he 退出柏拉圖 엑시트 플라토닉 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0208",
@@ -12289,7 +12511,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0208 익룡（翼龍） 충전이 완료되었습니다 充電完成   文章狀態: 完結 充電完成 충전이 완료되었습니다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0207",
@@ -12354,7 +12576,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0207 댕그라미（圈圈） 숨은그림찾기 找找看 安：學生 / 員：學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 找找看 숨은그림찾기 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0206",
@@ -12419,7 +12641,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0206 댕그라미（圈圈） 집으로 가는 길 回家的路 安：大學生 / 員：大學生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 回家的路 집으로 가는 길 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0205",
@@ -12733,7 +12955,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0204 내내（蕾蕾） 설계실 로맨스 設計室羅曼史 安：設計系復學生 / 員：設計系學生 蓋瑞推薦 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 背景設定: 校園 設計室羅曼史 설계실 로맨스 01 設計室羅曼史 설계실 로맨스 02 設計室羅曼史 설계실 로맨스 03 設計室羅曼史 설계실 로맨스 04 設計室羅曼史 설계실 로맨스 05 設計室羅曼史 설계실 로맨스 06 設計室羅曼史 설계실 로맨스 07",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0203",
@@ -12805,7 +13027,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0203 댕그라미（圈圈） 여름으로 가는 지름길 通往夏天的捷徑 安：網球選手 / 員：新人演員  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 類型世界觀: 殭屍/喪屍 通往夏天的捷徑 여름으로 가는 지름길 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0202",
@@ -12961,7 +13183,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0202 피치우롱티（水蜜桃烏龍茶） baddie baddie 安：大學生/代理 / 員：大學生/顧問  cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 baddie baddie baddie.1 baddie baddie baddie.2 baddie baddie baddie.3 who is baddie who is baddie 第一天的記憶 baddie baddie baddie.4 baddie baddie baddie.5 baddie baddie baddie.6 baddie baddie baddie.7",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0201",
@@ -13026,7 +13248,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0201 댕그라미（圈圈） 아윌비백 i’ll be back 安：學生/上班族 / 員：學生  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he i’ll be back 아윌비백 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0200",
@@ -13173,7 +13395,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0199 칠척 명부상실 로맨스 名簿遺失羅曼史 安：陰間使者 / 員：天使 蓋瑞推薦 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 天使 類型世界觀: 陰間使者 名簿遺失羅曼史 명부상실 로맨스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0198",
@@ -13343,7 +13565,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0197 블루마운틴（藍山） 주임님, 주인님 主任，主人 安：開發部主任 / 員：企劃部社員 蓋瑞推薦 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 主任，主人 주임님, 주인님 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0196",
@@ -13396,7 +13618,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0196 페더 마계 승계서열 1위가 내게 집착해서 곤란하다 魔界第一順位繼承人對我很執著好困擾喔 安：魔界人 / 員：魔界公主 蓋瑞推薦 文章狀態: 未完 魔界第一順位繼承人對我很執著好困擾喔 마계 승계서열 1위가 내게 집착해서 곤란하다 上 魔界第一順位繼承人對我很執著好困擾喔 마계 승계서열 1위가 내게 집착해서 곤란하다 中",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0195",
@@ -13457,7 +13679,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0195 jsn love me love me 安：高中生 / 員：高中生  文章狀態: 未完 文章類型: 都市現實 背景設定: 校園 love me love me 上 love me love me 中",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0194",
@@ -13522,7 +13744,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0194 holyou 처음이자 마지막 第一次也是最後一次 安：代表 / 員：上班族  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be 第一次也是最後一次 처음이자 마지막 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0193",
@@ -13727,7 +13949,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0191 긁적글적 인생이 뭐길래 人生算什麼（原文已刪）   文章狀態: 連載中 人生算什麼（原文已刪） 인생이 뭐길래 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0190",
@@ -13815,7 +14037,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0190 달고나맛（椪糖味） 궁금해, next page 好奇,next page 安：postype作家 / 員：偶像  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 好奇,next page 궁금해, next page 1 好奇,next page 궁금해, next page 2 好奇,next page 궁금해, next page 3 好奇,next page 궁금해, next page 4",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0189",
@@ -13869,7 +14091,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0189 뭉자 얼레벌레 열애설 莫名其妙的戀愛傳聞 安：短道競速國家代表 / 員：歌手  文章狀態: 未完 文章類型: 都市現實 莫名其妙的戀愛傳聞 얼레벌레 열애설 01 莫名其妙的戀愛傳聞 얼레벌레 열애설 02",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0188",
@@ -13924,7 +14146,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0188 이단（一單） 이상애정변론 (상) 異常理想愛情辯論（上） 安：吸血鬼 / 員：醫療人員 蓋瑞推薦 文章狀態: 未完 文章類型: 都市現實 類型世界觀: 吸血鬼 異常理想愛情辯論（上） 이상애정변론 (상) 上",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0187",
@@ -13982,7 +14204,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0187 선 스타 뱅 star bang 安：演員\n員：營銷組長  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he star bang 스타 뱅 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0186",
@@ -14040,7 +14262,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0186 이닛 우리가 되기까지 我們成為我們之前   文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 我們成為我們之前 우리가 되기까지 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0185",
@@ -14267,7 +14489,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0183 테이 체리 브랜디 櫻桃白蘭地 安：大學生\n員：大學生  分級: cp潔癖勿入 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 櫻桃白蘭地 체리 브랜디 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0182",
@@ -14555,7 +14777,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0181 쓸말（司馬） 짝사랑을 밥 먹듯이 暗戀像吃飯一樣簡單 安：契約員工/學姊\n員：部門主管/學妹 蓋瑞推薦 情感梗: 推拉 文章狀態: 完結 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 01 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 02 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 03 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 04 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 05 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 06 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 07 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 08 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 09 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 10 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 11 暗戀像吃飯一樣簡單 짝사랑을 밥 먹듯이 12",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0179",
@@ -15013,7 +15235,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0175 익룡 키워줘 안아줘 사랑해줘 養我吧、抱抱我、愛我吧 安：獸人 / 員：上班族  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 獸轉/獸人 養我吧、抱抱我、愛我吧 키워줘 안아줘 사랑해줘 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0174",
@@ -15064,7 +15286,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0174 초코쇼크 토끼가 멍멍 獸人系列1-兔子在汪汪叫 安：獸人(黃金獵犬)\n員：獸人(兔子)  文章狀態: 未完 文章類型: 奇幻玄幻 類型世界觀: 獸轉/獸人 獸人系列1-兔子在汪汪叫 토끼가 멍멍 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0173",
@@ -15143,7 +15365,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0173 익룡 알파 길들이기 馴服alpha 安：組長 / 員：組員  cp配對: 安/員 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 題材梗: 強制 類型世界觀: abo 馴服alpha 알파 길들이기 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0172",
@@ -15312,7 +15534,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0171 소한s 동서남북 東南西北 安：上班族\n員：上班族  情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 東南西北 동서남북 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0170",
@@ -15377,7 +15599,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0170 굼（夢） hate me hate me 安：藝人\n員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 hate me hate me 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0169",
@@ -15435,7 +15657,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0169 cho 생일 축하합니다 生日快樂 安：警察\n員：上班族  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: be 生日快樂 생일 축하합니다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0168",
@@ -15565,7 +15787,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0167 이단（一單） 런투유 run to you 安：疫苗研究對象\n員：流行病調查官  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 run to you 런투유 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0166",
@@ -15637,7 +15859,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0166 이단（一單） 청춘 과도기 青春過渡期 安：大學生\n員：大學生  命定站賀文合集: 20250216annyeongz九稔同行-歲歲相栖 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 青春過渡期 청춘 과도기 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0165",
@@ -15777,7 +15999,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0165 임네닉 x: joejoenjoe 차조심 개조심 토끼조심 小心車 小心狗 小心兔子 安：學生\n員：學生 蓋瑞推薦 cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 追妻火葬場 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 01 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 02 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 03 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 04 小心車 小心狗 小心兔子 차조심 개조심 토끼조심 05 完",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0164",
@@ -16086,7 +16308,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0160 금강（金剛） 영원 만들기 創造永恆 安：雕塑系學生\n員：哲學系學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: 靈異 創造永恆 영원 만들기 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0159",
@@ -16189,7 +16411,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0159 🐥 계약 위반 上 契約違反（上+下+外傳） 安：藝人 / 員：藝人  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 現實向 契約違反（上+下+外傳） 계약 위반 上 上 契約違反（上+下+外傳） 계약 위반 下 下 契約違反（上+下+外傳） 계약 위반 外傳 外傳",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0158",
@@ -16254,7 +16476,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0158 이유（理由） 신데렐라와 동거를 與辛德瑞拉定居 安：公爵\n員：兔子(?)  文章狀態: 完結 文章篇幅: 短篇 文章類型: 西方奇幻 結局: he 背景設定: 王國/王室 與辛德瑞拉定居 신데렐라와 동거를 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0157",
@@ -16428,7 +16650,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0156 cho 알파 함락 작전 阿爾法攻略作戰 安：學姊\n員：學妹  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 類型世界觀: abo 阿爾法攻略作戰 알파 함락 작전 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0155",
@@ -16975,7 +17197,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0149 나무（大樹） 우정이 사랑도 먹여주나 友誼能滋養愛情嗎 安：演員\n員：藝人  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2024 summer 友誼能滋養愛情嗎 우정이 사랑도 먹여주나 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0148",
@@ -17047,7 +17269,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0148 이라（伊羅） 고백 투 고백 告白交織 安：高中生 / 員：高中生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 題材梗: 穿越 告白交織 고백 투 고백 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0147",
@@ -17184,7 +17406,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0146 나무（大樹） 크리스마스에는 솔직해지세요 聖誕節，請誠實面對自己 安：學生\n員：學生  cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 聖誕節，請誠實面對自己 크리스마스에는 솔직해지세요 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0145",
@@ -17258,7 +17480,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0145 이라（伊羅） 에로토마니아 愛戀妄想症 安：精神科院長 / 員：患者/作家  分級: 尺度大、謹慎閱讀 分級: ⚠️題材警告 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 背德 愛戀妄想症 에로토마니아 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0144",
@@ -17358,7 +17580,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0144 code 지워지지 않을 우리의 이름은 上 無法抹去的我們的名字 上+下   cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 背德 無法抹去的我們的名字 上+下 지워지지 않을 우리의 이름은 上 上 無法抹去的我們的名字 上+下 지워지지 않을 우리의 이름은 下 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0143",
@@ -17711,7 +17933,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0140 이라（伊羅） 너를 이기는 방법 打敗妳的方法 安：高中生/兼職生 / 員：高中生/留學生  cp配對: 安/員 分級: 🏎️賽車 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 打敗妳的方法 너를 이기는 방법 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0139",
@@ -17787,7 +18009,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0139 무（蕪） 주기도문 主禱文 安：高中生\n員：高中生  cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 主禱文 주기도문 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0138",
@@ -17877,7 +18099,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0138 익룡（翼龍） 엔트리 에로스 墮入厄洛斯   cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 🏎️賽車 分級: 玩具 情感梗: 妻妻 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 題材梗: 涉及宗教 墮入厄洛斯 엔트리 에로스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0137",
@@ -17949,7 +18171,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0137 이라（伊羅） 첫눈 初雪 安：社會人 / 員：高中生/大學生  cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 初雪 첫눈 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0136",
@@ -18104,7 +18326,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0135 cho 현재진행형 버릇 進行中的習慣 安：高中生\n員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 進行中的習慣 현재진행형 버릇 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0134",
@@ -18364,7 +18586,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0132 소한（小寒） say you love me say you love me 安：代理\n員：室長  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 say you love me say you love me 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0131",
@@ -18436,7 +18658,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0131 익룡（翼龍） 배터리가 부족합니다 電池快沒電了！記得盡快充電喔！   cp配對: 安/員 分級: 🏎️賽車 文章狀態: 完結+番外 文章篇幅: 短篇 文章類型: 都市現實 結局: he 電池快沒電了！記得盡快充電喔！ 배터리가 부족합니다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0130",
@@ -18777,7 +18999,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0126 무（蕪） 생일에 개강 生日那天開學（朴專家的『學期初的生日』前傳）   文章狀態: 完結 生日那天開學（朴專家的『學期初的生日』前傳） 생일에 개강 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0125",
@@ -18849,7 +19071,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0125 code 언더더씨 under the sea 安：軍人\n員：高中生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 類型世界觀: 殭屍/喪屍 under the sea 언더더씨 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0124",
@@ -18890,7 +19112,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0124 블루마운틴（藍山） for_everyoung10 liked your for_everyoung10 liked your  蓋瑞推薦 文章狀態: 完結 for_everyoung10 liked your for_everyoung10 liked your 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0123",
@@ -18955,7 +19177,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0123 굼（夢）（夢） 버스 타는 고딩 搭公車的高中生 安：高中生\n員：高中生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 搭公車的高中生 버스 타는 고딩 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0122",
@@ -19024,7 +19246,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0122 박시봉（朴時奉） 채록(採錄) 採錄 安：祠堂長\n員：祠堂舞者 蓋瑞推薦 形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: oe 採錄 채록(採錄) 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0121",
@@ -19096,7 +19318,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0121 cho 친구들이 커퀴인게 죄 朋友們的戀愛腦罪 安：學生\n員：學生  形式/性質: 第三人稱 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 朋友們的戀愛腦罪 친구들이 커퀴인게 죄 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0120",
@@ -19165,7 +19387,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0120 로크（lock） 데리러 가는 길 去接你的路上 安：飛行員(少校)\n員：博士 蓋瑞推薦 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 太空 去接你的路上 데리러 가는 길 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0119",
@@ -19237,7 +19459,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0119 지학（知鶴） media type media type 安：高中生/大學生\n員：高中生/演員  分級: 💰付費內容 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 media type media type 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0118",
@@ -19417,7 +19639,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0117 달걀（雞蛋） 여름 감기 夏日風寒 安：學姊\n員：學妹 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 夏日風寒 여름 감기 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0116",
@@ -19569,7 +19791,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0115 달걀（雞蛋） 교회 로맨스 클리셰 典型教會浪漫故事 安：高中生(聖歌隊)\n員：高中生(聖歌隊伴奏) 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 典型教會浪漫故事 교회 로맨스 클리셰 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0114",
@@ -19631,7 +19853,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0114 달걀（雞蛋） 대전 서구 문화센터 大田西區文化中心 安：咖啡廳老闆\n員：皮拉提斯老師 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 大田西區文化中心 대전 서구 문화센터 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0113",
@@ -19693,7 +19915,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0113 달걀（雞蛋） 주차 빌런 違規停車惡棍 安：上班族\n員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 違規停車惡棍 주차 빌런 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0112",
@@ -19840,7 +20062,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0111 달걀（雞蛋） 납작 복숭아 蟠桃 安：明星pd\n員：熱門偶像 寶藏作家 情感梗: 年齡差 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 蟠桃 납작 복숭아 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0110",
@@ -19918,7 +20140,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0110 달걀（雞蛋） 여수 밤바다 麗水的夜海 安：大學生\n員：心理學教授 寶藏作家 分級: cp潔癖勿入 情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 麗水的夜海 여수 밤바다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0109",
@@ -20120,7 +20342,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0107 달걀（雞蛋） 명절에만 보는 사이 逢年過節才見面的關係 安：學生\n員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 逢年過節才見面的關係 명절에만 보는 사이 上 逢年過節才見面的關係 명절에만 보는 사이 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0106",
@@ -20432,7 +20654,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0104 달걀（雞蛋） 악마의 식탁 惡魔的餐桌 安：學生 / 員：學生 寶藏作家 分級: 尺度大、謹慎閱讀 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 題材梗: 涉及宗教 惡魔的餐桌 악마의 식탁 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0103",
@@ -20692,7 +20914,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0101 달걀（雞蛋） 선배 말고 언니 不是前輩，叫姐姐 安：大學生\n員：大學生 寶藏作家 cp配對: 安/員 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 不是前輩，叫姐姐 선배 말고 언니 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0100",
@@ -20773,7 +20995,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0100 달걀（雞蛋） 가방을 들어주세요 請幫我拿一下包包 安：高中生\n員：高中生 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 請幫我拿一下包包 가방을 들어주세요 上 請幫我拿一下包包 가방을 들어주세요 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0099",
@@ -21473,7 +21695,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0094 달걀（雞蛋） 엔딩 크레딧 1 片尾字幕 安：警察\n員：演員 寶藏作家 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 長篇 文章類型: 都市現實 結局: he 片尾字幕 엔딩 크레딧 1 01 片尾字幕 엔딩 크레딧 2 02 片尾字幕 엔딩 크레딧 3 03 片尾字幕 엔딩 크레딧 4 04 片尾字幕 엔딩 크레딧 5 05 片尾字幕 엔딩 크레딧 6 06 片尾字幕 엔딩 크레딧 7 07 片尾字幕 엔딩 크레딧 8 08 片尾字幕 엔딩 크레딧 9 (完) 09",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0093",
@@ -21535,7 +21757,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0093 noname 러브 앤 피스 love & peace 安：大學生\n員：酒店紅牌 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he love & peace 러브 앤 피스 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0092",
@@ -21675,7 +21897,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0091 noname 아웃사이더 아웃사이더 局外人 局外人 安：學生\n員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 局外人 局外人 아웃사이더 아웃사이더 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0090",
@@ -21923,7 +22145,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0088 noname 그래도 사랑해 即使如此還是愛妳 安：小說家\n員：上班族 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 即使如此還是愛妳 그래도 사랑해 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0087",
@@ -22156,7 +22378,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0083 noname more than world more than world  寶藏作家 文章狀態: 完結 more than world more than world 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0082",
@@ -22998,7 +23220,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0296 정한（淨漢） 안가네 양평해장국 安家的楊平解酒湯 安：解酒湯店老闆\n員：學生  情感梗: 年齡差 情感梗: 偽骨科 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 安家的楊平解酒湯 안가네 양평해장국 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0295",
@@ -23165,7 +23387,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0294 정한（淨漢） 논호림 論虎林 論虎林 安：獵戶之女\n員：山君之女  cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 論虎林 논호림 論虎林 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0293",
@@ -23363,7 +23585,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0292 정한（淨漢） 당신의 조각들 a 你的碎片 a 安：留學生\n員：高中生  cp配對: 安/員 分級: cp潔癖勿入 分級: 🚗轎車 形式/性質: ooc 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 你的碎片 a 당신의 조각들 a a 你的碎片 b 당신의 조각들 b b 你的碎片 c 당신의 조각들 c c",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0291",
@@ -23437,7 +23659,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0291 정한（淨漢） cool and hot cool and hot 安：上班族\n員：上班族  分級: cp潔癖勿入 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he cool and hot cool and hot 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0290",
@@ -24641,7 +24863,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0266 진심（真心） 회장딸이 왜 이럴까 會長女兒為何會這樣 安：新進職員\n員：會長女兒  情感梗: 年齡差 情感梗: 逆年齡 文章狀態: 未完 文章類型: 都市現實 會長女兒為何會這樣 회장딸이 왜 이럴까 01 會長女兒為何會這樣 회장딸이 왜 이럴까 02 會長女兒為何會這樣 회장딸이 왜 이럴까 03 會長女兒為何會這樣 회장딸이 왜 이럴까 04 會長女兒為何會這樣 회장딸이 왜 이럴까 05 會長女兒為何會這樣 회장딸이 왜 이럴까 06",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0265",
@@ -24829,7 +25051,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0264 진심（真心） 901:not found 901:not found 安：仿生人\n員：博士  文章狀態: 完結 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: oe 類型世界觀: 仿生人 901:not found 901:not found 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0263",
@@ -24988,7 +25210,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0262 진심（真心） midnight in florence midnight in florence 安：導遊\n員：上班族  情感梗: 破鏡重圓 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he midnight in florence midnight in florence 上 midnight in florence midnight in florence 下",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0261",
@@ -27017,7 +27239,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0309 꿀구마（蜜地瓜） 차르봄바 러브 沙皇炸彈之戀 安：代理 / 員：新進職員  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 沙皇炸彈之戀 차르봄바 러브 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0308",
@@ -27075,7 +27297,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0308 꿀구마（蜜地瓜） 꿈은 이루어진다 夢想成真   文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 夢想成真 꿈은 이루어진다 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0307",
@@ -27144,7 +27366,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0307 꿀구마（蜜地瓜） 비정상 관찰 보고서 非正常觀察報告 安：高中生 / 員：高中生 蓋瑞推薦 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 非正常觀察報告 비정상 관찰 보고서 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0306",
@@ -27216,7 +27438,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0306 꿀구마（蜜地瓜） 개가 되지 않는 법 不變成狗的方法 安：體大生 / 員：高中舞者  文章狀態: 完結 文章篇幅: 短篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 類型世界觀: 變異 不變成狗的方法 개가 되지 않는 법 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0305",
@@ -27281,7 +27503,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0305 꿀구마（蜜地瓜） 비온뒤 맑음 雨後轉晴 安：醫生 / 員：醫生  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 雨後轉晴 비온뒤 맑음 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0304",
@@ -27355,7 +27577,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0304 꿀구마（蜜地瓜） 시절인연 時節姻緣（cp潔癖勿入） 安：大學生 / 員：大學生  分級: cp潔癖勿入 分級: ⚠️題材警告 情感梗: 青梅 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 時節姻緣（cp潔癖勿入） 시절인연 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0303",
@@ -27420,7 +27642,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0303 꿀구마（蜜地瓜） 베이비 록키 baby rocky 安：拳擊手 / 員：大學生  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he baby rocky 베이비 록키 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0302",
@@ -27499,7 +27721,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0302 꿀구마（蜜地瓜） 미워도 다시 한번 即使討厭也再一次 安：出版社編輯 / 員：離婚單親媽媽  分級: cp潔癖勿入 情感梗: 破鏡重圓 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 育兒 即使討厭也再一次 미워도 다시 한번 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0301",
@@ -27568,7 +27790,7 @@ window.DESTINY_DATA = {
         "蓋瑞推薦"
       ],
       "searchText": "p0301 꿀구마（蜜地瓜） 헬인헤븐 hell in heaven 安：精神病患者 / 員：精神病患者 蓋瑞推薦 分級: ⚠️題材警告 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe hell in heaven 헬인헤븐 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0076",
@@ -27770,7 +27992,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0074 noname 태양주의보 太陽注意報 安：學生 / 員：學生 寶藏作家 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 太陽注意報 태양주의보 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0073",
@@ -27922,7 +28144,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0072 noname 멜팅 쇼콜라 하이틴-上+下 melt chocolate highteen-上+下 安：高中生 / 員：高中生 寶藏作家 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 melt chocolate highteen-上+下 멜팅 쇼콜라 하이틴-上+下 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0071",
@@ -27998,7 +28220,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0071 noname 있었는데요, 없었습니다. 有過，但沒有了。 安：大學生(理工系) / 員：大學生 寶藏作家 cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 有過，但沒有了。 있었는데요, 없었습니다. 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0070",
@@ -28316,7 +28538,7 @@ window.DESTINY_DATA = {
         "寶藏作家"
       ],
       "searchText": "p0067 noname 멜팅 쇼콜라 에이틴 melting chocolate eighteen 安：高中生 / 員：高中生 寶藏作家 分級: 💰付費內容 文章狀態: 完結+番外 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 melting chocolate eighteen 멜팅 쇼콜라 에이틴 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0227",
@@ -28630,7 +28852,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0225 고래（鯨魚） 당신들, 나를 위해 你們為我而活 安：上班族 / 員：環保熱心大使  文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: he 類型世界觀: 吸血鬼 你們為我而活 당신들, 나를 위해 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0223",
@@ -28785,7 +29007,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0222 고래（鯨魚） 너 말고 니 동생 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）   文章狀態: 完結 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 너 말고 니 동생 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0221",
@@ -28850,7 +29072,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0221 고래（鯨魚） 겨우 세 글자 僅僅三個字 安：大學生 / 員：大學生  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 僅僅三個字 겨우 세 글자 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0220",
@@ -29190,7 +29412,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0279 플레인（plain） to be continued 上 to be continued （含外傳） 安：大學生 / 員：高中生/大學生  cp配對: 安/員 分級: 🚗轎車 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he to be continued （含外傳） to be continued 上 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0278",
@@ -29255,7 +29477,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0278 플레인（plain） happy birthday to happy birthday to 安：大學生 / 員：高中生  情感梗: 青梅 文章狀態: 完結 文章篇幅: 短篇 文章類型: 都市現實 結局: oe happy birthday to happy birthday to 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0277",
@@ -29350,7 +29572,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0277 플레인（plain） 죽기 전에 한 번은 보고 싶어 在死之前,至少想見一次 安：上班族 / 員：團體偶像  分級: cp潔癖勿入 文章狀態: 完結+番外 文章篇幅: 中篇 文章類型: 都市現實 結局: he 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 01 在死之前,至少想見一次 플레인（plain） 02 在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 03 死之前想每天見面（死之前至少想見一次 - 外傳） 죽기 전에 한 번은 보고 싶어 死 死（4）",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0276",
@@ -29415,7 +29637,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0276 플레인（plain） 인도 보류 引渡保留 安：陰間使者  文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: 陰間使者 引渡保留 인도 보류 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0275",
@@ -29482,7 +29704,7 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "searchText": "p0275 플레인（plain） 연애의 갈피 戀愛的端倪 安：上班族 / 員：上班族  情感梗: 破鏡重圓 情感梗: 推拉 文章狀態: 完結 文章篇幅: 中篇 文章類型: 都市現實 結局: he 戀愛的端倪 연애의 갈피 單集",
-      "purchaseLabel": "0p"
+      "purchaseLabel": ""
     },
     {
       "id": "P0274",

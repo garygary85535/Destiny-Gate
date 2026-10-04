@@ -807,6 +807,373 @@
         grid-template-columns: 1fr;
       }
     }
+
+    /* Modern library interface */
+    :root {
+      --bg: #f4f6f5;
+      --ink: #17231f;
+      --muted: #66716c;
+      --panel: #ffffff;
+      --line: #d7ded9;
+      --gate: #185c46;
+      --gate-soft: #e2f0ea;
+      --wine: #a72747;
+      --wine-soft: #f7e3e8;
+      --gold: #9b721d;
+      --gold-soft: #f5ecd6;
+      --sky: #356b76;
+      --sky-soft: #e4eff1;
+      --shadow: 0 4px 18px rgba(25, 49, 40, .07);
+    }
+
+    [data-theme="dark"] {
+      --bg: #121916;
+      --ink: #f0f5f2;
+      --muted: #a6b1ab;
+      --panel: #1b2420;
+      --line: #34413a;
+      --gate: #8bd1b5;
+      --gate-soft: #223b31;
+      --wine: #ef9aae;
+      --wine-soft: #41252d;
+      --gold: #e3c575;
+      --gold-soft: #3d3420;
+      --sky: #9bcbd3;
+      --sky-soft: #24373b;
+      --shadow: 0 4px 18px rgba(0, 0, 0, .2);
+    }
+
+    body { background: var(--bg); }
+
+    body.filter-open { overflow: hidden; }
+
+    .mast {
+      min-height: 0;
+      padding: 18px 24px 14px;
+      color: var(--ink);
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 2px 14px rgba(25, 49, 40, .06);
+      align-content: start;
+      grid-template-columns: 235px minmax(0, 1fr);
+      gap: 12px 20px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .brand { grid-row: 1 / span 2; }
+
+    .brand h1 {
+      font-size: 28px;
+      line-height: 1.12;
+      color: var(--gate);
+      text-shadow: none;
+    }
+
+    .brand-mark {
+      margin-top: 6px;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    .brand p {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+      text-shadow: none;
+    }
+
+    .searchbar {
+      width: 100%;
+      grid-template-columns: minmax(240px, 1fr) minmax(126px, 160px) 108px 126px 120px 96px 66px 66px;
+      align-items: center;
+    }
+
+    .input, .select, .btn {
+      min-height: 42px;
+      border-color: var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--ink);
+      box-shadow: none;
+    }
+
+    .btn {
+      background: var(--panel);
+      color: var(--gate);
+      backdrop-filter: none;
+    }
+
+    .btn:hover { border-color: var(--gate); }
+
+    .btn.primary {
+      background: var(--gate);
+      border-color: var(--gate);
+      color: #fff;
+    }
+
+    .source-credit {
+      grid-column: 2;
+      width: 100%;
+      color: var(--muted);
+      font-size: 12px;
+      text-shadow: none;
+    }
+
+    .source-credit a { color: var(--gate); }
+
+    .site-updated {
+      display: inline;
+      margin: 0 0 0 10px;
+      color: var(--muted);
+    }
+
+    .layout {
+      width: calc(100% - 32px);
+      max-width: 1660px;
+      margin: 16px auto 48px;
+      grid-template-columns: 278px minmax(0, 1fr);
+      gap: 16px;
+    }
+
+    .panel, .card { box-shadow: var(--shadow); }
+
+    .filters {
+      top: 16px;
+      max-height: calc(100vh - 32px);
+      padding: 16px;
+      gap: 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--line) transparent;
+    }
+
+    .filter-drawer-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .filter-drawer-head h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .filter-close, .filter-apply, .mobile-filter-btn, .filter-backdrop { display: none; }
+
+    .filter-title {
+      color: var(--ink);
+      font-size: 14px;
+    }
+
+    .filters .chips { grid-template-columns: 1fr; }
+
+    .filters .chip {
+      min-height: 36px;
+      padding: 7px 9px;
+      border-color: transparent;
+      background: transparent;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .filters .chip:hover {
+      background: color-mix(in srgb, var(--gate-soft) 60%, transparent);
+      color: var(--gate);
+    }
+
+    .filters .chip.active {
+      background: var(--gate-soft);
+      border-color: color-mix(in srgb, var(--gate) 28%, transparent);
+    }
+
+    .scroll-chips {
+      max-height: none;
+      overflow: visible;
+      padding-right: 0;
+    }
+
+    .summary {
+      min-height: 68px;
+      padding: 12px 16px;
+      border-radius: 6px;
+    }
+
+    .summary h2 { font-size: 21px; }
+
+    .grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .card {
+      border-radius: 6px;
+      padding: 14px;
+      gap: 9px;
+      grid-template-rows: auto auto minmax(20px, auto) minmax(28px, auto) minmax(34px, auto) auto;
+      align-content: start;
+    }
+
+    .read-heart, .chip, .badge, .tag, .item-link, .item-disabled, .close,
+    .calc-row, .calc-total, .calc-selected, .sheet { border-radius: 6px; }
+
+    .title { font-size: 18px; }
+
+    .badges {
+      min-height: 28px;
+      align-items: center;
+    }
+
+    .badge {
+      min-height: 26px;
+      padding: 4px 8px;
+    }
+
+    .tags { max-height: 50px; }
+
+    .card .item-list {
+      min-height: 34px;
+      max-height: 74px;
+      overflow: hidden;
+    }
+
+    .card-actions { margin-top: auto; }
+
+    .card-actions .chip {
+      min-height: 40px;
+      height: 40px;
+      background: var(--gate);
+      border-color: var(--gate);
+      color: #fff;
+    }
+
+    .filter-apply { width: 100%; }
+
+    @media (max-width: 1280px) and (min-width: 821px) {
+      .mast { grid-template-columns: 205px minmax(0, 1fr); }
+      .searchbar { grid-template-columns: minmax(210px, 1fr) 130px 104px 118px 112px 88px 62px 62px; }
+      .layout { grid-template-columns: 250px minmax(0, 1fr); }
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 980px) and (min-width: 821px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mast { grid-template-columns: 1fr; }
+      .brand { grid-row: auto; }
+      .source-credit { grid-column: 1; }
+      .searchbar { grid-template-columns: minmax(200px, 1fr) 125px 100px 118px 110px 86px 62px 62px; }
+    }
+
+    @media (max-width: 820px) {
+      .mast {
+        min-height: 0;
+        padding: 14px 12px 12px;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+      }
+
+      .brand { grid-row: auto; }
+      .brand h1 { font-size: 25px; }
+      .brand-mark { font-size: 15px; }
+
+      .searchbar {
+        grid-column: 1 / -1;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .searchbar .input {
+        grid-column: 1 / -1;
+        order: -3;
+      }
+
+      .mobile-filter-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        order: -2;
+      }
+
+      .searchbar #sort { order: -2; }
+      .searchbar #authorSelect, .searchbar #purchase { display: none; }
+      .searchbar #randomBtn, .searchbar #calculatorBtn { grid-column: span 1; }
+      .searchbar #languageBtn, .searchbar #theme { min-width: 58px; padding-inline: 8px; }
+
+      .source-credit {
+        grid-column: 1 / -1;
+        line-height: 1.6;
+      }
+
+      .site-updated { display: block; margin: 2px 0 0; }
+
+      .layout {
+        width: calc(100% - 20px);
+        margin: 10px 10px 36px;
+        display: block;
+      }
+
+      .filters {
+        position: fixed;
+        inset: 0 auto 0 0;
+        z-index: 70;
+        width: min(86vw, 340px);
+        max-height: 100vh;
+        border-width: 0 1px 0 0;
+        border-radius: 0;
+        transform: translateX(-104%);
+        transition: transform .2s ease;
+        box-shadow: 18px 0 50px rgba(0, 0, 0, .24);
+        padding: 14px;
+      }
+
+      body.filter-open .filters { transform: translateX(0); }
+
+      .filter-drawer-head {
+        position: sticky;
+        top: -14px;
+        z-index: 2;
+        background: var(--panel);
+        padding: 14px 0 10px;
+      }
+
+      .filter-close {
+        display: grid;
+        place-items: center;
+      }
+
+      .filter-apply {
+        display: block;
+        position: sticky;
+        bottom: -14px;
+        margin-top: 4px;
+        padding: 10px;
+        background: var(--gate);
+        border-color: var(--gate);
+        color: #fff;
+      }
+
+      .filter-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 60;
+        border: 0;
+        background: rgba(0, 0, 0, .42);
+      }
+
+      body.filter-open .filter-backdrop { display: block; }
+
+      .content { gap: 10px; }
+      .summary { min-height: 0; }
+      .summary h2 { font-size: 19px; }
+      .grid { grid-template-columns: 1fr; }
+      .card { padding: 14px; }
+      .card .item-list { max-height: 112px; }
+      .top-button { z-index: 50; }
+    }
   </style>
 </head>
 <body>
@@ -817,6 +1184,7 @@
     </div>
     <div class="searchbar">
       <input class="input" id="search" type="search" placeholder="搜尋篇名 / 作者 / 角色 / 標籤">
+      <button class="btn mobile-filter-btn" id="filterToggleBtn" type="button" aria-controls="filters" aria-expanded="false">☰ 篩選</button>
       <select class="select" id="authorSelect" aria-label="作者篩選">
         <option value="">全部作者</option>
       </select>
@@ -840,12 +1208,16 @@
     <div class="source-credit">
       實名感謝鳳梨，標籤分類參考資料庫：
       <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
-      <div class="site-updated">最新更新時間：2026-08-29 23:03</div>
+      <div class="site-updated">最新更新時間：2026-10-04 20:00</div>
     </div>
   </header>
 
   <div class="layout">
-    <aside class="panel filters">
+    <aside class="panel filters" id="filters" aria-label="作品篩選">
+      <div class="filter-drawer-head">
+        <h2>篩選</h2>
+        <button class="close filter-close" id="filterCloseBtn" type="button" aria-label="關閉篩選">×</button>
+      </div>
       <section class="filter-block">
         <h2 class="filter-title">蓋瑞的珠寶盒</h2>
         <div class="chips scroll-chips" id="jewelChips"></div>
@@ -874,7 +1246,10 @@
         <h2 class="filter-title">結局</h2>
         <div class="chips" id="endingChips"></div>
       </section>
+      <button class="chip filter-apply" id="filterApplyBtn" type="button">查看結果</button>
     </aside>
+
+    <button class="filter-backdrop" id="filterBackdrop" type="button" aria-label="關閉篩選"></button>
 
     <main class="content">
       <section class="panel summary">
@@ -924,7 +1299,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=20260829-2303"></script>
+  <script src="destiny-data.js?v=20261004-2000"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const CALCULATOR_KEY = "destinyCalculatorSelection";
@@ -954,6 +1329,10 @@
       sort: document.querySelector("#sort"),
       randomBtn: document.querySelector("#randomBtn"),
       calculatorBtn: document.querySelector("#calculatorBtn"),
+      filterToggleBtn: document.querySelector("#filterToggleBtn"),
+      filterCloseBtn: document.querySelector("#filterCloseBtn"),
+      filterApplyBtn: document.querySelector("#filterApplyBtn"),
+      filterBackdrop: document.querySelector("#filterBackdrop"),
       languageBtn: document.querySelector("#languageBtn"),
       theme: document.querySelector("#theme"),
       jewelChips: document.querySelector("#jewelChips"),
@@ -984,6 +1363,11 @@
       calculatorList: document.querySelector("#calculatorList"),
       topButton: document.querySelector("#topButton"),
     };
+
+    function setFilterDrawer(open) {
+      document.body.classList.toggle("filter-open", open);
+      el.filterToggleBtn.setAttribute("aria-expanded", String(open));
+    }
 
     function escapeHtml(value) {
       return String(value ?? "").replace(/[&<>"']/g, char => ({
@@ -1668,7 +2052,7 @@
               <button class="read-heart ${state.readWorks.has(work.id) ? "done" : ""}" type="button" data-read="${escapeHtml(work.id)}" aria-label="${escapeHtml(readHeartLabel(work))}" title="${escapeHtml(readHeartLabel(work))}">📎</button>
             </div>
             <div class="badges">
-              <span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>
+              ${work.purchaseLabel ? `<span class="badge ${priceClass(work)}">${escapeHtml(work.purchaseLabel)}</span>` : ""}
               <span class="badge">${escapeHtml(episodeCountLabel(links.length))}</span>
               ${(work.thumbCategories || []).length ? `<span class="badge jewel">${escapeHtml(work.thumbCategories[0])}</span>` : ""}
             </div>
@@ -1839,6 +2223,10 @@
     });
 
     el.randomBtn.addEventListener("click", randomWork);
+    el.filterToggleBtn.addEventListener("click", () => setFilterDrawer(true));
+    el.filterCloseBtn.addEventListener("click", () => setFilterDrawer(false));
+    el.filterApplyBtn.addEventListener("click", () => setFilterDrawer(false));
+    el.filterBackdrop.addEventListener("click", () => setFilterDrawer(false));
     el.topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
     window.addEventListener("scroll", () => {
       el.topButton.classList.toggle("show", window.scrollY > 360);
@@ -1869,6 +2257,7 @@
     window.addEventListener("keydown", event => {
       if (event.key === "Escape") el.closeBtn.click();
       if (event.key === "Escape") closeCalculator();
+      if (event.key === "Escape") setFilterDrawer(false);
     });
 
     setTheme(state.theme);
