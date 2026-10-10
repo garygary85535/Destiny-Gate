@@ -1,7 +1,7 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-10T12:18:56.021Z",
-  "catalogRevision": 17,
+  "generatedAt": "2026-10-10T16:43:48.203Z",
+  "catalogRevision": 22,
   "rows": 743,
   "works": [
     {
@@ -57,7 +57,7 @@ window.DESTINY_DATA = {
       "author": "Void",
       "zh": "Once Upon a Time",
       "ko": "Once Upon a Time",
-      "roles": "🐱公爵，🐹公主",
+      "roles": "🐱公爵\n🐹公主",
       "items": [
         {
           "part": "EP1",
@@ -180,24 +180,24 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "EP10",
+          "part": "外傳 2",
           "ko": "Once Upon a Time",
           "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23181862",
-          "purchase": "否",
-          "points": 0,
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22915556",
+          "purchase": "是",
+          "points": 300,
           "purchaseLabel": "",
           "thumbCategories": [
             "雜食系 (其他CP)"
           ]
         },
         {
-          "part": "A Lover by Morning",
+          "part": "EP10",
           "ko": "Once Upon a Time",
           "zh": "Once Upon a Time",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22915556",
-          "purchase": "是",
-          "points": 300,
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23181862",
+          "purchase": "否",
+          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "雜食系 (其他CP)"
@@ -224,7 +224,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 700,
       "sourceRow": 776,
-      "searchText": "once upon a time once upon a time void 🐱公爵，🐹公主 文章狀態: 連載中 once upon a time ep1 once upon a time ep2 once upon a time ep3 once upon a time ep4 once upon a time ep5 once upon a time ep6 once upon a time ep7 once upon a time ep8 once upon a time ep9 once upon a time 外傳 1 once upon a time ep10 once upon a time a lover by morning"
+      "searchText": "💰once upon a time once upon a time void 🐱公爵\n🐹公主 文章狀態: 連載中 once upon a time ep1 once upon a time ep2 once upon a time ep3 once upon a time ep4 once upon a time ep5 once upon a time ep6 once upon a time ep7 once upon a time ep8 once upon a time ep9 once upon a time 外傳 1 once upon a time 外傳 2 once upon a time ep10"
     },
     {
       "id": "P0084",
