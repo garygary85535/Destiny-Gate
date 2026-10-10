@@ -1,8 +1,8 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-10T16:43:48.203Z",
-  "catalogRevision": 22,
-  "rows": 743,
+  "generatedAt": "2026-10-10T17:59:14.442Z",
+  "catalogRevision": 64,
+  "rows": 738,
   "works": [
     {
       "id": "P0457",
@@ -1805,7 +1805,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 500,
       "sourceRow": 754,
-      "searchText": "💰 異性戀情結 헤테로 컴플렉스 참치（鮪魚）  文章狀態: 已完結 異性戀情結 上 異性戀情結 下"
+      "searchText": "異性戀情結 헤테로 컴플렉스 참치（鮪魚）  文章狀態: 已完結 異性戀情結 上 異性戀情結 下"
     },
     {
       "id": "P0449",
@@ -1817,22 +1817,10 @@ window.DESTINY_DATA = {
         {
           "part": "外傳",
           "ko": "Possession+",
-          "zh": "Possession+",
+          "zh": "Possession",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22952018",
           "purchase": "是",
           "points": 300,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "本傳",
-          "ko": "Possession",
-          "zh": "Possession",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22940286",
-          "purchase": "否",
-          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "雜食系 (其他CP)"
@@ -1859,7 +1847,7 @@ window.DESTINY_DATA = {
       "knownPoints": 300,
       "maxPoints": 300,
       "sourceRow": 752,
-      "searchText": "possession（+外傳） possession void 🐱高中生\n🐹黑道大小姐 文章狀態: 已完結 possession+ 外傳 possession 本傳"
+      "searchText": "possession（+外傳） possession void 🐱高中生\n🐹黑道大小姐 文章狀態: 已完結 possession 外傳"
     },
     {
       "id": "P0404",
@@ -1986,6 +1974,44 @@ window.DESTINY_DATA = {
       "maxPoints": 0,
       "sourceRow": 665,
       "searchText": "誤打誤撞當上間諜 어쩌다 스파이 noname  文章狀態: 已完結 誤打誤撞當上間諜 閱讀"
+    },
+    {
+      "id": "P0461",
+      "author": "Cho",
+      "zh": "戀愛管理英雄",
+      "ko": "로맨스 매니지먼트 히어로",
+      "roles": "",
+      "items": [
+        {
+          "part": "閱讀",
+          "ko": "로맨스 매니지먼트 히어로",
+          "zh": "戀愛管理英雄",
+          "url": "https://www.postype.com/zh-hant/@cho-post/post/19906519?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1791651304841,
+      "searchText": "戀愛管理英雄 로맨스 매니지먼트 히어로 cho  文章狀態: 已完結 戀愛管理英雄 閱讀"
     },
     {
       "id": "P0443",
@@ -2477,6 +2503,44 @@ window.DESTINY_DATA = {
       "searchText": "兔子洞 래빗홀 벽라춘（碧螺春） 現實向, izone時期 文章狀態: 已完結 兔子洞 閱讀"
     },
     {
+      "id": "P0460",
+      "author": "Ｓ",
+      "zh": "逸脫",
+      "ko": "일탈(逸脫)",
+      "roles": "",
+      "items": [
+        {
+          "part": "本篇",
+          "ko": "일탈(逸脫)",
+          "zh": "逸脫",
+          "url": "https://www.postype.com/zh-hant/@ilmskk/post/20795096?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1791650962237,
+      "searchText": "逸脫 일탈(逸脫) ｓ  文章狀態: 已完結 逸脫 本篇"
+    },
+    {
       "id": "P0429",
       "author": "noname",
       "zh": "古典文學賞析",
@@ -2716,7 +2780,7 @@ window.DESTINY_DATA = {
       "author": "Void",
       "zh": "隔壁孩子",
       "ko": "옆집 아이",
-      "roles": "🐱年上，🐹年下",
+      "roles": "🐱年上\n🐹年下",
       "items": [
         {
           "part": "EP1",
@@ -2767,49 +2831,13 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "結語",
-          "ko": "옆집 아이-Epilogue",
-          "zh": "隔壁小孩-Epilogue",
+          "part": "Epilogue",
+          "ko": "옆집 아이",
+          "zh": "隔壁小孩",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22279701",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "上",
-          "ko": "두 사람",
-          "zh": "兩人",
-          "url": "https://www.postype.com/zh-hant/@married21/post/21159422?related_post_id=21159422&show-original=true",
-          "purchase": "是",
-          "points": 200,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "中",
-          "ko": "두 사람",
-          "zh": "兩人",
-          "url": "https://www.postype.com/zh-hant/@married21/post/21179295",
-          "purchase": "是",
-          "points": 200,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "下",
-          "ko": "두 사람",
-          "zh": "兩人",
-          "url": "https://www.postype.com/zh-hant/@married21/post/21233133",
-          "purchase": "是",
-          "points": 300,
-          "purchaseLabel": "",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": [
             "雜食系 (其他CP)"
           ]
@@ -2830,12 +2858,12 @@ window.DESTINY_DATA = {
         "雜食系 (其他CP)"
       ],
       "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 1200,
-      "knownPoints": 1200,
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
+      "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 730,
-      "searchText": "隔壁孩子 옆집 아이 void 🐱年上，🐹年下 文章狀態: 已完結 隔壁小孩 ep1 隔壁小孩 ep2 隔壁小孩 ep3 隔壁小孩 ep4 隔壁小孩-epilogue 結語 兩人 上 兩人 中 兩人 下"
+      "searchText": "隔壁孩子 옆집 아이 void 🐱年上\n🐹年下 文章狀態: 已完結 隔壁小孩 ep1 隔壁小孩 ep2 隔壁小孩 ep3 隔壁小孩 ep4 隔壁小孩 epilogue"
     },
     {
       "id": "P0435",
@@ -2915,39 +2943,15 @@ window.DESTINY_DATA = {
       "author": "Void",
       "zh": "You're Mine",
       "ko": "Relationship",
-      "roles": "🐱保鑣，🐹夫人",
+      "roles": "🐱保鑣\n🐹夫人",
       "items": [
         {
-          "part": "外傳",
+          "part": "Am I",
           "ko": "Relationship",
           "zh": "Relationship",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22095478?show-original=true",
           "purchase": "是",
           "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "You're Mine",
-          "ko": "Relationship",
-          "zh": "Relationship",
-          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22070229?show-original=true",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "單集",
-          "ko": "일탈(逸脫)",
-          "zh": "逸脫",
-          "url": "https://www.postype.com/zh-hant/@ilmskk/post/20795096?show-original=true",
-          "purchase": "否",
-          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "雜食系 (其他CP)"
@@ -2977,11 +2981,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 1000,
-      "knownPoints": 1000,
+      "totalPoints": 500,
+      "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 732,
-      "searchText": "💰 you're mine relationship void 🐱保鑣，🐹夫人 結局: he 文章狀態: 已完結 relationship 外傳 relationship you're mine 逸脫 單集"
+      "searchText": "💰 you're mine relationship void 🐱保鑣\n🐹夫人 結局: he 文章狀態: 已完結 relationship am i"
     },
     {
       "id": "P0437",
@@ -2997,18 +3001,6 @@ window.DESTINY_DATA = {
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22533445",
           "purchase": "是",
           "points": 300,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "雜食系 (其他CP)"
-          ]
-        },
-        {
-          "part": "單集",
-          "ko": "정확한 사랑의 실험",
-          "zh": "精準愛情實驗",
-          "url": "https://www.postype.com/zh-hant/@qpqpqp1/post/17143796?show-original=true",
-          "purchase": "否",
-          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "雜食系 (其他CP)"
@@ -3035,7 +3027,7 @@ window.DESTINY_DATA = {
       "knownPoints": 300,
       "maxPoints": 300,
       "sourceRow": 733,
-      "searchText": "💰 what's after x what's after x void 🐱🐹 文章狀態: 已完結 what's after x 閱讀 精準愛情實驗 單集"
+      "searchText": "💰 what's after x what's after x void 🐱🐹 文章狀態: 已完結 what's after x 閱讀"
     },
     {
       "id": "P0428",
@@ -7105,103 +7097,103 @@ window.DESTINY_DATA = {
       "roles": "安：學生/上班族 / 員：學生/上班族",
       "items": [
         {
-          "part": "正文",
+          "part": "EP1",
           "ko": "이렇게",
-          "zh": "就這樣",
-          "url": "https://www.postype.com/@naenae1029/post/4602938",
+          "zh": "01 就這樣([윶녕윶] 이렇게)_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/4602938?show-original=true",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "番外",
-          "ko": "그렇게 (이렇게 번외)",
-          "zh": "就那樣（就這樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/4664443",
+          "part": "EP2",
+          "ko": "이렇게",
+          "zh": "02 就那樣([윶녕윶] 그렇게 (이렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/4664443",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "番外",
-          "ko": "저렇게 (그렇게 번외)",
-          "zh": "像那樣（就那樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/4775697",
+          "part": "EP3",
+          "ko": "이렇게",
+          "zh": "03 那般([윶녕윶] 저렇게 (그렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/4775697",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "上",
-          "ko": "요렇게 上",
-          "zh": "這樣 上篇",
-          "url": "https://www.postype.com/@naenae1029/post/7049532",
+          "part": "EP4",
+          "ko": "이렇게",
+          "zh": "04 就這麼樣 上([윶녕윶] 요렇게 上)_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/7049532",
           "purchase": "是",
           "points": 1000,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "中",
-          "ko": "요렇게 中",
-          "zh": "這樣 中篇",
-          "url": "https://www.postype.com/@naencae1029/post/7049558",
+          "part": "EP5",
+          "ko": "이렇게",
+          "zh": "05 就這麼樣 中([윶녕윶] 요렇게 中)_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/7049558",
           "purchase": "是",
           "points": 1000,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "下",
-          "ko": "요렇게 下",
-          "zh": "這樣 下篇",
-          "url": "https://www.postype.com/@naenae1029/post/7049572",
+          "part": "EP6",
+          "ko": "이렇게",
+          "zh": "06 就這麼樣 下([윶녕윶] 요렇게下)_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/7049572",
           "purchase": "是",
           "points": 1000,
           "purchaseLabel": "",
           "thumbCategories": []
         },
         {
-          "part": "番外",
-          "ko": "그냥 이렇게 (저렇게 번외)",
-          "zh": "乾脆就這樣（像那樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/12244953",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "part": "EP7",
+          "ko": "이렇게",
+          "zh": "07 就這麼著([윶녕윶] 그냥 이렇게 (저렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/12244953",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         },
         {
-          "part": "番外",
-          "ko": "그냥 그렇게 (그냥 이렇게 번외)",
-          "zh": "乾脆就那樣（乾脆就這樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/12258088",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "part": "EP8",
+          "ko": "이렇게",
+          "zh": "08 就那麼著([윶녕윶] 그냥 그렇게 (그냥 이렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/12258088",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         },
         {
-          "part": "番外-上",
-          "ko": "그냥 저렇게 上 (그냥 그렇게 번외)",
-          "zh": "乾脆像那樣 上（乾脆就那樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/12328867",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "part": "EP9",
+          "ko": "이렇게",
+          "zh": "09 就那般著 上([윶녕윶] 그냥 저렇게 上 (그냥 그렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/12328867",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         },
         {
-          "part": "番外-下",
-          "ko": "그냥 저렇게 下 (그냥 그렇게 번외)",
-          "zh": "乾脆像那樣 下（乾脆就那樣 番外）",
-          "url": "https://www.postype.com/@naenae1029/post/13248679",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "part": "EP10",
+          "ko": "이렇게",
+          "zh": "10 就那般著 下([윶녕윶] 그냥 저렇게 下 (그냥 그렇게 번외))_내내",
+          "url": "https://www.postype.com/zh-hant/@naenae1029/post/13248679",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         }
       ],
@@ -7264,12 +7256,12 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 3000,
+      "purchaseLabel": "有 4 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 466,
-      "searchText": "就這樣 이렇게 내내 安：學生/上班族 / 員：學生/上班族 分級: cp潔癖勿入 情感梗: 青梅 情感梗: 破鏡重圓 情感梗: 推拉 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 就這樣 正文 就那樣（就這樣 番外） 番外 像那樣（就那樣 番外） 番外 這樣 上篇 上 這樣 中篇 中 這樣 下篇 下 乾脆就這樣（像那樣 番外） 番外 乾脆就那樣（乾脆就這樣 番外） 番外 乾脆像那樣 上（乾脆就那樣 番外） 番外-上 乾脆像那樣 下（乾脆就那樣 番外） 番外-下"
+      "searchText": "就這樣 이렇게 내내 安：學生/上班族 / 員：學生/上班族 分級: cp潔癖勿入 情感梗: 青梅 情感梗: 破鏡重圓 情感梗: 推拉 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 01 就這樣([윶녕윶] 이렇게)_내내 ep1 02 就那樣([윶녕윶] 그렇게 (이렇게 번외))_내내 ep2 03 那般([윶녕윶] 저렇게 (그렇게 번외))_내내 ep3 04 就這麼樣 上([윶녕윶] 요렇게 上)_내내 ep4 05 就這麼樣 中([윶녕윶] 요렇게 中)_내내 ep5 06 就這麼樣 下([윶녕윶] 요렇게下)_내내 ep6 07 就這麼著([윶녕윶] 그냥 이렇게 (저렇게 번외))_내내 ep7 08 就那麼著([윶녕윶] 그냥 그렇게 (그냥 이렇게 번외))_내내 ep8 09 就那般著 上([윶녕윶] 그냥 저렇게 上 (그냥 그렇게 번외))_내내 ep9 10 就那般著 下([윶녕윶] 그냥 저렇게 下 (그냥 그렇게 번외))_내내 ep10"
     },
     {
       "id": "P0203",
