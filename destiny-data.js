@@ -1,8 +1,8 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-11T05:09:13.473Z",
-  "catalogRevision": 105,
-  "rows": 744,
+  "generatedAt": "2026-10-11T08:49:49.620Z",
+  "catalogRevision": 149,
+  "rows": 742,
   "works": [
     {
       "id": "P0457",
@@ -4201,79 +4201,6 @@ window.DESTINY_DATA = {
       "searchText": "鯨魚之歌 고래노래 꿀구마（蜜地瓜）  文章狀態: 已完結 鯨魚之歌 閱讀"
     },
     {
-      "id": "P0419",
-      "author": "꿀구마（蜜地瓜）",
-      "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
-      "ko": "비정상 현상 보고서",
-      "roles": "安：大學生/高中生\n員：復讀生/高中生",
-      "items": [
-        {
-          "part": "閱讀",
-          "ko": "비정상 현상 보고서",
-          "zh": "非正常現象報告書（非正常現象觀察報告書 外傳）",
-          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/18759165?show-original=true",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "命定站賀文合集",
-          "values": [
-            "2025831901Annyeongz生日慶祝活動"
-          ]
-        },
-        {
-          "type": "文章篇幅",
-          "values": [
-            "中篇"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "結局",
-          "values": [
-            "HE"
-          ]
-        },
-        {
-          "type": "背景設定",
-          "values": [
-            "校園"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "已完結"
-          ]
-        }
-      ],
-      "flatTags": [
-        "命定站賀文合集: 2025831901Annyeongz生日慶祝活動",
-        "文章篇幅: 中篇",
-        "文章類型: 都市現實",
-        "結局: HE",
-        "背景設定: 校園",
-        "文章狀態: 已完結"
-      ],
-      "thumbCategories": [],
-      "purchase": "否",
-      "purchaseLabel": "",
-      "totalPoints": 0,
-      "knownPoints": 0,
-      "maxPoints": 0,
-      "sourceRow": 678,
-      "searchText": "非正常現象報告書（非正常現象觀察報告書 外傳） 비정상 현상 보고서 꿀구마（蜜地瓜） 安：大學生/高中生\n員：復讀生/高中生 命定站賀文合集: 2025831901annyeongz生日慶祝活動 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 非正常現象報告書（非正常現象觀察報告書 外傳） 閱讀"
-    },
-    {
       "id": "P0421",
       "author": "꿀구마（蜜地瓜）",
       "zh": "無神論存在主義",
@@ -4392,7 +4319,7 @@ window.DESTINY_DATA = {
       "author": "꿀구마（蜜地瓜）",
       "zh": "南無阿彌陀佛（無神論存在主義 外傳）",
       "ko": "나무아미타불",
-      "roles": "",
+      "roles": "安秋",
       "items": [
         {
           "part": "閱讀",
@@ -4402,7 +4329,9 @@ window.DESTINY_DATA = {
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
-          "thumbCategories": []
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
         }
       ],
       "tagGroups": [
@@ -4416,14 +4345,16 @@ window.DESTINY_DATA = {
       "flatTags": [
         "文章狀態: 已完結"
       ],
-      "thumbCategories": [],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
       "purchase": "否",
       "purchaseLabel": "",
       "totalPoints": 0,
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 692,
-      "searchText": "南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 꿀구마（蜜地瓜）  文章狀態: 已完結 南無阿彌陀佛（無神論存在主義 外傳） 閱讀"
+      "searchText": "南無阿彌陀佛（無神論存在主義 外傳） 나무아미타불 꿀구마（蜜地瓜） 安秋 文章狀態: 已完結 南無阿彌陀佛（無神論存在主義 外傳） 閱讀"
     },
     {
       "id": "P0459",
@@ -10809,108 +10740,6 @@ window.DESTINY_DATA = {
       "maxPoints": 0,
       "sourceRow": 544,
       "searchText": "pit-a-pat pit-a-pat 박프로（朴專家） 安：經營系前輩/樂團主唱 / 員：經營系後輩/樂團鍵盤手 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 pit-a-pat 1/6 ep1 pit-a-pat 2/6 ep2 pit-a-pat 3/6 ep3 pit-a-pat 4/6 ep4 pit-a-pat 5/6 ep5 pit-a-pat 6/6 ep6 pit-a-pat 1/6 01 pit-a-pat 2/6 02 pit-a-pat 3/6 03 pit-a-pat 4/6 04 pit-a-pat 5/6 05 pit-a-pat 6/6 06"
-    },
-    {
-      "id": "P0358",
-      "author": "박프로（朴專家）",
-      "zh": "off my chest",
-      "ko": "off my chest",
-      "roles": "安：上班族 / 員：上班族",
-      "items": [
-        {
-          "part": "上",
-          "ko": "Off My Chest 上",
-          "zh": "off my chest 上",
-          "url": "https://www.postype.com/zh-hant/@parkpro/post/13556931",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "寶藏作家"
-          ]
-        },
-        {
-          "part": "下",
-          "ko": "Off My Chest 下",
-          "zh": "off my chest 下",
-          "url": "https://www.postype.com/zh-hant/@parkpro/post/13623708",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "寶藏作家"
-          ]
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "CP配對",
-          "values": [
-            "安/員",
-            "員/安",
-            "互攻"
-          ]
-        },
-        {
-          "type": "分級",
-          "values": [
-            "CP潔癖勿入",
-            "🚗轎車"
-          ]
-        },
-        {
-          "type": "情感梗",
-          "values": [
-            "青梅"
-          ]
-        },
-        {
-          "type": "文章篇幅",
-          "values": [
-            "中篇"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "結局",
-          "values": [
-            "HE"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "已完結"
-          ]
-        }
-      ],
-      "flatTags": [
-        "CP配對: 安/員",
-        "CP配對: 員/安",
-        "CP配對: 互攻",
-        "分級: CP潔癖勿入",
-        "分級: 🚗轎車",
-        "情感梗: 青梅",
-        "文章篇幅: 中篇",
-        "文章類型: 都市現實",
-        "結局: HE",
-        "文章狀態: 已完結"
-      ],
-      "thumbCategories": [
-        "寶藏作家"
-      ],
-      "purchase": "否",
-      "purchaseLabel": "",
-      "totalPoints": 0,
-      "knownPoints": 0,
-      "maxPoints": 0,
-      "sourceRow": 538,
-      "searchText": "off my chest off my chest 박프로（朴專家） 安：上班族 / 員：上班族 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 off my chest 上 上 off my chest 下 下"
     },
     {
       "id": "P0357",
@@ -24387,15 +24216,27 @@ window.DESTINY_DATA = {
     {
       "id": "P0307",
       "author": "꿀구마（蜜地瓜）",
-      "zh": "非正常觀察報告",
+      "zh": "非正常觀察報告書",
       "ko": "비정상 관찰 보고서",
       "roles": "安：高中生 / 員：高中生",
       "items": [
         {
           "part": "單集",
           "ko": "비정상 관찰 보고서",
-          "zh": "非正常觀察報告",
+          "zh": "非正常觀察報告書",
           "url": "https://www.postype.com/@seol-cheong/post/18224305",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "蓋瑞推薦"
+          ]
+        },
+        {
+          "part": "外傳",
+          "ko": "비정상 관찰 보고서",
+          "zh": "非正常現象報告書（非正常觀察報告書 外傳）",
+          "url": "https://www.postype.com/ko/@seol-cheong/post/18759165",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
@@ -24452,7 +24293,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 62,
-      "searchText": "非正常觀察報告 비정상 관찰 보고서 꿀구마（蜜地瓜） 安：高中生 / 員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 非正常觀察報告 單集"
+      "searchText": "非正常觀察報告書 비정상 관찰 보고서 꿀구마（蜜地瓜） 安：高中生 / 員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 非正常觀察報告書 單集 非正常現象報告書（非正常觀察報告書 外傳） 外傳"
     },
     {
       "id": "P0128",
@@ -27723,6 +27564,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         }
@@ -27803,6 +27645,7 @@ window.DESTINY_DATA = {
         "文章狀態: 已完結"
       ],
       "thumbCategories": [
+        "蓋瑞推薦",
         "寶藏作家"
       ],
       "purchase": "否",
@@ -27816,8 +27659,8 @@ window.DESTINY_DATA = {
     {
       "id": "P0389",
       "author": "박프로（朴專家）",
-      "zh": "Lavender Haze 上",
-      "ko": "Lavender Haze 上",
+      "zh": "Lavender Haze",
+      "ko": "Lavender Haze",
       "roles": "安：高中生 / 員：高中生",
       "items": [
         {
@@ -27829,6 +27672,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27841,6 +27685,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27853,6 +27698,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27865,6 +27711,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27877,6 +27724,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27889,6 +27737,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         },
@@ -27901,6 +27750,7 @@ window.DESTINY_DATA = {
           "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
+            "蓋瑞推薦",
             "寶藏作家"
           ]
         }
@@ -27965,6 +27815,7 @@ window.DESTINY_DATA = {
         "文章狀態: 已完結"
       ],
       "thumbCategories": [
+        "蓋瑞推薦",
         "寶藏作家"
       ],
       "purchase": "否",
@@ -27973,13 +27824,13 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 633,
-      "searchText": "lavender haze 上 lavender haze 上 박프로（朴專家） 安：高中生 / 員：高中生 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 lavender haze 上 上 lavender haze 中 1/2 中1 lavender haze 中 2/2 中2 lavender haze 下 1/2 下1 lavender haze 下 2/2 下2 lavender haze 外傳 1/2 外傳1 lavender haze 外傳 2/2 外傳2"
+      "searchText": "lavender haze lavender haze 박프로（朴專家） 安：高中生 / 員：高中生 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 lavender haze 上 上 lavender haze 中 1/2 中1 lavender haze 中 2/2 中2 lavender haze 下 1/2 下1 lavender haze 下 2/2 下2 lavender haze 外傳 1/2 外傳1 lavender haze 外傳 2/2 外傳2"
     },
     {
       "id": "P0388",
       "author": "박프로（朴專家）",
-      "zh": "首爾不眠夜 上",
-      "ko": "서울의 잠 못 이루는 밤 上",
+      "zh": "首爾不眠夜",
+      "ko": "서울의 잠 못 이루는 밤",
       "roles": "安：演員/歌手/電臺DJ / 員：深夜音樂節目主編導",
       "items": [
         {
@@ -28086,7 +27937,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 626,
-      "searchText": "首爾不眠夜 上 서울의 잠 못 이루는 밤 上 박프로（朴專家） 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 首爾不眠夜 上 上 首爾不眠夜 中 中 首爾不眠夜 下 下 首爾不眠夜 外傳 外傳"
+      "searchText": "首爾不眠夜 서울의 잠 못 이루는 밤 박프로（朴專家） 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 首爾不眠夜 上 上 首爾不眠夜 中 中 首爾不眠夜 下 下 首爾不眠夜 外傳 外傳"
     }
   ]
 };
