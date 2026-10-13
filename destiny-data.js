@@ -1,8 +1,8 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-12T16:21:14.520Z",
-  "catalogRevision": 437,
-  "rows": 738,
+  "generatedAt": "2026-10-13T15:55:16.645Z",
+  "catalogRevision": 617,
+  "rows": 735,
   "works": [
     {
       "id": "P0463",
@@ -12,7 +12,7 @@ window.DESTINY_DATA = {
       "roles": "安：高中生\n員：高中生",
       "items": [
         {
-          "part": "01 老套的初吻",
+          "part": "01",
           "ko": "뻔한 시리즈",
           "zh": "老套系列 - 老套的初吻",
           "url": "https://www.postype.com/zh-hant/@yoominzzin/post/6713409",
@@ -22,7 +22,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "01 老套的約會(+)",
+          "part": "02",
           "ko": "뻔한 시리즈",
           "zh": "老套系列 - 老套的約會(+)",
           "url": "https://www.postype.com/zh-hant/@yoominzzin/post/5972229",
@@ -32,7 +32,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "03 老套的初戀",
+          "part": "03",
           "ko": "뻔한 시리즈",
           "zh": "老套系列 - 老套的初戀",
           "url": "https://www.postype.com/zh-hant/@yoominzzin/post/4752838",
@@ -42,7 +42,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "04 老套的初戀 外傳",
+          "part": "04",
           "ko": "뻔한 시리즈",
           "zh": "老套系列 - 老套的初戀 外傳",
           "url": "https://www.postype.com/zh-hant/@yoominzzin/post/8419130",
@@ -105,7 +105,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2000,
       "maxPoints": 2000,
       "sourceRow": 1791787072364,
-      "searchText": "老套系列 뻔한 시리즈 민무（閔無） 安：高中生\n員：高中生 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 老套系列 - 老套的初吻 01 老套的初吻 老套系列 - 老套的約會(+) 01 老套的約會(+) 老套系列 - 老套的初戀 03 老套的初戀 老套系列 - 老套的初戀 外傳 04 老套的初戀 外傳"
+      "searchText": "老套系列 뻔한 시리즈 민무（閔無） 安：高中生\n員：高中生 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 老套系列 - 老套的初吻 01 老套系列 - 老套的約會(+) 02 老套系列 - 老套的初戀 03 老套系列 - 老套的初戀 外傳 04"
     },
     {
       "id": "P0457",
@@ -115,9 +115,9 @@ window.DESTINY_DATA = {
       "roles": "安：青梅竹馬\n員：青梅竹馬",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "키스의 악마",
-          "zh": "接吻惡魔",
+          "zh": "接吻惡魔 上",
           "url": "https://www.postype.com/zh-hant/@oh1oh-home/post/21986599?show-original=true",
           "purchase": "否",
           "points": 0,
@@ -125,9 +125,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "키스의 악마",
-          "zh": "接吻惡魔",
+          "zh": "接吻惡魔 中",
           "url": "https://www.postype.com/zh-hant/@oh1oh-home/post/22033888",
           "purchase": "是",
           "points": 1000,
@@ -153,7 +153,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 780,
-      "searchText": "💰 接吻惡魔 키스의 악마 오일오 安：青梅竹馬\n員：青梅竹馬 文章狀態: 連載中 接吻惡魔 上 接吻惡魔 中"
+      "searchText": "💰 接吻惡魔 키스의 악마 오일오 安：青梅竹馬\n員：青梅竹馬 文章狀態: 連載中 接吻惡魔 上 1 接吻惡魔 中 2"
     },
     {
       "id": "P0433",
@@ -679,9 +679,9 @@ window.DESTINY_DATA = {
       "roles": "安：大學生（渣）\n員：大學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "1",
           "ko": "스물하나, 스물",
-          "zh": "二十一，二十",
+          "zh": "二十一，二十（上）",
           "url": "https://www.postype.com/zh-hant/@innoxious/post/22685283",
           "purchase": "是",
           "points": 500,
@@ -707,7 +707,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 746,
-      "searchText": "二十一，二十 스물하나, 스물 in 安：大學生（渣）\n員：大學生 文章狀態: 連載中 二十一，二十 閱讀"
+      "searchText": "二十一，二十 스물하나, 스물 in 安：大學生（渣）\n員：大學生 文章狀態: 連載中 二十一，二十（上） 1"
     },
     {
       "id": "P0403",
@@ -717,9 +717,9 @@ window.DESTINY_DATA = {
       "roles": "",
       "items": [
         {
-          "part": "閱讀",
+          "part": "1",
           "ko": "Requiem",
-          "zh": "安魂曲",
+          "zh": "安魂曲 1",
           "url": "https://www.postype.com/zh-hant/@nuttylife/post/21875005?show-original=true",
           "purchase": "是",
           "points": 500,
@@ -745,7 +745,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 662,
-      "searchText": "💰 安魂曲 requiem 유부비언（已婚人士）  文章狀態: 連載中 安魂曲 閱讀"
+      "searchText": "💰 安魂曲 requiem 유부비언（已婚人士）  文章狀態: 連載中 安魂曲 1 1"
     },
     {
       "id": "P0196",
@@ -755,9 +755,9 @@ window.DESTINY_DATA = {
       "roles": "安：魔界人 / 員：魔界公主",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "마계 승계서열 1위가 내게 집착해서 곤란하다",
-          "zh": "魔界第一順位繼承人對我很執著好困擾喔",
+          "zh": "魔界繼承順位第一名對我很執著好困擾喔 上",
           "url": "https://www.postype.com/@iveseen/post/20970284",
           "purchase": "否",
           "points": 0,
@@ -767,9 +767,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "마계 승계서열 1위가 내게 집착해서 곤란하다",
-          "zh": "魔界第一順位繼承人對我很執著好困擾喔",
+          "zh": "魔界繼承順位第一名對我很執著好困擾喔 中",
           "url": "https://www.postype.com/@iveseen/post/20992140",
           "purchase": "否",
           "points": 0,
@@ -799,7 +799,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 433,
-      "searchText": "魔界第一順位繼承人對我很執著好困擾喔 마계 승계서열 1위가 내게 집착해서 곤란하다 페더 安：魔界人 / 員：魔界公主 文章狀態: 連載中 魔界第一順位繼承人對我很執著好困擾喔 上 魔界第一順位繼承人對我很執著好困擾喔 中"
+      "searchText": "魔界第一順位繼承人對我很執著好困擾喔 마계 승계서열 1위가 내게 집착해서 곤란하다 페더 安：魔界人 / 員：魔界公主 文章狀態: 連載中 魔界繼承順位第一名對我很執著好困擾喔 上 1 魔界繼承順位第一名對我很執著好困擾喔 中 2"
     },
     {
       "id": "P0266",
@@ -1196,7 +1196,7 @@ window.DESTINY_DATA = {
       "roles": "安：主廚/偵探\n員：上班族",
       "items": [
         {
-          "part": "01",
+          "part": "1",
           "ko": "두 여자",
           "zh": "兩個女人1",
           "url": "https://www.postype.com/@blue-mountains/post/18301626",
@@ -1206,7 +1206,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "02",
+          "part": "2",
           "ko": "두 여자",
           "zh": "兩個女人2",
           "url": "https://www.postype.com/@blue-mountains/post/18302746",
@@ -1216,7 +1216,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "03",
+          "part": "3",
           "ko": "두 여자",
           "zh": "兩個女人3",
           "url": "https://www.postype.com/@blue-mountains/post/18358756",
@@ -1226,7 +1226,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "04",
+          "part": "4",
           "ko": "두 여자",
           "zh": "兩個女人4",
           "url": "https://www.postype.com/@blue-mountains/post/18428280",
@@ -1290,7 +1290,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 335,
-      "searchText": "💰 兩個女人 두 여자 블루마운틴（藍山） 安：主廚/偵探\n員：上班族 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 外遇/出軌 文章類型: 都市現實 文章狀態: 連載中 兩個女人1 01 兩個女人2 02 兩個女人3 03 兩個女人4 04"
+      "searchText": "💰 兩個女人 두 여자 블루마운틴（藍山） 安：主廚/偵探\n員：上班族 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 情感梗: 外遇/出軌 文章類型: 都市現實 文章狀態: 連載中 兩個女人1 1 兩個女人2 2 兩個女人3 3 兩個女人4 4"
     },
     {
       "id": "P0455",
@@ -1676,9 +1676,9 @@ window.DESTINY_DATA = {
       "roles": "安：高中保健室老師\n員：高中生",
       "items": [
         {
-          "part": "本篇",
+          "part": "1",
           "ko": "보건쌤",
-          "zh": "本篇",
+          "zh": "保健老師",
           "url": "https://www.postype.com/zh-hant/@901x831/post/15500569",
           "purchase": "否",
           "points": 0,
@@ -1686,9 +1686,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "番外篇-酒品",
+          "part": "2",
           "ko": "보건쌤",
-          "zh": "番外篇-酒品",
+          "zh": "保健老師番外篇 - 酒品",
           "url": "https://www.postype.com/zh-hant/@901x831/post/16146171",
           "purchase": "否",
           "points": 0,
@@ -1696,9 +1696,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "衍生篇-XX之日",
+          "part": "3",
           "ko": "보건쌤",
-          "zh": "衍生篇-XX之日",
+          "zh": "保健老師衍生篇 - XX之日",
           "url": "https://www.postype.com/zh-hant/@901x831/post/16442687",
           "purchase": "是",
           "points": 500,
@@ -1724,7 +1724,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 757,
-      "searchText": "保健老師（含外傳） 보건쌤 쩡우（鄭宇） 安：高中保健室老師\n員：高中生 文章狀態: 已完結 本篇 本篇 番外篇-酒品 番外篇-酒品 衍生篇-xx之日 衍生篇-xx之日"
+      "searchText": "保健老師（含外傳） 보건쌤 쩡우（鄭宇） 安：高中保健室老師\n員：高中生 文章狀態: 已完結 保健老師 1 保健老師番外篇 - 酒品 2 保健老師衍生篇 - xx之日 3"
     },
     {
       "id": "P0453",
@@ -2662,7 +2662,7 @@ window.DESTINY_DATA = {
       "roles": "",
       "items": [
         {
-          "part": "閱讀",
+          "part": "本篇",
           "ko": "고전문학의 이해",
           "zh": "古典文學賞析",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/21700973",
@@ -2690,7 +2690,7 @@ window.DESTINY_DATA = {
       "knownPoints": 200,
       "maxPoints": 200,
       "sourceRow": 707,
-      "searchText": "💰 古典文學賞析 고전문학의 이해 noname  文章狀態: 已完結 古典文學賞析 閱讀"
+      "searchText": "💰 古典文學賞析 고전문학의 이해 noname  文章狀態: 已完結 古典文學賞析 本篇"
     },
     {
       "id": "P0432",
@@ -2889,7 +2889,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "옆집 아이",
-          "zh": "隔壁小孩",
+          "zh": "隔壁的孩子 1",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22226157",
           "purchase": "否",
           "points": 0,
@@ -2901,7 +2901,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "옆집 아이",
-          "zh": "隔壁小孩",
+          "zh": "隔壁的孩子 2",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22245392",
           "purchase": "否",
           "points": 0,
@@ -2913,7 +2913,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "옆집 아이",
-          "zh": "隔壁小孩",
+          "zh": "隔壁的孩子 3",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22245429",
           "purchase": "否",
           "points": 0,
@@ -2925,7 +2925,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "옆집 아이",
-          "zh": "隔壁小孩",
+          "zh": "隔壁的孩子 4",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22274014",
           "purchase": "是",
           "points": 500,
@@ -2935,9 +2935,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "Epilogue",
+          "part": "EP5",
           "ko": "옆집 아이",
-          "zh": "隔壁小孩",
+          "zh": "隔壁的孩子 Epilogue",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22279701",
           "purchase": "否",
           "points": 0,
@@ -2967,7 +2967,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 730,
-      "searchText": "💰隔壁孩子 옆집 아이 void 🐱年上\n🐹年下 文章狀態: 已完結 隔壁小孩 ep1 隔壁小孩 ep2 隔壁小孩 ep3 隔壁小孩 ep4 隔壁小孩 epilogue"
+      "searchText": "💰隔壁孩子 옆집 아이 void 🐱年上\n🐹年下 文章狀態: 已完結 隔壁的孩子 1 ep1 隔壁的孩子 2 ep2 隔壁的孩子 3 ep3 隔壁的孩子 4 ep4 隔壁的孩子 epilogue ep5"
     },
     {
       "id": "P0435",
@@ -2977,7 +2977,7 @@ window.DESTINY_DATA = {
       "roles": "🐱🐹",
       "items": [
         {
-          "part": "閱讀",
+          "part": "1",
           "ko": "One Night",
           "zh": "One Night",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22025123",
@@ -2989,9 +2989,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳",
+          "part": "2",
           "ko": "That Night（One Night 외전）",
-          "zh": "That Night（One Night外傳）",
+          "zh": "That Night（One Night 外傳）",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22047438",
           "purchase": "否",
           "points": 0,
@@ -3028,7 +3028,7 @@ window.DESTINY_DATA = {
       "knownPoints": 200,
       "maxPoints": 200,
       "sourceRow": 731,
-      "searchText": "💰one night (含外傳) one night void 🐱🐹 結局: he 文章狀態: 已完結 one night 閱讀 that night（one night外傳） 外傳"
+      "searchText": "💰one night (含外傳) one night void 🐱🐹 結局: he 文章狀態: 已完結 one night 1 that night（one night 外傳） 2"
     },
     {
       "id": "P0436",
@@ -3038,9 +3038,9 @@ window.DESTINY_DATA = {
       "roles": "🐱保鑣\n🐹夫人",
       "items": [
         {
-          "part": "Am I",
+          "part": "2",
           "ko": "Relationship",
-          "zh": "Relationship",
+          "zh": "Am I",
           "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/22095478?show-original=true",
           "purchase": "是",
           "points": 500,
@@ -3077,7 +3077,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 732,
-      "searchText": "💰 you're mine relationship void 🐱保鑣\n🐹夫人 結局: he 文章狀態: 已完結 relationship am i"
+      "searchText": "💰 you're mine relationship void 🐱保鑣\n🐹夫人 結局: he 文章狀態: 已完結 am i 2"
     },
     {
       "id": "P0437",
@@ -4371,14 +4371,14 @@ window.DESTINY_DATA = {
     {
       "id": "P0423",
       "author": "꿀구마（蜜地瓜）",
-      "zh": "圓形的永遠",
+      "zh": "圓形的永恆",
       "ko": "원형의 영원",
       "roles": "",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "원형의 영원",
-          "zh": "圓形的永遠",
+          "zh": "圓形的永恆",
           "url": "https://www.postype.com/zh-hant/@seol-cheong/post/19063401?show-original=true",
           "purchase": "否",
           "points": 0,
@@ -4404,7 +4404,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 691,
-      "searchText": "圓形的永遠 원형의 영원 꿀구마（蜜地瓜）  文章狀態: 已完結 圓形的永遠 閱讀"
+      "searchText": "圓形的永恆 원형의 영원 꿀구마（蜜地瓜）  文章狀態: 已完結 圓形的永恆 單集"
     },
     {
       "id": "P0424",
@@ -4496,7 +4496,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "엑설런트 프렌치",
-          "zh": "卓越法式",
+          "zh": "卓越法式 1",
           "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17233015",
           "purchase": "否",
           "points": 0,
@@ -4506,7 +4506,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "엑설런트 프렌치",
-          "zh": "卓越法式",
+          "zh": "卓越法式 2",
           "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17242274",
           "purchase": "否",
           "points": 0,
@@ -4516,7 +4516,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "엑설런트 프렌치",
-          "zh": "卓越法式",
+          "zh": "卓越法式 3",
           "url": "https://www.postype.com/zh-hant/@drinkofsouthgod/post/17274516",
           "purchase": "否",
           "points": 0,
@@ -4542,7 +4542,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 657,
-      "searchText": "卓越法式 엑설런트 프렌치 박시봉（朴時奉）  文章狀態: 已完結 卓越法式 1 卓越法式 2 卓越法式 3"
+      "searchText": "卓越法式 엑설런트 프렌치 박시봉（朴時奉）  文章狀態: 已完結 卓越法式 1 1 卓越法式 2 2 卓越法式 3 3"
     },
     {
       "id": "P0393",
@@ -4552,9 +4552,9 @@ window.DESTINY_DATA = {
       "roles": "安：自由業者 / 員：上班族",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "저스트 웬즈데이",
-          "zh": "Just Wednesday",
+          "zh": "Just Wednesday 上",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/16141100?show-original=true",
           "purchase": "是",
           "points": 1500,
@@ -4564,9 +4564,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "저스트 웬즈데이",
-          "zh": "Just Wednesday",
+          "zh": "Just Wednesday 中",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/16198975",
           "purchase": "是",
           "points": 1500,
@@ -4576,9 +4576,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "저스트 웬즈데이",
-          "zh": "Just Wednesday",
+          "zh": "Just Wednesday 下",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/16245030",
           "purchase": "是",
           "points": 1500,
@@ -4649,7 +4649,7 @@ window.DESTINY_DATA = {
       "knownPoints": 4500,
       "maxPoints": 1500,
       "sourceRow": 645,
-      "searchText": "💰 just wednesday 저스트 웬즈데이 noname 安：自由業者 / 員：上班族 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 分級: 玩具 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 just wednesday 上 just wednesday 中 just wednesday 下"
+      "searchText": "💰 just wednesday 저스트 웬즈데이 noname 安：自由業者 / 員：上班族 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 分級: 玩具 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 just wednesday 上 1 just wednesday 中 2 just wednesday 下 3"
     },
     {
       "id": "P0395",
@@ -4717,7 +4717,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "이글루",
-          "zh": "冰屋",
+          "zh": "冰屋 1",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13919624",
           "purchase": "是",
           "points": 1000,
@@ -4729,7 +4729,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "이글루",
-          "zh": "冰屋",
+          "zh": "冰屋 2",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13942022",
           "purchase": "是",
           "points": 1000,
@@ -4741,7 +4741,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "이글루",
-          "zh": "冰屋",
+          "zh": "冰屋 3",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13956004",
           "purchase": "是",
           "points": 1500,
@@ -4753,7 +4753,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "이글루",
-          "zh": "冰屋",
+          "zh": "冰屋 4",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13980165",
           "purchase": "是",
           "points": 1500,
@@ -4765,7 +4765,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP5",
           "ko": "이글루",
-          "zh": "冰屋",
+          "zh": "冰屋 5 (完結)",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13980227",
           "purchase": "是",
           "points": 1000,
@@ -4809,7 +4809,7 @@ window.DESTINY_DATA = {
       "knownPoints": 6000,
       "maxPoints": 1500,
       "sourceRow": 653,
-      "searchText": "💰 冰屋 이글루 noname 待人工補充 cp配對: 安/員 分級: 💰付費內容 文章狀態: 已完結 冰屋 ep1 冰屋 ep2 冰屋 ep3 冰屋 ep4 冰屋 ep5"
+      "searchText": "💰 冰屋 이글루 noname 待人工補充 cp配對: 安/員 分級: 💰付費內容 文章狀態: 已完結 冰屋 1 ep1 冰屋 2 ep2 冰屋 3 ep3 冰屋 4 ep4 冰屋 5 (完結) ep5"
     },
     {
       "id": "P0394",
@@ -4819,9 +4819,9 @@ window.DESTINY_DATA = {
       "roles": "待人工補充",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "개는 노래하지 않는다",
-          "zh": "狗是不會唱歌的",
+          "zh": "狗是不會唱歌的 上",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/21390322?show-original=true",
           "purchase": "是",
           "points": 2000,
@@ -4831,9 +4831,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "개는 노래하지 않는다",
-          "zh": "狗是不會唱歌的",
+          "zh": "狗是不會唱歌的 下",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/21390325",
           "purchase": "是",
           "points": 2000,
@@ -4877,7 +4877,7 @@ window.DESTINY_DATA = {
       "knownPoints": 4000,
       "maxPoints": 2000,
       "sourceRow": 647,
-      "searchText": "💰 狗是不會唱歌的 개는 노래하지 않는다 noname 待人工補充 cp配對: 安/員 分級: 💰付費內容 文章狀態: 已完結 狗是不會唱歌的 上 狗是不會唱歌的 下"
+      "searchText": "💰 狗是不會唱歌的 개는 노래하지 않는다 noname 待人工補充 cp配對: 安/員 分級: 💰付費內容 文章狀態: 已完結 狗是不會唱歌的 上 1 狗是不會唱歌的 下 2"
     },
     {
       "id": "P0397",
@@ -4887,9 +4887,9 @@ window.DESTINY_DATA = {
       "roles": "安：學生 / 員：學生",
       "items": [
         {
-          "part": "No love no wet",
+          "part": "1",
           "ko": "노럽노웻",
-          "zh": "no love no wet",
+          "zh": "No love no wet",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13801961?show-original=true",
           "purchase": "是",
           "points": 2000,
@@ -4899,7 +4899,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "no love no wet +",
+          "part": "2",
           "ko": "노럽노웻",
           "zh": "no love no wet +",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/13845592",
@@ -4970,7 +4970,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2500,
       "maxPoints": 2000,
       "sourceRow": 654,
-      "searchText": "💰 no love no wet 노럽노웻 noname 安：學生 / 員：學生 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 no love no wet no love no wet no love no wet + no love no wet +"
+      "searchText": "💰 no love no wet 노럽노웻 noname 安：學生 / 員：學生 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 no love no wet 1 no love no wet + 2"
     },
     {
       "id": "P0390",
@@ -5099,195 +5099,6 @@ window.DESTINY_DATA = {
       "maxPoints": 0,
       "sourceRow": 640,
       "searchText": "女人磁鐵 여자 자석 박프로（朴專家） 安：代理 / 員：組長 文章類型: 都市現實 背景設定: 辦公室 文章狀態: 已完結 女人磁鐵 1/8 ep1 女人磁鐵 2/8 ep2 女人磁鐵 3/8 ep3 女人磁鐵 4/8 ep4 女人磁鐵 5/8 ep5 女人磁鐵 6/8 ep6 女人磁鐵 7/8 ep7"
-    },
-    {
-      "id": "P0223",
-      "author": "고래（鯨魚）",
-      "zh": "Passionate A&W",
-      "ko": "Passionate A&W",
-      "roles": "安：戲劇電影系四年級 / 員：文藝創作系三年級",
-      "items": [
-        {
-          "part": "閱讀",
-          "ko": "Passionate A&W",
-          "zh": "Passionate A&W",
-          "url": "https://www.postype.com/@ynseasonrps/post/15290772",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "閱讀",
-          "ko": "Passionate A&W 외전 1 - 빵",
-          "zh": "Passionate A&W 外傳1-麵包",
-          "url": "https://www.postype.com/@golae0831/post/15413585",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "閱讀",
-          "ko": "Passionate A&W 외전 2 - 이별여행",
-          "zh": "Passionate A&W 外傳2-告別之旅",
-          "url": "https://www.postype.com/@golae0831/post/17049980",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "CP配對",
-          "values": [
-            "安/員",
-            "員/安",
-            "互攻"
-          ]
-        },
-        {
-          "type": "分級",
-          "values": [
-            "尺度大、謹慎閱讀",
-            "💰付費內容",
-            "🏎️賽車",
-            "SM",
-            "玩具"
-          ]
-        },
-        {
-          "type": "文章篇幅",
-          "values": [
-            "中篇"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "結局",
-          "values": [
-            "HE"
-          ]
-        },
-        {
-          "type": "背景設定",
-          "values": [
-            "校園"
-          ]
-        },
-        {
-          "type": "계간윶녕",
-          "values": [
-            "𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "已完結"
-          ]
-        }
-      ],
-      "flatTags": [
-        "CP配對: 安/員",
-        "CP配對: 員/安",
-        "CP配對: 互攻",
-        "分級: 尺度大、謹慎閱讀",
-        "分級: 💰付費內容",
-        "分級: 🏎️賽車",
-        "分級: SM",
-        "分級: 玩具",
-        "文章篇幅: 中篇",
-        "文章類型: 都市現實",
-        "結局: HE",
-        "背景設定: 校園",
-        "계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 Summer",
-        "文章狀態: 已完結"
-      ],
-      "thumbCategories": [],
-      "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 500,
-      "knownPoints": 500,
-      "maxPoints": 500,
-      "sourceRow": 32,
-      "searchText": "passionate a&w passionate a&w 고래（鯨魚） 安：戲劇電影系四年級 / 員：文藝創作系三年級 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 文章狀態: 已完結 passionate a&w 閱讀 passionate a&w 外傳1-麵包 閱讀 passionate a&w 外傳2-告別之旅 閱讀"
-    },
-    {
-      "id": "P0391",
-      "author": "플레인（Plain）",
-      "zh": "死之前想每天見面 (死之前至少想見一次 - 外傳)",
-      "ko": "죽기 전에 매일 보고 싶어",
-      "roles": "安：上班族 / 員：團體偶像",
-      "items": [
-        {
-          "part": "閱讀",
-          "ko": "죽기 전에 매일 보고 싶어",
-          "zh": "死之前想每天見面 (死之前至少想見一次 - 外傳)",
-          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937?show-original=true",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "蓋瑞推薦"
-          ]
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "分級",
-          "values": [
-            "CP潔癖勿入"
-          ]
-        },
-        {
-          "type": "文章篇幅",
-          "values": [
-            "中篇"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "結局",
-          "values": [
-            "HE"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "已完結"
-          ]
-        }
-      ],
-      "flatTags": [
-        "分級: CP潔癖勿入",
-        "文章篇幅: 中篇",
-        "文章類型: 都市現實",
-        "結局: HE",
-        "文章狀態: 已完結"
-      ],
-      "thumbCategories": [
-        "蓋瑞推薦"
-      ],
-      "purchase": "否",
-      "purchaseLabel": "",
-      "totalPoints": 0,
-      "knownPoints": 0,
-      "maxPoints": 0,
-      "sourceRow": 641,
-      "searchText": "死之前想每天見面 (死之前至少想見一次 - 外傳) 죽기 전에 매일 보고 싶어 플레인（plain） 安：上班族 / 員：團體偶像 分級: cp潔癖勿入 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 死之前想每天見面 (死之前至少想見一次 - 外傳) 閱讀"
     },
     {
       "id": "P0093",
@@ -11860,9 +11671,9 @@ window.DESTINY_DATA = {
       "roles": "安：大學生(滑冰選手) / 員：高中生",
       "items": [
         {
-          "part": "EP1",
+          "part": "1",
           "ko": "너 말고 니 언니 (1/4)",
-          "zh": "不是你 是你姐姐 1/4",
+          "zh": "不是你 是你姐姐 ep1",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14288593",
           "purchase": "否",
           "points": 0,
@@ -11872,9 +11683,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "EP2",
+          "part": "2",
           "ko": "너 말고 니 언니 (2/4)",
-          "zh": "不是你 是你姐姐 2/4",
+          "zh": "不是你 是你姐姐 ep2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14825758",
           "purchase": "否",
           "points": 0,
@@ -11884,9 +11695,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "EP3",
+          "part": "3",
           "ko": "너 말고 니 언니 (3/4)",
-          "zh": "不是你 是你姐姐 3/4",
+          "zh": "不是你 是你姐姐 ep3",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14881187",
           "purchase": "否",
           "points": 0,
@@ -11896,9 +11707,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "EP4",
+          "part": "4",
           "ko": "너 말고 니 언니 (4/4)",
-          "zh": "不是你 是你姐姐 4/4",
+          "zh": "不是你 是你姐姐 ep4",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14930213",
           "purchase": "否",
           "points": 0,
@@ -11908,9 +11719,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "番外",
+          "part": "5",
           "ko": "너 말고 니 언니 (Spicy Ver.)",
-          "zh": "不是你 是你姐姐 Spicy Ver.",
+          "zh": "不是你 是你姐姐🌶️ 番外",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14928668",
           "purchase": "否",
           "points": 0,
@@ -11968,7 +11779,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 550,
-      "searchText": "不是你 是你姐姐（含🌶️） 너 말고 니 언니 박프로（朴專家） 安：大學生(滑冰選手) / 員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 雙生 文章狀態: 已完結 不是你 是你姐姐 1/4 ep1 不是你 是你姐姐 2/4 ep2 不是你 是你姐姐 3/4 ep3 不是你 是你姐姐 4/4 ep4 不是你 是你姐姐 spicy ver. 番外"
+      "searchText": "不是你 是你姐姐（含🌶️） 너 말고 니 언니 박프로（朴專家） 安：大學生(滑冰選手) / 員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 題材梗: 雙生 文章狀態: 已完結 不是你 是你姐姐 ep1 1 不是你 是你姐姐 ep2 2 不是你 是你姐姐 ep3 3 不是你 是你姐姐 ep4 4 不是你 是你姐姐🌶️ 番外 5"
     },
     {
       "id": "P0362",
@@ -12059,7 +11870,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "연인과 인연 1",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-1",
           "url": "https://www.postype.com/@untitle009/post/20844506",
           "purchase": "否",
           "points": 0,
@@ -12071,7 +11882,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "연인과 인연 2",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-2",
           "url": "https://www.postype.com/@untitle009/post/20868616",
           "purchase": "否",
           "points": 0,
@@ -12083,7 +11894,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "연인과 인연 3",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-3",
           "url": "https://www.postype.com/@untitle009/post/20895577",
           "purchase": "是",
           "points": 500,
@@ -12095,7 +11906,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "연인과 인연 4",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-4",
           "url": "https://www.postype.com/@untitle009/post/20920116",
           "purchase": "是",
           "points": 1000,
@@ -12107,7 +11918,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP5",
           "ko": "연인과 인연 5",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-5",
           "url": "https://www.postype.com/@untitle009/post/20964047",
           "purchase": "是",
           "points": 1000,
@@ -12119,7 +11930,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP6",
           "ko": "연인과 인연 6",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-6",
           "url": "https://www.postype.com/@untitle009/post/20999684",
           "purchase": "是",
           "points": 1000,
@@ -12131,7 +11942,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP7",
           "ko": "연인과 인연 7",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-7",
           "url": "https://www.postype.com/@untitle009/post/21068547",
           "purchase": "是",
           "points": 1000,
@@ -12143,7 +11954,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP8",
           "ko": "연인과 인연 8",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-8",
           "url": "https://www.postype.com/@untitle009/post/21131311",
           "purchase": "是",
           "points": 1000,
@@ -12155,7 +11966,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP9",
           "ko": "연인과 인연 9",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-9",
           "url": "https://www.postype.com/@untitle009/post/21182252",
           "purchase": "否",
           "points": 0,
@@ -12167,7 +11978,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP10",
           "ko": "연인과 인연 10",
-          "zh": "戀人與緣分",
+          "zh": "戀人與緣分-10",
           "url": "https://www.postype.com/zh-hant/@untitle009/post/21287634",
           "purchase": "否",
           "points": 0,
@@ -12247,7 +12058,7 @@ window.DESTINY_DATA = {
       "knownPoints": 5500,
       "maxPoints": 1000,
       "sourceRow": 226,
-      "searchText": "💰 戀人與緣分 연인과 인연 noname 安：上班族\n員：自由業者 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 戀人與緣分 ep1 戀人與緣分 ep2 戀人與緣分 ep3 戀人與緣分 ep4 戀人與緣分 ep5 戀人與緣分 ep6 戀人與緣分 ep7 戀人與緣分 ep8 戀人與緣分 ep9 戀人與緣分 ep10"
+      "searchText": "💰 戀人與緣分 연인과 인연 noname 安：上班族\n員：自由業者 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 外遇/出軌 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 戀人與緣分-1 ep1 戀人與緣分-2 ep2 戀人與緣分-3 ep3 戀人與緣分-4 ep4 戀人與緣分-5 ep5 戀人與緣分-6 ep6 戀人與緣分-7 ep7 戀人與緣分-8 ep8 戀人與緣分-9 ep9 戀人與緣分-10 ep10"
     },
     {
       "id": "P0258",
@@ -12269,7 +12080,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 1",
           "url": "https://www.postype.com/@yuwon8318/post/18316337",
           "purchase": "否",
           "points": 0,
@@ -12279,7 +12090,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 2",
           "url": "https://www.postype.com/@yuwon8318/post/18332386",
           "purchase": "否",
           "points": 0,
@@ -12289,7 +12100,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 3",
           "url": "https://www.postype.com/@yuwon8318/post/18340585",
           "purchase": "否",
           "points": 0,
@@ -12299,7 +12110,7 @@ window.DESTINY_DATA = {
         {
           "part": "4",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 4",
           "url": "https://www.postype.com/@yuwon8318/post/18348690",
           "purchase": "否",
           "points": 0,
@@ -12309,7 +12120,7 @@ window.DESTINY_DATA = {
         {
           "part": "5",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 5",
           "url": "https://www.postype.com/@yuwon8318/post/18384017",
           "purchase": "否",
           "points": 0,
@@ -12319,7 +12130,7 @@ window.DESTINY_DATA = {
         {
           "part": "6",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 6",
           "url": "https://www.postype.com/@yuwon8318/post/18446612",
           "purchase": "否",
           "points": 0,
@@ -12329,7 +12140,7 @@ window.DESTINY_DATA = {
         {
           "part": "7",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 7",
           "url": "https://www.postype.com/@yuwon8318/post/18568354",
           "purchase": "是",
           "points": 500,
@@ -12339,7 +12150,7 @@ window.DESTINY_DATA = {
         {
           "part": "8",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 8",
           "url": "https://www.postype.com/@yuwon8318/post/18595239",
           "purchase": "否",
           "points": 0,
@@ -12349,7 +12160,7 @@ window.DESTINY_DATA = {
         {
           "part": "9",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 9",
           "url": "https://www.postype.com/@yuwon8318/post/18595326",
           "purchase": "否",
           "points": 0,
@@ -12359,7 +12170,7 @@ window.DESTINY_DATA = {
         {
           "part": "10",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 10",
           "url": "https://www.postype.com/@yuwon8318/post/18635738",
           "purchase": "否",
           "points": 0,
@@ -12369,7 +12180,7 @@ window.DESTINY_DATA = {
         {
           "part": "11",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 11",
           "url": "https://www.postype.com/@yuwon8318/post/18636586",
           "purchase": "是",
           "points": 500,
@@ -12379,7 +12190,7 @@ window.DESTINY_DATA = {
         {
           "part": "12",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 12",
           "url": "https://www.postype.com/@yuwon8318/post/18679454",
           "purchase": "否",
           "points": 0,
@@ -12389,7 +12200,7 @@ window.DESTINY_DATA = {
         {
           "part": "13",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 13",
           "url": "https://www.postype.com/@yuwon8318/post/18758765",
           "purchase": "否",
           "points": 0,
@@ -12399,7 +12210,7 @@ window.DESTINY_DATA = {
         {
           "part": "14",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 14",
           "url": "https://www.postype.com/@yuwon8318/post/18780454",
           "purchase": "否",
           "points": 0,
@@ -12409,7 +12220,7 @@ window.DESTINY_DATA = {
         {
           "part": "15",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 15",
           "url": "https://www.postype.com/@yuwon8318/post/18913131",
           "purchase": "否",
           "points": 0,
@@ -12419,7 +12230,7 @@ window.DESTINY_DATA = {
         {
           "part": "16",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 16",
           "url": "https://www.postype.com/@yuwon8318/post/18931675",
           "purchase": "否",
           "points": 0,
@@ -12429,7 +12240,7 @@ window.DESTINY_DATA = {
         {
           "part": "17",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 17",
           "url": "https://www.postype.com/@yuwon8318/post/18975090",
           "purchase": "是",
           "points": 500,
@@ -12439,7 +12250,7 @@ window.DESTINY_DATA = {
         {
           "part": "18",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 18",
           "url": "https://www.postype.com/@yuwon8318/post/18991150",
           "purchase": "否",
           "points": 0,
@@ -12449,7 +12260,7 @@ window.DESTINY_DATA = {
         {
           "part": "19",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 19",
           "url": "https://www.postype.com/@yuwon8318/post/19011489",
           "purchase": "否",
           "points": 0,
@@ -12459,7 +12270,7 @@ window.DESTINY_DATA = {
         {
           "part": "20",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 20",
           "url": "https://www.postype.com/@yuwon8318/post/19122708",
           "purchase": "是",
           "points": 500,
@@ -12469,7 +12280,7 @@ window.DESTINY_DATA = {
         {
           "part": "21",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 21",
           "url": "https://www.postype.com/@yuwon8318/post/19129708",
           "purchase": "否",
           "points": 0,
@@ -12479,7 +12290,7 @@ window.DESTINY_DATA = {
         {
           "part": "22",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 22",
           "url": "https://www.postype.com/@yuwon8318/post/19161596",
           "purchase": "否",
           "points": 0,
@@ -12489,7 +12300,7 @@ window.DESTINY_DATA = {
         {
           "part": "23",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 23",
           "url": "https://www.postype.com/@yuwon8318/post/19225786",
           "purchase": "否",
           "points": 0,
@@ -12497,13 +12308,13 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "24 完",
+          "part": "24",
           "ko": "딸의 사춘기는 처음이라서",
-          "zh": "咖啡夫妻S3-第一次面對女兒的青春期",
+          "zh": "第一次面對女兒的青春期 24",
           "url": "https://www.postype.com/@yuwon8318/post/19346997",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         }
       ],
@@ -12520,12 +12331,12 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 3000,
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 159,
-      "searchText": "咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 진심（真心）  文章狀態: 已完結 s3.番外-聖誕童話 單集 咖啡夫妻s3-第一次面對女兒的青春期 1 咖啡夫妻s3-第一次面對女兒的青春期 2 咖啡夫妻s3-第一次面對女兒的青春期 3 咖啡夫妻s3-第一次面對女兒的青春期 4 咖啡夫妻s3-第一次面對女兒的青春期 5 咖啡夫妻s3-第一次面對女兒的青春期 6 咖啡夫妻s3-第一次面對女兒的青春期 7 咖啡夫妻s3-第一次面對女兒的青春期 8 咖啡夫妻s3-第一次面對女兒的青春期 9 咖啡夫妻s3-第一次面對女兒的青春期 10 咖啡夫妻s3-第一次面對女兒的青春期 11 咖啡夫妻s3-第一次面對女兒的青春期 12 咖啡夫妻s3-第一次面對女兒的青春期 13 咖啡夫妻s3-第一次面對女兒的青春期 14 咖啡夫妻s3-第一次面對女兒的青春期 15 咖啡夫妻s3-第一次面對女兒的青春期 16 咖啡夫妻s3-第一次面對女兒的青春期 17 咖啡夫妻s3-第一次面對女兒的青春期 18 咖啡夫妻s3-第一次面對女兒的青春期 19 咖啡夫妻s3-第一次面對女兒的青春期 20 咖啡夫妻s3-第一次面對女兒的青春期 21 咖啡夫妻s3-第一次面對女兒的青春期 22 咖啡夫妻s3-第一次面對女兒的青春期 23 咖啡夫妻s3-第一次面對女兒的青春期 24 完"
+      "searchText": "咖啡夫妻s3-第一次面對女兒的青春期 딸의 사춘기는 처음이라서 진심（真心）  文章狀態: 已完結 s3.番外-聖誕童話 單集 第一次面對女兒的青春期 1 1 第一次面對女兒的青春期 2 2 第一次面對女兒的青春期 3 3 第一次面對女兒的青春期 4 4 第一次面對女兒的青春期 5 5 第一次面對女兒的青春期 6 6 第一次面對女兒的青春期 7 7 第一次面對女兒的青春期 8 8 第一次面對女兒的青春期 9 9 第一次面對女兒的青春期 10 10 第一次面對女兒的青春期 11 11 第一次面對女兒的青春期 12 12 第一次面對女兒的青春期 13 13 第一次面對女兒的青春期 14 14 第一次面對女兒的青春期 15 15 第一次面對女兒的青春期 16 16 第一次面對女兒的青春期 17 17 第一次面對女兒的青春期 18 18 第一次面對女兒的青春期 19 19 第一次面對女兒的青春期 20 20 第一次面對女兒的青春期 21 21 第一次面對女兒的青春期 22 22 第一次面對女兒的青春期 23 23 第一次面對女兒的青春期 24 24"
     },
     {
       "id": "P0301",
@@ -12605,7 +12416,7 @@ window.DESTINY_DATA = {
       "roles": "",
       "items": [
         {
-          "part": "頭紗篇",
+          "part": "2",
           "ko": "마리아 - 베일",
           "zh": "Maria－頭紗",
           "url": "https://www.postype.com/zh-hant/@fifth230/post/21102771",
@@ -12637,7 +12448,7 @@ window.DESTINY_DATA = {
       "knownPoints": 200,
       "maxPoints": 200,
       "sourceRow": 215,
-      "searchText": "💰 maria 마리아 noname  文章狀態: 已完結 maria－頭紗 頭紗篇"
+      "searchText": "💰 maria 마리아 noname  文章狀態: 已完結 maria－頭紗 2"
     },
     {
       "id": "P0197",
@@ -12893,7 +12704,7 @@ window.DESTINY_DATA = {
         {
           "part": "單集",
           "ko": "아윌비백",
-          "zh": "I’ll be back",
+          "zh": "I'll be back",
           "url": "https://www.postype.com/@coolpieces/post/5292117",
           "purchase": "否",
           "points": 0,
@@ -12947,7 +12758,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 440,
-      "searchText": "i'll be back 아윌비백 댕그라미（圈圈） 安：學生/上班族 / 員：學生 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 i’ll be back 單集"
+      "searchText": "i'll be back 아윌비백 댕그라미（圈圈） 安：學生/上班族 / 員：學生 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 i'll be back 單集"
     },
     {
       "id": "P0193",
@@ -13767,10 +13578,20 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
+          "part": "EP4",
+          "ko": "죽기 전에 한 번은 보고 싶어",
+          "zh": "在死之前，至少想見一次 4",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/20060177",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
+          "thumbCategories": []
+        },
+        {
           "part": "死（4）",
           "ko": "죽기 전에 한 번은 보고 싶어 死",
           "zh": "死之前想每天見面（死之前至少想見一次 - 外傳）",
-          "url": "https://www.postype.com/@monochrome-film/post/20060177",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/20217937",
           "purchase": "否",
           "points": 0,
           "purchaseLabel": "",
@@ -13817,13 +13638,13 @@ window.DESTINY_DATA = {
         "文章狀態: 已完結"
       ],
       "thumbCategories": [],
-      "purchase": "否",
-      "purchaseLabel": "",
-      "totalPoints": 0,
+      "purchase": "待確認",
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 13,
-      "searchText": "在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 플레인（plain） 安：上班族 / 員：團體偶像 分級: cp潔癖勿入 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 在死之前，至少想見一次 1 ep1 在死之前，至少想見一次 2 ep2 在死之前，至少想見一次 3 ep3 死之前想每天見面（死之前至少想見一次 - 外傳） 死（4）"
+      "searchText": "在死之前,至少想見一次 죽기 전에 한 번은 보고 싶어 플레인（plain） 安：上班族 / 員：團體偶像 分級: cp潔癖勿入 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 在死之前，至少想見一次 1 ep1 在死之前，至少想見一次 2 ep2 在死之前，至少想見一次 3 ep3 在死之前，至少想見一次 4 ep4 死之前想每天見面（死之前至少想見一次 - 外傳） 死（4）"
     },
     {
       "id": "P0365",
@@ -14256,9 +14077,9 @@ window.DESTINY_DATA = {
       "roles": "安：新進員工\n員：次長",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "결",
-          "zh": "結",
+          "zh": "01 結 上",
           "url": "https://www.postype.com/@yuwon8318/post/19484121",
           "purchase": "是",
           "points": 1000,
@@ -14266,9 +14087,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "결",
-          "zh": "結",
+          "zh": "02 結 中",
           "url": "https://www.postype.com/@yuwon8318/post/19726381",
           "purchase": "是",
           "points": 1000,
@@ -14276,9 +14097,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "결",
-          "zh": "結",
+          "zh": "03 結 下",
           "url": "https://www.postype.com/@yuwon8318/post/19822437",
           "purchase": "是",
           "points": 1000,
@@ -14286,9 +14107,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "外傳",
+          "part": "4",
           "ko": "결",
-          "zh": "結",
+          "zh": "04 結 外傳",
           "url": "https://www.postype.com/@yuwon8318/post/19956947",
           "purchase": "是",
           "points": 1000,
@@ -14373,7 +14194,7 @@ window.DESTINY_DATA = {
       "knownPoints": 4000,
       "maxPoints": 1000,
       "sourceRow": 182,
-      "searchText": "💰 結 결 진심（真心） 安：新進員工\n員：次長 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 妻妻 情感梗: 年齡差 情感梗: 逆年齡 情感梗: 外遇/出軌 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 結 上 結 中 結 下 結 外傳"
+      "searchText": "💰 結 결 진심（真心） 安：新進員工\n員：次長 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 妻妻 情感梗: 年齡差 情感梗: 逆年齡 情感梗: 外遇/出軌 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 01 結 上 1 02 結 中 2 03 結 下 3 04 結 外傳 4"
     },
     {
       "id": "P0303",
@@ -15039,7 +14860,7 @@ window.DESTINY_DATA = {
         {
           "part": "閱讀",
           "ko": "선배 말고 언니",
-          "zh": "不是前輩，叫姐姐",
+          "zh": "別叫前輩，叫姐姐吧",
           "url": "https://www.postype.com/@eeggdanzii/post/17876787",
           "purchase": "否",
           "points": 0,
@@ -15104,7 +14925,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 289,
-      "searchText": "不是前輩，叫姐姐 선배 말고 언니 달걀（雞蛋） 安：大學生\n員：大學生 cp配對: 安/員 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 不是前輩，叫姐姐 閱讀"
+      "searchText": "不是前輩，叫姐姐 선배 말고 언니 달걀（雞蛋） 安：大學生\n員：大學生 cp配對: 安/員 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 別叫前輩，叫姐姐吧 閱讀"
     },
     {
       "id": "P0183",
@@ -15175,20 +14996,10 @@ window.DESTINY_DATA = {
     {
       "id": "P0227",
       "author": "고래（鯨魚）",
-      "zh": "灰姑娘觸發器－外傳&spin-off",
-      "ko": "신데렐라 프롬프트 - 외전",
+      "zh": "灰姑娘觸發器（含外傳&spin-off）",
+      "ko": "신데렐라 프롬프트",
       "roles": "安：工程師 / 員：家政保母",
       "items": [
-        {
-          "part": "外傳",
-          "ko": "신데렐라 프롬프트 - 외전",
-          "zh": "灰姑娘觸發器－外傳",
-          "url": "https://www.postype.com/zh-hant/@golae0831/post/16314096",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
         {
           "part": "1",
           "ko": "신데렐라 프롬프트",
@@ -15270,7 +15081,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "匿名投稿番外",
+          "part": "9",
           "ko": "신데렐라 프롬프트 - 스핀 오프",
           "zh": "灰姑娘觸發器 (spin-off)",
           "url": "https://www.postype.com/zh-hant/@golae0831/post/16315480",
@@ -15340,13 +15151,13 @@ window.DESTINY_DATA = {
         "文章狀態: 已完結"
       ],
       "thumbCategories": [],
-      "purchase": "是",
+      "purchase": "否",
       "purchaseLabel": "",
-      "totalPoints": 500,
-      "knownPoints": 500,
-      "maxPoints": 500,
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
       "sourceRow": 44,
-      "searchText": "💰 灰姑娘觸發器－外傳&spin-off 신데렐라 프롬프트 - 외전 고래（鯨魚） 安：工程師 / 員：家政保母 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 雙重人格 文章狀態: 已完結 灰姑娘觸發器－外傳 外傳 灰姑娘觸發器1 1 灰姑娘觸發器2 2 灰姑娘觸發器3 3 灰姑娘觸發器4 4 灰姑娘觸發器5 5 灰姑娘觸發器6 6 灰姑娘觸發器7 7 灰姑娘觸發器8 8 灰姑娘觸發器 (spin-off) 匿名投稿番外"
+      "searchText": "💰 灰姑娘觸發器（含外傳&spin-off） 신데렐라 프롬프트 고래（鯨魚） 安：工程師 / 員：家政保母 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 雙重人格 文章狀態: 已完結 灰姑娘觸發器1 1 灰姑娘觸發器2 2 灰姑娘觸發器3 3 灰姑娘觸發器4 4 灰姑娘觸發器5 5 灰姑娘觸發器6 6 灰姑娘觸發器7 7 灰姑娘觸發器8 8 灰姑娘觸發器 (spin-off) 9"
     },
     {
       "id": "P0120",
@@ -15428,7 +15239,7 @@ window.DESTINY_DATA = {
         {
           "part": "閱讀",
           "ko": "Give or take",
-          "zh": "Give or take",
+          "zh": "Give or Take",
           "url": "https://www.postype.com/@83-inch/post/17217642",
           "purchase": "是",
           "points": 500,
@@ -15760,9 +15571,9 @@ window.DESTINY_DATA = {
       "roles": "",
       "items": [
         {
-          "part": "A",
+          "part": "1",
           "ko": "후방주의보",
-          "zh": "後方注意",
+          "zh": "後方警報 A",
           "url": "https://www.postype.com/@not-ace/post/15915200",
           "purchase": "是",
           "points": 500,
@@ -15770,9 +15581,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "B",
+          "part": "2",
           "ko": "후방주의보",
-          "zh": "後方注意",
+          "zh": "後方警報 B",
           "url": "https://www.postype.com/@not-ace/post/15915799",
           "purchase": "是",
           "points": 500,
@@ -15780,9 +15591,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "C",
+          "part": "3",
           "ko": "후방주의보",
-          "zh": "後方注意",
+          "zh": "後方警報 C",
           "url": "https://www.postype.com/@not-ace/post/15922174",
           "purchase": "是",
           "points": 500,
@@ -15790,9 +15601,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "D",
+          "part": "4",
           "ko": "후방주의보",
-          "zh": "後方注意",
+          "zh": "後方警報 D",
           "url": "https://www.postype.com/@not-ace/post/15924588",
           "purchase": "是",
           "points": 500,
@@ -15812,11 +15623,17 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車",
             "SM",
             "玩具"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -15866,11 +15683,12 @@ window.DESTINY_DATA = {
         "CP配對: 安/員",
         "CP配對: 員/安",
         "CP配對: 互攻",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
         "分級: SM",
         "分級: 玩具",
+        "標籤: 謹慎閱讀",
         "形式/性質: OOC",
         "情感梗: 青梅",
         "文章篇幅: 中篇",
@@ -15886,7 +15704,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2000,
       "maxPoints": 500,
       "sourceRow": 400,
-      "searchText": "💰 後方注意 후방주의보 참치（鮪魚）  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 形式/性質: ooc 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 後方注意 a 後方注意 b 後方注意 c 後方注意 d"
+      "searchText": "💰 後方注意 후방주의보 참치（鮪魚）  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 標籤: 謹慎閱讀 形式/性質: ooc 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 後方警報 a 1 後方警報 b 2 後方警報 c 3 後方警報 d 4"
     },
     {
       "id": "P0220",
@@ -16357,9 +16175,9 @@ window.DESTINY_DATA = {
       "roles": "安：大學生\n員：御宅族",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "에또 스타핏!",
-          "zh": "欸抖 stop it!",
+          "zh": "欸抖 Stop it!",
           "url": "https://www.postype.com/@ayjjwy0304/post/19381738",
           "purchase": "是",
           "points": 500,
@@ -16420,7 +16238,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 395,
-      "searchText": "欸抖 stop it! 에또 스타핏! 뭉자（音譯：夢子） 安：大學生\n員：御宅族 cp配對: 安/員 分級: 🚲腳踏車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 欸抖 stop it! 閱讀"
+      "searchText": "欸抖 stop it! 에또 스타핏! 뭉자（音譯：夢子） 安：大學生\n員：御宅族 cp配對: 安/員 分級: 🚲腳踏車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 欸抖 stop it! 單集"
     },
     {
       "id": "P0273",
@@ -16430,9 +16248,9 @@ window.DESTINY_DATA = {
       "roles": "安：上班族 / 員：上班族",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "숨 참고 LOVE DIVE!",
-          "zh": "屏住呼吸 LOVE DIVE!",
+          "zh": "01 屏住呼吸，LOVE DIVE！上",
           "url": "https://www.postype.com/@monochrome-film/post/19392608",
           "purchase": "否",
           "points": 0,
@@ -16442,9 +16260,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "숨 참고 LOVE DIVE!",
-          "zh": "屏住呼吸 LOVE DIVE!",
+          "zh": "02 屏住呼吸，LOVE DIVE！中",
           "url": "https://www.postype.com/zh-hant/@monochrome-film/post/19396784",
           "purchase": "否",
           "points": 0,
@@ -16454,9 +16272,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "숨 참고 LOVE DIVE!",
-          "zh": "屏住呼吸 LOVE DIVE!",
+          "zh": "03 屏住呼吸，LOVE DIVE！下",
           "url": "https://www.postype.com/zh-hant/@monochrome-film/post/19468681",
           "purchase": "否",
           "points": 0,
@@ -16466,9 +16284,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳",
+          "part": "4",
           "ko": "숨 참고 LOVE DIVE!",
-          "zh": "屏住呼吸 LOVE DIVE! 外傳",
+          "zh": "04 屏住呼吸，LOVE DIVE！外傳",
           "url": "https://www.postype.com/zh-hant/@monochrome-film/post/19525618",
           "purchase": "是",
           "points": 500,
@@ -16535,19 +16353,19 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 6,
-      "searchText": "💰 屏住呼吸 love dive! 숨 참고 love dive! 플레인（plain） 安：上班族 / 員：上班族 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 屏住呼吸 love dive! 上 屏住呼吸 love dive! 中 屏住呼吸 love dive! 下 屏住呼吸 love dive! 外傳 外傳"
+      "searchText": "💰 屏住呼吸 love dive! 숨 참고 love dive! 플레인（plain） 安：上班族 / 員：上班族 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 01 屏住呼吸，love dive！上 1 02 屏住呼吸，love dive！中 2 03 屏住呼吸，love dive！下 3 04 屏住呼吸，love dive！外傳 4"
     },
     {
       "id": "P0176",
       "author": "참치（鮪魚）",
-      "zh": "前方警報（掛件、束縛調教警告 ）",
+      "zh": "前方警報",
       "ko": "전방주의보",
-      "roles": "",
+      "roles": "掛件\n束縛調教警告",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "전방주의보",
-          "zh": "前方警報（掛件、束縛調教警告 ）",
+          "zh": "前方警報",
           "url": "https://www.postype.com/@not-ace/post/19518093",
           "purchase": "是",
           "points": 700,
@@ -16567,11 +16385,17 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車",
             "SM",
             "玩具"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -16621,11 +16445,12 @@ window.DESTINY_DATA = {
         "CP配對: 安/員",
         "CP配對: 員/安",
         "CP配對: 互攻",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
         "分級: SM",
         "分級: 玩具",
+        "標籤: 謹慎閱讀",
         "形式/性質: OOC",
         "情感梗: 青梅",
         "文章篇幅: 中篇",
@@ -16641,7 +16466,7 @@ window.DESTINY_DATA = {
       "knownPoints": 700,
       "maxPoints": 700,
       "sourceRow": 394,
-      "searchText": "💰 前方警報（掛件、束縛調教警告 ） 전방주의보 참치（鮪魚）  cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 形式/性質: ooc 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 前方警報（掛件、束縛調教警告 ） 閱讀"
+      "searchText": "💰 前方警報 전방주의보 참치（鮪魚） 掛件\n束縛調教警告 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 標籤: 謹慎閱讀 形式/性質: ooc 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 類型世界觀: abo 文章狀態: 已完結 前方警報 單集"
     },
     {
       "id": "P0226",
@@ -16789,9 +16614,9 @@ window.DESTINY_DATA = {
       "roles": "安：獸人(黃金獵犬)\n員：獸人(兔子)",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "토끼가 멍멍",
-          "zh": "獸人系列1-兔子在汪汪叫",
+          "zh": "兔子在汪汪叫",
           "url": "https://www.postype.com/@chzhtyzm/post/7918481",
           "purchase": "否",
           "points": 0,
@@ -16831,7 +16656,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 392,
-      "searchText": "獸人系列1-兔子在汪汪叫 토끼가 멍멍 초코쇼크（巧克shock） 安：獸人(黃金獵犬)\n員：獸人(兔子) 文章類型: 奇幻玄幻 類型世界觀: 獸轉/獸人 文章狀態: 已完結 獸人系列1-兔子在汪汪叫 閱讀"
+      "searchText": "獸人系列1-兔子在汪汪叫 토끼가 멍멍 초코쇼크（巧克shock） 安：獸人(黃金獵犬)\n員：獸人(兔子) 文章類型: 奇幻玄幻 類型世界觀: 獸轉/獸人 文章狀態: 已完結 兔子在汪汪叫 單集"
     },
     {
       "id": "P0369",
@@ -16911,9 +16736,9 @@ window.DESTINY_DATA = {
       "roles": "安：陛下\n員：中殿",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "만춘",
-          "zh": "晚春",
+          "zh": "晚春-上",
           "url": "https://www.postype.com/@yoominzzin/post/5261918",
           "purchase": "否",
           "points": 0,
@@ -16921,7 +16746,7 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下(+番外)",
+          "part": "2",
           "ko": "만춘",
           "zh": "晚春-下(+番外)",
           "url": "https://www.postype.com/zh-hant/@yoominzzin/post/5261952",
@@ -16931,9 +16756,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "番外二",
+          "part": "3",
           "ko": "만춘",
-          "zh": "晚春-番外二(行宮的冬天)",
+          "zh": "晚春 番外-行宮的冬天",
           "url": "https://www.postype.com/@yoominzzin/post/8461188",
           "purchase": "是",
           "points": 2000,
@@ -16941,9 +16766,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "番外三",
+          "part": "4",
           "ko": "만춘",
-          "zh": "晚春-番外三(講武)",
+          "zh": "晚春 番外-講武",
           "url": "https://www.postype.com/@yoominzzin/post/18590304",
           "purchase": "是",
           "points": 1000,
@@ -17006,7 +16831,7 @@ window.DESTINY_DATA = {
       "knownPoints": 3500,
       "maxPoints": 2000,
       "sourceRow": 390,
-      "searchText": "晚春 만춘 민무（閔無） 安：陛下\n員：中殿 情感梗: 先婚後愛 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 背景設定: 東方架空 文章狀態: 已完結 晚春 上 晚春-下(+番外) 下(+番外) 晚春-番外二(行宮的冬天) 番外二 晚春-番外三(講武) 番外三"
+      "searchText": "晚春 만춘 민무（閔無） 安：陛下\n員：中殿 情感梗: 先婚後愛 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 背景設定: 東方架空 文章狀態: 已完結 晚春-上 1 晚春-下(+番外) 2 晚春 番外-行宮的冬天 3 晚春 番外-講武 4"
     },
     {
       "id": "P0272",
@@ -17386,9 +17211,9 @@ window.DESTINY_DATA = {
       "roles": "安：上班族\n員：上班族",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "동서남북",
-          "zh": "東南西北",
+          "zh": "東西南北",
           "url": "https://www.postype.com/@sohanso/post/19373978",
           "purchase": "否",
           "points": 0,
@@ -17442,7 +17267,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 386,
-      "searchText": "東南西北 동서남북 소한s（小寒s） 安：上班族\n員：上班族 情感梗: 破鏡重圓 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 東南西北 閱讀"
+      "searchText": "東南西北 동서남북 소한s（小寒s） 安：上班族\n員：上班族 情感梗: 破鏡重圓 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 東西南北 單集"
     },
     {
       "id": "P0372",
@@ -17518,9 +17343,9 @@ window.DESTINY_DATA = {
       "roles": "安：安企業繼承人\n員：國務總理么女",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "틈",
-          "zh": "間隙",
+          "zh": "01 間隙 上",
           "url": "https://www.postype.com/@yuwon8318/post/19360808",
           "purchase": "是",
           "points": 1000,
@@ -17528,9 +17353,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "틈",
-          "zh": "間隙",
+          "zh": "02 間隙 中",
           "url": "https://www.postype.com/@yuwon8318/post/19393707",
           "purchase": "是",
           "points": 1000,
@@ -17538,9 +17363,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "틈",
-          "zh": "間隙",
+          "zh": "03 間隙 下",
           "url": "https://www.postype.com/@yuwon8318/post/19424855",
           "purchase": "是",
           "points": 1000,
@@ -17632,7 +17457,7 @@ window.DESTINY_DATA = {
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 172,
-      "searchText": "💰 間隙 틈 진심（真心） 安：安企業繼承人\n員：國務總理么女 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 先婚後愛 情感梗: 妻妻 情感梗: 年齡差 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 類型世界觀: abo 文章狀態: 已完結 間隙 上 間隙 中 間隙 下"
+      "searchText": "💰 間隙 틈 진심（真心） 安：安企業繼承人\n員：國務總理么女 cp配對: 安/員 分級: cp潔癖勿入 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 先婚後愛 情感梗: 妻妻 情感梗: 年齡差 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 類型世界觀: abo 文章狀態: 已完結 01 間隙 上 1 02 間隙 中 2 03 間隙 下 3"
     },
     {
       "id": "P0373",
@@ -17788,9 +17613,9 @@ window.DESTINY_DATA = {
       "roles": "安：跆拳道選手 / 員：模特兒",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "아스트랄 믹스",
-          "zh": "Astarl Mix",
+          "zh": "Astral Mix",
           "url": "https://www.postype.com/@untitle009/post/8223590",
           "purchase": "是",
           "points": 1500,
@@ -17855,19 +17680,19 @@ window.DESTINY_DATA = {
       "knownPoints": 1500,
       "maxPoints": 1500,
       "sourceRow": 51,
-      "searchText": "💰 astarl mix 아스트랄 믹스 noname 安：跆拳道選手 / 員：模特兒 分級: cp潔癖勿入 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 astarl mix 閱讀"
+      "searchText": "💰 astarl mix 아스트랄 믹스 noname 安：跆拳道選手 / 員：模特兒 分級: cp潔癖勿入 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 astral mix 單集"
     },
     {
       "id": "P0304",
       "author": "꿀구마（蜜地瓜）",
-      "zh": "時節姻緣（CP潔癖勿入）",
+      "zh": "時節姻緣",
       "ko": "시절인연",
       "roles": "安：大學生 / 員：大學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "시절인연",
-          "zh": "時節姻緣（CP潔癖勿入）",
+          "zh": "時節姻緣",
           "url": "https://www.postype.com/@seol-cheong/post/16747698",
           "purchase": "否",
           "points": 0,
@@ -17930,7 +17755,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 59,
-      "searchText": "時節姻緣（cp潔癖勿入） 시절인연 꿀구마（蜜地瓜） 安：大學生 / 員：大學生 分級: cp潔癖勿入 分級: ⚠️題材警告 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 時節姻緣（cp潔癖勿入） 閱讀"
+      "searchText": "時節姻緣 시절인연 꿀구마（蜜地瓜） 安：大學生 / 員：大學生 分級: cp潔癖勿入 分級: ⚠️題材警告 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 時節姻緣 單集"
     },
     {
       "id": "P0169",
@@ -18270,9 +18095,9 @@ window.DESTINY_DATA = {
       "roles": "安：上班族 / 員：大學生",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "9, one 上",
-          "zh": "9,one 上",
+          "zh": "9,one-上",
           "url": "https://www.postype.com/@nuttylife/post/19394840",
           "purchase": "是",
           "points": 700,
@@ -18280,9 +18105,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "9, one 下",
-          "zh": "9,one 下",
+          "zh": "9,one-下",
           "url": "https://www.postype.com/@nuttylife/post/19318824",
           "purchase": "是",
           "points": 700,
@@ -18336,7 +18161,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1400,
       "maxPoints": 700,
       "sourceRow": 605,
-      "searchText": "💰 9,one 9,one 유부비언（已婚人士） 安：上班族 / 員：大學生 分級: 💰付費內容 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 9,one 上 上 9,one 下 下"
+      "searchText": "💰 9,one 9,one 유부비언（已婚人士） 安：上班族 / 員：大學生 分級: 💰付費內容 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 9,one-上 1 9,one-下 2"
     },
     {
       "id": "P0105",
@@ -18461,18 +18286,30 @@ window.DESTINY_DATA = {
     {
       "id": "P0072",
       "author": "noname",
-      "zh": "Melt Chocolate Highteen-上+下",
-      "ko": "멜팅 쇼콜라 하이틴-上+下",
+      "zh": "Melt Chocolate Highteen",
+      "ko": "멜팅 쇼콜라 하이틴",
       "roles": "安：高中生 / 員：高中生",
       "items": [
         {
-          "part": "單集",
-          "ko": "멜팅 쇼콜라 하이틴-上+下",
-          "zh": "Melt Chocolate Highteen-上+下",
-          "url": "https://www.postype.com/@untitle009/post/9577634",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "part": "1",
+          "ko": "멜팅 쇼콜라 하이틴",
+          "zh": "Melting Chocolat Highteen-上",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/9577634",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
+          "thumbCategories": [
+            "寶藏作家"
+          ]
+        },
+        {
+          "part": "2",
+          "ko": "멜팅 쇼콜라 하이틴",
+          "zh": "Melting Chocolat Highteen-下",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/9589860",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": [
             "寶藏作家"
           ]
@@ -18527,13 +18364,13 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "寶藏作家"
       ],
-      "purchase": "否",
-      "purchaseLabel": "",
-      "totalPoints": 0,
+      "purchase": "待確認",
+      "purchaseLabel": "有 2 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 50,
-      "searchText": "melt chocolate highteen-上+下 멜팅 쇼콜라 하이틴-上+下 noname 安：高中生 / 員：高中生 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 melt chocolate highteen-上+下 單集"
+      "searchText": "melt chocolate highteen 멜팅 쇼콜라 하이틴 noname 安：高中生 / 員：高中生 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 melting chocolat highteen-上 1 melting chocolat highteen-下 2"
     },
     {
       "id": "P0380",
@@ -18945,7 +18782,7 @@ window.DESTINY_DATA = {
       "roles": "安：仿生人\n員：博士",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "901:Not Found",
           "zh": "901:Not Found",
           "url": "https://www.postype.com/@yuwon8318/post/19094635",
@@ -19001,7 +18838,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 169,
-      "searchText": "901:not found 901:not found 진심（真心） 安：仿生人\n員：博士 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: oe 類型世界觀: 仿生人 文章狀態: 已完結 901:not found 閱讀"
+      "searchText": "901:not found 901:not found 진심（真心） 安：仿生人\n員：博士 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: oe 類型世界觀: 仿生人 文章狀態: 已完結 901:not found 單集"
     },
     {
       "id": "P0225",
@@ -19109,7 +18946,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "Crack 4. (完)",
-          "zh": "Crack 4（完）",
+          "zh": "Crack 4",
           "url": "https://www.postype.com/@nuttylife/post/19115237",
           "purchase": "是",
           "points": 700,
@@ -19121,9 +18958,15 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "CP潔癖勿入",
             "💰付費內容"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -19158,9 +19001,10 @@ window.DESTINY_DATA = {
         }
       ],
       "flatTags": [
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: CP潔癖勿入",
         "分級: 💰付費內容",
+        "標籤: 謹慎閱讀",
         "文章篇幅: 長篇",
         "文章類型: 都市現實",
         "結局: HE",
@@ -19174,7 +19018,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2800,
       "maxPoints": 700,
       "sourceRow": 611,
-      "searchText": "💰 crack crack 유부비언（已婚人士） 安：毒梟之女 / 員：法官之女/醫生 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 藥物 文章狀態: 已完結 crack 1 ep1 crack 2 ep2 crack 3 ep3 crack 4（完） ep4"
+      "searchText": "💰 crack crack 유부비언（已婚人士） 安：毒梟之女 / 員：法官之女/醫生 分級: 尺度大 分級: cp潔癖勿入 分級: 💰付費內容 標籤: 謹慎閱讀 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 藥物 文章狀態: 已完結 crack 1 ep1 crack 2 ep2 crack 3 ep3 crack 4 ep4"
     },
     {
       "id": "P0167",
@@ -19184,9 +19028,9 @@ window.DESTINY_DATA = {
       "roles": "安：疫苗研究對象\n員：流行病調查官",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "런투유",
-          "zh": "Run to you",
+          "zh": "Run to You",
           "url": "https://www.postype.com/@heresy/post/18801087",
           "purchase": "否",
           "points": 0,
@@ -19240,7 +19084,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 382,
-      "searchText": "run to you 런투유 이단（一單） 安：疫苗研究對象\n員：流行病調查官 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 文章狀態: 已完結 run to you 閱讀"
+      "searchText": "run to you 런투유 이단（一單） 安：疫苗研究對象\n員：流行病調查官 文章篇幅: 中篇 文章類型: 科幻懸疑 結局: he 背景設定: 末日 文章狀態: 已完結 run to you 單集"
     },
     {
       "id": "P0166",
@@ -19317,7 +19161,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0165",
-      "author": "임네닉\nX: JOEJOENJOE",
+      "author": "임네닉X: JOEJOENJOE",
       "zh": "小心車 小心狗 小心兔子",
       "ko": "차조심 개조심 토끼조심",
       "roles": "安：學生\n員：學生",
@@ -19325,7 +19169,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "차조심 개조심 토끼조심",
-          "zh": "小心車 小心狗 小心兔子",
+          "zh": "小心車 小心狗 小心兔子 01",
           "url": "https://www.postype.com/@jjj-eoheung/post/13140122",
           "purchase": "否",
           "points": 0,
@@ -19337,7 +19181,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "차조심 개조심 토끼조심",
-          "zh": "小心車 小心狗 小心兔子",
+          "zh": "小心車 小心狗 小心兔子 02",
           "url": "https://www.postype.com/@jjj-eoheung/post/13236203",
           "purchase": "否",
           "points": 0,
@@ -19349,7 +19193,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "차조심 개조심 토끼조심",
-          "zh": "小心車 小心狗 小心兔子",
+          "zh": "小心車 小心狗 小心兔子 03",
           "url": "https://www.postype.com/@jjj-eoheung/post/14170442",
           "purchase": "否",
           "points": 0,
@@ -19361,7 +19205,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "차조심 개조심 토끼조심",
-          "zh": "小心車 小心狗 小心兔子",
+          "zh": "小心車 小心狗 小心兔子 04",
           "url": "https://www.postype.com/@jjj-eoheung/post/15697991",
           "purchase": "否",
           "points": 0,
@@ -19373,7 +19217,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP5",
           "ko": "차조심 개조심 토끼조심",
-          "zh": "小心車 小心狗 小心兔子",
+          "zh": "小心車 小心狗 小心兔子 05 （完）",
           "url": "https://www.postype.com/@jjj-eoheung/post/17001056",
           "purchase": "否",
           "points": 0,
@@ -19454,7 +19298,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 380,
-      "searchText": "小心車 小心狗 小心兔子 차조심 개조심 토끼조심 임네닉\nx: joejoenjoe 安：學生\n員：學生 cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 追妻火葬場 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 小心車 小心狗 小心兔子 ep1 小心車 小心狗 小心兔子 ep2 小心車 小心狗 小心兔子 ep3 小心車 小心狗 小心兔子 ep4 小心車 小心狗 小心兔子 ep5"
+      "searchText": "小心車 小心狗 小心兔子 차조심 개조심 토끼조심 임네닉x: joejoenjoe 安：學生\n員：學生 cp配對: 安/員 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 追妻火葬場 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 小心車 小心狗 小心兔子 01 ep1 小心車 小心狗 小心兔子 02 ep2 小心車 小心狗 小心兔子 03 ep3 小心車 小心狗 小心兔子 04 ep4 小心車 小心狗 小心兔子 05 （完） ep5"
     },
     {
       "id": "P0263",
@@ -19464,9 +19308,9 @@ window.DESTINY_DATA = {
       "roles": "安：刑警\n員：社長",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "개와 늑대의 시간",
-          "zh": "犬與狼的時間",
+          "zh": "犬與狼的時間 上",
           "url": "https://www.postype.com/@yuwon8318/post/18783878",
           "purchase": "否",
           "points": 0,
@@ -19474,9 +19318,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "개와 늑대의 시간",
-          "zh": "犬與狼的時間",
+          "zh": "犬與狼的時間 下",
           "url": "https://www.postype.com/@yuwon8318/post/19041075",
           "purchase": "是",
           "points": 1000,
@@ -19539,7 +19383,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 168,
-      "searchText": "💰 犬與狼的時間 개와 늑대의 시간 진심（真心） 安：刑警\n員：社長 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 犬與狼的時間 上 犬與狼的時間 下"
+      "searchText": "💰 犬與狼的時間 개와 늑대의 시간 진심（真心） 安：刑警\n員：社長 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 犬與狼的時間 上 1 犬與狼的時間 下 2"
     },
     {
       "id": "P0108",
@@ -19851,20 +19695,10 @@ window.DESTINY_DATA = {
       "roles": "安：藝人\n員：藝人",
       "items": [
         {
-          "part": "閱讀",
+          "part": "1",
           "ko": "연애의 온도",
           "zh": "戀愛的溫度",
           "url": "https://www.postype.com/@rainbowpalette/post/18917507",
-          "purchase": "是",
-          "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "番外",
-          "ko": "연애의 온도",
-          "zh": "戀愛的溫度",
-          "url": "https://www.postype.com/@rainbowpalette/post/18972404",
           "purchase": "是",
           "points": 500,
           "purchaseLabel": "",
@@ -19920,11 +19754,11 @@ window.DESTINY_DATA = {
       "thumbCategories": [],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 1000,
-      "knownPoints": 1000,
+      "totalPoints": 500,
+      "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 374,
-      "searchText": "💰 戀愛的溫度 연애의 온도 선샤인（sunshine） 安：藝人\n員：藝人 分級: 💰付費內容 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 文章狀態: 已完結 戀愛的溫度 閱讀 戀愛的溫度 番外"
+      "searchText": "💰 戀愛的溫度 연애의 온도 선샤인（sunshine） 安：藝人\n員：藝人 分級: 💰付費內容 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 現實向 文章狀態: 已完結 戀愛的溫度 1"
     },
     {
       "id": "P0160",
@@ -20258,9 +20092,9 @@ window.DESTINY_DATA = {
       "roles": "安：導遊\n員：上班族",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "Midnight in Florence",
-          "zh": "Midnight in Florence",
+          "zh": "Midnight in florence-上",
           "url": "https://www.postype.com/@yuwon8318/post/17106025",
           "purchase": "否",
           "points": 0,
@@ -20268,9 +20102,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "Midnight in Florence",
-          "zh": "Midnight in Florence",
+          "zh": "Midnight in Florence-下",
           "url": "https://www.postype.com/@yuwon8318/post/17130590",
           "purchase": "否",
           "points": 0,
@@ -20324,7 +20158,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 166,
-      "searchText": "midnight in florence midnight in florence 진심（真心） 安：導遊\n員：上班族 情感梗: 破鏡重圓 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 midnight in florence 上 midnight in florence 下"
+      "searchText": "midnight in florence midnight in florence 진심（真心） 安：導遊\n員：上班族 情感梗: 破鏡重圓 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 midnight in florence-上 1 midnight in florence-下 2"
     },
     {
       "id": "P0155",
@@ -20334,9 +20168,9 @@ window.DESTINY_DATA = {
       "roles": "安：自由業\n員：上班族",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "그 겨울에 대한 회고록",
-          "zh": "那個冬天回憶錄",
+          "zh": "那個冬天的回憶錄",
           "url": "https://www.postype.com/@allicaneat/post/18460205",
           "purchase": "是",
           "points": 500,
@@ -20406,7 +20240,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 362,
-      "searchText": "💰 那個冬天回憶錄 그 겨울에 대한 회고록 톨（tall） 安：自由業\n員：上班族 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 文章狀態: 已完結 那個冬天回憶錄 閱讀"
+      "searchText": "💰 那個冬天回憶錄 그 겨울에 대한 회고록 톨（tall） 安：自由業\n員：上班族 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 背景設定: 末日 文章狀態: 已完結 那個冬天的回憶錄 單集"
     },
     {
       "id": "P0261",
@@ -20416,9 +20250,9 @@ window.DESTINY_DATA = {
       "roles": "安：代理\n員：組長",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "밀회",
-          "zh": "密會",
+          "zh": "01 密會 上",
           "url": "https://www.postype.com/@yuwon8318/post/18662337",
           "purchase": "是",
           "points": 1000,
@@ -20426,9 +20260,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "밀회",
-          "zh": "密會",
+          "zh": "02 密會 下",
           "url": "https://www.postype.com/@yuwon8318/post/18707229",
           "purchase": "是",
           "points": 1000,
@@ -20436,9 +20270,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "美國，那之後的故事",
+          "part": "3",
           "ko": "밀회",
-          "zh": "密會",
+          "zh": "03 密會 -美國後續故事",
           "url": "https://www.postype.com/@yuwon8318/post/18949121",
           "purchase": "是",
           "points": 1000,
@@ -20510,19 +20344,19 @@ window.DESTINY_DATA = {
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 164,
-      "searchText": "💰 密會 밀회 진심（真心） 安：代理\n員：組長 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 密會 上 密會 下 密會 美國，那之後的故事"
+      "searchText": "💰 密會 밀회 진심（真心） 安：代理\n員：組長 cp配對: 安/員 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 01 密會 上 1 02 密會 下 2 03 密會 -美國後續故事 3"
     },
     {
       "id": "P0154",
       "author": "민무（閔無）",
       "zh": "黑暗的縫隙,空白的盡頭",
-      "ko": "어둠의 틈, 공백의 끝（上+下）",
+      "ko": "어둠의 틈, 공백의 끝",
       "roles": "安：律師\n員：律師",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "어둠의 틈, 공백의 끝 上",
-          "zh": "黑暗的縫隙,空白的盡頭",
+          "zh": "黑暗的縫隙，空白的盡頭（上）",
           "url": "https://www.postype.com/@yoominzzin/post/18772901",
           "purchase": "是",
           "points": 500,
@@ -20530,9 +20364,9 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "어둠의 틈, 공백의 끝 下",
-          "zh": "黑暗的縫隙,空白的盡頭",
+          "zh": "黑暗的縫隙，空白的盡頭（下）",
           "url": "https://www.postype.com/@yoominzzin/post/18773164",
           "purchase": "否",
           "points": 0,
@@ -20595,7 +20429,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 361,
-      "searchText": "黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝（上+下） 민무（閔無） 安：律師\n員：律師 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 妻妻 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 黑暗的縫隙,空白的盡頭 上 黑暗的縫隙,空白的盡頭 下"
+      "searchText": "💰黑暗的縫隙,空白的盡頭 어둠의 틈, 공백의 끝 민무（閔無） 安：律師\n員：律師 分級: 🚲腳踏車 情感梗: 破鏡重圓 情感梗: 妻妻 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 黑暗的縫隙，空白的盡頭（上） 1 黑暗的縫隙，空白的盡頭（下） 2"
     },
     {
       "id": "P0153",
@@ -20775,7 +20609,7 @@ window.DESTINY_DATA = {
       "roles": "安：解酒湯店老闆\n員：學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "안가네 양평해장국",
           "zh": "安家的楊平解酒湯",
           "url": "https://www.postype.com/@garden-han/post/15737713",
@@ -20833,7 +20667,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 210,
-      "searchText": "安家的楊平解酒湯 안가네 양평해장국 정한（淨漢） 安：解酒湯店老闆\n員：學生 情感梗: 年齡差 情感梗: 偽骨科 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 安家的楊平解酒湯 閱讀"
+      "searchText": "安家的楊平解酒湯 안가네 양평해장국 정한（淨漢） 安：解酒湯店老闆\n員：學生 情感梗: 年齡差 情感梗: 偽骨科 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 安家的楊平解酒湯 單集"
     },
     {
       "id": "P0071",
@@ -20920,9 +20754,9 @@ window.DESTINY_DATA = {
       "roles": "安：大學生 / 員：大學生/設計師",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "지평선을 넘어서",
-          "zh": "超越地平線",
+          "zh": "越過地平線",
           "url": "https://www.postype.com/@nuttylife/post/18318222",
           "purchase": "否",
           "points": 0,
@@ -20969,7 +20803,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 613,
-      "searchText": "超越地平線 지평선을 넘어서 유부비언（已婚人士） 安：大學生 / 員：大學生/設計師 文章篇幅: 短篇 文章類型: 都市現實 結局: be 文章狀態: 已完結 超越地平線 閱讀"
+      "searchText": "超越地平線 지평선을 넘어서 유부비언（已婚人士） 安：大學生 / 員：大學生/設計師 文章篇幅: 短篇 文章類型: 都市現實 結局: be 文章狀態: 已完結 越過地平線 單集"
     },
     {
       "id": "P0306",
@@ -21129,9 +20963,9 @@ window.DESTINY_DATA = {
       "roles": "安：哨兵\n員：嚮導",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "클로버의 바람",
-          "zh": "三葉幸運草的願望",
+          "zh": "三葉草的願望",
           "url": "https://www.postype.com/@srt-rps/post/12738888",
           "purchase": "是",
           "points": 500,
@@ -21185,7 +21019,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 356,
-      "searchText": "三葉幸運草的願望 클로버의 바람 로크（lock） 安：哨兵\n員：嚮導 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 哨嚮 文章狀態: 已完結 三葉幸運草的願望 閱讀"
+      "searchText": "三葉幸運草的願望 클로버의 바람 로크（lock） 安：哨兵\n員：嚮導 文章篇幅: 中篇 文章類型: 奇幻玄幻 結局: he 類型世界觀: 哨嚮 文章狀態: 已完結 三葉草的願望 單集"
     },
     {
       "id": "P0260",
@@ -21267,14 +21101,14 @@ window.DESTINY_DATA = {
     {
       "id": "P0294",
       "author": "정한（淨漢）",
-      "zh": "論虎林",
-      "ko": "논호림 論虎林",
+      "zh": "論虎林",
+      "ko": "논호림",
       "roles": "安：獵戶之女\n員：山君之女",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "논호림 論虎林",
-          "zh": "論虎林",
+          "zh": "論虎林",
           "url": "https://www.postype.com/@garden-han/post/15460874",
           "purchase": "否",
           "points": 0,
@@ -21349,19 +21183,19 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 208,
-      "searchText": "論虎林 논호림 論虎林 정한（淨漢） 安：獵戶之女\n員：山君之女 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 文章狀態: 已完結 論虎林 閱讀"
+      "searchText": "論虎林 논호림 정한（淨漢） 安：獵戶之女\n員：山君之女 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 東方幻想 結局: he 背景設定: 東方架空 계간윶녕: 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄: 계간윶녕 : 𝐋𝐎𝐕𝐄 𝐆𝐀𝐌𝐄-2023 summer 文章狀態: 已完結 論虎林 單集"
     },
     {
       "id": "P0288",
       "author": "별빛（星光）",
-      "zh": "短篇小說集1",
-      "ko": "단편썰",
-      "roles": "安：倒閉中小業之女\n員：大企業家族棄女",
+      "zh": "短篇小說集1-3",
+      "ko": "단편썰-정략결혼 썰",
+      "roles": "",
       "items": [
         {
           "part": "1",
-          "ko": "단편썰",
-          "zh": "短篇小說集1",
+          "ko": "단편썰-정략결혼 썰",
+          "zh": "短篇小說1",
           "url": "https://www.postype.com/@pactory/post/17861353",
           "purchase": "是",
           "points": 1000,
@@ -21370,8 +21204,8 @@ window.DESTINY_DATA = {
         },
         {
           "part": "2",
-          "ko": "단편썰2",
-          "zh": "短篇小說集2",
+          "ko": "단편썰-정략결혼 썰",
+          "zh": "短篇小說2",
           "url": "https://www.postype.com/@pactory/post/17869834",
           "purchase": "是",
           "points": 1000,
@@ -21379,10 +21213,10 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "閱讀",
-          "ko": "단편썰 3",
-          "zh": "短篇小說集3",
-          "url": "https://www.postype.com/@pactory/post/18122359",
+          "part": "3",
+          "ko": "단편썰-정략결혼 썰",
+          "zh": "短篇小說3",
+          "url": "https://www.postype.com/zh-hant/@pactory/post/18122359",
           "purchase": "是",
           "points": 1000,
           "purchaseLabel": "",
@@ -21453,7 +21287,7 @@ window.DESTINY_DATA = {
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 199,
-      "searchText": "短篇小說集1 단편썰 별빛（星光） 安：倒閉中小業之女\n員：大企業家族棄女 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 類型世界觀: abo 類型世界觀: futa 文章狀態: 已完結 短篇小說集1 1 短篇小說集2 2 短篇小說集3 閱讀"
+      "searchText": "💰 短篇小說集1-3 단편썰-정략결혼 썰 별빛（星光）  cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 類型世界觀: abo 類型世界觀: futa 文章狀態: 已完結 短篇小說1 1 短篇小說2 2 短篇小說3 3"
     },
     {
       "id": "P0149",
@@ -21536,36 +21370,36 @@ window.DESTINY_DATA = {
       "roles": "安：大學生\n員：大學生",
       "items": [
         {
-          "part": "1/3",
-          "ko": "WHATEVER ! 1/3",
-          "zh": "WHATEVER !",
+          "part": "EP1",
+          "ko": "WHATEVER !",
+          "zh": "WHATEVER! 1",
           "url": "https://www.postype.com/@allicaneat/post/18068458",
-          "purchase": "是",
-          "points": 500,
+          "purchase": "否",
+          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "蓋瑞推薦"
           ]
         },
         {
-          "part": "2/3",
-          "ko": "WHATEVER ! 2/3",
-          "zh": "WHATEVER !",
+          "part": "EP2",
+          "ko": "WHATEVER !",
+          "zh": "WHATEVER! 2",
           "url": "https://www.postype.com/@allicaneat/post/18351058",
-          "purchase": "是",
-          "points": 500,
+          "purchase": "否",
+          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "蓋瑞推薦"
           ]
         },
         {
-          "part": "3/3",
-          "ko": "WHATEVER ! 3/3",
-          "zh": "WHATEVER !",
+          "part": "EP3",
+          "ko": "WHATEVER !",
+          "zh": "WHATEVER! 3",
           "url": "https://www.postype.com/@allicaneat/post/18378945",
-          "purchase": "是",
-          "points": 500,
+          "purchase": "否",
+          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "蓋瑞推薦"
@@ -21621,13 +21455,13 @@ window.DESTINY_DATA = {
       "thumbCategories": [
         "蓋瑞推薦"
       ],
-      "purchase": "是",
+      "purchase": "否",
       "purchaseLabel": "",
-      "totalPoints": 1500,
-      "knownPoints": 1500,
-      "maxPoints": 500,
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
       "sourceRow": 348,
-      "searchText": "💰 whatever ! whatever ! 톨（tall） 安：大學生\n員：大學生 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 whatever ! 1/3 whatever ! 2/3 whatever ! 3/3"
+      "searchText": "💰 whatever ! whatever ! 톨（tall） 安：大學生\n員：大學生 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 whatever! 1 ep1 whatever! 2 ep2 whatever! 3 ep3"
     },
     {
       "id": "P0248",
@@ -21731,9 +21565,9 @@ window.DESTINY_DATA = {
       "roles": "安：代表妻子\n員：代表祕書",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "내 남편의 여자",
-          "zh": "我丈夫的女人",
+          "zh": "我的丈夫的女人",
           "url": "https://www.postype.com/@yuwon8318/post/17728013",
           "purchase": "是",
           "points": 1000,
@@ -21751,11 +21585,17 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "CP潔癖勿入",
             "💰付費內容",
             "🏎️賽車",
             "玩具"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -21791,11 +21631,12 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: CP潔癖勿入",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
         "分級: 玩具",
+        "標籤: 謹慎閱讀",
         "情感梗: 外遇/出軌",
         "文章篇幅: 中篇",
         "文章類型: 都市現實",
@@ -21809,7 +21650,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 160,
-      "searchText": "💰 我丈夫的女人 내 남편의 여자 진심（真心） 安：代表妻子\n員：代表祕書 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 外遇/出軌 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 我丈夫的女人 閱讀"
+      "searchText": "💰 我丈夫的女人 내 남편의 여자 진심（真心） 安：代表妻子\n員：代表祕書 cp配對: 安/員 分級: 尺度大 分級: cp潔癖勿入 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 標籤: 謹慎閱讀 情感梗: 外遇/出軌 文章篇幅: 中篇 文章類型: 都市現實 結局: oe 文章狀態: 已完結 我的丈夫的女人 單集"
     },
     {
       "id": "P0147",
@@ -21821,7 +21662,7 @@ window.DESTINY_DATA = {
         {
           "part": "閱讀",
           "ko": "핫앤콜드",
-          "zh": "Hot and cold",
+          "zh": "Hot and Cold",
           "url": "https://www.postype.com/@dxg7783/post/6214756",
           "purchase": "是",
           "points": 1000,
@@ -21875,7 +21716,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 353,
-      "searchText": "hot and cold 핫앤콜드 개（狗） 安：大學生\n員：大學生 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 hot and cold 閱讀"
+      "searchText": "💰hot and cold 핫앤콜드 개（狗） 安：大學生\n員：大學生 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 hot and cold 閱讀"
     },
     {
       "id": "P0146",
@@ -21953,17 +21794,29 @@ window.DESTINY_DATA = {
     {
       "id": "P0070",
       "author": "noname",
-      "zh": "我的瘋狂繆思",
+      "zh": "我發狂的繆斯",
       "ko": "나의 지랄 맞은 뮤즈",
       "roles": "安：美術家 / 員：千金",
       "items": [
         {
-          "part": "單集",
+          "part": "1",
           "ko": "나의 지랄 맞은 뮤즈",
-          "zh": "我的瘋狂繆思",
+          "zh": "我發狂的繆斯",
           "url": "https://www.postype.com/@untitle009/post/8596074",
           "purchase": "是",
           "points": 2000,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "寶藏作家"
+          ]
+        },
+        {
+          "part": "2",
+          "ko": "나의 지랄 맞은 뮤즈",
+          "zh": "我發狂的繆斯  番外-Muse on the Body",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/13656577",
+          "purchase": "是",
+          "points": 500,
           "purchaseLabel": "",
           "thumbCategories": [
             "寶藏作家"
@@ -22027,11 +21880,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 2000,
-      "knownPoints": 2000,
+      "totalPoints": 2500,
+      "knownPoints": 2500,
       "maxPoints": 2000,
       "sourceRow": 48,
-      "searchText": "💰 我的瘋狂繆思 나의 지랄 맞은 뮤즈 noname 安：美術家 / 員：千金 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 我的瘋狂繆思 單集"
+      "searchText": "💰 我發狂的繆斯 나의 지랄 맞은 뮤즈 noname 安：美術家 / 員：千金 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 我發狂的繆斯 1 我發狂的繆斯  番外-muse on the body 2"
     },
     {
       "id": "P0116",
@@ -22041,7 +21894,7 @@ window.DESTINY_DATA = {
       "roles": "安：工程師\n員：上班族",
       "items": [
         {
-          "part": "本篇",
+          "part": "1",
           "ko": "분리불안",
           "zh": "分離焦慮",
           "url": "https://www.postype.com/@eeggdanzii/post/18008102",
@@ -22053,9 +21906,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳",
+          "part": "2",
           "ko": "분리불안 외전",
-          "zh": "分離焦慮（含外傳）",
+          "zh": "分離焦慮 外傳",
           "url": "https://www.postype.com/@eeggdanzii/post/18401255",
           "purchase": "是",
           "points": 500,
@@ -22122,7 +21975,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 311,
-      "searchText": "💰 分離焦慮（含外傳） 분리불안 달걀（雞蛋） 安：工程師\n員：上班族 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 分離焦慮 本篇 分離焦慮（含外傳） 外傳"
+      "searchText": "💰 分離焦慮（含外傳） 분리불안 달걀（雞蛋） 安：工程師\n員：上班族 分級: cp潔癖勿入 分級: 💰付費內容 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 分離焦慮 1 分離焦慮 外傳 2"
     },
     {
       "id": "P0293",
@@ -22293,12 +22146,22 @@ window.DESTINY_DATA = {
       "roles": "安：逃跑小狗\n員：富豪千金",
       "items": [
         {
-          "part": "單集",
-          "ko": "RESET",
-          "zh": "RESET（本+外）",
+          "part": "本篇",
+          "ko": "RESET（本+外）",
+          "zh": "RESET",
           "url": "https://www.postype.com/@cho-post/post/17390673",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "外傳",
+          "ko": "RESET（本+外）",
+          "zh": "RESET 外傳",
+          "url": "https://www.postype.com/zh-hant/@cho-post/post/18238716",
           "purchase": "是",
-          "points": 500,
+          "points": 100,
           "purchaseLabel": "",
           "thumbCategories": []
         }
@@ -22307,8 +22170,14 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -22349,8 +22218,9 @@ window.DESTINY_DATA = {
         }
       ],
       "flatTags": [
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
+        "標籤: 謹慎閱讀",
         "形式/性質: OOC",
         "文章篇幅: 短篇",
         "文章類型: 都市現實",
@@ -22361,11 +22231,11 @@ window.DESTINY_DATA = {
       "thumbCategories": [],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 500,
-      "knownPoints": 500,
-      "maxPoints": 500,
+      "totalPoints": 100,
+      "knownPoints": 100,
+      "maxPoints": 100,
       "sourceRow": 344,
-      "searchText": "💰 reset（本+外） reset（本+外） cho 安：逃跑小狗\n員：富豪千金 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 形式/性質: ooc 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 強制愛 文章狀態: 已完結 reset（本+外） 單集"
+      "searchText": "💰 reset（本+外） reset（本+外） cho 安：逃跑小狗\n員：富豪千金 分級: 尺度大 分級: 💰付費內容 標籤: 謹慎閱讀 形式/性質: ooc 文章篇幅: 短篇 文章類型: 都市現實 結局: oe 題材梗: 強制愛 文章狀態: 已完結 reset 本篇 reset 外傳 外傳"
     },
     {
       "id": "P0142",
@@ -22542,7 +22412,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "엔딩 크레딧 1",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 01",
           "url": "https://www.postype.com/@eeggdanzii/post/17688799",
           "purchase": "否",
           "points": 0,
@@ -22554,7 +22424,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "엔딩 크레딧 2",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 02",
           "url": "https://www.postype.com/@eeggdanzii/post/17688970",
           "purchase": "否",
           "points": 0,
@@ -22566,7 +22436,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "엔딩 크레딧 3",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 03",
           "url": "https://www.postype.com/@eeggdanzii/post/17689252",
           "purchase": "否",
           "points": 0,
@@ -22578,7 +22448,7 @@ window.DESTINY_DATA = {
         {
           "part": "4",
           "ko": "엔딩 크레딧 4",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 04",
           "url": "https://www.postype.com/@eeggdanzii/post/17689258",
           "purchase": "否",
           "points": 0,
@@ -22590,7 +22460,7 @@ window.DESTINY_DATA = {
         {
           "part": "5",
           "ko": "엔딩 크레딧 5",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 05",
           "url": "https://www.postype.com/@eeggdanzii/post/17701949",
           "purchase": "否",
           "points": 0,
@@ -22602,7 +22472,7 @@ window.DESTINY_DATA = {
         {
           "part": "6",
           "ko": "엔딩 크레딧 6",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 06",
           "url": "https://www.postype.com/@eeggdanzii/post/17734322",
           "purchase": "否",
           "points": 0,
@@ -22614,7 +22484,7 @@ window.DESTINY_DATA = {
         {
           "part": "7",
           "ko": "엔딩 크레딧 7",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 07",
           "url": "https://www.postype.com/@eeggdanzii/post/17827928",
           "purchase": "否",
           "points": 0,
@@ -22626,7 +22496,7 @@ window.DESTINY_DATA = {
         {
           "part": "8",
           "ko": "엔딩 크레딧 8",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 08",
           "url": "https://www.postype.com/@eeggdanzii/post/17828235",
           "purchase": "否",
           "points": 0,
@@ -22638,7 +22508,7 @@ window.DESTINY_DATA = {
         {
           "part": "9",
           "ko": "엔딩 크레딧 9 (完)",
-          "zh": "片尾字幕",
+          "zh": "片尾字幕 09",
           "url": "https://www.postype.com/@eeggdanzii/post/17820216",
           "purchase": "否",
           "points": 0,
@@ -22696,7 +22566,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 270,
-      "searchText": "片尾字幕 엔딩 크레딧 달걀（雞蛋） 安：警察\n員：演員 情感梗: 破鏡重圓 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 片尾字幕 1 片尾字幕 2 片尾字幕 3 片尾字幕 4 片尾字幕 5 片尾字幕 6 片尾字幕 7 片尾字幕 8 片尾字幕 9"
+      "searchText": "片尾字幕 엔딩 크레딧 달걀（雞蛋） 安：警察\n員：演員 情感梗: 破鏡重圓 文章篇幅: 長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 片尾字幕 01 1 片尾字幕 02 2 片尾字幕 03 3 片尾字幕 04 4 片尾字幕 05 5 片尾字幕 06 6 片尾字幕 07 7 片尾字幕 08 8 片尾字幕 09 9"
     },
     {
       "id": "P0384",
@@ -22706,9 +22576,9 @@ window.DESTINY_DATA = {
       "roles": "安：學生教育軍事團 / 員：大學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "개강에 생일",
-          "zh": "學期初的生日",
+          "zh": "學期初的生日 (愚人節改編)",
           "url": "https://www.postype.com/@parkpro/post/16549828",
           "purchase": "否",
           "points": 0,
@@ -22775,7 +22645,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 614,
-      "searchText": "學期初的生日 개강에 생일 박프로（朴專家） 安：學生教育軍事團 / 員：大學生 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 學期初的生日 閱讀"
+      "searchText": "學期初的生日 개강에 생일 박프로（朴專家） 安：學生教育軍事團 / 員：大學生 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章篇幅: 短篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 學期初的生日 (愚人節改編) 單集"
     },
     {
       "id": "P0136",
@@ -22858,7 +22728,7 @@ window.DESTINY_DATA = {
       "roles": "安：上班族\n員：上班族",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "ARE YOU THERE, EUGENE?",
           "zh": "ARE YOU THERE，EUGENE？",
           "url": "https://www.postype.com/@xi3ad4wl671x/post/7560468",
@@ -22921,7 +22791,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 336,
-      "searchText": "💰 are you there，eugene？ are you there，eugene？ 삼사（三司） 安：上班族\n員：上班族 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 are you there，eugene？ 閱讀"
+      "searchText": "💰 are you there，eugene？ are you there，eugene？ 삼사（三司） 安：上班族\n員：上班族 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 are you there，eugene？ 單集"
     },
     {
       "id": "P0292",
@@ -23116,7 +22986,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味1",
           "url": "https://www.postype.com/@yuwon8318/post/16799803",
           "purchase": "否",
           "points": 0,
@@ -23126,7 +22996,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味2",
           "url": "https://www.postype.com/@yuwon8318/post/16808468",
           "purchase": "否",
           "points": 0,
@@ -23136,7 +23006,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味3",
           "url": "https://www.postype.com/@yuwon8318/post/16818149",
           "purchase": "否",
           "points": 0,
@@ -23146,7 +23016,7 @@ window.DESTINY_DATA = {
         {
           "part": "4",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味4",
           "url": "https://www.postype.com/@yuwon8318/post/16834724",
           "purchase": "否",
           "points": 0,
@@ -23156,7 +23026,7 @@ window.DESTINY_DATA = {
         {
           "part": "5",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味5",
           "url": "https://www.postype.com/@yuwon8318/post/16843112",
           "purchase": "否",
           "points": 0,
@@ -23166,7 +23036,7 @@ window.DESTINY_DATA = {
         {
           "part": "6",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味6",
           "url": "https://www.postype.com/@yuwon8318/post/16852872",
           "purchase": "否",
           "points": 0,
@@ -23176,7 +23046,7 @@ window.DESTINY_DATA = {
         {
           "part": "7",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味7",
           "url": "https://www.postype.com/@yuwon8318/post/16857142",
           "purchase": "否",
           "points": 0,
@@ -23186,7 +23056,7 @@ window.DESTINY_DATA = {
         {
           "part": "8",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味8",
           "url": "https://www.postype.com/@yuwon8318/post/16867852",
           "purchase": "否",
           "points": 0,
@@ -23196,7 +23066,7 @@ window.DESTINY_DATA = {
         {
           "part": "9",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味9",
           "url": "https://www.postype.com/@yuwon8318/post/16879003",
           "purchase": "是",
           "points": 500,
@@ -23206,7 +23076,7 @@ window.DESTINY_DATA = {
         {
           "part": "10",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味10",
           "url": "https://www.postype.com/@yuwon8318/post/16881518",
           "purchase": "否",
           "points": 0,
@@ -23216,7 +23086,7 @@ window.DESTINY_DATA = {
         {
           "part": "11",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味11",
           "url": "https://www.postype.com/@yuwon8318/post/16886841",
           "purchase": "是",
           "points": 500,
@@ -23226,7 +23096,7 @@ window.DESTINY_DATA = {
         {
           "part": "12",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味12",
           "url": "https://www.postype.com/@yuwon8318/post/16909632",
           "purchase": "否",
           "points": 0,
@@ -23236,7 +23106,7 @@ window.DESTINY_DATA = {
         {
           "part": "13",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味13",
           "url": "https://www.postype.com/@yuwon8318/post/16915157",
           "purchase": "否",
           "points": 0,
@@ -23246,7 +23116,7 @@ window.DESTINY_DATA = {
         {
           "part": "14",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味14",
           "url": "https://www.postype.com/@yuwon8318/post/16920512",
           "purchase": "否",
           "points": 0,
@@ -23256,7 +23126,7 @@ window.DESTINY_DATA = {
         {
           "part": "15",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味15",
           "url": "https://www.postype.com/@yuwon8318/post/16927250",
           "purchase": "否",
           "points": 0,
@@ -23266,7 +23136,7 @@ window.DESTINY_DATA = {
         {
           "part": "16",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味16",
           "url": "https://www.postype.com/@yuwon8318/post/16935016",
           "purchase": "否",
           "points": 0,
@@ -23276,7 +23146,7 @@ window.DESTINY_DATA = {
         {
           "part": "17",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味17",
           "url": "https://www.postype.com/@yuwon8318/post/16940803",
           "purchase": "是",
           "points": 500,
@@ -23286,7 +23156,7 @@ window.DESTINY_DATA = {
         {
           "part": "18",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味18",
           "url": "https://www.postype.com/@yuwon8318/post/16945006",
           "purchase": "否",
           "points": 0,
@@ -23296,7 +23166,7 @@ window.DESTINY_DATA = {
         {
           "part": "19",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味19",
           "url": "https://www.postype.com/@yuwon8318/post/16958144",
           "purchase": "否",
           "points": 0,
@@ -23304,23 +23174,13 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "17 clean ver",
+          "part": "20",
           "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
-          "url": "https://www.postype.com/@yuwon8318/post/16970989",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "20 完",
-          "ko": "커피가 예쁘고 알바생이 맛있어요",
-          "zh": "咖啡夫妻S1-咖啡很迷人，店員也很美味",
+          "zh": "咖啡很迷人，店員也很美味20",
           "url": "https://www.postype.com/@yuwon8318/post/16962960",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         }
       ],
@@ -23396,12 +23256,12 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 1500,
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 1500,
       "maxPoints": 500,
       "sourceRow": 114,
-      "searchText": "💰 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 진심（真心） 安：百貨公司社長\n員：咖啡廳兼職 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 妻妻 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 題材梗: 育兒 文章狀態: 已完結 咖啡夫妻s1-咖啡很迷人，店員也很美味 1 咖啡夫妻s1-咖啡很迷人，店員也很美味 2 咖啡夫妻s1-咖啡很迷人，店員也很美味 3 咖啡夫妻s1-咖啡很迷人，店員也很美味 4 咖啡夫妻s1-咖啡很迷人，店員也很美味 5 咖啡夫妻s1-咖啡很迷人，店員也很美味 6 咖啡夫妻s1-咖啡很迷人，店員也很美味 7 咖啡夫妻s1-咖啡很迷人，店員也很美味 8 咖啡夫妻s1-咖啡很迷人，店員也很美味 9 咖啡夫妻s1-咖啡很迷人，店員也很美味 10 咖啡夫妻s1-咖啡很迷人，店員也很美味 11 咖啡夫妻s1-咖啡很迷人，店員也很美味 12 咖啡夫妻s1-咖啡很迷人，店員也很美味 13 咖啡夫妻s1-咖啡很迷人，店員也很美味 14 咖啡夫妻s1-咖啡很迷人，店員也很美味 15 咖啡夫妻s1-咖啡很迷人，店員也很美味 16 咖啡夫妻s1-咖啡很迷人，店員也很美味 17 咖啡夫妻s1-咖啡很迷人，店員也很美味 18 咖啡夫妻s1-咖啡很迷人，店員也很美味 19 咖啡夫妻s1-咖啡很迷人，店員也很美味 17 clean ver 咖啡夫妻s1-咖啡很迷人，店員也很美味 20 完"
+      "searchText": "💰 咖啡夫妻s1-咖啡很迷人，店員也很美味 커피가 예쁘고 알바생이 맛있어요 진심（真心） 安：百貨公司社長\n員：咖啡廳兼職 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 情感梗: 妻妻 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 題材梗: 孕期 題材梗: 育兒 文章狀態: 已完結 咖啡很迷人，店員也很美味1 1 咖啡很迷人，店員也很美味2 2 咖啡很迷人，店員也很美味3 3 咖啡很迷人，店員也很美味4 4 咖啡很迷人，店員也很美味5 5 咖啡很迷人，店員也很美味6 6 咖啡很迷人，店員也很美味7 7 咖啡很迷人，店員也很美味8 8 咖啡很迷人，店員也很美味9 9 咖啡很迷人，店員也很美味10 10 咖啡很迷人，店員也很美味11 11 咖啡很迷人，店員也很美味12 12 咖啡很迷人，店員也很美味13 13 咖啡很迷人，店員也很美味14 14 咖啡很迷人，店員也很美味15 15 咖啡很迷人，店員也很美味16 16 咖啡很迷人，店員也很美味17 17 咖啡很迷人，店員也很美味18 18 咖啡很迷人，店員也很美味19 19 咖啡很迷人，店員也很美味20 20"
     },
     {
       "id": "P0255",
@@ -23413,7 +23273,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感1",
           "url": "https://www.postype.com/@yuwon8318/post/17284602",
           "purchase": "否",
           "points": 0,
@@ -23423,7 +23283,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感2",
           "url": "https://www.postype.com/@yuwon8318/post/17302479",
           "purchase": "否",
           "points": 0,
@@ -23433,7 +23293,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感3",
           "url": "https://www.postype.com/@yuwon8318/post/17315783",
           "purchase": "否",
           "points": 0,
@@ -23443,7 +23303,7 @@ window.DESTINY_DATA = {
         {
           "part": "4",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感4",
           "url": "https://www.postype.com/@yuwon8318/post/17325618",
           "purchase": "是",
           "points": 500,
@@ -23453,7 +23313,7 @@ window.DESTINY_DATA = {
         {
           "part": "5",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感5",
           "url": "https://www.postype.com/@yuwon8318/post/17337290",
           "purchase": "否",
           "points": 0,
@@ -23463,7 +23323,7 @@ window.DESTINY_DATA = {
         {
           "part": "6",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感6",
           "url": "https://www.postype.com/@yuwon8318/post/17347956",
           "purchase": "否",
           "points": 0,
@@ -23473,7 +23333,7 @@ window.DESTINY_DATA = {
         {
           "part": "7",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感7",
           "url": "https://www.postype.com/@yuwon8318/post/17416714",
           "purchase": "否",
           "points": 0,
@@ -23483,7 +23343,7 @@ window.DESTINY_DATA = {
         {
           "part": "8",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感8",
           "url": "https://www.postype.com/@yuwon8318/post/17433250",
           "purchase": "是",
           "points": 500,
@@ -23493,7 +23353,7 @@ window.DESTINY_DATA = {
         {
           "part": "9",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感9",
           "url": "https://www.postype.com/@yuwon8318/post/17444683",
           "purchase": "否",
           "points": 0,
@@ -23503,7 +23363,7 @@ window.DESTINY_DATA = {
         {
           "part": "10",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感10",
           "url": "https://www.postype.com/@yuwon8318/post/17454308",
           "purchase": "否",
           "points": 0,
@@ -23513,7 +23373,7 @@ window.DESTINY_DATA = {
         {
           "part": "11",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感11",
           "url": "https://www.postype.com/@yuwon8318/post/17465256",
           "purchase": "否",
           "points": 0,
@@ -23523,7 +23383,7 @@ window.DESTINY_DATA = {
         {
           "part": "12",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感12",
           "url": "https://www.postype.com/@yuwon8318/post/17480941",
           "purchase": "否",
           "points": 0,
@@ -23533,7 +23393,7 @@ window.DESTINY_DATA = {
         {
           "part": "13",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感13",
           "url": "https://www.postype.com/@yuwon8318/post/17494527",
           "purchase": "是",
           "points": 500,
@@ -23543,7 +23403,7 @@ window.DESTINY_DATA = {
         {
           "part": "14",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感14",
           "url": "https://www.postype.com/@yuwon8318/post/17504732",
           "purchase": "否",
           "points": 0,
@@ -23553,7 +23413,7 @@ window.DESTINY_DATA = {
         {
           "part": "15",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感15",
           "url": "https://www.postype.com/@yuwon8318/post/17536529",
           "purchase": "否",
           "points": 0,
@@ -23563,7 +23423,7 @@ window.DESTINY_DATA = {
         {
           "part": "16",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感16",
           "url": "https://www.postype.com/@yuwon8318/post/17555538",
           "purchase": "是",
           "points": 500,
@@ -23571,13 +23431,13 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "17 完",
+          "part": "17",
           "ko": "딸내미들이 귀엽고 와이프가 섹시해요",
-          "zh": "咖啡夫妻S2-我的女兒很漂亮 妻子很性感",
+          "zh": "我的女兒們很可愛 我的妻子很性感17",
           "url": "https://www.postype.com/@yuwon8318/post/17581219",
-          "purchase": "否",
-          "points": 0,
-          "purchaseLabel": "",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
           "thumbCategories": []
         },
         {
@@ -23614,12 +23474,12 @@ window.DESTINY_DATA = {
       ],
       "thumbCategories": [],
       "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 5000,
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
       "knownPoints": 5000,
       "maxPoints": 2000,
       "sourceRow": 133,
-      "searchText": "咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 진심（真心）  文章狀態: 已完結 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 1 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 2 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 3 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 4 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 5 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 6 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 7 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 8 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 9 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 10 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 11 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 12 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 13 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 14 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 15 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 16 咖啡夫妻s2-我的女兒很漂亮 妻子很性感 17 完 咖啡夫妻s2番外-馬爾地夫篇 單集 咖啡夫妻s2番外-為誰而辦的聖誕活動 單集"
+      "searchText": "咖啡夫妻s2-我的女兒很漂亮 妻子很性感 딸내미들이 귀엽고 와이프가 섹시해요 진심（真心）  文章狀態: 已完結 我的女兒們很可愛 我的妻子很性感1 1 我的女兒們很可愛 我的妻子很性感2 2 我的女兒們很可愛 我的妻子很性感3 3 我的女兒們很可愛 我的妻子很性感4 4 我的女兒們很可愛 我的妻子很性感5 5 我的女兒們很可愛 我的妻子很性感6 6 我的女兒們很可愛 我的妻子很性感7 7 我的女兒們很可愛 我的妻子很性感8 8 我的女兒們很可愛 我的妻子很性感9 9 我的女兒們很可愛 我的妻子很性感10 10 我的女兒們很可愛 我的妻子很性感11 11 我的女兒們很可愛 我的妻子很性感12 12 我的女兒們很可愛 我的妻子很性感13 13 我的女兒們很可愛 我的妻子很性感14 14 我的女兒們很可愛 我的妻子很性感15 15 我的女兒們很可愛 我的妻子很性感16 16 我的女兒們很可愛 我的妻子很性感17 17 咖啡夫妻s2番外-馬爾地夫篇 單集 咖啡夫妻s2番外-為誰而辦的聖誕活動 單集"
     },
     {
       "id": "P0253",
@@ -23631,7 +23491,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理1",
           "url": "https://www.postype.com/@yuwon8318/post/15855616",
           "purchase": "否",
           "points": 0,
@@ -23641,7 +23501,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理2",
           "url": "https://www.postype.com/@yuwon8318/post/15890744",
           "purchase": "否",
           "points": 0,
@@ -23651,7 +23511,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理3",
           "url": "https://www.postype.com/@yuwon8318/post/15902557",
           "purchase": "否",
           "points": 0,
@@ -23661,7 +23521,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理4",
           "url": "https://www.postype.com/@yuwon8318/post/15927722",
           "purchase": "否",
           "points": 0,
@@ -23671,7 +23531,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP5",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理5",
           "url": "https://www.postype.com/@yuwon8318/post/15958073",
           "purchase": "否",
           "points": 0,
@@ -23681,7 +23541,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP6",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理6",
           "url": "https://www.postype.com/@yuwon8318/post/15992227",
           "purchase": "否",
           "points": 0,
@@ -23691,7 +23551,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP7",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理7",
           "url": "https://www.postype.com/@yuwon8318/post/16022174",
           "purchase": "否",
           "points": 0,
@@ -23701,7 +23561,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP8",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理8",
           "url": "https://www.postype.com/@yuwon8318/post/16022391",
           "purchase": "否",
           "points": 0,
@@ -23711,7 +23571,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP9",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理9",
           "url": "https://www.postype.com/@yuwon8318/post/16023467",
           "purchase": "是",
           "points": 500,
@@ -23719,22 +23579,12 @@ window.DESTINY_DATA = {
           "thumbCategories": []
         },
         {
-          "part": "10 完",
+          "part": "EP10",
           "ko": "호텔리어",
-          "zh": "飯店經理",
+          "zh": "飯店經理10",
           "url": "https://www.postype.com/@yuwon8318/post/16023469",
           "purchase": "是",
           "points": 500,
-          "purchaseLabel": "",
-          "thumbCategories": []
-        },
-        {
-          "part": "10 clean ver",
-          "ko": "호텔리어",
-          "zh": "飯店經理",
-          "url": "https://www.postype.com/@yuwon8318/post/16023479",
-          "purchase": "否",
-          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": []
         }
@@ -23801,7 +23651,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 500,
       "sourceRow": 93,
-      "searchText": "💰 飯店經理 호텔리어 진심（真心） 安：專務 / 員：財閥公主 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 復仇 文章狀態: 已完結 飯店經理 ep1 飯店經理 ep2 飯店經理 ep3 飯店經理 ep4 飯店經理 ep5 飯店經理 ep6 飯店經理 ep7 飯店經理 ep8 飯店經理 ep9 飯店經理 10 完 飯店經理 10 clean ver"
+      "searchText": "💰 飯店經理 호텔리어 진심（真心） 安：專務 / 員：財閥公主 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 題材梗: 復仇 文章狀態: 已完結 飯店經理1 ep1 飯店經理2 ep2 飯店經理3 ep3 飯店經理4 ep4 飯店經理5 ep5 飯店經理6 ep6 飯店經理7 ep7 飯店經理8 ep8 飯店經理9 ep9 飯店經理10 ep10"
     },
     {
       "id": "P0112",
@@ -24415,83 +24265,6 @@ window.DESTINY_DATA = {
       "searchText": "非正常觀察報告書 비정상 관찰 보고서 꿀구마（蜜地瓜） 安：高中生 / 員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 非正常觀察報告書 單集 非正常現象報告書（非正常觀察報告書 外傳） 外傳"
     },
     {
-      "id": "P0128",
-      "author": "삼사（三司）",
-      "zh": "OH! VICKY! YOU BLOW MY MIND!（下）",
-      "ko": "OH! VICKY! YOU BLOW MY MIND!（下）",
-      "roles": "安：上班族\n員：上班族",
-      "items": [
-        {
-          "part": "下集",
-          "ko": "OH! VICKY! YOU BLOW MY MIND! 下",
-          "zh": "OH! VICKY! YOU BLOW MY MIND!（下）",
-          "url": "https://www.postype.com/@xi3ad4wl671x/post/7450035",
-          "purchase": "是",
-          "points": 1500,
-          "purchaseLabel": "",
-          "thumbCategories": [
-            "蓋瑞推薦"
-          ]
-        }
-      ],
-      "tagGroups": [
-        {
-          "type": "分級",
-          "values": [
-            "💰付費內容"
-          ]
-        },
-        {
-          "type": "文章篇幅",
-          "values": [
-            "長篇"
-          ]
-        },
-        {
-          "type": "文章類型",
-          "values": [
-            "都市現實"
-          ]
-        },
-        {
-          "type": "結局",
-          "values": [
-            "HE"
-          ]
-        },
-        {
-          "type": "背景設定",
-          "values": [
-            "辦公室"
-          ]
-        },
-        {
-          "type": "文章狀態",
-          "values": [
-            "已完結"
-          ]
-        }
-      ],
-      "flatTags": [
-        "分級: 💰付費內容",
-        "文章篇幅: 長篇",
-        "文章類型: 都市現實",
-        "結局: HE",
-        "背景設定: 辦公室",
-        "文章狀態: 已完結"
-      ],
-      "thumbCategories": [
-        "蓋瑞推薦"
-      ],
-      "purchase": "是",
-      "purchaseLabel": "",
-      "totalPoints": 1500,
-      "knownPoints": 1500,
-      "maxPoints": 1500,
-      "sourceRow": 325,
-      "searchText": "💰 oh! vicky! you blow my mind!（下） oh! vicky! you blow my mind!（下） 삼사（三司） 安：上班族\n員：上班族 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 oh! vicky! you blow my mind!（下） 下集"
-    },
-    {
       "id": "P0110",
       "author": "달걀（雞蛋）",
       "zh": "麗水的夜海",
@@ -24573,17 +24346,41 @@ window.DESTINY_DATA = {
     {
       "id": "P0127",
       "author": "삼사（三司）",
-      "zh": "OH! VICKY! YOU BLOW MY MIND!（上）",
-      "ko": "OH! VICKY! YOU BLOW MY MIND!（上）",
+      "zh": "OH! VICKY! YOU BLOW MY MIND!",
+      "ko": "OH! VICKY! YOU BLOW MY MIND!",
       "roles": "安：上班族\n員：上班族",
       "items": [
         {
-          "part": "上集",
+          "part": "1",
           "ko": "OH! VICKY! YOU BLOW MY MIND! 上",
           "zh": "OH! VICKY! YOU BLOW MY MIND!（上）",
           "url": "https://www.postype.com/@xi3ad4wl671x/post/7368666",
           "purchase": "是",
           "points": 1500,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "蓋瑞推薦"
+          ]
+        },
+        {
+          "part": "2",
+          "ko": "OH! VICKY! YOU BLOW MY MIND!",
+          "zh": "OH! VICKY! YOU BLOW MY MIND!-下集",
+          "url": "https://www.postype.com/zh-hant/@xi3ad4wl671x/post/7450035",
+          "purchase": "是",
+          "points": 1500,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "蓋瑞推薦"
+          ]
+        },
+        {
+          "part": "3",
+          "ko": "OH! VICKY! YOU BLOW MY MIND!",
+          "zh": "ARE YOU THERE，EUGENE？（OH! VICKY! YOU BLOW MY MIND!外傳）",
+          "url": "https://www.postype.com/zh-hant/@xi3ad4wl671x/post/7560468?show-original=true",
+          "purchase": "是",
+          "points": 1000,
           "purchaseLabel": "",
           "thumbCategories": [
             "蓋瑞推薦"
@@ -24641,11 +24438,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 1500,
-      "knownPoints": 1500,
+      "totalPoints": 4000,
+      "knownPoints": 4000,
       "maxPoints": 1500,
       "sourceRow": 324,
-      "searchText": "💰 oh! vicky! you blow my mind!（上） oh! vicky! you blow my mind!（上） 삼사（三司） 安：上班族\n員：上班族 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 oh! vicky! you blow my mind!（上） 上集"
+      "searchText": "💰 oh! vicky! you blow my mind! oh! vicky! you blow my mind! 삼사（三司） 安：上班族\n員：上班族 分級: 💰付費內容 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 oh! vicky! you blow my mind!（上） 1 oh! vicky! you blow my mind!-下集 2 are you there，eugene？（oh! vicky! you blow my mind!外傳） 3"
     },
     {
       "id": "P0121",
@@ -24655,9 +24452,9 @@ window.DESTINY_DATA = {
       "roles": "安：學生\n員：學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "친구들이 커퀴인게 죄",
-          "zh": "朋友們的戀愛腦罪",
+          "zh": "朋友的戀愛腦罪",
           "url": "https://www.postype.com/@cho-post/post/16934947",
           "purchase": "否",
           "points": 0,
@@ -24718,7 +24515,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 318,
-      "searchText": "朋友們的戀愛腦罪 친구들이 커퀴인게 죄 cho 安：學生\n員：學生 形式/性質: 第三人稱 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 朋友們的戀愛腦罪 閱讀"
+      "searchText": "朋友們的戀愛腦罪 친구들이 커퀴인게 죄 cho 安：學生\n員：學生 形式/性質: 第三人稱 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 朋友的戀愛腦罪 單集"
     },
     {
       "id": "P0125",
@@ -24801,7 +24598,7 @@ window.DESTINY_DATA = {
       "roles": "安：高中生\n員：高中生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "버스 타는 고딩",
           "zh": "搭公車的高中生",
           "url": "https://www.postype.com/@01--------9/post/15778627",
@@ -24857,7 +24654,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 320,
-      "searchText": "搭公車的高中生 버스 타는 고딩 굼（夢） 安：高中生\n員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 搭公車的高中生 閱讀"
+      "searchText": "搭公車的高中生 버스 타는 고딩 굼（夢） 安：高中生\n員：高中生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 搭公車的高中生 單集"
     },
     {
       "id": "P0122",
@@ -25085,7 +24882,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "너와 나 사이에1",
-          "zh": "你和我之間",
+          "zh": "妳和我之間1",
           "url": "https://www.postype.com/@pactory/post/17945720",
           "purchase": "是",
           "points": 1000,
@@ -25095,7 +24892,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "너와 나 사이에 2",
-          "zh": "你和我之間",
+          "zh": "妳和我之間2",
           "url": "https://www.postype.com/@pactory/post/17949340",
           "purchase": "是",
           "points": 1000,
@@ -25105,7 +24902,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "너와 나 사이에 3(完)",
-          "zh": "你和我之間",
+          "zh": "妳和我之間3",
           "url": "https://www.postype.com/@pactory/post/17969810",
           "purchase": "是",
           "points": 1000,
@@ -25123,9 +24920,15 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -25167,9 +24970,10 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
+        "標籤: 謹慎閱讀",
         "情感梗: 青梅",
         "文章篇幅: 長篇",
         "文章類型: 都市現實",
@@ -25184,7 +24988,7 @@ window.DESTINY_DATA = {
       "knownPoints": 3000,
       "maxPoints": 1000,
       "sourceRow": 193,
-      "searchText": "💰 你和我之間 너와 나 사이에 별빛（星光） 安：精神健康科醫師\n員：出版社員工 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 青梅 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: futa 文章狀態: 已完結 你和我之間 1 你和我之間 2 你和我之間 3"
+      "searchText": "💰 你和我之間 너와 나 사이에 별빛（星光） 安：精神健康科醫師\n員：出版社員工 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 標籤: 謹慎閱讀 情感梗: 青梅 文章篇幅: 長篇 文章類型: 都市現實 結局: he 類型世界觀: futa 文章狀態: 已完結 妳和我之間1 1 妳和我之間2 2 妳和我之間3 3"
     },
     {
       "id": "P0284",
@@ -25742,7 +25546,7 @@ window.DESTINY_DATA = {
         {
           "part": "01",
           "ko": "SAFE XXX",
-          "zh": "SAFE XXX",
+          "zh": "01 SAFE XXX",
           "url": "https://www.postype.com/@garden-han/post/15605460",
           "purchase": "是",
           "points": 1000,
@@ -25752,7 +25556,7 @@ window.DESTINY_DATA = {
         {
           "part": "02",
           "ko": "Triple XXX: after SAFE XXX",
-          "zh": "Triple XXX: after SAFE XXX",
+          "zh": "02 (續篇)Triple XXX",
           "url": "https://www.postype.com/@garden-han/post/17023637",
           "purchase": "是",
           "points": 1000,
@@ -25770,11 +25574,17 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車",
             "SM",
             "玩具"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -25804,11 +25614,12 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
         "分級: SM",
         "分級: 玩具",
+        "標籤: 謹慎閱讀",
         "文章篇幅: 中篇",
         "文章類型: 都市現實",
         "結局: HE",
@@ -25821,7 +25632,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2000,
       "maxPoints": 1000,
       "sourceRow": 202,
-      "searchText": "💰 triple xxx & safe xxx triple xxx & safe xxx 정한（淨漢） 安：藥師\n員：俱樂部老闆 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 safe xxx 01 triple xxx: after safe xxx 02"
+      "searchText": "💰 triple xxx & safe xxx triple xxx & safe xxx 정한（淨漢） 安：藥師\n員：俱樂部老闆 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: sm 分級: 玩具 標籤: 謹慎閱讀 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 01 safe xxx 01 02 (續篇)triple xxx 02"
     },
     {
       "id": "P0251",
@@ -25937,10 +25748,16 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車",
             "玩具"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -25970,10 +25787,11 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
         "分級: 玩具",
+        "標籤: 謹慎閱讀",
         "文章篇幅: 中篇",
         "文章類型: 都市現實",
         "結局: HE",
@@ -25986,7 +25804,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1500,
       "maxPoints": 1500,
       "sourceRow": 65,
-      "searchText": "💰 25局完封勝 25이닝 완봉승 진심（真心） 安：王牌投手 / 員：培訓師 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 25局完封勝 本篇"
+      "searchText": "💰 25局完封勝 25이닝 완봉승 진심（真心） 安：王牌投手 / 員：培訓師 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 標籤: 謹慎閱讀 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 25局完封勝 本篇"
     },
     {
       "id": "P0247",
@@ -25998,7 +25816,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP1",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花1",
           "url": "https://www.postype.com/@yuwon8318/post/16999325",
           "purchase": "否",
           "points": 0,
@@ -26008,7 +25826,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP2",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花2",
           "url": "https://www.postype.com/@yuwon8318/post/17004844",
           "purchase": "是",
           "points": 200,
@@ -26018,7 +25836,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP3",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花3",
           "url": "https://www.postype.com/@yuwon8318/post/17009836",
           "purchase": "否",
           "points": 0,
@@ -26028,7 +25846,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP4",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花4",
           "url": "https://www.postype.com/@yuwon8318/post/17015504",
           "purchase": "否",
           "points": 0,
@@ -26038,7 +25856,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP5",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花5",
           "url": "https://www.postype.com/@yuwon8318/post/17018356",
           "purchase": "是",
           "points": 200,
@@ -26048,7 +25866,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP6",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花6",
           "url": "https://www.postype.com/@yuwon8318/post/17031768",
           "purchase": "是",
           "points": 500,
@@ -26058,7 +25876,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP7",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花7",
           "url": "https://www.postype.com/@yuwon8318/post/17034141",
           "purchase": "是",
           "points": 500,
@@ -26068,7 +25886,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP8",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花8",
           "url": "https://www.postype.com/@yuwon8318/post/17043326",
           "purchase": "否",
           "points": 0,
@@ -26078,7 +25896,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP9",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花9",
           "url": "https://www.postype.com/@yuwon8318/post/17049395",
           "purchase": "否",
           "points": 0,
@@ -26088,7 +25906,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP10",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花10",
           "url": "https://www.postype.com/@yuwon8318/post/17056710",
           "purchase": "是",
           "points": 700,
@@ -26098,7 +25916,7 @@ window.DESTINY_DATA = {
         {
           "part": "EP11",
           "ko": "우(雨)중에 피어난 꽃",
-          "zh": "雨中盛開的花",
+          "zh": "雨中盛開的花11(完)",
           "url": "https://www.postype.com/@yuwon8318/post/17063796",
           "purchase": "否",
           "points": 0,
@@ -26175,7 +25993,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2100,
       "maxPoints": 700,
       "sourceRow": 76,
-      "searchText": "💰 雨中盛開的花 우(雨)중에 피어난 꽃 진심（真心） 安：世子/殿下 / 員：侍女/中殿 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 類型世界觀: abo 文章狀態: 已完結 雨中盛開的花 ep1 雨中盛開的花 ep2 雨中盛開的花 ep3 雨中盛開的花 ep4 雨中盛開的花 ep5 雨中盛開的花 ep6 雨中盛開的花 ep7 雨中盛開的花 ep8 雨中盛開的花 ep9 雨中盛開的花 ep10 雨中盛開的花 ep11"
+      "searchText": "💰 雨中盛開的花 우(雨)중에 피어난 꽃 진심（真心） 安：世子/殿下 / 員：侍女/中殿 cp配對: 安/員 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 長篇 文章類型: 東方幻想 結局: he 背景設定: 宮廷/皇室 類型世界觀: abo 文章狀態: 已完結 雨中盛開的花1 ep1 雨中盛開的花2 ep2 雨中盛開的花3 ep3 雨中盛開的花4 ep4 雨中盛開的花5 ep5 雨中盛開的花6 ep6 雨中盛開的花7 ep7 雨中盛開的花8 ep8 雨中盛開的花9 ep9 雨中盛開的花10 ep10 雨中盛開的花11(完) ep11"
     },
     {
       "id": "P0250",
@@ -26375,14 +26193,14 @@ window.DESTINY_DATA = {
     {
       "id": "P0099",
       "author": "달걀（雞蛋）",
-      "zh": "道德老師（含前傳）",
+      "zh": "道德老師 全系列",
       "ko": "도덕 선생님",
       "roles": "安：高中復讀生\n員：高中道德老師",
       "items": [
         {
           "part": "上",
           "ko": "도덕 선생님",
-          "zh": "道德老師",
+          "zh": "01 道德老師 （上）",
           "url": "https://www.postype.com/@eeggdanzii/post/17561462",
           "purchase": "是",
           "points": 500,
@@ -26394,7 +26212,7 @@ window.DESTINY_DATA = {
         {
           "part": "中",
           "ko": "도덕 선생님",
-          "zh": "道德老師",
+          "zh": "02 道德老師 （中）",
           "url": "https://www.postype.com/@eeggdanzii/post/17570114",
           "purchase": "是",
           "points": 500,
@@ -26406,7 +26224,7 @@ window.DESTINY_DATA = {
         {
           "part": "下",
           "ko": "도덕 선생님",
-          "zh": "道德老師",
+          "zh": "03 道德老師 （下）",
           "url": "https://www.postype.com/@eeggdanzii/post/17579906",
           "purchase": "是",
           "points": 500,
@@ -26418,7 +26236,7 @@ window.DESTINY_DATA = {
         {
           "part": "前傳",
           "ko": "비 도덕적 관계: 도덕 선생님 프리퀄",
-          "zh": "非道德關係：道德老師前傳",
+          "zh": "04 非道德關係：道德老師前傳",
           "url": "https://www.postype.com/@eeggdanzii/post/17763364",
           "purchase": "是",
           "points": 700,
@@ -26430,7 +26248,7 @@ window.DESTINY_DATA = {
         {
           "part": "外傳",
           "ko": "크리스마스 소원은 : 도덕 선생님 외전",
-          "zh": "聖誕節願望：道德老師外傳",
+          "zh": "05 聖誕節願望：道德老師外傳",
           "url": "https://www.postype.com/@eeggdanzii/post/18161132",
           "purchase": "是",
           "points": 700,
@@ -26450,9 +26268,15 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -26489,9 +26313,10 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
+        "標籤: 謹慎閱讀",
         "情感梗: 年齡差",
         "情感梗: 逆年齡",
         "文章篇幅: 中篇",
@@ -26508,7 +26333,7 @@ window.DESTINY_DATA = {
       "knownPoints": 2900,
       "maxPoints": 700,
       "sourceRow": 286,
-      "searchText": "💰 道德老師（含前傳） 도덕 선생님 달걀（雞蛋） 安：高中復讀生\n員：高中道德老師 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 情感梗: 年齡差 情感梗: 逆年齡 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 道德老師 上 道德老師 中 道德老師 下 非道德關係：道德老師前傳 前傳 聖誕節願望：道德老師外傳 外傳"
+      "searchText": "💰 道德老師 全系列 도덕 선생님 달걀（雞蛋） 安：高中復讀生\n員：高中道德老師 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 標籤: 謹慎閱讀 情感梗: 年齡差 情感梗: 逆年齡 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 01 道德老師 （上） 上 02 道德老師 （中） 中 03 道德老師 （下） 下 04 非道德關係：道德老師前傳 前傳 05 聖誕節願望：道德老師外傳 外傳"
     },
     {
       "id": "P0106",
@@ -26518,9 +26343,9 @@ window.DESTINY_DATA = {
       "roles": "安：開發組組長\n員：CS組組長",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "오피스 와이프",
-          "zh": "辦公室妻子",
+          "zh": "辦公室妻子 上",
           "url": "https://www.postype.com/@eeggdanzii/post/16232897",
           "purchase": "是",
           "points": 500,
@@ -26530,9 +26355,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "오피스 와이프",
-          "zh": "辦公室妻子",
+          "zh": "辦公室妻子 中",
           "url": "https://www.postype.com/@eeggdanzii/post/16240693",
           "purchase": "是",
           "points": 500,
@@ -26542,9 +26367,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "오피스 와이프",
-          "zh": "辦公室妻子",
+          "zh": "辦公室妻子 下",
           "url": "https://www.postype.com/zh-hant/@eeggdanzii/post/16252088",
           "purchase": "是",
           "points": 500,
@@ -26564,9 +26389,15 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -26602,9 +26433,10 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
+        "標籤: 謹慎閱讀",
         "文章篇幅: 中篇",
         "文章類型: 都市現實",
         "結局: HE",
@@ -26620,7 +26452,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1500,
       "maxPoints": 500,
       "sourceRow": 299,
-      "searchText": "💰 辦公室妻子 오피스 와이프 달걀（雞蛋） 安：開發組組長\n員：cs組組長 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 辦公室妻子 上 辦公室妻子 中 辦公室妻子 下"
+      "searchText": "💰 辦公室妻子 오피스 와이프 달걀（雞蛋） 安：開發組組長\n員：cs組組長 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 標籤: 謹慎閱讀 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 辦公室妻子 上 1 辦公室妻子 中 2 辦公室妻子 下 3"
     },
     {
       "id": "P0107",
@@ -26630,9 +26462,9 @@ window.DESTINY_DATA = {
       "roles": "安：學生\n員：學生",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "명절에만 보는 사이",
-          "zh": "逢年過節才見面的關係",
+          "zh": "逢年過節才見面的關係 上",
           "url": "https://www.postype.com/@eeggdanzii/post/17597997",
           "purchase": "否",
           "points": 0,
@@ -26642,9 +26474,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "명절에만 보는 사이",
-          "zh": "逢年過節才見面的關係",
+          "zh": "逢年過節才見面的關係 下",
           "url": "https://www.postype.com/@eeggdanzii/post/17600677",
           "purchase": "否",
           "points": 0,
@@ -26702,7 +26534,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 301,
-      "searchText": "逢年過節才見面的關係 명절에만 보는 사이 달걀（雞蛋） 安：學生\n員：學生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 逢年過節才見面的關係 上 逢年過節才見面的關係 下"
+      "searchText": "逢年過節才見面的關係 명절에만 보는 사이 달걀（雞蛋） 安：學生\n員：學生 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 逢年過節才見面的關係 上 1 逢年過節才見面的關係 下 2"
     },
     {
       "id": "P0118",
@@ -26712,9 +26544,9 @@ window.DESTINY_DATA = {
       "roles": "安：開發組組長\n員：CS組組長",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "시크릿 와이프 上 : 오피스 와이프 외전",
-          "zh": "秘密妻子（辦公室妻子外傳）",
+          "zh": "秘密妻子 上：辦公室妻子外傳",
           "url": "https://www.postype.com/@eeggdanzii/post/17808351",
           "purchase": "是",
           "points": 500,
@@ -26724,9 +26556,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "시크릿 와이프 中 : 오피스 와이프 외전",
-          "zh": "秘密妻子（辦公室妻子外傳）",
+          "zh": "秘密妻子 中：辦公室妻子外傳",
           "url": "https://www.postype.com/@eeggdanzii/post/17968294",
           "purchase": "是",
           "points": 500,
@@ -26736,9 +26568,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "시크릿 와이프 下 : 오피스 와이프 외전",
-          "zh": "秘密妻子（辦公室妻子外傳）",
+          "zh": "秘密妻子 下：辦公室妻子外傳",
           "url": "https://www.postype.com/@eeggdanzii/post/17981471",
           "purchase": "是",
           "points": 500,
@@ -26758,9 +26590,15 @@ window.DESTINY_DATA = {
         {
           "type": "分級",
           "values": [
-            "尺度大、謹慎閱讀",
+            "尺度大",
             "💰付費內容",
             "🏎️賽車"
+          ]
+        },
+        {
+          "type": "標籤",
+          "values": [
+            "謹慎閱讀"
           ]
         },
         {
@@ -26796,9 +26634,10 @@ window.DESTINY_DATA = {
       ],
       "flatTags": [
         "CP配對: 安/員",
-        "分級: 尺度大、謹慎閱讀",
+        "分級: 尺度大",
         "分級: 💰付費內容",
         "分級: 🏎️賽車",
+        "標籤: 謹慎閱讀",
         "文章篇幅: 中篇",
         "文章類型: 都市現實",
         "結局: HE",
@@ -26814,7 +26653,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1500,
       "maxPoints": 500,
       "sourceRow": 315,
-      "searchText": "💰 秘密妻子（辦公室妻子外傳） 시크릿 와이프（오피스 와이프 외전） 달걀（雞蛋） 安：開發組組長\n員：cs組組長 cp配對: 安/員 分級: 尺度大、謹慎閱讀 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 秘密妻子（辦公室妻子外傳） 上 秘密妻子（辦公室妻子外傳） 中 秘密妻子（辦公室妻子外傳） 下"
+      "searchText": "💰 秘密妻子（辦公室妻子外傳） 시크릿 와이프（오피스 와이프 외전） 달걀（雞蛋） 安：開發組組長\n員：cs組組長 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 標籤: 謹慎閱讀 文章篇幅: 中篇 文章類型: 都市現實 結局: he 背景設定: 辦公室 文章狀態: 已完結 秘密妻子 上：辦公室妻子外傳 1 秘密妻子 中：辦公室妻子外傳 2 秘密妻子 下：辦公室妻子外傳 3"
     },
     {
       "id": "P0095",
@@ -26907,7 +26746,7 @@ window.DESTINY_DATA = {
         {
           "part": "1",
           "ko": "여배우 매니저로 살아남기 1",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-1",
           "url": "https://www.postype.com/@eeggdanzii/post/16205171",
           "purchase": "否",
           "points": 0,
@@ -26919,7 +26758,7 @@ window.DESTINY_DATA = {
         {
           "part": "2",
           "ko": "여배우 매니저로 살아남기 2",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-2",
           "url": "https://www.postype.com/@eeggdanzii/post/16209292",
           "purchase": "否",
           "points": 0,
@@ -26931,7 +26770,7 @@ window.DESTINY_DATA = {
         {
           "part": "3",
           "ko": "여배우 매니저로 살아남기 3",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-3",
           "url": "https://www.postype.com/@eeggdanzii/post/16210866",
           "purchase": "否",
           "points": 0,
@@ -26943,7 +26782,7 @@ window.DESTINY_DATA = {
         {
           "part": "4",
           "ko": "여배우 매니저로 살아남기 4",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-4",
           "url": "https://www.postype.com/@eeggdanzii/post/16270827",
           "purchase": "否",
           "points": 0,
@@ -26955,7 +26794,7 @@ window.DESTINY_DATA = {
         {
           "part": "5",
           "ko": "여배우 매니저로 살아남기 5",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-5",
           "url": "https://www.postype.com/@eeggdanzii/post/16300108",
           "purchase": "否",
           "points": 0,
@@ -26967,7 +26806,7 @@ window.DESTINY_DATA = {
         {
           "part": "6",
           "ko": "여배우 매니저로 살아남기 6",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-6",
           "url": "https://www.postype.com/@eeggdanzii/post/16400612",
           "purchase": "是",
           "points": 500,
@@ -26979,7 +26818,7 @@ window.DESTINY_DATA = {
         {
           "part": "7",
           "ko": "여배우 매니저로 살아남기 7",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-7",
           "url": "https://www.postype.com/@eeggdanzii/post/16470537",
           "purchase": "否",
           "points": 0,
@@ -26991,7 +26830,7 @@ window.DESTINY_DATA = {
         {
           "part": "8",
           "ko": "여배우 매니저로 살아남기 8",
-          "zh": "作為女演員的經紀人生存下來",
+          "zh": "作為女演員的經紀人生存下來-8",
           "url": "https://www.postype.com/@eeggdanzii/post/16515894",
           "purchase": "否",
           "points": 0,
@@ -27044,7 +26883,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 279,
-      "searchText": "💰 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 달걀（雞蛋） 安：經紀人\n員：大勢演員 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章類型: 都市現實 文章狀態: 已完結 作為女演員的經紀人生存下來 1 作為女演員的經紀人生存下來 2 作為女演員的經紀人生存下來 3 作為女演員的經紀人生存下來 4 作為女演員的經紀人生存下來 5 作為女演員的經紀人生存下來 6 作為女演員的經紀人生存下來 7 作為女演員的經紀人生存下來 8"
+      "searchText": "💰 作為女演員的經紀人生存下來 여배우 매니저로 살아남기 달걀（雞蛋） 安：經紀人\n員：大勢演員 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 文章類型: 都市現實 文章狀態: 已完結 作為女演員的經紀人生存下來-1 1 作為女演員的經紀人生存下來-2 2 作為女演員的經紀人生存下來-3 3 作為女演員的經紀人生存下來-4 4 作為女演員的經紀人生存下來-5 5 作為女演員的經紀人生存下來-6 6 作為女演員的經紀人生存下來-7 7 作為女演員的經紀人生存下來-8 8"
     },
     {
       "id": "P0097",
@@ -27226,9 +27065,9 @@ window.DESTINY_DATA = {
       "roles": "安：高中生\n員：高中生",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "가방을 들어주세요",
-          "zh": "請幫我拿一下包包",
+          "zh": "請幫我拿一下包包-上",
           "url": "https://www.postype.com/@eeggdanzii/post/16196355",
           "purchase": "否",
           "points": 0,
@@ -27238,9 +27077,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "가방을 들어주세요",
-          "zh": "請幫我拿一下包包",
+          "zh": "請幫我拿一下包包-下",
           "url": "https://www.postype.com/@eeggdanzii/post/16202608",
           "purchase": "否",
           "points": 0,
@@ -27298,7 +27137,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 288,
-      "searchText": "請幫我拿一下包包 가방을 들어주세요 달걀（雞蛋） 安：高中生\n員：高中生 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 請幫我拿一下包包 上 請幫我拿一下包包 下"
+      "searchText": "請幫我拿一下包包 가방을 들어주세요 달걀（雞蛋） 安：高中生\n員：高中生 文章篇幅: 短篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 請幫我拿一下包包-上 1 請幫我拿一下包包-下 2"
     },
     {
       "id": "P0102",
@@ -27308,9 +27147,9 @@ window.DESTINY_DATA = {
       "roles": "安：大學生\n員：大學生",
       "items": [
         {
-          "part": "閱讀",
+          "part": "1",
           "ko": "슈뢰딩거의 그날 밤",
-          "zh": "薛丁格的那天晚上",
+          "zh": "薛丁格的那天晚上-上集",
           "url": "https://www.postype.com/@eeggdanzii/post/17002521",
           "purchase": "否",
           "points": 0,
@@ -27320,9 +27159,9 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "2",
           "ko": "슈뢰딩거의 그날 밤",
-          "zh": "薛丁格的那天晚上",
+          "zh": "薛丁格的那天晚上-下集",
           "url": "https://www.postype.com/@eeggdanzii/post/17006789",
           "purchase": "是",
           "points": 500,
@@ -27396,7 +27235,7 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 291,
-      "searchText": "💰 薛丁格的那天晚上 슈뢰딩거의 그날 밤 달걀（雞蛋） 安：大學生\n員：大學生 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 薛丁格的那天晚上 閱讀 薛丁格的那天晚上 下"
+      "searchText": "💰 薛丁格的那天晚上 슈뢰딩거의 그날 밤 달걀（雞蛋） 安：大學生\n員：大學生 cp配對: 安/員 分級: 💰付費內容 分級: 🚗轎車 情感梗: 青梅 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 薛丁格的那天晚上-上集 1 薛丁格的那天晚上-下集 2"
     },
     {
       "id": "P0103",
@@ -27491,12 +27330,12 @@ window.DESTINY_DATA = {
       "author": "고래（鯨魚）",
       "zh": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
       "ko": "너 말고 니 동생",
-      "roles": "",
+      "roles": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
       "items": [
         {
-          "part": "閱讀",
+          "part": "單集",
           "ko": "너 말고 니 동생",
-          "zh": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇）",
+          "zh": "不是你，是你妹妹",
           "url": "https://www.postype.com/@golae0831/post/16553863",
           "purchase": "否",
           "points": 0,
@@ -27522,7 +27361,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 29,
-      "searchText": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 너 말고 니 동생 고래（鯨魚）  文章狀態: 已完結 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 閱讀"
+      "searchText": "不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 너 말고 니 동생 고래（鯨魚） 不是你 是你妹妹（朴專家《不是你 是你姐姐》的愚人節衍生劇） 文章狀態: 已完結 不是你，是你妹妹 單集"
     },
     {
       "id": "P0114",
@@ -27783,7 +27622,7 @@ window.DESTINY_DATA = {
       "roles": "安：高中生 / 員：高中生",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "Lavender Haze 上",
           "zh": "Lavender Haze 上",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14327035",
@@ -27796,7 +27635,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中1",
+          "part": "2",
           "ko": "Lavender Haze 中 (1/2)",
           "zh": "Lavender Haze 中 1/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14334985",
@@ -27809,7 +27648,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中2",
+          "part": "3",
           "ko": "Lavender Haze 中 (2/2)",
           "zh": "Lavender Haze 中 2/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14373745",
@@ -27822,7 +27661,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下1",
+          "part": "4",
           "ko": "Lavender Haze 下 (1/2)",
           "zh": "Lavender Haze 下 1/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14426739",
@@ -27835,7 +27674,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下2",
+          "part": "5",
           "ko": "Lavender Haze 下 (2/2)",
           "zh": "Lavender Haze 下 2/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14439931",
@@ -27848,7 +27687,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳1",
+          "part": "6",
           "ko": "Lavender Haze 외전 (1/2)",
           "zh": "Lavender Haze 外傳 1/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14454542",
@@ -27861,7 +27700,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳2",
+          "part": "7",
           "ko": "Lavender Haze 외전 (2/2)",
           "zh": "Lavender Haze 外傳 2/2",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14628254",
@@ -27943,7 +27782,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 633,
-      "searchText": "lavender haze lavender haze 박프로（朴專家） 安：高中生 / 員：高中生 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 lavender haze 上 上 lavender haze 中 1/2 中1 lavender haze 中 2/2 中2 lavender haze 下 1/2 下1 lavender haze 下 2/2 下2 lavender haze 外傳 1/2 外傳1 lavender haze 外傳 2/2 外傳2"
+      "searchText": "lavender haze lavender haze 박프로（朴專家） 安：高中生 / 員：高中生 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: cp潔癖勿入 分級: 🚗轎車 文章篇幅: 長篇 文章類型: 都市現實 結局: he 背景設定: 校園 文章狀態: 已完結 lavender haze 上 1 lavender haze 中 1/2 2 lavender haze 中 2/2 3 lavender haze 下 1/2 4 lavender haze 下 2/2 5 lavender haze 外傳 1/2 6 lavender haze 外傳 2/2 7"
     },
     {
       "id": "P0388",
@@ -27953,7 +27792,7 @@ window.DESTINY_DATA = {
       "roles": "安：演員/歌手/電臺DJ / 員：深夜音樂節目主編導",
       "items": [
         {
-          "part": "上",
+          "part": "1",
           "ko": "서울의 잠 못 이루는 밤 上",
           "zh": "首爾不眠夜 上",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14081737",
@@ -27965,7 +27804,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "中",
+          "part": "2",
           "ko": "서울의 잠 못 이루는 밤 中",
           "zh": "首爾不眠夜 中",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14158199",
@@ -27977,7 +27816,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "下",
+          "part": "3",
           "ko": "서울의 잠 못 이루는 밤 下",
           "zh": "首爾不眠夜 下",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14207113",
@@ -27989,7 +27828,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳",
+          "part": "4",
           "ko": "서울의 잠 못 이루는 밤 외전",
           "zh": "首爾不眠夜 外傳",
           "url": "https://www.postype.com/zh-hant/@parkpro/post/14620259",
@@ -28056,7 +27895,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 626,
-      "searchText": "首爾不眠夜 서울의 잠 못 이루는 밤 박프로（朴專家） 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 首爾不眠夜 上 上 首爾不眠夜 中 中 首爾不眠夜 下 下 首爾不眠夜 外傳 外傳"
+      "searchText": "首爾不眠夜 서울의 잠 못 이루는 밤 박프로（朴專家） 安：演員/歌手/電臺dj / 員：深夜音樂節目主編導 cp配對: 安/員 分級: 🚗轎車 文章篇幅: 中篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 首爾不眠夜 上 1 首爾不眠夜 中 2 首爾不眠夜 下 3 首爾不眠夜 外傳 4"
     }
   ]
 };
