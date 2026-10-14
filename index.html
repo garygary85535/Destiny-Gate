@@ -1228,7 +1228,7 @@
     <div class="source-credit">
       實名感謝鳳梨，標籤分類參考資料庫：
       <a href="https://yashen0512.github.io/Annyeongz/" target="_blank" rel="noopener">Annyeongz平行宇宙</a>
-      <div class="site-updated">最新更新時間：2026-10-13 23:55</div>
+      <div class="site-updated">最新更新時間：2026-10-14 23:14</div>
     </div>
   </header>
 
@@ -1319,7 +1319,7 @@
     </div>
   </div>
 
-  <script src="destiny-data.js?v=13cd1e0d957686f9e15c"></script>
+  <script src="destiny-data.js?v=3f416765ab99d0ec475a"></script>
   <script>
     const DATA = window.DESTINY_DATA || { works: [] };
     const CALCULATOR_KEY = "destinyCalculatorSelection";
@@ -1964,10 +1964,8 @@
     function itemLabel(item, work = null) {
       const part = item.part && item.part !== "本篇" ? item.part : "本篇";
       const points = pointLabel(item);
-      const titles = work ? new Set(visibleItems(work).map(entry => entry.zh).filter(Boolean)) : new Set();
-      const shouldShowTitle = item.zh && work && (item.zh !== work.zh || titles.size > 1);
-      const title = shouldShowTitle ? ` · ${item.zh}` : "";
-      return points ? `${part}${title} · ${points}` : `${part}${title}`;
+      const title = item.zh || part;
+      return points ? `${title} · ${points}` : title;
     }
 
     function pointLabel(item) {
@@ -1981,8 +1979,8 @@
     }
 
     function itemSortValue(item) {
-      const match = String(item.part || "").match(/\d+(?:\.\d+)?/);
-      return match ? Number(match[0]) : null;
+      const match = String(item.part || "").trim().match(/^(?:EP(?:ISODE)?\s*|第\s*)?(\d+(?:[.-]\d+)?)(?:\s*(?:集|章|話))?$/i);
+      return match ? Number(match[1].replace('-', '.')) : null;
     }
 
     function itemSortLabel(item) {
@@ -1995,10 +1993,10 @@
         .sort((a, b) => {
           const aNumber = itemSortValue(a);
           const bNumber = itemSortValue(b);
-          if (aNumber !== null && bNumber !== null) return aNumber - bNumber || itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant");
+          if (aNumber !== null && bNumber !== null) return aNumber - bNumber || itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant", { numeric: true });
           if (aNumber !== null) return -1;
           if (bNumber !== null) return 1;
-          return itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant");
+          return itemSortLabel(a).localeCompare(itemSortLabel(b), "zh-Hant", { numeric: true });
         });
     }
 
@@ -2104,8 +2102,7 @@
         <div class="detail-row"><b>${escapeHtml(key)}</b><span>${escapeHtml(value)}</span></div>
       `).join("");
       el.modalItems.innerHTML = visibleItems(work).map(item => {
-        const points = pointLabel(item);
-        const label = `${item.part || "本篇"} · ${item.zh}${points ? ` · ${points}` : ""}`;
+        const label = itemLabel(item, work);
         if (!item.url) return `<span class="item-disabled">${escapeHtml(label)}</span>`;
         return `<a class="item-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`;
       }).join("");
