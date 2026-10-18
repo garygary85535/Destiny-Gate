@@ -1,7 +1,7 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-18T10:52:00.880Z",
-  "catalogRevision": 640,
+  "generatedAt": "2026-10-18T13:58:25.624Z",
+  "catalogRevision": 642,
   "rows": 740,
   "works": [
     {
