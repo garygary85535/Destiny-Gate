@@ -1,9 +1,85 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-17T10:25:35.980Z",
-  "catalogRevision": 625,
-  "rows": 737,
+  "generatedAt": "2026-10-18T10:45:08.154Z",
+  "catalogRevision": 639,
+  "rows": 740,
   "works": [
+    {
+      "id": "P0474",
+      "author": "Cho",
+      "zh": "星培大學匿名版",
+      "ko": "별배대학교 익명게시판",
+      "roles": "",
+      "items": [
+        {
+          "part": "1",
+          "ko": "별배대학교 익명게시판",
+          "zh": "星培大學匿名版",
+          "url": "https://www.postype.com/zh-hant/@cho-post/post/16009990",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1792317038091,
+      "searchText": "星培大學匿名版 별배대학교 익명게시판 cho  文章狀態: 已完結 星培大學匿名版 1"
+    },
+    {
+      "id": "P0473",
+      "author": "알장（Rdaejang）",
+      "zh": "青梅竹馬兪瑛推特連載",
+      "ko": "소꿉친구 윶녕 썰",
+      "roles": "",
+      "items": [
+        {
+          "part": "2",
+          "ko": "소꿉친구 윶녕 썰",
+          "zh": "青梅竹馬兪瑛推特連載 番外",
+          "url": "https://www.postype.com/zh-hant/@izonerjangrjang/post/5290939",
+          "purchase": "待確認",
+          "points": null,
+          "purchaseLabel": "點數待確認",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "待確認",
+      "purchaseLabel": "有 1 集點數待確認",
+      "totalPoints": null,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1792316627128,
+      "searchText": "青梅竹馬兪瑛推特連載 소꿉친구 윶녕 썰 알장（rdaejang）  文章狀態: 已完結 青梅竹馬兪瑛推特連載 番外 2"
+    },
     {
       "id": "P0472",
       "author": "삿포로（Sapporo）",
@@ -658,6 +734,18 @@ window.DESTINY_DATA = {
           "thumbCategories": [
             "寶藏作家"
           ]
+        },
+        {
+          "part": "EP23",
+          "ko": "장르만 여의도",
+          "zh": "汝矣島風雲 23",
+          "url": "https://www.postype.com/zh-hant/@fifth230/post/23417820",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "寶藏作家"
+          ]
         }
       ],
       "tagGroups": [
@@ -712,11 +800,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 10200,
-      "knownPoints": 10200,
+      "totalPoints": 10700,
+      "knownPoints": 10700,
       "maxPoints": 800,
       "sourceRow": 768,
-      "searchText": "💰 汝矣島風雲 장르만 여의도 noname 安：國會議員\n員：主播 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 超長篇 文章類型: 都市現實 文章狀態: 連載中 汝矣島風雲01 ep1 汝矣島風雲02 ep2 汝矣島風雲03 ep3 汝矣島風雲04 ep4 汝矣島風雲05 ep5 汝矣島風雲06 ep6 汝矣島風雲06s ep6s 汝矣島風雲07 ep7 汝矣島風雲08 ep8 汝矣島風雲09 ep9 汝矣島風雲10 ep10 汝矣島風雲11 ep11 汝矣島風雲12 ep12 汝矣島風雲13 ep13 汝矣島風雲14 ep14 汝矣島風雲15 ep15 汝矣島風雲16 ep16 汝矣島風雲17 ep17 汝矣島風雲18 ep18 汝矣島風雲19 ep19 汝矣島風雲20 ep20 汝矣島風雲21 ep21 汝矣島風雲 22 ep22"
+      "searchText": "💰 汝矣島風雲 장르만 여의도 noname 安：國會議員\n員：主播 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 超長篇 文章類型: 都市現實 文章狀態: 連載中 汝矣島風雲01 ep1 汝矣島風雲02 ep2 汝矣島風雲03 ep3 汝矣島風雲04 ep4 汝矣島風雲05 ep5 汝矣島風雲06 ep6 汝矣島風雲06s ep6s 汝矣島風雲07 ep7 汝矣島風雲08 ep8 汝矣島風雲09 ep9 汝矣島風雲10 ep10 汝矣島風雲11 ep11 汝矣島風雲12 ep12 汝矣島風雲13 ep13 汝矣島風雲14 ep14 汝矣島風雲15 ep15 汝矣島風雲16 ep16 汝矣島風雲17 ep17 汝矣島風雲18 ep18 汝矣島風雲19 ep19 汝矣島風雲20 ep20 汝矣島風雲21 ep21 汝矣島風雲 22 ep22 汝矣島風雲 23 ep23"
     },
     {
       "id": "P0444",
