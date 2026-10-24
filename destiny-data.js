@@ -1,9 +1,105 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-18T13:58:25.624Z",
-  "catalogRevision": 642,
-  "rows": 740,
+  "generatedAt": "2026-10-24T09:08:29.415Z",
+  "catalogRevision": 660,
+  "rows": 744,
   "works": [
+    {
+      "id": "P0476",
+      "author": "noname",
+      "zh": "工程室裡的曖昧",
+      "ko": "썸 인 엔지니어룸",
+      "roles": "",
+      "items": [
+        {
+          "part": "ep1",
+          "ko": "썸 인 엔지니어룸",
+          "zh": "工程室裡的曖昧 上",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/10484980",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "ep2",
+          "ko": "썸 인 엔지니어룸",
+          "zh": "工程室裡的曖昧 中",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/10639657",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1792831813357,
+      "searchText": "工程室裡的曖昧 썸 인 엔지니어룸 noname  文章狀態: 已完結 工程室裡的曖昧 上 ep1 工程室裡的曖昧 中 ep2"
+    },
+    {
+      "id": "P0475",
+      "author": "김설화（金雪華）",
+      "zh": "以我之名呼喚我",
+      "ko": "콜 미 바이 마이 네임",
+      "roles": "",
+      "items": [
+        {
+          "part": "ep1",
+          "ko": "콜 미 바이 마이 네임",
+          "zh": "以我之名呼喚我 上",
+          "url": "https://www.postype.com/zh-hant/@lost-in-maize/post/6266780",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "ep2",
+          "ko": "콜 미 바이 마이 네임",
+          "zh": "以我之名呼喚我 下",
+          "url": "https://www.postype.com/zh-hant/@lost-in-maize/post/6318467",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 1000,
+      "knownPoints": 1000,
+      "maxPoints": 500,
+      "sourceRow": 1792831389962,
+      "searchText": "💰以我之名呼喚我 콜 미 바이 마이 네임 김설화（金雪華）  文章狀態: 已完結 以我之名呼喚我 上 ep1 以我之名呼喚我 下 ep2"
+    },
     {
       "id": "P0474",
       "author": "Cho",
@@ -3915,7 +4011,7 @@ window.DESTINY_DATA = {
     {
       "id": "P0410",
       "author": "꿀구마（蜜地瓜）",
-      "zh": "海洛因",
+      "zh": "Heroine",
       "ko": "헤로인",
       "roles": "",
       "items": [
@@ -3948,7 +4044,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 669,
-      "searchText": "海洛因 헤로인 꿀구마（蜜地瓜）  文章狀態: 已完結 海洛因 閱讀"
+      "searchText": "heroine 헤로인 꿀구마（蜜地瓜）  文章狀態: 已完結 海洛因 閱讀"
     },
     {
       "id": "P0411",
