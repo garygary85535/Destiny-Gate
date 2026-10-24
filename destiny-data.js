@@ -1,7 +1,7 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-24T09:08:29.415Z",
-  "catalogRevision": 660,
+  "generatedAt": "2026-10-24T15:06:43.537Z",
+  "catalogRevision": 662,
   "rows": 744,
   "works": [
     {
@@ -36,12 +36,12 @@ window.DESTINY_DATA = {
         {
           "type": "文章狀態",
           "values": [
-            "已完結"
+            "連載中"
           ]
         }
       ],
       "flatTags": [
-        "文章狀態: 已完結"
+        "文章狀態: 連載中"
       ],
       "thumbCategories": [],
       "purchase": "否",
@@ -50,11 +50,11 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 1792831813357,
-      "searchText": "工程室裡的曖昧 썸 인 엔지니어룸 noname  文章狀態: 已完結 工程室裡的曖昧 上 ep1 工程室裡的曖昧 中 ep2"
+      "searchText": "工程室裡的曖昧 썸 인 엔지니어룸 noname  文章狀態: 連載中 工程室裡的曖昧 上 ep1 工程室裡的曖昧 中 ep2"
     },
     {
       "id": "P0475",
-      "author": "김설화（金雪華）",
+      "author": "김설화（金雪花）",
       "zh": "以我之名呼喚我",
       "ko": "콜 미 바이 마이 네임",
       "roles": "",
@@ -98,7 +98,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 500,
       "sourceRow": 1792831389962,
-      "searchText": "💰以我之名呼喚我 콜 미 바이 마이 네임 김설화（金雪華）  文章狀態: 已完結 以我之名呼喚我 上 ep1 以我之名呼喚我 下 ep2"
+      "searchText": "💰以我之名呼喚我 콜 미 바이 마이 네임 김설화（金雪花）  文章狀態: 已完結 以我之名呼喚我 上 ep1 以我之名呼喚我 下 ep2"
     },
     {
       "id": "P0474",
