@@ -1,9 +1,143 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-24T15:06:43.537Z",
-  "catalogRevision": 662,
-  "rows": 744,
+  "generatedAt": "2026-10-26T13:02:15.257Z",
+  "catalogRevision": 683,
+  "rows": 750,
   "works": [
+    {
+      "id": "P0479",
+      "author": "호박",
+      "zh": "遊戲廢人的女朋友",
+      "ko": "게임폐인의 여자친구",
+      "roles": "",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "게임폐인의 여자친구",
+          "zh": "遊戲廢人的女朋友",
+          "url": "https://www.postype.com/zh-hant/@gdowkjdf/post/22531014?related_post_id=22531014&show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 1000,
+      "knownPoints": 1000,
+      "maxPoints": 1000,
+      "sourceRow": 1793019559485,
+      "searchText": "💰遊戲廢人的女朋友 게임폐인의 여자친구 호박  文章狀態: 已完結 遊戲廢人的女朋友 單集"
+    },
+    {
+      "id": "P0478",
+      "author": "고멍（MUNG）",
+      "zh": "類型是浪漫喜劇",
+      "ko": "장르는 로맨틱 코미디",
+      "roles": "",
+      "items": [
+        {
+          "part": "ep1",
+          "ko": "장르는 로맨틱 코미디",
+          "zh": "類型是浪漫喜劇 上",
+          "url": "https://www.postype.com/zh-hant/@48mungmung/post/6802610",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "ep2",
+          "ko": "장르는 로맨틱 코미디",
+          "zh": "類型是浪漫喜劇 中下",
+          "url": "https://www.postype.com/zh-hant/@48mungmung/post/6819375",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "ep3",
+          "ko": "장르는 로맨틱 코미디",
+          "zh": "類型是浪漫喜劇 中下",
+          "url": "https://www.postype.com/zh-hant/@48mungmung/post/6879722",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1793012479896,
+      "searchText": "類型是浪漫喜劇 장르는 로맨틱 코미디 고멍（mung）  文章狀態: 已完結 類型是浪漫喜劇 上 ep1 類型是浪漫喜劇 中下 ep2 類型是浪漫喜劇 中下 ep3"
+    },
+    {
+      "id": "P0477",
+      "author": "로스트키디（LOST KIDDY）",
+      "zh": "我們交錯的季節 完結",
+      "ko": "우리들이 교차한 계절 完",
+      "roles": "",
+      "items": [
+        {
+          "part": "ep1",
+          "ko": "우리들이 교차한 계절 完",
+          "zh": "我們交錯的季節 完結",
+          "url": "https://www.postype.com/zh-hant/@lostkiddy15/post/8858480?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 1000,
+      "knownPoints": 1000,
+      "maxPoints": 1000,
+      "sourceRow": 1793012222792,
+      "searchText": "我們交錯的季節 完結 우리들이 교차한 계절 完 로스트키디（lost kiddy）  文章狀態: 已完結 我們交錯的季節 完結 ep1"
+    },
     {
       "id": "P0476",
       "author": "noname",
@@ -4325,7 +4459,7 @@ window.DESTINY_DATA = {
     {
       "id": "P0416",
       "author": "꿀구마（蜜地瓜）",
-      "zh": "您已抵達目的地",
+      "zh": "已抵達目的地",
       "ko": "목적지에 도착했습니다",
       "roles": "",
       "items": [
@@ -4358,7 +4492,7 @@ window.DESTINY_DATA = {
       "knownPoints": 0,
       "maxPoints": 0,
       "sourceRow": 675,
-      "searchText": "您已抵達目的地 목적지에 도착했습니다 꿀구마（蜜地瓜）  文章狀態: 已完結 您已抵達目的地 閱讀"
+      "searchText": "已抵達目的地 목적지에 도착했습니다 꿀구마（蜜地瓜）  文章狀態: 已完結 您已抵達目的地 閱讀"
     },
     {
       "id": "P0417",
@@ -14209,7 +14343,7 @@ window.DESTINY_DATA = {
           ]
         },
         {
-          "part": "外傳-if",
+          "part": "外傳3",
           "ko": "섹시한 너드는 답이 없다. 外(만약에)",
           "zh": "無法抗拒性感的書呆子 外傳（如果）",
           "url": "https://www.postype.com/zh-hant/@nuttylife/post/18374208",
@@ -14227,6 +14361,18 @@ window.DESTINY_DATA = {
           "url": "https://www.postype.com/zh-hant/@nuttylife/post/19220275",
           "purchase": "是",
           "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "蓋瑞推薦"
+          ]
+        },
+        {
+          "part": "外傳if",
+          "ko": "섹시한 너드는 답이 없다",
+          "zh": "無法抗拒性感的書呆子 外傳(if)",
+          "url": "https://www.postype.com/zh-hant/@nuttylife/post/18374208",
+          "purchase": "否",
+          "points": 0,
           "purchaseLabel": "",
           "thumbCategories": [
             "蓋瑞推薦"
@@ -14310,7 +14456,7 @@ window.DESTINY_DATA = {
       "knownPoints": 7000,
       "maxPoints": 1000,
       "sourceRow": 587,
-      "searchText": "💰 無法抗拒性感的書呆子 섹시한 너드는 답이 없다 유부비언（已婚人士） 安：哲學系博士/教授 / 員：空服員/地勤 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 標籤: 謹慎閱讀 情感梗: 妻妻 情感梗: 年齡差 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 無法抗拒性感的書呆子 1 1 無法抗拒性感的書呆子 2 2 無法抗拒性感的書呆子 3 3 無法抗拒性感的書呆子 4 4 無法抗拒性感的書呆子 5 5 無法抗拒性感的書呆子 5.1 5.1 無法抗拒性感的書呆子 6 6 無法抗拒性感的書呆子 7 7 無法抗拒性感的書呆子 7.1 7.1 無法抗拒性感的書呆子 8 8 無法抗拒性感的書呆子 9 9 無法抗拒性感的書呆子 番外 番外 無法抗拒的性感書呆子（番外） 番外 無法抗拒性感的書呆子 9.1 9.1 無法抗拒性感的書呆子 10 10 無法抗拒性感的書呆子 11 11 無法抗拒性感的書呆子 11.1 11.1 無法抗拒性感的書呆子 12 12 無法抗拒性感的書呆子 13 13 無法抗拒性感的書呆子 14 14 無法抗拒性感的書呆子 15 15 無法抗拒性感的書呆子 15.1 15.1 無法抗拒性感的書呆子 16 16 無法抗拒性感的書呆子 17 17 無法抗拒性感的書呆子 18（完） 18 無法抗拒性感的書呆子 外傳1 外傳1 無法抗拒性感的書呆子 外傳2 外傳2 無法抗拒性感的書呆子 外傳（如果） 外傳-if 無法抗拒性感的書呆子 外傳4 外傳4"
+      "searchText": "💰 無法抗拒性感的書呆子 섹시한 너드는 답이 없다 유부비언（已婚人士） 安：哲學系博士/教授 / 員：空服員/地勤 cp配對: 安/員 分級: 尺度大 分級: 💰付費內容 分級: 🏎️賽車 分級: 玩具 標籤: 謹慎閱讀 情感梗: 妻妻 情感梗: 年齡差 文章篇幅: 超長篇 文章類型: 都市現實 結局: he 文章狀態: 已完結 無法抗拒性感的書呆子 1 1 無法抗拒性感的書呆子 2 2 無法抗拒性感的書呆子 3 3 無法抗拒性感的書呆子 4 4 無法抗拒性感的書呆子 5 5 無法抗拒性感的書呆子 5.1 5.1 無法抗拒性感的書呆子 6 6 無法抗拒性感的書呆子 7 7 無法抗拒性感的書呆子 7.1 7.1 無法抗拒性感的書呆子 8 8 無法抗拒性感的書呆子 9 9 無法抗拒性感的書呆子 番外 番外 無法抗拒的性感書呆子（番外） 番外 無法抗拒性感的書呆子 9.1 9.1 無法抗拒性感的書呆子 10 10 無法抗拒性感的書呆子 11 11 無法抗拒性感的書呆子 11.1 11.1 無法抗拒性感的書呆子 12 12 無法抗拒性感的書呆子 13 13 無法抗拒性感的書呆子 14 14 無法抗拒性感的書呆子 15 15 無法抗拒性感的書呆子 15.1 15.1 無法抗拒性感的書呆子 16 16 無法抗拒性感的書呆子 17 17 無法抗拒性感的書呆子 18（完） 18 無法抗拒性感的書呆子 外傳1 外傳1 無法抗拒性感的書呆子 外傳2 外傳2 無法抗拒性感的書呆子 外傳（如果） 外傳3 無法抗拒性感的書呆子 外傳4 外傳4 無法抗拒性感的書呆子 外傳(if) 外傳if"
     },
     {
       "id": "P0267",
