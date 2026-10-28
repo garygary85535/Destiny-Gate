@@ -1,12 +1,50 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-28T10:39:36.611Z",
-  "catalogRevision": 687,
-  "rows": 750,
+  "generatedAt": "2026-10-28T16:16:26.889Z",
+  "catalogRevision": 708,
+  "rows": 756,
   "works": [
     {
+      "id": "P0480",
+      "author": "꿀구마（蜜地瓜）",
+      "zh": "黑盒子",
+      "ko": "블박",
+      "roles": "",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "블박",
+          "zh": "黑盒子",
+          "url": "https://www.postype.com/zh-hant/@seol-cheong/post/20932987",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1793181827706,
+      "searchText": "黑盒子 블박 꿀구마（蜜地瓜）  文章狀態: 已完結 黑盒子 單集"
+    },
+    {
       "id": "P0479",
-      "author": "호박",
+      "author": "호박（南瓜）",
       "zh": "遊戲廢人的女朋友",
       "ko": "게임폐인의 여자친구",
       "roles": "",
@@ -40,7 +78,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 1793019559485,
-      "searchText": "💰遊戲廢人的女朋友 게임폐인의 여자친구 호박  文章狀態: 已完結 遊戲廢人的女朋友 單集"
+      "searchText": "💰遊戲廢人的女朋友 게임폐인의 여자친구 호박（南瓜）  文章狀態: 已完結 遊戲廢人的女朋友 單集"
     },
     {
       "id": "P0478",
@@ -658,6 +696,54 @@ window.DESTINY_DATA = {
           "thumbCategories": [
             "雜食系 (其他CP)"
           ]
+        },
+        {
+          "part": "外傳 3",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time：Off the Leash",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23268046",
+          "purchase": "是",
+          "points": 200,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "EP11",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time 11",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23335193",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "EP12",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time 12",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23423423",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        },
+        {
+          "part": "外傳4",
+          "ko": "Once Upon a Time",
+          "zh": "Once Upon a Time：A Little More?",
+          "url": "https://www.postype.com/zh-hant/@therewasnothingthere/post/23452466",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
         }
       ],
       "tagGroups": [
@@ -676,11 +762,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 1000,
-      "knownPoints": 1000,
+      "totalPoints": 1200,
+      "knownPoints": 1200,
       "maxPoints": 700,
       "sourceRow": 776,
-      "searchText": "💰once upon a time once upon a time void 🐱公爵\n🐹公主 文章狀態: 連載中 once upon a time 1 ep1 once upon a time 2 ep2 once upon a time 3 ep3 once upon a time 4 ep4 once upon a time 5 ep5 once upon a time 6 ep6 once upon a time 7 ep7 once upon a time 8 ep8 once upon a time 9 ep9 once upon a time a wolf by night 外傳 1 once upon a time a lover by morning 外傳 2 once upon a time 10 ep10"
+      "searchText": "💰once upon a time once upon a time void 🐱公爵\n🐹公主 文章狀態: 連載中 once upon a time 1 ep1 once upon a time 2 ep2 once upon a time 3 ep3 once upon a time 4 ep4 once upon a time 5 ep5 once upon a time 6 ep6 once upon a time 7 ep7 once upon a time 8 ep8 once upon a time 9 ep9 once upon a time a wolf by night 外傳 1 once upon a time a lover by morning 外傳 2 once upon a time 10 ep10 once upon a time：off the leash 外傳 3 once upon a time 11 ep11 once upon a time 12 ep12 once upon a time：a little more? 外傳4"
     },
     {
       "id": "P0084",
@@ -976,6 +1062,18 @@ window.DESTINY_DATA = {
           "thumbCategories": [
             "寶藏作家"
           ]
+        },
+        {
+          "part": "EP24",
+          "ko": "장르만 여의도",
+          "zh": "汝矣島風雲 24",
+          "url": "https://www.postype.com/zh-hant/@fifth230/post/23494447",
+          "purchase": "是",
+          "points": 200,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "寶藏作家"
+          ]
         }
       ],
       "tagGroups": [
@@ -1030,11 +1128,11 @@ window.DESTINY_DATA = {
       ],
       "purchase": "是",
       "purchaseLabel": "",
-      "totalPoints": 10700,
-      "knownPoints": 10700,
+      "totalPoints": 10900,
+      "knownPoints": 10900,
       "maxPoints": 800,
       "sourceRow": 768,
-      "searchText": "💰 汝矣島風雲 장르만 여의도 noname 安：國會議員\n員：主播 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 超長篇 文章類型: 都市現實 文章狀態: 連載中 汝矣島風雲01 ep1 汝矣島風雲02 ep2 汝矣島風雲03 ep3 汝矣島風雲04 ep4 汝矣島風雲05 ep5 汝矣島風雲06 ep6 汝矣島風雲06s ep6s 汝矣島風雲07 ep7 汝矣島風雲08 ep8 汝矣島風雲09 ep9 汝矣島風雲10 ep10 汝矣島風雲11 ep11 汝矣島風雲12 ep12 汝矣島風雲13 ep13 汝矣島風雲14 ep14 汝矣島風雲15 ep15 汝矣島風雲16 ep16 汝矣島風雲17 ep17 汝矣島風雲18 ep18 汝矣島風雲19 ep19 汝矣島風雲20 ep20 汝矣島風雲21 ep21 汝矣島風雲 22 ep22 汝矣島風雲 23 ep23"
+      "searchText": "💰 汝矣島風雲 장르만 여의도 noname 安：國會議員\n員：主播 cp配對: 安/員 cp配對: 員/安 cp配對: 互攻 分級: ⚠️題材警告 分級: 💰付費內容 分級: 🏎️賽車 文章篇幅: 超長篇 文章類型: 都市現實 文章狀態: 連載中 汝矣島風雲01 ep1 汝矣島風雲02 ep2 汝矣島風雲03 ep3 汝矣島風雲04 ep4 汝矣島風雲05 ep5 汝矣島風雲06 ep6 汝矣島風雲06s ep6s 汝矣島風雲07 ep7 汝矣島風雲08 ep8 汝矣島風雲09 ep9 汝矣島風雲10 ep10 汝矣島風雲11 ep11 汝矣島風雲12 ep12 汝矣島風雲13 ep13 汝矣島風雲14 ep14 汝矣島風雲15 ep15 汝矣島風雲16 ep16 汝矣島風雲17 ep17 汝矣島風雲18 ep18 汝矣島風雲19 ep19 汝矣島風雲20 ep20 汝矣島風雲21 ep21 汝矣島風雲 22 ep22 汝矣島風雲 23 ep23 汝矣島風雲 24 ep24"
     },
     {
       "id": "P0444",
