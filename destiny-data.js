@@ -1,7 +1,7 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-28T16:16:26.889Z",
-  "catalogRevision": 708,
+  "generatedAt": "2026-10-28T16:51:19.376Z",
+  "catalogRevision": 709,
   "rows": 756,
   "works": [
     {
@@ -548,7 +548,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0433",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "Once Upon a Time",
       "ko": "Once Upon a Time",
       "roles": "🐱公爵\n🐹公主",
@@ -766,7 +766,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1200,
       "maxPoints": 700,
       "sourceRow": 776,
-      "searchText": "💰once upon a time once upon a time void 🐱公爵\n🐹公主 文章狀態: 連載中 once upon a time 1 ep1 once upon a time 2 ep2 once upon a time 3 ep3 once upon a time 4 ep4 once upon a time 5 ep5 once upon a time 6 ep6 once upon a time 7 ep7 once upon a time 8 ep8 once upon a time 9 ep9 once upon a time a wolf by night 外傳 1 once upon a time a lover by morning 外傳 2 once upon a time 10 ep10 once upon a time：off the leash 外傳 3 once upon a time 11 ep11 once upon a time 12 ep12 once upon a time：a little more? 外傳4"
+      "searchText": "💰once upon a time once upon a time v0id 🐱公爵\n🐹公主 文章狀態: 連載中 once upon a time 1 ep1 once upon a time 2 ep2 once upon a time 3 ep3 once upon a time 4 ep4 once upon a time 5 ep5 once upon a time 6 ep6 once upon a time 7 ep7 once upon a time 8 ep8 once upon a time 9 ep9 once upon a time a wolf by night 外傳 1 once upon a time a lover by morning 外傳 2 once upon a time 10 ep10 once upon a time：off the leash 外傳 3 once upon a time 11 ep11 once upon a time 12 ep12 once upon a time：a little more? 外傳4"
     },
     {
       "id": "P0084",
@@ -1956,7 +1956,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0454",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "夙願",
       "ko": "소원 (Make a Wish)",
       "roles": "🐱名門繼承人\n🐹體弱外國妻子",
@@ -1994,7 +1994,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 770,
-      "searchText": "💰 夙願 소원 (make a wish) void 🐱名門繼承人\n🐹體弱外國妻子 文章狀態: 已完結 夙願 閱讀"
+      "searchText": "💰 夙願 소원 (make a wish) v0id 🐱名門繼承人\n🐹體弱外國妻子 文章狀態: 已完結 夙願 閱讀"
     },
     {
       "id": "P0280",
@@ -2375,7 +2375,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0449",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "Possession（+外傳）",
       "ko": "Possession",
       "roles": "🐱高中生\n🐹黑道大小姐",
@@ -2413,7 +2413,7 @@ window.DESTINY_DATA = {
       "knownPoints": 300,
       "maxPoints": 300,
       "sourceRow": 752,
-      "searchText": "💰possession（+外傳） possession void 🐱高中生\n🐹黑道大小姐 文章狀態: 已完結 possession + 2"
+      "searchText": "💰possession（+外傳） possession v0id 🐱高中生\n🐹黑道大小姐 文章狀態: 已完結 possession + 2"
     },
     {
       "id": "P0404",
@@ -3344,7 +3344,7 @@ window.DESTINY_DATA = {
     },
     {
       "id": "P0434",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "隔壁孩子",
       "ko": "옆집 아이",
       "roles": "🐱年上\n🐹年下",
@@ -3430,11 +3430,11 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 730,
-      "searchText": "💰隔壁孩子 옆집 아이 void 🐱年上\n🐹年下 文章狀態: 已完結 隔壁的孩子 1 ep1 隔壁的孩子 2 ep2 隔壁的孩子 3 ep3 隔壁的孩子 4 ep4 隔壁的孩子 epilogue ep5"
+      "searchText": "💰隔壁孩子 옆집 아이 v0id 🐱年上\n🐹年下 文章狀態: 已完結 隔壁的孩子 1 ep1 隔壁的孩子 2 ep2 隔壁的孩子 3 ep3 隔壁的孩子 4 ep4 隔壁的孩子 epilogue ep5"
     },
     {
       "id": "P0435",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "One Night (含外傳)",
       "ko": "One Night",
       "roles": "🐱🐹",
@@ -3491,11 +3491,11 @@ window.DESTINY_DATA = {
       "knownPoints": 200,
       "maxPoints": 200,
       "sourceRow": 731,
-      "searchText": "💰one night (含外傳) one night void 🐱🐹 結局: he 文章狀態: 已完結 one night 1 that night（one night 外傳） 2"
+      "searchText": "💰one night (含外傳) one night v0id 🐱🐹 結局: he 文章狀態: 已完結 one night 1 that night（one night 外傳） 2"
     },
     {
       "id": "P0436",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "You're Mine",
       "ko": "Relationship",
       "roles": "🐱保鑣\n🐹夫人",
@@ -3540,11 +3540,11 @@ window.DESTINY_DATA = {
       "knownPoints": 500,
       "maxPoints": 500,
       "sourceRow": 732,
-      "searchText": "💰 you're mine relationship void 🐱保鑣\n🐹夫人 結局: he 文章狀態: 已完結 am i 2"
+      "searchText": "💰 you're mine relationship v0id 🐱保鑣\n🐹夫人 結局: he 文章狀態: 已完結 am i 2"
     },
     {
       "id": "P0437",
-      "author": "Void",
+      "author": "V0ID",
       "zh": "What's After X",
       "ko": "What's After X",
       "roles": "🐱🐹",
@@ -3582,7 +3582,7 @@ window.DESTINY_DATA = {
       "knownPoints": 300,
       "maxPoints": 300,
       "sourceRow": 733,
-      "searchText": "💰 what's after x what's after x void 🐱🐹 文章狀態: 已完結 what's after x 閱讀"
+      "searchText": "💰 what's after x what's after x v0id 🐱🐹 文章狀態: 已完結 what's after x 閱讀"
     },
     {
       "id": "P0428",
