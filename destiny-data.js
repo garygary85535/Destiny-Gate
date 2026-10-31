@@ -1,9 +1,229 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-28T17:00:47.337Z",
-  "catalogRevision": 710,
-  "rows": 756,
+  "generatedAt": "2026-10-31T07:05:09.832Z",
+  "catalogRevision": 759,
+  "rows": 772,
   "works": [
+    {
+      "id": "P0482",
+      "author": "실수（失誤）",
+      "zh": "有人『喜歡』您",
+      "ko": "당신을 \"좋아요\"합니다",
+      "roles": "安：YouTuber\n員：律師",
+      "items": [
+        {
+          "part": "EP1",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 1",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22894625",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP3",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 3",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22895118",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP4",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 4",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22896081?show-original=true",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP5",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 5",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22896947",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP6",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 6",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22928587",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP7",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 7",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/22930390",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP8",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 8",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23040502",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP9",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 9",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23040509",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP10",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 10",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23040514",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP11",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 11",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23041501",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP12",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 12",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23092638",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP13",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 13",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23092644",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP14",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 14",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23092648",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP15",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 15",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23092700",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP16",
+          "ko": "당신을 \"좋아요\"합니다",
+          "zh": "有人『喜歡』您 16",
+          "url": "https://www.postype.com/zh-hant/@sil-su/post/23095183",
+          "purchase": "是",
+          "points": 500,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "連載中"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 連載中"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 8000,
+      "knownPoints": 8000,
+      "maxPoints": 1000,
+      "sourceRow": 1793297092528,
+      "searchText": "有人『喜歡』您 당신을 \"좋아요\"합니다 실수（失誤） 安：youtuber\n員：律師 文章狀態: 連載中 有人『喜歡』您 1 ep1 有人『喜歡』您 3 ep3 有人『喜歡』您 4 ep4 有人『喜歡』您 5 ep5 有人『喜歡』您 6 ep6 有人『喜歡』您 7 ep7 有人『喜歡』您 8 ep8 有人『喜歡』您 9 ep9 有人『喜歡』您 10 ep10 有人『喜歡』您 11 ep11 有人『喜歡』您 12 ep12 有人『喜歡』您 13 ep13 有人『喜歡』您 14 ep14 有人『喜歡』您 15 ep15 有人『喜歡』您 16 ep16"
+    },
+    {
+      "id": "P0481",
+      "author": "페슝깅（peshoong）",
+      "zh": "我",
+      "ko": "난",
+      "roles": "🐱🐹",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "난",
+          "zh": "我",
+          "url": "https://www.postype.com/zh-hant/@couplez-hell/post/17258443",
+          "purchase": "是",
+          "points": 300,
+          "purchaseLabel": "",
+          "thumbCategories": [
+            "雜食系 (其他CP)"
+          ]
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [
+        "雜食系 (其他CP)"
+      ],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 300,
+      "knownPoints": 300,
+      "maxPoints": 300,
+      "sourceRow": 1793295349271,
+      "searchText": "💰我 난 페슝깅（peshoong） 🐱🐹 文章狀態: 已完結 我 單集"
+    },
     {
       "id": "P0480",
       "author": "꿀구마（蜜地瓜）",
