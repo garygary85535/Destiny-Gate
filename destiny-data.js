@@ -1,9 +1,47 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-31T16:19:46.512Z",
-  "catalogRevision": 761,
-  "rows": 773,
+  "generatedAt": "2026-10-31T17:53:15.746Z",
+  "catalogRevision": 766,
+  "rows": 774,
   "works": [
+    {
+      "id": "P0483",
+      "author": "지학（知鶴）",
+      "zh": "你我成為命中注定的理由",
+      "ko": "너와 내가 운명인 이유",
+      "roles": "",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "너와 내가 운명인 이유",
+          "zh": "你我成為命中注定的理由",
+          "url": "https://www.postype.com/zh-hant/@waguwagu2/post/16869977?show-original=true",
+          "purchase": "是",
+          "points": 700,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 700,
+      "knownPoints": 700,
+      "maxPoints": 700,
+      "sourceRow": 1793468226755,
+      "searchText": "💰你我成為命中注定的理由 너와 내가 운명인 이유 지학（知鶴）  文章狀態: 已完結 你我成為命中注定的理由 單集"
+    },
     {
       "id": "P0482",
       "author": "실수（失誤）",
@@ -190,7 +228,7 @@ window.DESTINY_DATA = {
       "knownPoints": 8500,
       "maxPoints": 1000,
       "sourceRow": 1793297092528,
-      "searchText": "有人『喜歡』您 당신을 \"좋아요\"합니다 실수（失誤） 安：youtuber\n員：律師 文章狀態: 連載中 有人『喜歡』您 1 ep1 有人『喜歡』您 2 ep2 有人『喜歡』您 3 ep3 有人『喜歡』您 4 ep4 有人『喜歡』您 5 ep5 有人『喜歡』您 6 ep6 有人『喜歡』您 7 ep7 有人『喜歡』您 8 ep8 有人『喜歡』您 9 ep9 有人『喜歡』您 10 ep10 有人『喜歡』您 11 ep11 有人『喜歡』您 12 ep12 有人『喜歡』您 13 ep13 有人『喜歡』您 14 ep14 有人『喜歡』您 15 ep15 有人『喜歡』您 16 ep16"
+      "searchText": "💰有人『喜歡』您 당신을 \"좋아요\"합니다 실수（失誤） 安：youtuber\n員：律師 文章狀態: 連載中 有人『喜歡』您 1 ep1 有人『喜歡』您 2 ep2 有人『喜歡』您 3 ep3 有人『喜歡』您 4 ep4 有人『喜歡』您 5 ep5 有人『喜歡』您 6 ep6 有人『喜歡』您 7 ep7 有人『喜歡』您 8 ep8 有人『喜歡』您 9 ep9 有人『喜歡』您 10 ep10 有人『喜歡』您 11 ep11 有人『喜歡』您 12 ep12 有人『喜歡』您 13 ep13 有人『喜歡』您 14 ep14 有人『喜歡』您 15 ep15 有人『喜歡』您 16 ep16"
     },
     {
       "id": "P0481",
