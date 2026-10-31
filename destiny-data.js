@@ -1,9 +1,54 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-31T17:53:15.746Z",
-  "catalogRevision": 766,
-  "rows": 774,
+  "generatedAt": "2026-10-31T18:22:27.343Z",
+  "catalogRevision": 770,
+  "rows": 775,
   "works": [
+    {
+      "id": "P0484",
+      "author": "지학（知鶴）",
+      "zh": "瘋女人",
+      "ko": "미친여자",
+      "roles": "",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "미친여자",
+          "zh": "瘋女人",
+          "url": "https://www.postype.com/zh-hant/@waguwagu2/post/17589560?show-original=true",
+          "purchase": "是",
+          "points": 700,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "標籤",
+          "values": [
+            "CP潔癖繞道"
+          ]
+        },
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "標籤: CP潔癖繞道",
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 700,
+      "knownPoints": 700,
+      "maxPoints": 700,
+      "sourceRow": 1793470367487,
+      "searchText": "💰瘋女人 미친여자 지학（知鶴）  標籤: cp潔癖繞道 文章狀態: 已完結 瘋女人 單集"
+    },
     {
       "id": "P0483",
       "author": "지학（知鶴）",
