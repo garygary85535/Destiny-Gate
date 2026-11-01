@@ -1,9 +1,47 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-11-01T09:27:37.935Z",
-  "catalogRevision": 777,
-  "rows": 776,
+  "generatedAt": "2026-11-01T17:30:54.704Z",
+  "catalogRevision": 786,
+  "rows": 777,
   "works": [
+    {
+      "id": "P0486",
+      "author": "지학（知鶴）",
+      "zh": "媽媽朋友的女兒",
+      "ko": "엄마 친구 딸",
+      "roles": "",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "엄마 친구 딸",
+          "zh": "媽媽朋友的女兒",
+          "url": "https://www.postype.com/zh-hant/@waguwagu2/post/17183403?show-original=true",
+          "purchase": "是",
+          "points": 700,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 700,
+      "knownPoints": 700,
+      "maxPoints": 700,
+      "sourceRow": 1793534383810,
+      "searchText": "💰媽媽朋友的女兒 엄마 친구 딸 지학（知鶴）  文章狀態: 已完結 媽媽朋友的女兒 單集"
+    },
     {
       "id": "P0485",
       "author": "noname",
@@ -40,7 +78,7 @@ window.DESTINY_DATA = {
       "knownPoints": 1000,
       "maxPoints": 1000,
       "sourceRow": 1793525042907,
-      "searchText": "blind bright 블라인드 브라이트 noname 安：刺青師\n員：盲人 文章狀態: 已完結 blind bright 單集"
+      "searchText": "💰blind bright 블라인드 브라이트 noname 安：刺青師\n員：盲人 文章狀態: 已完結 blind bright 單集"
     },
     {
       "id": "P0484",
@@ -62,9 +100,9 @@ window.DESTINY_DATA = {
       ],
       "tagGroups": [
         {
-          "type": "標籤",
+          "type": "分級",
           "values": [
-            "CP潔癖繞道"
+            "CP潔癖勿入"
           ]
         },
         {
@@ -75,7 +113,7 @@ window.DESTINY_DATA = {
         }
       ],
       "flatTags": [
-        "標籤: CP潔癖繞道",
+        "分級: CP潔癖勿入",
         "文章狀態: 已完結"
       ],
       "thumbCategories": [],
@@ -85,7 +123,7 @@ window.DESTINY_DATA = {
       "knownPoints": 700,
       "maxPoints": 700,
       "sourceRow": 1793470367487,
-      "searchText": "💰瘋女人 미친여자 지학（知鶴）  標籤: cp潔癖繞道 文章狀態: 已完結 瘋女人 單集"
+      "searchText": "💰瘋女人 미친여자 지학（知鶴）  分級: cp潔癖勿入 文章狀態: 已完結 瘋女人 單集"
     },
     {
       "id": "P0483",
