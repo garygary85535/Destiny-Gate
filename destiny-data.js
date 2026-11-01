@@ -1,9 +1,47 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-10-31T18:22:27.343Z",
-  "catalogRevision": 770,
-  "rows": 775,
+  "generatedAt": "2026-11-01T09:27:37.935Z",
+  "catalogRevision": 777,
+  "rows": 776,
   "works": [
+    {
+      "id": "P0485",
+      "author": "noname",
+      "zh": "Blind Bright",
+      "ko": "블라인드 브라이트",
+      "roles": "安：刺青師\n員：盲人",
+      "items": [
+        {
+          "part": "單集",
+          "ko": "블라인드 브라이트",
+          "zh": "Blind Bright",
+          "url": "https://www.postype.com/zh-hant/@untitle009/post/21730929?show-original=true",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 1000,
+      "knownPoints": 1000,
+      "maxPoints": 1000,
+      "sourceRow": 1793525042907,
+      "searchText": "blind bright 블라인드 브라이트 noname 安：刺青師\n員：盲人 文章狀態: 已完結 blind bright 單集"
+    },
     {
       "id": "P0484",
       "author": "지학（知鶴）",
@@ -52,14 +90,14 @@ window.DESTINY_DATA = {
     {
       "id": "P0483",
       "author": "지학（知鶴）",
-      "zh": "你我成為命中注定的理由",
+      "zh": "妳我成為命中注定的原因",
       "ko": "너와 내가 운명인 이유",
       "roles": "",
       "items": [
         {
           "part": "單集",
           "ko": "너와 내가 운명인 이유",
-          "zh": "你我成為命中注定的理由",
+          "zh": "妳我成為命中注定的原因",
           "url": "https://www.postype.com/zh-hant/@waguwagu2/post/16869977?show-original=true",
           "purchase": "是",
           "points": 700,
@@ -85,7 +123,7 @@ window.DESTINY_DATA = {
       "knownPoints": 700,
       "maxPoints": 700,
       "sourceRow": 1793468226755,
-      "searchText": "💰你我成為命中注定的理由 너와 내가 운명인 이유 지학（知鶴）  文章狀態: 已完結 你我成為命中注定的理由 單集"
+      "searchText": "💰妳我成為命中注定的原因 너와 내가 운명인 이유 지학（知鶴）  文章狀態: 已完結 妳我成為命中注定的原因 單集"
     },
     {
       "id": "P0482",
