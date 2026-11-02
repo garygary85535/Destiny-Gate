@@ -1,9 +1,105 @@
 window.DESTINY_DATA = {
   "generatedFrom": "本地共用管理器",
-  "generatedAt": "2026-11-01T17:30:54.704Z",
-  "catalogRevision": 786,
-  "rows": 777,
+  "generatedAt": "2026-11-02T09:13:31.653Z",
+  "catalogRevision": 800,
+  "rows": 781,
   "works": [
+    {
+      "id": "P0488",
+      "author": "플레인（Plain）",
+      "zh": "初戀的高度",
+      "ko": "첫사랑의 고도",
+      "roles": "",
+      "items": [
+        {
+          "part": "EP1",
+          "ko": "첫사랑의 고도",
+          "zh": "初戀的高度 上",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/20990327?show-original=true",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP2",
+          "ko": "첫사랑의 고도",
+          "zh": "初戀的高度 下",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/20990325",
+          "purchase": "否",
+          "points": 0,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "否",
+      "purchaseLabel": "",
+      "totalPoints": 0,
+      "knownPoints": 0,
+      "maxPoints": 0,
+      "sourceRow": 1793610469553,
+      "searchText": "初戀的高度 첫사랑의 고도 플레인（plain）  文章狀態: 已完結 初戀的高度 上 ep1 初戀的高度 下 ep2"
+    },
+    {
+      "id": "P0487",
+      "author": "플레인（Plain）",
+      "zh": "Category",
+      "ko": "카테고리",
+      "roles": "",
+      "items": [
+        {
+          "part": "EP1",
+          "ko": "카테고리",
+          "zh": "Category Zero",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/21217223",
+          "purchase": "是",
+          "points": 200,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        },
+        {
+          "part": "EP2",
+          "ko": "카테고리",
+          "zh": "Category One",
+          "url": "https://www.postype.com/zh-hant/@monochrome-film/post/21591763",
+          "purchase": "是",
+          "points": 1000,
+          "purchaseLabel": "",
+          "thumbCategories": []
+        }
+      ],
+      "tagGroups": [
+        {
+          "type": "文章狀態",
+          "values": [
+            "已完結"
+          ]
+        }
+      ],
+      "flatTags": [
+        "文章狀態: 已完結"
+      ],
+      "thumbCategories": [],
+      "purchase": "是",
+      "purchaseLabel": "",
+      "totalPoints": 1200,
+      "knownPoints": 1200,
+      "maxPoints": 1000,
+      "sourceRow": 1793555099135,
+      "searchText": "💰category 카테고리 플레인（plain）  文章狀態: 已完結 category zero ep1 category one ep2"
+    },
     {
       "id": "P0486",
       "author": "지학（知鶴）",
